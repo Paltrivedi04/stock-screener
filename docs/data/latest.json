@@ -1,8 +1,8 @@
 {
  "run_date": "2026-10-20",
- "run_time_ist": "2026-10-20 10:36",
- "baseline": true,
- "rules_changed": true,
+ "run_time_ist": "2026-10-20 18:43",
+ "baseline": false,
+ "rules_changed": false,
  "rules": [
   "Market cap between Rs 2,000 Cr and Rs 70,000 Cr",
   "ROE above 18%",
@@ -1607,8 +1607,8 @@
      "title": "Netweb Technologies India Limited has informed the Exchange about Investor Presentation"
     },
     "upcoming_call": {
-     "date": "2026-09-18",
-     "link": "https://nsearchives.nseindia.com/corporate/NETWEB1234_18092026163946_Intimation_of_investor_Meet_25092026.pdf",
+     "date": "2026-10-20",
+     "link": "https://nsearchives.nseindia.com/corporate/NETWEB1234_20102026165340_Intimation_of_Earning_Call_Q2FY27.pdf",
      "title": "Netweb Technologies India Limited has informed the Exchange about Schedule of meet"
     },
     "calls_last_12m": 4,
@@ -4596,7 +4596,7 @@
     "regular": true
    },
    "first_seen": "2026-10-20",
-   "mismatch": true
+   "mismatch": false
   },
   {
    "symbol": "SUDEEPPHRM",
@@ -9571,9 +9571,9 @@
  "data_checks": {
   "sample_size": 15,
   "compared": 46,
-  "matched": 38,
-  "health_pct": 83,
-  "health_text": "Data check: 38 of 46 sampled numbers matched within 10%.",
+  "matched": 39,
+  "health_pct": 85,
+  "health_text": "Data check: 39 of 46 sampled numbers matched within 10%.",
   "rows": [
    {
     "symbol": "BANCOINDIA",
@@ -9598,9 +9598,9 @@
      {
       "metric": "P/E",
       "ours": 17.8444180522565,
-      "theirs": 17.412395,
+      "theirs": 17.508736,
       "source": "Yahoo",
-      "gap_pct": 2.5,
+      "gap_pct": 1.9,
       "status": "match"
      },
      {
@@ -9750,9 +9750,9 @@
      {
       "metric": "P/E",
       "ours": 44.0,
-      "theirs": 44.83811,
+      "theirs": 45.856197,
       "source": "Yahoo",
-      "gap_pct": 1.9,
+      "gap_pct": 4.0,
       "status": "match"
      },
      {
@@ -9979,9 +9979,9 @@
      {
       "metric": "P/E",
       "ours": 60.5191792328042,
-      "theirs": 56.416767,
+      "theirs": 56.904316,
       "source": "Yahoo",
-      "gap_pct": 7.3,
+      "gap_pct": 6.4,
       "status": "match"
      },
      {
@@ -10017,9 +10017,9 @@
      {
       "metric": "P/E",
       "ours": 44.2018737846915,
-      "theirs": 39.25442,
+      "theirs": 39.884735,
       "source": "Yahoo",
-      "gap_pct": 12.6,
+      "gap_pct": 10.8,
       "status": "mismatch"
      },
      {
@@ -10093,9 +10093,9 @@
      {
       "metric": "P/E",
       "ours": 59.7355769230769,
-      "theirs": 53.016968,
+      "theirs": 54.28339,
       "source": "Yahoo",
-      "gap_pct": 12.7,
+      "gap_pct": 10.0,
       "status": "mismatch"
      },
      {
@@ -10131,10 +10131,10 @@
      {
       "metric": "P/E",
       "ours": 37.8481432360743,
-      "theirs": 34.033035,
+      "theirs": 35.305298,
       "source": "Yahoo",
-      "gap_pct": 11.2,
-      "status": "mismatch"
+      "gap_pct": 7.2,
+      "status": "match"
      },
      {
       "metric": "ROE %",
@@ -10144,7 +10144,7 @@
       "status": "n/a"
      }
     ],
-    "flag": true
+    "flag": false
    }
   ]
  },
@@ -10163,7 +10163,7 @@
   },
   "InvestSights": {
    "ok": true,
-   "detail": "469 requests used today (free plan allows 100)"
+   "detail": "34 requests used today (free plan allows 100)"
   }
  },
  "notes": []
