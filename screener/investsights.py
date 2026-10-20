@@ -162,5 +162,8 @@ class InvestSights:
             "symbol": symbol, "statement": "all", "period": "annual", "limit": 4,
         })
 
+    def fundamentals(self, symbol):
+        return self.call("get_stock_financials", {"symbol": symbol})
+
     def concall(self, symbol):
         return self.call("get_concall_analysis", {"symbol": symbol})
