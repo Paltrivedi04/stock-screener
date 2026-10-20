@@ -66,7 +66,12 @@ def trim_statements(raw):
             "ocf": r.get("operating_cash_flow")} for r in cfs]
     profit.sort(key=lambda r: r["end"] or "", reverse=True)
     ocf.sort(key=lambda r: r["end"] or "", reverse=True)
-    return {"profit": profit, "ocf": ocf}
+    bs = sorted((raw.get("balance_sheet") or {}).get("data") or [],
+                key=lambda r: r.get("period_end_date") or "", reverse=True)
+    de = None
+    if bs and bs[0].get("total_debt") is not None and (bs[0].get("shareholders_equity") or 0) > 0:
+        de = bs[0]["total_debt"] / bs[0]["shareholders_equity"]
+    return {"profit": profit, "ocf": ocf, "de": de}
 
 
 def trim_concall(raw):
@@ -104,7 +109,12 @@ def run():
     state = load(STATE_DIR / "state.json", {"members": {}, "last_run": None})
     cache = load(STATE_DIR / "cache.json", {"statements": {}, "concalls": {}})
     history = load(SITE_DATA / "history.json", [])
-    baseline = not state.get("last_run")
+    rules_sig = " | ".join(C.rules_text())
+    rules_changed = bool(state.get("last_run")) and state.get("rules") != rules_sig
+    baseline = not state.get("last_run") or rules_changed
+    if baseline:
+        state["members"] = {}
+        state["missing_members"] = []
 
     sources = {}
     notes = []
@@ -120,14 +130,86 @@ def run():
     }
 
     # ---- 2. InvestSights: stage 1 screen ----
-    inv = InvestSights(key, budget=C.DAILY_REQUEST_BUDGET)
+    inv = InvestSights(key, budget=C.DAILY_REQUEST_BUDGET, min_interval=C.SECONDS_BETWEEN_REQUESTS)
     inv.connect()
     candidates, meta = inv.screen_all(C.stage1_filters(), C.MARKET_CAP_MIN_CR, C.MARKET_CAP_MAX_CR)
     print(f"Stage 1: {len(candidates)} companies")
 
+    # ---- 2b. Companies with blank ROE or ROCE (listed separately) ----
+    # Recent IPOs and some smaller companies have these blank in the screener table.
+    missing_returns = []
+    quota_hit = False
+    try:
+        base = C.missing_data_filters()
+        lo, hi = C.MARKET_CAP_MIN_CR, C.MARKET_CAP_MAX_CR
+        wide, _ = inv.screen_all(base, lo, hi)
+        prev_missing = set(state.get("missing_members", []))
+        cache.setdefault("fundamentals", {})
+        for row in wide:
+            sym = row["symbol"]
+            if row.get("roe") is not None and row.get("roce") is not None:
+                continue          # complete data: handled by the main screen
+            de = row.get("debt_to_equity")
+            if ((row.get("roe") is not None and row["roe"] <= C.ROE_MIN)
+                    or (row.get("roce") is not None and row["roce"] <= C.ROCE_MIN)
+                    or (de is not None and de >= C.DE_MAX)):
+                continue          # already fails a known rule
+            # The screener table can be blank where the company page has numbers,
+            # so look those up (cached weekly) before calling them missing.
+            if True:
+                fd = cache["fundamentals"].get(sym)
+                if not fresh(fd, C.STATEMENTS_CACHE_DAYS, today):
+                    try:
+                        raw = inv.fundamentals(sym)
+                        prof = raw.get("profitability") or {}
+                        fd = {"fetched": today.isoformat(), "roe": prof.get("roe"), "roce": prof.get("roce")}
+                        cache["fundamentals"][sym] = fd
+                    except QuotaReached:
+                        quota_hit = True
+                    except Exception as e:  # noqa: BLE001
+                        notes.append(f"{sym}: fundamentals error {e}")
+                if fd:
+                    row = {**row, "roe": row.get("roe") if row.get("roe") is not None else fd.get("roe"),
+                           "roce": row.get("roce") if row.get("roce") is not None else fd.get("roce")}
+            blanks, fails = [], False
+            for label, key, minimum in (("ROE", "roe", C.ROE_MIN), ("ROCE", "roce", C.ROCE_MIN)):
+                if row.get(key) is None:
+                    blanks.append(label)
+                elif row[key] <= minimum:
+                    fails = True
+            if fails:
+                continue          # filled-in numbers fail a rule
+            if not blanks:        # now complete and passing: check it like any other company
+                if any(c["symbol"] == sym for c in candidates):
+                    continue
+                candidates.append({**row, "data_note": "ROE/ROCE taken from the company page (blank in the screener table)"})
+                continue
+            price = row.get("close_price")
+            if nse_prices and sym in nse_prices and nse_prices[sym]["close"]:
+                price = nse_prices[sym]["close"]
+            missing_returns.append({
+                "symbol": sym,
+                "name": row.get("company_name") or (listed or {}).get(sym, sym),
+                "sector": row.get("sector"),
+                "market_cap": row.get("market_cap"),
+                "price": price,
+                "pe": row.get("pe_ratio"),
+                "roe": row.get("roe"),
+                "roce": row.get("roce"),
+                "de": row.get("debt_to_equity"),
+                "missing": ", ".join(blanks),
+                "new": (not baseline) and sym not in prev_missing,
+                "screener_url": screener_url(sym),
+            })
+        missing_returns.sort(key=lambda r: r.get("market_cap") or 0, reverse=True)
+        print(f"Missing data: {len(missing_returns)} companies")
+    except QuotaReached:
+        notes.append("Missing data list skipped: daily request limit reached")
+    except Exception as e:  # noqa: BLE001
+        notes.append(f"Missing data list error: {e}")
+
     yahoo = Yahoo()
     shortlist, manual, failed = [], [], {}
-    quota_hit = False
 
     for row in candidates:
         sym = row["symbol"]
@@ -155,18 +237,14 @@ def run():
         if listed is not None and sym not in listed and not sym.isdigit():
             rec["nse_note"] = "Not in NSE's current equity list (may be BSE-only or recently changed)"
 
-        # Debt to Equity
-        if rec["de"] is None:
-            rec["reason"] = "Debt to Equity not available"
-            manual.append(rec)
-            continue
-        if rec["de"] >= C.DE_MAX:
+        # Debt to Equity (known value checked before spending a request)
+        if rec["de"] is not None and rec["de"] >= C.DE_MAX:
             failed[sym] = f"Debt to Equity {rec['de']:.2f} (needs below {C.DE_MAX:g})"
             continue
 
         # Statements (cached weekly)
         st = cache["statements"].get(sym)
-        if not fresh(st, C.STATEMENTS_CACHE_DAYS, today):
+        if not fresh(st, C.STATEMENTS_CACHE_DAYS, today) or "de" not in (st or {}):
             try:
                 st = {"fetched": today.isoformat(), **trim_statements(inv.statements(sym))}
                 cache["statements"][sym] = st
@@ -181,31 +259,29 @@ def run():
             manual.append(rec)
             continue
 
-        # Profit growth, 3-year CAGR
+        if rec["de"] is None:
+            rec["de"] = st.get("de")
+            if rec["de"] is None:
+                rec["reason"] = "Debt to Equity not available"
+                manual.append(rec)
+                continue
+            rec["de_note"] = "D/E calculated from the latest balance sheet"
+            if rec["de"] >= C.DE_MAX:
+                failed[sym] = f"Debt to Equity {rec['de']:.2f} (needs below {C.DE_MAX:g})"
+                continue
+
+        # Sales and profit growth, 3-year CAGR (shown for information, not a rule)
         profits = [p for p in st["profit"] if p.get("net_profit") is not None]
-        if len(profits) < 4:
-            rec["reason"] = "Fewer than 4 years of profit data"
-            manual.append(rec)
-            continue
-        end, start = profits[0]["net_profit"], profits[3]["net_profit"]
-        rec["profit_cagr_3y"] = cagr(start, end, 3)
-        rec["profit_years"] = f"{profits[3]['fy']} to {profits[0]['fy']}"
-        rec["net_profit_cr"] = end / 1e7
+        if len(profits) >= 4:
+            rec["profit_cagr_3y"] = cagr(profits[3]["net_profit"], profits[0]["net_profit"], 3)
+            rec["profit_years"] = f"{profits[3]['fy']} to {profits[0]['fy']}"
+        if profits:
+            rec["net_profit_cr"] = profits[0]["net_profit"] / 1e7
         revs = [p.get("revenue") for p in st["profit"]]
         if len(revs) >= 4 and revs[0] and revs[3]:
             rec["sales_cagr_3y"] = cagr(revs[3], revs[0], 3)
-        if rec["profit_cagr_3y"] is None:
-            if end is not None and end <= 0:
-                failed[sym] = "Latest yearly profit is negative"
-            else:
-                rec["reason"] = f"Profit was zero or negative in {profits[3]['fy']}, so 3-year growth can't be measured"
-                manual.append(rec)
-            continue
-        if rec["profit_cagr_3y"] <= C.PROFIT_CAGR_3Y_MIN:
-            failed[sym] = f"Profit growth {rec['profit_cagr_3y']:.1f}% (needs above {C.PROFIT_CAGR_3Y_MIN}%)"
-            continue
 
-        # Operating cash flow, last N years
+        # Operating cash flow: latest year (FY26) must be positive
         n = C.OCF_POSITIVE_YEARS
         ocf = st["ocf"][:n]
         ocf_vals = [o.get("ocf") for o in ocf]
@@ -220,7 +296,9 @@ def run():
                 rec["reason"] = "Operating cash flow missing in InvestSights and Yahoo"
                 manual.append(rec)
                 continue
-        rec["ocf"] = [{"fy": o["fy"], "cr": round(o["ocf"] / 1e7, 1)} for o in ocf]
+        # show up to 3 years for context; only the rule years decide
+        shown = ocf if ocf_source != "InvestSights" else [o for o in st["ocf"][:3] if o.get("ocf") is not None]
+        rec["ocf"] = [{"fy": o["fy"], "cr": round(o["ocf"] / 1e7, 1)} for o in shown]
         rec["ocf_source"] = ocf_source
         negatives = [o["fy"] for o in ocf if o["ocf"] <= 0]
         if negatives:
@@ -272,7 +350,7 @@ def run():
         elif sym in manual_syms:
             reason = "Moved to 'Check manually': " + next(m["reason"] for m in manual if m["symbol"] == sym)
         else:
-            reason = "No longer passes the main screen (market cap, ROE, ROCE, promoter, P/E or sales growth)"
+            reason = "No longer passes the main screen (market cap, ROE or ROCE)"
         removed.append({"symbol": sym, "name": info.get("name", sym), "reason": reason,
                         "first_seen": info.get("first_seen"), "screener_url": screener_url(sym),
                         "price": None})
@@ -336,12 +414,15 @@ def run():
         "run_date": today.isoformat(),
         "run_time_ist": now.strftime("%Y-%m-%d %H:%M"),
         "baseline": baseline,
+        "rules_changed": rules_changed,
         "rules": C.rules_text(),
         "price_as_of": price_date or meta.get("price_as_of"),
         "counts": {"stage1": len(candidates), "shortlist": len(shortlist),
-                   "manual": len(manual), "failed": len(failed)},
+                   "manual": len(manual), "failed": len(failed),
+                   "missing_returns": len(missing_returns)},
         "shortlist": shortlist,
         "manual": manual,
+        "missing_returns": missing_returns,
         "near_misses": [{"symbol": s, "reason": r, "screener_url": screener_url(s),
                          "name": next((c.get("company_name") for c in candidates if c["symbol"] == s), s)}
                         for s, r in sorted(failed.items())],
@@ -364,14 +445,16 @@ def run():
 
     state = {
         "last_run": today.isoformat(),
+        "rules": rules_sig,
         "members": {r["symbol"]: {"first_seen": r["first_seen"], "name": r["name"]} for r in shortlist},
+        "missing_members": [r["symbol"] for r in missing_returns],
     }
     save(STATE_DIR / "state.json", state)
     save(STATE_DIR / "cache.json", cache)
 
     # ---- 7. Email ----
     site = os.environ.get("SITE_URL", "")
-    if baseline or added or removed:
+    if baseline or added or removed or any(m.get("new") for m in missing_returns):
         try:
             send_email(latest, site)
         except Exception as e:  # noqa: BLE001
