@@ -143,7 +143,7 @@ class InvestSights:
         rows = res.get("results", []) or []
         total = res.get("total", len(rows)) or len(rows)
         meta = {"price_as_of": res.get("price_as_of"), "data_notes": res.get("data_notes") or {}}
-        if total > len(rows) and depth < 6 and cap_max - cap_min > 50:
+        if total > len(rows) and depth < 14 and cap_max - cap_min > 1:
             mid = (cap_min + cap_max) / 2
             a, ma = self.screen_all(filters, cap_min, mid, depth + 1)
             b, mb = self.screen_all(filters, mid, cap_max, depth + 1)
