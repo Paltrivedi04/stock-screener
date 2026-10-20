@@ -119,6 +119,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px 16px 36p
     <button data-t="changes">Today's changes</button>
     <button data-t="history">History</button>
     <button data-t="manual">Check manually<span class="n" id="n-man">0</span></button>
+    <button data-t="missing">Missing data<span class="n" id="n-miss">0</span></button>
     <button data-t="near">Near misses<span class="n" id="n-near">0</span></button>
     <button data-t="checks">Data checks</button>
     <button data-t="rules">Rules and sources</button>
@@ -134,6 +135,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px 16px 36p
   <section id="t-changes" class="panel hide"></section>
   <section id="t-history" class="panel hide"></section>
   <section id="t-manual" class="panel hide"></section>
+  <section id="t-missing" class="panel hide"></section>
   <section id="t-near" class="panel hide"></section>
   <section id="t-checks" class="panel hide"></section>
   <section id="t-rules" class="hide"></section>
@@ -161,7 +163,7 @@ const COLS = [
   {k: "de", t: "D/E"},
   {k: "sales_cagr_3y", t: "Sales 3Y CAGR"},
   {k: "profit_cagr_3y", t: "Profit 3Y CAGR"},
-  {k: "ocf", t: "Op. cash flow"},
+  {k: "ocf", t: "Op. cash flow (FY26 first)"},
   {k: "concall", t: "Concall / PPT"},
   {k: "first_seen", t: "In list since"},
 ];
@@ -247,6 +249,14 @@ function renderOthers() {
   $("#t-manual").innerHTML = `<div class="box hint">These companies pass the main screen, but a number needed for the other rules is missing or can't be measured. They are not in the shortlist, so please check them yourself.</div>` +
     listBlock(DATA.manual, "", "Nothing to check manually today.", x => x.reason);
 
+  const mr = DATA.missing_returns || [];
+  $("#t-missing").innerHTML = `<div class="box hint">These companies are in your market cap range and pass every rule that can be checked (not a bank/NBFC, and ROE/ROCE/D/E where available), but InvestSights has no figure for ROE or ROCE. Recent IPOs often land here. Open each on Screener.in and check the missing numbers yourself.</div>` +
+    (mr.length ? `<div class="tablewrap"><table><thead><tr><th>Company</th><th>Price (Rs)</th><th>Mkt cap (Cr)</th><th>P/E</th><th>ROE</th><th>ROCE</th><th>D/E</th><th style="text-align:left">Missing</th></tr></thead><tbody>` +
+      mr.map(x => `<tr class="row"><td class="co"><a class="nm" href="${esc(x.screener_url)}" target="_blank" rel="noopener">${esc(x.name)}</a><div class="sy">${esc(x.symbol)} · ${esc(x.sector || "")}</div>${x.new ? '<span class="tag t-new">New today</span>' : ""}</td>
+        <td>${num(x.price, 2)}</td><td>${num(x.market_cap, 0)}</td><td>${num(x.pe, 1)}</td><td>${pct(x.roe)}</td><td>${pct(x.roce)}</td><td>${num(x.de, 2)}</td>
+        <td style="text-align:left"><span class="tag t-warn">${esc(x.missing)}</span></td></tr>`).join("") + "</tbody></table></div>"
+      : '<div class="empty">No companies with missing data today.</div>');
+
   $("#t-near").innerHTML = `<div class="box hint">These companies pass the main screen but fail one of the detailed rules. Useful to watch, as they may enter the list later.</div>` +
     listBlock(DATA.near_misses, "", "No near misses today.", x => x.reason);
 
@@ -262,7 +272,7 @@ function renderOthers() {
 
   const src = Object.entries(DATA.sources).map(([k, v]) => `<div class="src"><span class="dot" style="background:${v.ok ? "var(--green)" : "var(--red)"}"></span><div><b>${esc(k)}</b><div class="hint">${esc(v.detail)}</div></div></div>`).join("");
   $("#t-rules").innerHTML = `<div class="grid2"><div class="panel box"><h3>Screening rules</h3><ol>${DATA.rules.map(r => `<li>${esc(r)}</li>`).join("")}</ol>
-     <p class="hint" style="margin-top:12px">Rules 1 to 6 and sales growth are screened on InvestSights across the whole market. Debt to Equity, profit growth and cash flow are then checked company by company from their annual statements.</p></div>
+     <p class="hint" style="margin-top:12px">Market cap, ROE and ROCE are screened on InvestSights across the whole market. Debt to Equity and operating cash flow are then checked company by company. Sales and profit growth are shown for information only.</p></div>
      <div class="panel box"><h3>Data sources today</h3>${src}
      <p class="hint" style="margin-top:12px">Stage 1 screen: ${DATA.counts.stage1} companies. Final shortlist: ${DATA.counts.shortlist}.</p></div></div>`;
 }
@@ -275,11 +285,11 @@ function render() {
   $("#k-rem").textContent = d.baseline ? "-" : d.changes.removed.length;
   $("#k-man").textContent = d.manual.length;
   $("#k-health").textContent = d.data_checks.health_pct == null ? "-" : d.data_checks.health_pct + "%";
-  $("#n-list").textContent = d.shortlist.length; $("#n-man").textContent = d.manual.length; $("#n-near").textContent = d.near_misses.length;
+  $("#n-list").textContent = d.shortlist.length; $("#n-man").textContent = d.manual.length; $("#n-miss").textContent = (d.missing_returns || []).length; $("#n-near").textContent = d.near_misses.length;
   const bad = Object.entries(d.sources).filter(([, v]) => !v.ok).map(([k]) => k);
   const age = (Date.now() - new Date(d.run_date + "T18:00:00+05:30")) / 864e5;
   let msg = [];
-  if (d.baseline) msg.push("First run: this list is your starting point. Additions and removals will be tracked from the next run.");
+  if (d.baseline) msg.push(d.rules_changed ? "Your screening rules changed, so this list is the new starting point. Additions and removals will be tracked from the next run." : "First run: this list is your starting point. Additions and removals will be tracked from the next run.");
   if (bad.length) msg.push(`Some sources didn't respond today (${bad.join(", ")}). The list still used every source that worked.`);
   if (age > 4) msg.push("This data is more than 4 days old. The daily update may have stopped; check the Actions tab on GitHub.");
   $("#banner").innerHTML = msg.length ? `<div class="banner">${msg.map(esc).join("<br>")}</div>` : "";
