@@ -1,0 +1,1167 @@
+{
+ "run_date": "2026-10-20",
+ "run_time_ist": "2026-10-20 08:49",
+ "baseline": true,
+ "rules": [
+  "Market cap between Rs 2,000 Cr and Rs 70,000 Cr",
+  "ROE above 18%",
+  "ROCE above 18%",
+  "Debt to Equity below 1",
+  "Promoter holding above 40%",
+  "P/E below 75",
+  "Sales growth (3-year CAGR) above 25%",
+  "Profit growth (3-year CAGR) above 25%",
+  "Operating cash flow positive in each of the last 3 years",
+  "Banks and NBFCs excluded"
+ ],
+ "price_as_of": "2026-10-19",
+ "counts": {
+  "stage1": 24,
+  "shortlist": 9,
+  "manual": 2,
+  "failed": 13
+ },
+ "shortlist": [
+  {
+   "symbol": "IKS",
+   "name": "Inventurus Knowledge Solutions Ltd.",
+   "sector": "Healthcare",
+   "market_cap": 28174.86,
+   "price": 1685.8,
+   "price_date": "2026-10-19",
+   "price_source": "NSE",
+   "pe": 38.9494434137291,
+   "roe": 25.77,
+   "roce": 31.23,
+   "de": 0.268732610846868,
+   "sales_growth_yoy": 19.89,
+   "return_1m": -2.41,
+   "screener_url": "https://www.screener.in/company/IKS/consolidated/",
+   "data_note": null,
+   "profit_cagr_3y": 33.21347451915167,
+   "profit_years": "FY23 to FY26",
+   "net_profit_cr": 721.554,
+   "sales_cagr_3y": 45.76066992554253,
+   "ocf": [
+    {
+     "fy": "FY26",
+     "cr": 631.7
+    },
+    {
+     "fy": "FY25",
+     "cr": 317.9
+    },
+    {
+     "fy": "FY24",
+     "cr": 209.8
+    }
+   ],
+   "ocf_source": "InvestSights",
+   "concall": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/IKS2006_11082026225313_10082026_TranscriptEarningsCall.pdf",
+    "takeaway": "The single most important signal from this call is the confirmation and recalibration of the TruBridge acquisition economics. Management confirmed that TruBridge's operating EBITDA of ~$68 million is intact — preserving EPS accretion — but simultaneously disclosed that the annualised revenue base is ~$40 million lower than the ~$340 million anticipated pre-close, settling at ~$300 million. This reset, driven by revenue recognition conservatism, elimination of two unprofitable service lines, and planned customer discounts, is not a profitability problem but it does compress the combined revenue starting point to ~$688 million annualised.",
+    "tone": "Confident — with selective candour on TruBridge revenue reset",
+    "stale": false
+   },
+   "filings": {
+    "latest_transcript": {
+     "date": "2026-08-11",
+     "link": "https://nsearchives.nseindia.com/corporate/IKS2006_11082026225313_10082026_TranscriptEarningsCall.pdf",
+     "title": "Inventurus Knowledge Solutions Limited has informed the Exchange about Transcript"
+    },
+    "latest_presentation": {
+     "date": "2026-08-05",
+     "link": "https://nsearchives.nseindia.com/corporate/IKS2006_05082026221840_03_20260805InvestorPresentationSEFINAL.pdf",
+     "title": "Inventurus Knowledge Solutions Limited has informed the Exchange about Investor Presentation"
+    },
+    "upcoming_call": {
+     "date": "2026-09-25",
+     "link": "https://nsearchives.nseindia.com/corporate/IKS2006_25092026162647_AnalystCall25092026.pdf",
+     "title": "Inventurus Knowledge Solutions Limited has informed the Exchange about Schedule of meet."
+    },
+    "calls_last_12m": 4,
+    "regular": true
+   },
+   "first_seen": "2026-10-20",
+   "mismatch": false
+  },
+  {
+   "symbol": "IGIL",
+   "name": "International Gemological Institute Limited",
+   "sector": "Basic Materials",
+   "market_cap": 13855.04,
+   "price": 321.95,
+   "price_date": "2026-10-19",
+   "price_source": "NSE",
+   "pe": 26.0650406504065,
+   "roe": 37.71,
+   "roce": 44.89,
+   "de": 0.101156895584304,
+   "sales_growth_yoy": 16.71,
+   "return_1m": 1.46,
+   "screener_url": "https://www.screener.in/company/IGIL/consolidated/",
+   "data_note": null,
+   "profit_cagr_3y": 30.037410226521978,
+   "profit_years": "FY23 to FY26",
+   "net_profit_cr": 531.601,
+   "sales_cagr_3y": 36.42735339190364,
+   "ocf": [
+    {
+     "fy": "FY26",
+     "cr": 501.9
+    },
+    {
+     "fy": "FY25",
+     "cr": 393.4
+    },
+    {
+     "fy": "FY24",
+     "cr": 302.6
+    }
+   ],
+   "ocf_source": "InvestSights",
+   "concall": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/IGIINDIA_27072026145452_SE_Transcript_Covering_letter.pdf",
+    "takeaway": "IGI's Q1 FY27 results demonstrate a business firing on multiple cylinders simultaneously: LGD volumes growing at 17%, LGD Jewellery surging at 44% consolidated, AGL beginning to contribute meaningfully, and consolidated EBITDA margins expanding 270 basis points year-on-year to 60.4% — all while the company remains debt-free. The single most important signal from this call is the deliberate and accelerating shift in IGI's strategic architecture: from a predominantly India-centric, B2B certification business to a globally integrated, consumer-facing brand.",
+    "tone": "-  Confident, with selective caution on guidance.",
+    "stale": false
+   },
+   "filings": {
+    "latest_transcript": {
+     "date": "2026-07-27",
+     "link": "https://nsearchives.nseindia.com/corporate/IGIINDIA_27072026145452_SE_Transcript_Covering_letter.pdf",
+     "title": "International Gemological Institute Limited has informed the Exchange about Transcript"
+    },
+    "latest_presentation": {
+     "date": "2026-08-03",
+     "link": "https://nsearchives.nseindia.com/corporate/IGIINDIA_03082026102615_SE.pdf",
+     "title": "International Gemological Institute Limited has informed the Exchange about Investor Presentation"
+    },
+    "upcoming_call": {
+     "date": "2026-10-15",
+     "link": "https://nsearchives.nseindia.com/corporate/IGIINDIA_15102026130344_SE.pdf",
+     "title": "International Gemological Institute Limited has informed the Exchange about Schedule of meet"
+    },
+    "calls_last_12m": 4,
+    "regular": true
+   },
+   "first_seen": "2026-10-20",
+   "mismatch": true
+  },
+  {
+   "symbol": "TIPSMUSIC",
+   "name": "Tips Music Ltd.",
+   "sector": "Communication Services",
+   "market_cap": 9802.8,
+   "price": 771.7,
+   "price_date": "2026-10-19",
+   "price_source": "NSE",
+   "pe": 45.2152110849057,
+   "roe": 83.38,
+   "roce": 103.1,
+   "de": 0.0196170076898516,
+   "sales_growth_yoy": 20.87,
+   "return_1m": 16.79,
+   "screener_url": "https://www.screener.in/company/TIPSMUSIC/consolidated/",
+   "data_note": null,
+   "profit_cagr_3y": 41.4887627814708,
+   "profit_years": "FY23 to FY26",
+   "net_profit_cr": 216.7454,
+   "sales_cagr_3y": 26.21123146491349,
+   "ocf": [
+    {
+     "fy": "FY26",
+     "cr": 197.0
+    },
+    {
+     "fy": "FY25",
+     "cr": 128.0
+    },
+    {
+     "fy": "FY24",
+     "cr": 233.0
+    }
+   ],
+   "ocf_source": "InvestSights",
+   "concall": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/TIPSINDLTD_28072026161018_TIPSMUSICecTP.pdf",
+    "takeaway": "The single most important signal from this concall is the deliberate front-loading of content costs in Q1 FY27, which caused a 4% PAT degrowth despite 21% revenue growth — a temporary accounting-driven distortion rather than a structural deterioration. Management's conservative policy of expensing the full content cost of new releases immediately, while revenue from those releases (mid-May and June launches) flows in over subsequent quarters, creates a predictable but visually jarring quarterly mismatch.",
+    "tone": "-  Confident, with selective caution on near-term margin optics and pending deals.",
+    "stale": false
+   },
+   "filings": {
+    "latest_transcript": {
+     "date": "2026-07-28",
+     "link": "https://nsearchives.nseindia.com/corporate/TIPSINDLTD_28072026161018_TIPSMUSICecTP.pdf",
+     "title": "Tips Music Limited has informed the Exchange about Transcript"
+    },
+    "latest_presentation": {
+     "date": "2026-10-15",
+     "link": "https://nsearchives.nseindia.com/corporate/TIPSINDLTD_15102026141908_TIPSMUSIC_IPQ2P.pdf",
+     "title": "Tips Music Limited has informed the Exchange about Investor Presentation"
+    },
+    "upcoming_call": {
+     "date": "2026-10-15",
+     "link": "https://nsearchives.nseindia.com/corporate/TIPSINDLTD_15102026200732_TIPSMUSIC_Q2ECApr.pdf",
+     "title": "Tips Music Limited has informed the Exchange about Link of Recording"
+    },
+    "calls_last_12m": 4,
+    "regular": true
+   },
+   "first_seen": "2026-10-20",
+   "mismatch": false
+  },
+  {
+   "symbol": "BLS",
+   "name": "BLS International Services Limited",
+   "sector": "Industrials",
+   "market_cap": 9037.71,
+   "price": 221.03,
+   "price_date": "2026-10-19",
+   "price_source": "NSE",
+   "pe": 13.1594724220624,
+   "roe": 27.88,
+   "roce": 23.08,
+   "de": 0.17478441438876,
+   "sales_growth_yoy": 36.7,
+   "return_1m": -3.74,
+   "screener_url": "https://www.screener.in/company/BLS/consolidated/",
+   "data_note": null,
+   "profit_cagr_3y": 50.67126242130286,
+   "profit_years": "FY23 to FY26",
+   "net_profit_cr": 686.6978,
+   "sales_cagr_3y": 25.5171783380979,
+   "ocf": [
+    {
+     "fy": "FY26",
+     "cr": 943.8
+    },
+    {
+     "fy": "FY25",
+     "cr": 828.8
+    },
+    {
+     "fy": "FY24",
+     "cr": 349.8
+    }
+   ],
+   "ocf_source": "InvestSights",
+   "concall": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/BLS_18082026165607_Transcript_Q1_signed.pdf",
+    "takeaway": "The central signal is that BLS’s growth is currently being driven more by monetisation, acquisitions and Digital Services scaling than by core visa application volume expansion. Q1 delivered record revenue of ₹891 crores and EBITDA of ₹252 crores, while visa volumes remained broadly stable at 11.3 lakhs. Net revenue per application rose to ₹3,521, supported by newer contracts and mix, but management also said this metric is beginning to stabilise as the shift to directly operated offices matures. Digital Services grew faster, with revenue of ₹330 crores and EBITDA of ₹27 crores, although its margins remain structurally lower.",
+    "tone": "-  Confident",
+    "stale": false
+   },
+   "filings": {
+    "latest_transcript": {
+     "date": "2026-08-18",
+     "link": "https://nsearchives.nseindia.com/corporate/BLS_18082026165607_Transcript_Q1_signed.pdf",
+     "title": "BLS International Services Limited has informed the Exchange about Transcript"
+    },
+    "latest_presentation": {
+     "date": "2026-08-07",
+     "link": "https://nsearchives.nseindia.com/corporate/BLS_07082026193137_Final_Investor_Presentation_file_signed.pdf",
+     "title": "BLS International Services Limited has informed the Exchange about Investor Presentation"
+    },
+    "upcoming_call": {
+     "date": "2026-09-23",
+     "link": "https://nsearchives.nseindia.com/corporate/BLS_23092026114159_Investor_and_Analyst_Meet_28092026_signed.pdf",
+     "title": "BLS International Services Limited has informed the Exchange about Schedule of meet"
+    },
+    "calls_last_12m": 4,
+    "regular": true
+   },
+   "first_seen": "2026-10-20",
+   "mismatch": false
+  },
+  {
+   "symbol": "WAAREERTL",
+   "name": "Waaree Renewable Technologies Ltd.",
+   "sector": "Utilities",
+   "market_cap": 8698.95,
+   "price": 826.2,
+   "price_date": "2026-10-19",
+   "price_source": "NSE",
+   "pe": 18.1608197864458,
+   "roe": 51.23,
+   "roce": 60.53,
+   "de": 0.155893007094345,
+   "sales_growth_yoy": 108.52,
+   "return_1m": 2.68,
+   "screener_url": "https://www.screener.in/company/WAAREERTL/consolidated/",
+   "data_note": null,
+   "profit_cagr_3y": 105.17435399785455,
+   "profit_years": "FY23 to FY26",
+   "net_profit_cr": 478.6954,
+   "sales_cagr_3y": 111.76425407806248,
+   "ocf": [
+    {
+     "fy": "FY26",
+     "cr": 287.0
+    },
+    {
+     "fy": "FY25",
+     "cr": 302.7
+    },
+    {
+     "fy": "FY24",
+     "cr": 127.9
+    }
+   ],
+   "ocf_source": "InvestSights",
+   "concall": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/WAAREERTL_30072026174305_Transcript-s.pdf",
+    "takeaway": "Waaree Renewable Technologies delivered a strong Q1 FY27 with revenue of ₹924.25 crores (up 53.23% year-on-year) and PAT of ₹118.97 crores (up 37.7% year-on-year), demonstrating continued execution strength in its core solar EPC business. However, the defining strategic event of the quarter is the acquisition of a 55% stake in APSPL, which marks a deliberate pivot from a pure-play, asset-light solar EPC model toward a broader energy infrastructure platform encompassing transmission and distribution.",
+    "tone": "Confident, with selective evasiveness on margin and acquisition specifics.",
+    "stale": false
+   },
+   "filings": {
+    "latest_transcript": {
+     "date": "2026-07-30",
+     "link": "https://nsearchives.nseindia.com/corporate/WAAREERTL_30072026174305_Transcript-s.pdf",
+     "title": "Waaree Renewable Technologies Limited has informed the Exchange about Transcript"
+    },
+    "latest_presentation": {
+     "date": "2026-10-19",
+     "link": "https://nsearchives.nseindia.com/corporate/WAAREERTL_19102026182512_Presentation-s.pdf",
+     "title": "Waaree Renewable Technologies Limited has informed the Exchange about Investor Presentation"
+    },
+    "upcoming_call": {
+     "date": "2026-10-15",
+     "link": "https://nsearchives.nseindia.com/corporate/WAAREERTL_15102026190704_Intimation-s.pdf",
+     "title": "Waaree Renewable Technologies Limited has informed the Exchange about Schedule of meet"
+    },
+    "calls_last_12m": 3,
+    "regular": true
+   },
+   "first_seen": "2026-10-20",
+   "mismatch": false
+  },
+  {
+   "symbol": "SANDUMA",
+   "name": "The Sandur Manganese & Iron Ores Limited",
+   "sector": "Basic Materials",
+   "market_cap": 8438.3,
+   "price": 173.37,
+   "price_date": "2026-10-19",
+   "price_source": "NSE",
+   "pe": 12.8490007401924,
+   "roe": 20.18,
+   "roce": 25.16,
+   "de": 0.307147599026333,
+   "sales_growth_yoy": 62.31,
+   "return_1m": -5.25,
+   "screener_url": "https://www.screener.in/company/SANDUMA/consolidated/",
+   "data_note": null,
+   "profit_cagr_3y": 34.34811298454783,
+   "profit_years": "FY23 to FY26",
+   "net_profit_cr": 656.64,
+   "sales_cagr_3y": 33.76818518258575,
+   "ocf": [
+    {
+     "fy": "FY26",
+     "cr": 968.8
+    },
+    {
+     "fy": "FY25",
+     "cr": 840.5
+    },
+    {
+     "fy": "FY24",
+     "cr": 153.1
+    }
+   ],
+   "ocf_source": "InvestSights",
+   "concall": {
+    "found": false
+   },
+   "filings": {
+    "latest_transcript": null,
+    "latest_presentation": {
+     "date": "2026-08-06",
+     "link": "https://nsearchives.nseindia.com/corporate/SANDUR_06082026202749_Ltr2SEsInvPresentationSigned.pdf",
+     "title": "Sandur Manganese & Iron Ores Limited has informed the Exchange about Investor Presentation"
+    },
+    "upcoming_call": null,
+    "calls_last_12m": 0,
+    "regular": false
+   },
+   "first_seen": "2026-10-20",
+   "mismatch": false
+  },
+  {
+   "symbol": "GOKULAGRO",
+   "name": "Gokul Agro Resources Limited",
+   "sector": "Consumer Defensive",
+   "market_cap": 6152.56,
+   "price": 208.86,
+   "price_date": "2026-10-19",
+   "price_source": "NSE",
+   "pe": 16.6533546325879,
+   "roe": 25.96,
+   "roce": 34.38,
+   "de": 0.4140466763461,
+   "sales_growth_yoy": 23.15,
+   "return_1m": -4.74,
+   "screener_url": "https://www.screener.in/company/GOKULAGRO/consolidated/",
+   "data_note": null,
+   "profit_cagr_3y": 40.772970112914386,
+   "profit_years": "FY23 to FY26",
+   "net_profit_cr": 369.3758,
+   "sales_cagr_3y": 30.87855944363922,
+   "ocf": [
+    {
+     "fy": "FY26",
+     "cr": 352.0
+    },
+    {
+     "fy": "FY25",
+     "cr": 467.2
+    },
+    {
+     "fy": "FY24",
+     "cr": 355.4
+    }
+   ],
+   "ocf_source": "InvestSights",
+   "concall": {
+    "found": false
+   },
+   "filings": {
+    "latest_transcript": null,
+    "latest_presentation": {
+     "date": "2026-08-20",
+     "link": "https://nsearchives.nseindia.com/corporate/GOKULAGRO_20082026185711_IPCovering.pdf",
+     "title": "Gokul Agro Resources Limited has informed the Exchange about Investor Presentation"
+    },
+    "upcoming_call": {
+     "date": "2026-09-22",
+     "link": "https://nsearchives.nseindia.com/corporate/GOKULAGRO_22092026171445_Investor_Meet_Covering.pdf",
+     "title": "Gokul Agro Resources Limited has informed the Exchange about Schedule of meet"
+    },
+    "calls_last_12m": 0,
+    "regular": false
+   },
+   "first_seen": "2026-10-20",
+   "mismatch": true
+  },
+  {
+   "symbol": "INDOTECH",
+   "name": "Indo Tech Transformers Limited",
+   "sector": "Industrials",
+   "market_cap": 3143.52,
+   "price": 2961.3,
+   "price_date": "2026-10-19",
+   "price_source": "NSE",
+   "pe": 33.8827838827839,
+   "roe": 24.82,
+   "roce": 30.24,
+   "de": 0.0139145326590137,
+   "sales_growth_yoy": 27.84,
+   "return_1m": -13.32,
+   "screener_url": "https://www.screener.in/company/INDOTECH/consolidated/",
+   "data_note": null,
+   "profit_cagr_3y": 53.39622510106039,
+   "profit_years": "FY23 to FY26",
+   "net_profit_cr": 92.77,
+   "sales_cagr_3y": 28.19464335499877,
+   "ocf": [
+    {
+     "fy": "FY26",
+     "cr": 58.8
+    },
+    {
+     "fy": "FY25",
+     "cr": 55.8
+    },
+    {
+     "fy": "FY24",
+     "cr": 31.8
+    }
+   ],
+   "ocf_source": "InvestSights",
+   "concall": {
+    "found": false
+   },
+   "filings": {
+    "latest_transcript": null,
+    "latest_presentation": {
+     "date": "2026-09-11",
+     "link": "https://nsearchives.nseindia.com/corporate/INDOTECH_11092026102639_Upload.pdf",
+     "title": "Indo Tech Transformers Limited has informed the Exchange regarding 'Investor Presentation for the quarter June 30, 2026'."
+    },
+    "upcoming_call": null,
+    "calls_last_12m": 0,
+    "regular": false
+   },
+   "first_seen": "2026-10-20",
+   "mismatch": false
+  },
+  {
+   "symbol": "CRIZAC",
+   "name": "Crizac Ltd.",
+   "sector": "Consumer Defensive",
+   "market_cap": 2648.36,
+   "price": 151.39,
+   "price_date": "2026-10-19",
+   "price_source": "NSE",
+   "pe": 12.0886581469649,
+   "roe": 37.48,
+   "roce": 42.34,
+   "de": 0.00314336684764062,
+   "sales_growth_yoy": 22.68,
+   "return_1m": -14.39,
+   "screener_url": "https://www.screener.in/company/CRIZAC/consolidated/",
+   "data_note": null,
+   "profit_cagr_3y": 25.021591492840535,
+   "profit_years": "FY23 to FY26",
+   "net_profit_cr": 219.135,
+   "sales_cagr_3y": 30.12636793187793,
+   "ocf": [
+    {
+     "fy": "2026",
+     "cr": 144.1
+    },
+    {
+     "fy": "2025",
+     "cr": 183.6
+    },
+    {
+     "fy": "2024",
+     "cr": 57.3
+    }
+   ],
+   "ocf_source": "Yahoo (filled gap)",
+   "concall": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/CRIZAC0301_07082026183303_Submission_of_Transcript_of_Earning_Call.pdf",
+    "takeaway": "The single most important signal from this concall is the sharp downward revision in FY27 revenue expectations — from what analysts recalled as 15%-17% growth to an explicitly flat year — driven by geopolitical and immigration headwinds that management now has better visibility on after Q1 actuals and early Q2 trends. Compounding this, the consolidated P&L has structurally weakened relative to standalone, with all acquired companies contributing only ~₹6 crores in revenue while simultaneously dragging consolidated PBT below standalone PBT — a reversal of the historical pattern.",
+    "tone": "- Overall tone: Cautious / Mixed — Management was candid about a flat year ahead and acknowledged macro headwinds, but remained constructive on the long-term di",
+    "stale": false
+   },
+   "filings": {
+    "latest_transcript": {
+     "date": "2026-08-07",
+     "link": "https://nsearchives.nseindia.com/corporate/CRIZAC0301_07082026183303_Submission_of_Transcript_of_Earning_Call.pdf",
+     "title": "Crizac Limited has informed the Exchange about Transcript of the Conference call with the Analysts/Investor held on August 4, 2026, post declaration of the Unaudited Financial Resu"
+    },
+    "latest_presentation": {
+     "date": "2026-08-04",
+     "link": "https://nsearchives.nseindia.com/corporate/CRIZAC0301_04082026120504_Investor_Presentation.pdf",
+     "title": "Crizac Limited has informed the Exchange about Investor Presentation"
+    },
+    "upcoming_call": {
+     "date": "2026-09-21",
+     "link": "https://nsearchives.nseindia.com/corporate/CRIZAC0301_21092026174118_Intimation_of_participation_in_Equirus_Annual_India_Conference.pdf",
+     "title": "Crizac Limited has informed the Exchange about Conference"
+    },
+    "calls_last_12m": 4,
+    "regular": true
+   },
+   "first_seen": "2026-10-20",
+   "mismatch": false
+  }
+ ],
+ "manual": [
+  {
+   "symbol": "PREMIERENE",
+   "name": "Premier Energies Limited",
+   "sector": "Energy",
+   "market_cap": 40594.93,
+   "price": 899.0,
+   "price_date": "2026-10-19",
+   "price_source": "NSE",
+   "pe": 26.7320844484092,
+   "roe": 35.05,
+   "roce": 25.18,
+   "de": 0.860582498939113,
+   "sales_growth_yoy": 20.03,
+   "return_1m": 1.65,
+   "screener_url": "https://www.screener.in/company/PREMIERENE/consolidated/",
+   "data_note": null,
+   "profit_cagr_3y": null,
+   "profit_years": "FY23 to FY26",
+   "net_profit_cr": 1509.768,
+   "sales_cagr_3y": 76.32071217727965,
+   "reason": "Profit was zero or negative in FY23, so 3-year growth can't be measured",
+   "mismatch": true
+  },
+  {
+   "symbol": "SPARC",
+   "name": "Sun Pharma Advanced Research Company Limited",
+   "sector": "Healthcare",
+   "market_cap": 6003.65,
+   "price": 185.07,
+   "price_date": "2026-10-19",
+   "price_source": "NSE",
+   "pe": 3.86544086920184,
+   "roe": 116.01,
+   "roce": 112.12,
+   "de": 0.41776340359421,
+   "sales_growth_yoy": 2518.32,
+   "return_1m": -4.64,
+   "screener_url": "https://www.screener.in/company/SPARC/consolidated/",
+   "data_note": null,
+   "profit_cagr_3y": null,
+   "profit_years": "FY23 to FY26",
+   "net_profit_cr": 1553.2,
+   "sales_cagr_3y": 98.90970819114433,
+   "reason": "Profit was zero or negative in FY23, so 3-year growth can't be measured",
+   "mismatch": false
+  }
+ ],
+ "near_misses": [
+  {
+   "symbol": "DPABHUSHAN",
+   "reason": "Operating cash flow negative in FY26, FY25, FY24",
+   "screener_url": "https://www.screener.in/company/DPABHUSHAN/consolidated/",
+   "name": "D. P. Abhushan Limited"
+  },
+  {
+   "symbol": "GRSE",
+   "reason": "Operating cash flow negative in FY26, FY24",
+   "screener_url": "https://www.screener.in/company/GRSE/consolidated/",
+   "name": "Garden Reach Shipbuilders & Engineers Limited"
+  },
+  {
+   "symbol": "KALYANKJIL",
+   "reason": "Operating cash flow negative in FY26",
+   "screener_url": "https://www.screener.in/company/KALYANKJIL/consolidated/",
+   "name": "Kalyan Jewellers India Limited"
+  },
+  {
+   "symbol": "KRISHANA",
+   "reason": "Debt to Equity 1.31 (needs below 1)",
+   "screener_url": "https://www.screener.in/company/KRISHANA/consolidated/",
+   "name": "Krishana Phoschem Limited"
+  },
+  {
+   "symbol": "LUMAXTECH",
+   "reason": "Debt to Equity 1.02 (needs below 1)",
+   "screener_url": "https://www.screener.in/company/LUMAXTECH/consolidated/",
+   "name": "Lumax Auto Technologies Limited"
+  },
+  {
+   "symbol": "MANORAMA",
+   "reason": "Operating cash flow negative in FY25, FY24",
+   "screener_url": "https://www.screener.in/company/MANORAMA/consolidated/",
+   "name": "Manorama Industries Limited"
+  },
+  {
+   "symbol": "MARSONS",
+   "reason": "Operating cash flow negative in FY25, FY24",
+   "screener_url": "https://www.screener.in/company/MARSONS/consolidated/",
+   "name": "Marsons Ltd"
+  },
+  {
+   "symbol": "MBAPL",
+   "reason": "Debt to Equity 1.56 (needs below 1)",
+   "screener_url": "https://www.screener.in/company/MBAPL/consolidated/",
+   "name": "Madhya Bharat Agro Products Limited"
+  },
+  {
+   "symbol": "RAMRAT",
+   "reason": "Debt to Equity 1.17 (needs below 1)",
+   "screener_url": "https://www.screener.in/company/RAMRAT/consolidated/",
+   "name": "Ram Ratna Wires Limited"
+  },
+  {
+   "symbol": "SENCO",
+   "reason": "Debt to Equity 1.07 (needs below 1)",
+   "screener_url": "https://www.screener.in/company/SENCO/consolidated/",
+   "name": "Senco Gold Limited"
+  },
+  {
+   "symbol": "SHANTIGOLD",
+   "reason": "Operating cash flow negative in FY26, FY25, FY24",
+   "screener_url": "https://www.screener.in/company/SHANTIGOLD/consolidated/",
+   "name": "Shanti Gold Internation L"
+  },
+  {
+   "symbol": "SKYGOLD",
+   "reason": "Operating cash flow negative in FY26, FY25, FY24",
+   "screener_url": "https://www.screener.in/company/SKYGOLD/consolidated/",
+   "name": "Sky Gold Limited"
+  },
+  {
+   "symbol": "THANGAMAYL",
+   "reason": "Operating cash flow negative in FY25",
+   "screener_url": "https://www.screener.in/company/THANGAMAYL/consolidated/",
+   "name": "Thangamayil Jewellery Limited"
+  }
+ ],
+ "changes": {
+  "added": [],
+  "removed": []
+ },
+ "data_checks": {
+  "sample_size": 11,
+  "compared": 34,
+  "matched": 31,
+  "health_pct": 91,
+  "health_text": "Data check: 31 of 34 sampled numbers matched within 10%.",
+  "rows": [
+   {
+    "symbol": "TIPSMUSIC",
+    "name": "Tips Music Ltd.",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 766.84998,
+      "theirs": 771.7,
+      "source": "NSE",
+      "gap_pct": 0.6,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 9802.8,
+      "theirs": 9812.91008,
+      "source": "Yahoo",
+      "gap_pct": 0.1,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 45.2152110849057,
+      "theirs": 43.427124,
+      "source": "Yahoo",
+      "gap_pct": 4.1,
+      "status": "match"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 83.38,
+      "theirs": 78.121,
+      "source": "Yahoo",
+      "gap_pct": 6.7,
+      "status": "match"
+     }
+    ],
+    "flag": false
+   },
+   {
+    "symbol": "IGIL",
+    "name": "International Gemological Institute Limited",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 320.6,
+      "theirs": 321.95,
+      "source": "NSE",
+      "gap_pct": 0.4,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 13855.04,
+      "theirs": 13913.3812736,
+      "source": "Yahoo",
+      "gap_pct": 0.4,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 26.0650406504065,
+      "theirs": 23.603373,
+      "source": "Yahoo",
+      "gap_pct": 10.4,
+      "status": "mismatch"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 37.71,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     }
+    ],
+    "flag": true
+   },
+   {
+    "symbol": "PREMIERENE",
+    "name": "Premier Energies Limited",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 899.0,
+      "theirs": 899.0,
+      "source": "NSE",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 40594.93,
+      "theirs": 40594.931712,
+      "source": "Yahoo",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 26.7320844484092,
+      "theirs": 24.166666,
+      "source": "Yahoo",
+      "gap_pct": 10.6,
+      "status": "mismatch"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 35.05,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     }
+    ],
+    "flag": true
+   },
+   {
+    "symbol": "GOKULAGRO",
+    "name": "Gokul Agro Resources Limited",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 208.5,
+      "theirs": 208.86,
+      "source": "NSE",
+      "gap_pct": 0.2,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 6152.56,
+      "theirs": 6163.1811584,
+      "source": "Yahoo",
+      "gap_pct": 0.2,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 16.6533546325879,
+      "theirs": 11.813348,
+      "source": "Yahoo",
+      "gap_pct": 41.0,
+      "status": "mismatch"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 25.96,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     }
+    ],
+    "flag": true
+   },
+   {
+    "symbol": "SANDUMA",
+    "name": "The Sandur Manganese & Iron Ores Limited",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 173.59,
+      "theirs": 173.37,
+      "source": "NSE",
+      "gap_pct": 0.1,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 8438.3,
+      "theirs": 8427.5986432,
+      "source": "Yahoo",
+      "gap_pct": 0.1,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 12.8490007401924,
+      "theirs": 11.753898,
+      "source": "Yahoo",
+      "gap_pct": 9.3,
+      "status": "match"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 20.18,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     }
+    ],
+    "flag": false
+   },
+   {
+    "symbol": "BLS",
+    "name": "BLS International Services Limited",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 219.5,
+      "theirs": 221.03,
+      "source": "NSE",
+      "gap_pct": 0.7,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 9037.71,
+      "theirs": 9096.8047616,
+      "source": "Yahoo",
+      "gap_pct": 0.6,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 13.1594724220624,
+      "theirs": 12.918176,
+      "source": "Yahoo",
+      "gap_pct": 1.9,
+      "status": "match"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 27.88,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     }
+    ],
+    "flag": false
+   },
+   {
+    "symbol": "IKS",
+    "name": "Inventurus Knowledge Solutions Ltd.",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 1679.5,
+      "theirs": 1685.8,
+      "source": "NSE",
+      "gap_pct": 0.4,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 28174.86,
+      "theirs": 28280.553472,
+      "source": "Yahoo",
+      "gap_pct": 0.4,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 38.9494434137291,
+      "theirs": 37.722088,
+      "source": "Yahoo",
+      "gap_pct": 3.3,
+      "status": "match"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 25.77,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     }
+    ],
+    "flag": false
+   },
+   {
+    "symbol": "SPARC",
+    "name": "Sun Pharma Advanced Research Company Limited",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 185.0,
+      "theirs": 185.07,
+      "source": "NSE",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 6003.65,
+      "theirs": 6005.9213824,
+      "source": "Yahoo",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 3.86544086920184,
+      "theirs": 3.8644812,
+      "source": "Yahoo",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 116.01,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     }
+    ],
+    "flag": false
+   },
+   {
+    "symbol": "CRIZAC",
+    "name": "Crizac Ltd.",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 151.35,
+      "theirs": 151.39,
+      "source": "NSE",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 2648.36,
+      "theirs": 2649.0599424,
+      "source": "Yahoo",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 12.0886581469649,
+      "theirs": 12.024623,
+      "source": "Yahoo",
+      "gap_pct": 0.5,
+      "status": "match"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 37.48,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     }
+    ],
+    "flag": false
+   },
+   {
+    "symbol": "WAAREERTL",
+    "name": "Waaree Renewable Technologies Ltd.",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 833.40002,
+      "theirs": 826.2,
+      "source": "NSE",
+      "gap_pct": 0.9,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 8698.95,
+      "theirs": 8623.8109696,
+      "source": "Yahoo",
+      "gap_pct": 0.9,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 18.1608197864458,
+      "theirs": 16.979038,
+      "source": "Yahoo",
+      "gap_pct": 7.0,
+      "status": "match"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 51.23,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     }
+    ],
+    "flag": false
+   },
+   {
+    "symbol": "INDOTECH",
+    "name": "Indo Tech Transformers Limited",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 2960.0,
+      "theirs": 2961.3,
+      "source": "NSE",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 3143.52,
+      "theirs": 3144.900608,
+      "source": "Yahoo",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 33.8827838827839,
+      "theirs": 31.66827,
+      "source": "Yahoo",
+      "gap_pct": 7.0,
+      "status": "match"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 24.82,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     }
+    ],
+    "flag": false
+   }
+  ]
+ },
+ "sources": {
+  "NSE": {
+   "ok": true,
+   "detail": "Prices for 2026-10-19, 2,619 listed companies"
+  },
+  "NSE filings": {
+   "ok": true,
+   "detail": "Concall/presentation filings read for 9 of 9 companies"
+  },
+  "Yahoo": {
+   "ok": true,
+   "detail": "12 lookups, 0 failed"
+  },
+  "InvestSights": {
+   "ok": true,
+   "detail": "29 requests used today (free plan allows 100)"
+  }
+ },
+ "notes": []
+}

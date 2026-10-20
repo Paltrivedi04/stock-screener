@@ -1,0 +1,1061 @@
+{
+ "statements": {
+  "KALYANKJIL": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 13503950000.0,
+     "revenue": 357428600000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 7148000000.0,
+     "revenue": 249455110000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 5973460000.0,
+     "revenue": 184725650000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 4331050000.0,
+     "revenue": 140250100000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": -1621870000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 12094040000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 13217970000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 10133710000.0
+    }
+   ]
+  },
+  "PREMIERENE": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 15097680000.0,
+     "revenue": 78243740000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 9371320000.0,
+     "revenue": 65187450000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 2313600000.0,
+     "revenue": 31391970000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": -128050000.0,
+     "revenue": 14273800000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 12283010000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 13480310000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 901540000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 366850000.0
+    }
+   ]
+  },
+  "IKS": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 7215540000.0,
+     "revenue": 31937880000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 4860590000.0,
+     "revenue": 26639940000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 3704860000.0,
+     "revenue": 18169090000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 3052280000.0,
+     "revenue": 10313000000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 6317170000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 3178880000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 2097710000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 2879820000.0
+    }
+   ]
+  },
+  "GRSE": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 7479344000.0,
+     "revenue": 70021578000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 5274038000.0,
+     "revenue": 50709831000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 3572677000.0,
+     "revenue": 35884631000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 2281240000.0,
+     "revenue": 25478372000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": -572075000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 155874000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": -7068934000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 14502332000.0
+    }
+   ]
+  },
+  "SKYGOLD": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 2753248000.0,
+     "revenue": 62948868000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 1326553000.0,
+     "revenue": 35480196000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 404811000.0,
+     "revenue": 17454842000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 186088000.0,
+     "revenue": 11538007000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": -1075129000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": -3043983000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": -1380953000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": -157076000.0
+    }
+   ]
+  },
+  "THANGAMAYL": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 3516500000.0,
+     "revenue": 84993300000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 1187100000.0,
+     "revenue": 49105800000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 1232400000.0,
+     "revenue": 38267800000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 797400000.0,
+     "revenue": 31525500000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 3223400000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": -4239700000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 3303800000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 104400000.0
+    }
+   ]
+  },
+  "IGIL": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2025-12-31",
+     "net_profit": 5316010000.0,
+     "revenue": 12290980000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2024-12-31",
+     "net_profit": 4272900000.0,
+     "revenue": 10531600000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2023-12-31",
+     "net_profit": 3308440000.0,
+     "revenue": 8880100000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2022-12-31",
+     "net_profit": 2417580000.0,
+     "revenue": 4840410000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2025-12-31",
+     "ocf": 5018990000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2024-12-31",
+     "ocf": 3933790000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2023-12-31",
+     "ocf": 3025610000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2022-12-31",
+     "ocf": 1941680000.0
+    }
+   ]
+  },
+  "MANORAMA": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 2149404000.0,
+     "revenue": 13667389000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 1097896000.0,
+     "revenue": 7708420000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 401087000.0,
+     "revenue": 4557583000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 297755000.0,
+     "revenue": 3508023000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 2205736000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": -568974000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": -1534952000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 592846000.0
+    }
+   ]
+  },
+  "TIPSMUSIC": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 2167454000.0,
+     "revenue": 3755149000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 1665615000.0,
+     "revenue": 3106873000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 1271670000.0,
+     "revenue": 2415807000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 765216000.0,
+     "revenue": 1867812000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 1969948000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 1279784000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 2329524000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 810826000.0
+    }
+   ]
+  },
+  "BLS": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 6866978000.0,
+     "revenue": 29982151000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 5082271000.0,
+     "revenue": 21933019000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 3129688000.0,
+     "revenue": 16768140000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 2007587000.0,
+     "revenue": 15161888000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 9437966000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 8288267000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 3498475000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 2605349000.0
+    }
+   ]
+  },
+  "WAAREERTL": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 4786954000.0,
+     "revenue": 33314222000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 2291610000.0,
+     "revenue": 15976251000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 1453071000.0,
+     "revenue": 8764000000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 554230000.0,
+     "revenue": 3508098000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 2869530000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 3026972000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 1279110000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 651480000.0
+    }
+   ]
+  },
+  "SANDUMA": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 6566400000.0,
+     "revenue": 50884200000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 4701700000.0,
+     "revenue": 31350600000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 2394600000.0,
+     "revenue": 12378400000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 2707900000.0,
+     "revenue": 21258100000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 9687500000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 8405500000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 1531100000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 1423700000.0
+    }
+   ]
+  },
+  "GOKULAGRO": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 3693758000.0,
+     "revenue": 240769802000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 2456579000.0,
+     "revenue": 195507505000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 1357622000.0,
+     "revenue": 138539331000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 1324069000.0,
+     "revenue": 107398075000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 3520123000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 4672138000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 3553851000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": -80219000.0
+    }
+   ]
+  },
+  "SPARC": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 15532000000.0,
+     "revenue": 18791700000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": -3425100000.0,
+     "revenue": 717700000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": -3872139000.0,
+     "revenue": 755453000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": -2225800000.0,
+     "revenue": 2387801000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": -2729600000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": -3602900000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": -4291883000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": -691200000.0
+    }
+   ]
+  },
+  "DPABHUSHAN": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 2118404000.0,
+     "revenue": 40651283000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 1126955000.0,
+     "revenue": 33107902000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 618621000.0,
+     "revenue": 23399112000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 453169000.0,
+     "revenue": 19751202000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": -1133593000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": -189251000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": -2812000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 603094000.0
+    }
+   ]
+  },
+  "SHANTIGOLD": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 1401540000.0,
+     "revenue": 20187090000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 558420000.0,
+     "revenue": 11064070000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 268680000.0,
+     "revenue": 7114340000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 198190000.0,
+     "revenue": 6794040000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": -2640600000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": -153030000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": -130260000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": -48380000.0
+    }
+   ]
+  },
+  "INDOTECH": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 927700000.0,
+     "revenue": 7820800000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 638800000.0,
+     "revenue": 6117800000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 468602000.0,
+     "revenue": 5039796000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 257018000.0,
+     "revenue": 3712287000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 587900000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 557500000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 317672000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": -39422000.0
+    }
+   ]
+  },
+  "CRIZAC": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 2191350000.0,
+     "revenue": 10421571000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 1529330000.0,
+     "revenue": 8494910000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 1189000000.0,
+     "revenue": 6348660000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 1121390000.0,
+     "revenue": 4729740000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 1740269000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 1872740000.0
+    }
+   ]
+  },
+  "MARSONS": {
+   "fetched": "2026-10-20",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 463251000.0,
+     "revenue": 2454254000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 280208000.0,
+     "revenue": 1683622000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 6286000.0,
+     "revenue": 64580000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 32657000.0,
+     "revenue": 45620000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 4605999.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": -350167000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": -42256000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 985000.0
+    }
+   ]
+  }
+ },
+ "concalls": {
+  "IKS": {
+   "fetched": "2026-10-20",
+   "data": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/IKS2006_11082026225313_10082026_TranscriptEarningsCall.pdf",
+    "takeaway": "The single most important signal from this call is the confirmation and recalibration of the TruBridge acquisition economics. Management confirmed that TruBridge's operating EBITDA of ~$68 million is intact — preserving EPS accretion — but simultaneously disclosed that the annualised revenue base is ~$40 million lower than the ~$340 million anticipated pre-close, settling at ~$300 million. This reset, driven by revenue recognition conservatism, elimination of two unprofitable service lines, and planned customer discounts, is not a profitability problem but it does compress the combined revenue starting point to ~$688 million annualised.",
+    "tone": "Confident — with selective candour on TruBridge revenue reset",
+    "stale": false
+   }
+  },
+  "IGIL": {
+   "fetched": "2026-10-20",
+   "data": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/IGIINDIA_27072026145452_SE_Transcript_Covering_letter.pdf",
+    "takeaway": "IGI's Q1 FY27 results demonstrate a business firing on multiple cylinders simultaneously: LGD volumes growing at 17%, LGD Jewellery surging at 44% consolidated, AGL beginning to contribute meaningfully, and consolidated EBITDA margins expanding 270 basis points year-on-year to 60.4% — all while the company remains debt-free. The single most important signal from this call is the deliberate and accelerating shift in IGI's strategic architecture: from a predominantly India-centric, B2B certification business to a globally integrated, consumer-facing brand.",
+    "tone": "-  Confident, with selective caution on guidance.",
+    "stale": false
+   }
+  },
+  "TIPSMUSIC": {
+   "fetched": "2026-10-20",
+   "data": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/TIPSINDLTD_28072026161018_TIPSMUSICecTP.pdf",
+    "takeaway": "The single most important signal from this concall is the deliberate front-loading of content costs in Q1 FY27, which caused a 4% PAT degrowth despite 21% revenue growth — a temporary accounting-driven distortion rather than a structural deterioration. Management's conservative policy of expensing the full content cost of new releases immediately, while revenue from those releases (mid-May and June launches) flows in over subsequent quarters, creates a predictable but visually jarring quarterly mismatch.",
+    "tone": "-  Confident, with selective caution on near-term margin optics and pending deals.",
+    "stale": false
+   }
+  },
+  "BLS": {
+   "fetched": "2026-10-20",
+   "data": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/BLS_18082026165607_Transcript_Q1_signed.pdf",
+    "takeaway": "The central signal is that BLS’s growth is currently being driven more by monetisation, acquisitions and Digital Services scaling than by core visa application volume expansion. Q1 delivered record revenue of ₹891 crores and EBITDA of ₹252 crores, while visa volumes remained broadly stable at 11.3 lakhs. Net revenue per application rose to ₹3,521, supported by newer contracts and mix, but management also said this metric is beginning to stabilise as the shift to directly operated offices matures. Digital Services grew faster, with revenue of ₹330 crores and EBITDA of ₹27 crores, although its margins remain structurally lower.",
+    "tone": "-  Confident",
+    "stale": false
+   }
+  },
+  "WAAREERTL": {
+   "fetched": "2026-10-20",
+   "data": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/WAAREERTL_30072026174305_Transcript-s.pdf",
+    "takeaway": "Waaree Renewable Technologies delivered a strong Q1 FY27 with revenue of ₹924.25 crores (up 53.23% year-on-year) and PAT of ₹118.97 crores (up 37.7% year-on-year), demonstrating continued execution strength in its core solar EPC business. However, the defining strategic event of the quarter is the acquisition of a 55% stake in APSPL, which marks a deliberate pivot from a pure-play, asset-light solar EPC model toward a broader energy infrastructure platform encompassing transmission and distribution.",
+    "tone": "Confident, with selective evasiveness on margin and acquisition specifics.",
+    "stale": false
+   }
+  },
+  "SANDUMA": {
+   "fetched": "2026-10-20",
+   "data": {
+    "found": false
+   }
+  },
+  "GOKULAGRO": {
+   "fetched": "2026-10-20",
+   "data": {
+    "found": false
+   }
+  },
+  "INDOTECH": {
+   "fetched": "2026-10-20",
+   "data": {
+    "found": false
+   }
+  },
+  "CRIZAC": {
+   "fetched": "2026-10-20",
+   "data": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/CRIZAC0301_07082026183303_Submission_of_Transcript_of_Earning_Call.pdf",
+    "takeaway": "The single most important signal from this concall is the sharp downward revision in FY27 revenue expectations — from what analysts recalled as 15%-17% growth to an explicitly flat year — driven by geopolitical and immigration headwinds that management now has better visibility on after Q1 actuals and early Q2 trends. Compounding this, the consolidated P&L has structurally weakened relative to standalone, with all acquired companies contributing only ~₹6 crores in revenue while simultaneously dragging consolidated PBT below standalone PBT — a reversal of the historical pattern.",
+    "tone": "- Overall tone: Cautious / Mixed — Management was candid about a flat year ahead and acknowledged macro headwinds, but remained constructive on the long-term di",
+    "stale": false
+   }
+  }
+ }
+}
