@@ -26,7 +26,9 @@ def build_email(latest, site_url):
     added, removed = ch["added"], ch["removed"]
     date = latest["run_date"]
     if latest.get("baseline"):
-        subject = f"Stock Screener: first list ready, {len(latest['shortlist'])} companies ({date})"
+        subject = (f"Stock Screener: new rules applied, {len(latest['shortlist'])} companies ({date})"
+                   if latest.get("rules_changed") else
+                   f"Stock Screener: first list ready, {len(latest['shortlist'])} companies ({date})")
         intro = ("This is the first run, so today's list is your starting point. "
                  "From tomorrow you'll get only additions and removals.")
         added = latest["shortlist"]
@@ -34,6 +36,16 @@ def build_email(latest, site_url):
         subject = f"Stock Screener {date}: {len(added)} added, {len(removed)} removed"
         intro = f"Your shortlist now has {len(latest['shortlist'])} companies."
     health = latest.get("data_checks", {}).get("health_text", "")
+    new_missing = [m for m in latest.get("missing_returns", []) if m.get("new")]
+    missing_html = ""
+    if new_missing:
+        items = "".join(
+            f"<li><a href='{m['screener_url']}' style='color:#0b5cad'>{m['name']}</a> "
+            f"<span style='color:#5b6b80'>({m['symbol']}, {m['missing']} missing)</span></li>"
+            for m in new_missing
+        )
+        missing_html = (f"<h3 style='color:#8a5a00;margin:16px 0 6px'>New in 'Missing data' "
+                        f"({len(new_missing)}), please check by hand</h3><ul style='margin:0;padding-left:18px'>{items}</ul>")
     html = f"""
 <div style="font-family:Segoe UI,Arial,sans-serif;max-width:640px;margin:auto;color:#14263d">
   <div style="background:#0b5cad;color:#fff;padding:16px 20px;border-radius:10px 10px 0 0">
@@ -46,6 +58,7 @@ def build_email(latest, site_url):
     {_rows(added)}
     <h3 style="color:#b3261e;margin:16px 0 6px">Removed ({len(removed)})</h3>
     {_rows(removed, removed=True)}
+    {missing_html}
     <p style="font-size:13px;color:#5b6b80">{health}</p>
     <p><a href="{site_url}" style="background:#0b5cad;color:#fff;padding:9px 16px;border-radius:6px;text-decoration:none">Open the website</a></p>
     <p style="font-size:12px;color:#7a8a9e">Data for research only, not investment advice.</p>
