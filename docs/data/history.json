@@ -12,5 +12,28 @@
   "added": [],
   "removed": [],
   "baseline": false
+ },
+ {
+  "date": "2026-10-22",
+  "count": 145,
+  "added": [],
+  "removed": [
+   {
+    "symbol": "506854",
+    "name": "Tanfac Industries Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   },
+   {
+    "symbol": "GKENERGY",
+    "name": "GK Energy Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   },
+   {
+    "symbol": "EUROPRATIK",
+    "name": "Euro Pratik Sales Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   }
+  ],
+  "baseline": false
  }
 ]
