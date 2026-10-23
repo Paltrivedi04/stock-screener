@@ -8125,6 +8125,58 @@
     }
    ],
    "de": 0.20124485674138343
+  },
+  "WAAREEENER": {
+   "fetched": "2026-10-23",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 37113000000.0,
+     "revenue": 265367700000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 18673900000.0,
+     "revenue": 144445000000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 12371760000.0,
+     "revenue": 113712280000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 4827600000.0,
+     "revenue": 67508729999.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 19692900000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 31582100000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 23050210000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 15602280000.0
+    }
+   ],
+   "de": 0.25571815860816466
   }
  },
  "concalls": {
@@ -9757,6 +9809,19 @@
     "tone": "-  Confident, with selective caution around working capital, regulatory execution and new-facility ramp-up.",
     "stale": false
    }
+  },
+  "WAAREEENER": {
+   "fetched": "2026-10-23",
+   "data": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/WAAREE_06082026173008_Transcript_signed.pdf",
+    "takeaway": "Waaree's Q1 FY27 results present a company in a deliberate transition quarter: revenue grew 79.2% year-on-year to ₹7,932-odd crores and the order book reached a record ₹61,500 crores, yet operating EBITDA margin compressed to 18.2% and PAT margin to 11% as three simultaneous headwinds — raw material cost inflation, deferred domestic developer offtake, and U.S. export clearance delays — converged in the same 90-day window. Management's credibility rests on whether the four margin-recovery levers it has identified — DCR cell production ramping from ~800 MW in Q1 toward ~1.5 GW by Q3, the new 1.6 GW U.S.",
+    "tone": "-  Confident — bordering on assertive. Management was notably direct in acknowledging Q1 headwinds but consistently framed each as temporary and already-address",
+    "stale": false
+   }
   }
  },
  "fundamentals": {
@@ -10364,6 +10429,16 @@
    "fetched": "2026-10-22",
    "roe": 12.98,
    "roce": 17.63
+  },
+  "KODYTECH": {
+   "fetched": "2026-10-23",
+   "roe": 7.79,
+   "roce": 12.42
+  },
+  "BETA": {
+   "fetched": "2026-10-23",
+   "roe": 16.95,
+   "roce": 17.98
   }
  }
 }

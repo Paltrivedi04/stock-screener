@@ -35,5 +35,23 @@
    }
   ],
   "baseline": false
+ },
+ {
+  "date": "2026-10-23",
+  "count": 145,
+  "added": [
+   {
+    "symbol": "WAAREEENER",
+    "name": "Waaree Energies Ltd"
+   }
+  ],
+  "removed": [
+   {
+    "symbol": "539682",
+    "name": "Mobavenue Ai Tech Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   }
+  ],
+  "baseline": false
  }
 ]
