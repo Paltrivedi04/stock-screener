@@ -53,5 +53,23 @@
    }
   ],
   "baseline": false
+ },
+ {
+  "date": "2026-10-26",
+  "count": 145,
+  "added": [
+   {
+    "symbol": "DIXON",
+    "name": "Dixon Technologies (India) Limited"
+   }
+  ],
+  "removed": [
+   {
+    "symbol": "543971",
+    "name": "Bondada Engineering Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   }
+  ],
+  "baseline": false
  }
 ]

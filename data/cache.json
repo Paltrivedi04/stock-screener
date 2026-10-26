@@ -8177,6 +8177,58 @@
     }
    ],
    "de": 0.25571815860816466
+  },
+  "DIXON": {
+   "fetched": "2026-10-26",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 14386400000.0,
+     "revenue": 488728000000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 10955400000.0,
+     "revenue": 388601000000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 3677500000.0,
+     "revenue": 176909000000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 2555200000.0,
+     "revenue": 121920100000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 16869400000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 11497500000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 5843100000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 7257500000.0
+    }
+   ],
+   "de": 0.21259143792484825
   }
  },
  "concalls": {
@@ -9822,6 +9874,19 @@
     "tone": "-  Confident — bordering on assertive. Management was notably direct in acknowledging Q1 headwinds but consistently framed each as temporary and already-address",
     "stale": false
    }
+  },
+  "DIXON": {
+   "fetched": "2026-10-26",
+   "data": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/DIXON_05082026183904_EarningCallTranscriptQ1Intimation05082026F.pdf",
+    "takeaway": "The single most important signal from this call is Dixon's deliberate pivot from a volume-led, incentive-dependent EMS model toward a structurally deeper, export-oriented, and backward-integrated manufacturing platform — and the near-term earnings cost of executing that pivot. Q1 FY27 margins were visibly compressed by the simultaneous expiry of Mobile PLI 1, memory-driven input cost inflation, and the pre-revenue phase of major capital investments (display facility, Inventec JV, Q Tech expansion). Management was explicit that margin recovery is a FY28 story, not FY27.",
+    "tone": "-  Confident, with selective candour on near-term headwinds.",
+    "stale": false
+   }
   }
  },
  "fundamentals": {
@@ -10439,6 +10504,46 @@
    "fetched": "2026-10-23",
    "roe": 16.95,
    "roce": 17.98
+  },
+  "539730": {
+   "fetched": "2026-10-26",
+   "roe": -23.13,
+   "roce": 25.0
+  },
+  "531910": {
+   "fetched": "2026-10-26",
+   "roe": 10.36,
+   "roce": 15.51
+  },
+  "SMT": {
+   "fetched": "2026-10-26",
+   "roe": null,
+   "roce": null
+  },
+  "HDFIRE": {
+   "fetched": "2026-10-26",
+   "roe": null,
+   "roce": null
+  },
+  "TONBO": {
+   "fetched": "2026-10-26",
+   "roe": null,
+   "roce": null
+  },
+  "BONFIG": {
+   "fetched": "2026-10-26",
+   "roe": null,
+   "roce": null
+  },
+  "ZETWERK": {
+   "fetched": "2026-10-26",
+   "roe": null,
+   "roce": null
+  },
+  "ICICILIFE": {
+   "fetched": "2026-10-26",
+   "roe": null,
+   "roce": null
   }
  }
 }
