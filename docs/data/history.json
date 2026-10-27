@@ -71,5 +71,21 @@
    }
   ],
   "baseline": false
+ },
+ {
+  "date": "2026-10-27",
+  "count": 147,
+  "added": [
+   {
+    "symbol": "539682",
+    "name": "Mobavenue Ai Tech Ltd"
+   },
+   {
+    "symbol": "GKENERGY",
+    "name": "GK Energy Ltd"
+   }
+  ],
+  "removed": [],
+  "baseline": false
  }
 ]
