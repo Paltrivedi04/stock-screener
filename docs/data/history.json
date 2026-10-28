@@ -87,5 +87,17 @@
   ],
   "removed": [],
   "baseline": false
+ },
+ {
+  "date": "2026-10-28",
+  "count": 148,
+  "added": [
+   {
+    "symbol": "506854",
+    "name": "Tanfac Industries Ltd"
+   }
+  ],
+  "removed": [],
+  "baseline": false
  }
 ]

@@ -7776,7 +7776,7 @@
    "de": 0.6467634711819423
   },
   "506854": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-10-28",
    "profit": [
     {
      "fy": "FY26",
@@ -9741,7 +9741,7 @@
    }
   },
   "506854": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-10-28",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -9898,7 +9898,7 @@
  },
  "fundamentals": {
   "515008": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-10-28",
    "roe": 14.69,
    "roce": 16.97
   },
@@ -10298,7 +10298,7 @@
    "roce": null
   },
   "506854": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-10-28",
    "roe": 18.8,
    "roce": 25.38
   },
@@ -10549,6 +10549,16 @@
   },
   "ICICILIFE": {
    "fetched": "2026-10-26",
+   "roe": null,
+   "roce": null
+  },
+  "FUSIONCX": {
+   "fetched": "2026-10-28",
+   "roe": null,
+   "roce": null
+  },
+  "NATCO-RE": {
+   "fetched": "2026-10-28",
    "roe": null,
    "roce": null
   }
