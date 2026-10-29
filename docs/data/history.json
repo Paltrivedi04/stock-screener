@@ -99,5 +99,17 @@
   ],
   "removed": [],
   "baseline": false
+ },
+ {
+  "date": "2026-10-29",
+  "count": 149,
+  "added": [
+   {
+    "symbol": "543971",
+    "name": "Bondada Engineering Ltd"
+   }
+  ],
+  "removed": [],
+  "baseline": false
  }
 ]
