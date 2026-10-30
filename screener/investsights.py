@@ -1,338 +1,176 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Stock Screener</title>
-<meta name="description" content="Daily quality-growth shortlist of Indian listed companies, updated every weekday after market close.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-:root{
-  --bg:#f3f8fe; --panel:#ffffff; --ink:#13263d; --muted:#5b6f86; --line:#dce8f5;
-  --blue:#0b5cad; --blue-2:#1c74d0; --blue-soft:#e6f1fc; --blue-softer:#f1f7fe;
-  --green:#0f7a43; --green-soft:#e3f5ea; --red:#b3261e; --red-soft:#fbe7e5;
-  --amber:#8a5a00; --amber-soft:#fdf3dc; --radius:12px;
-}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;-webkit-font-smoothing:antialiased}
-a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
-header{background:linear-gradient(120deg,#0a4f96,#1c74d0 60%,#3d93e6);color:#fff}
-.wrap{max-width:1240px;margin:0 auto;padding:0 16px}
-.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0 18px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:12px}
-.logo{width:40px;height:40px;border-radius:10px;background:rgba(255,255,255,.16);display:grid;place-items:center}
-h1{font-size:22px;margin:0;font-weight:700;letter-spacing:-.01em}
-.sub{opacity:.85;font-size:13px}
-.stamp{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);padding:8px 12px;border-radius:10px;font-size:12.5px;line-height:1.45}
-.stamp b{font-weight:600}
-.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:-1px 0 0;padding:0 0 22px}
-.kpi{background:#fff;color:var(--ink);border-radius:var(--radius);padding:14px 16px;box-shadow:0 6px 18px rgba(10,60,120,.12)}
-.kpi .label{font-size:12px;color:var(--muted);font-weight:500}
-.kpi .val{font-size:26px;font-weight:700;margin-top:2px;font-variant-numeric:tabular-nums}
-.kpi .val.green{color:var(--green)} .kpi .val.red{color:var(--red)} .kpi .val.amber{color:var(--amber)}
-nav.tabs{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid var(--line);margin:22px 0 16px;scrollbar-width:none}
-nav.tabs button{background:none;border:0;padding:10px 14px;font:inherit;font-weight:500;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
-nav.tabs button.on{color:var(--blue);border-bottom-color:var(--blue)}
-nav.tabs .n{background:var(--blue-soft);color:var(--blue);border-radius:20px;padding:1px 7px;font-size:11.5px;margin-left:5px}
-.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
-.toolbar{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:12px 14px;border-bottom:1px solid var(--line);flex-wrap:wrap}
-.toolbar input{border:1px solid var(--line);border-radius:8px;padding:8px 11px;font:inherit;min-width:220px;flex:1;max-width:340px;background:var(--blue-softer)}
-.toolbar input:focus{outline:2px solid var(--blue-2);outline-offset:0;background:#fff}
-.hint{color:var(--muted);font-size:12.5px}
-.tablewrap{overflow-x:auto}
-table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
-th{background:var(--blue-softer);color:#33506f;font-weight:600;font-size:12px;text-align:right;padding:9px 12px;border-bottom:1px solid var(--line);white-space:nowrap;cursor:pointer;user-select:none;position:sticky;top:0}
-th:first-child,td:first-child{text-align:left}
-th.sorted::after{content:" \25BE";color:var(--blue)} th.sorted.asc::after{content:" \25B4"}
-td{padding:10px 12px;border-bottom:1px solid #edf3fa;text-align:right;vertical-align:top;white-space:nowrap}
-tr.row:hover td{background:#f8fbff}
-td.co{min-width:230px;white-space:normal}
-.co .nm{font-weight:600;color:var(--ink)} .co .sy{color:var(--muted);font-size:12px}
-.tag{display:inline-block;font-size:11px;font-weight:600;padding:2px 7px;border-radius:20px;margin:3px 4px 0 0;white-space:nowrap}
-.t-new{background:var(--green-soft);color:var(--green)} .t-warn{background:var(--amber-soft);color:var(--amber)}
-.t-blue{background:var(--blue-soft);color:var(--blue)}
-td.moatcell{text-align:left;white-space:normal;min-width:200px;max-width:260px}
-.moattxt{font-size:13px;line-height:1.4;color:var(--ink)}
-.mpoints{margin:4px 0 8px;padding-left:20px;max-width:900px} .mpoints li{margin:4px 0} .t-grey{background:#eef2f6;color:#55657a} .t-red{background:var(--red-soft);color:var(--red)}
-td.cc{text-align:left;min-width:230px;white-space:normal}
-.cc a{display:inline-block;margin:2px 10px 0 0;font-size:12.5px;font-weight:500;white-space:nowrap}
-.more{background:none;border:1px solid var(--line);border-radius:6px;padding:2px 8px;font:inherit;font-size:12px;color:var(--blue);cursor:pointer;margin-top:4px}
-tr.detail td{background:#f8fbff;text-align:left;white-space:normal;color:#2c4460;padding:12px 16px 16px}
-.detail td>*{position:sticky;left:16px;max-width:min(900px,calc(100vw - 72px))}
-.detail h4{margin:0 0 4px;font-size:13px} .detail p{margin:0 0 8px;max-width:900px}
-.ok{color:var(--green);font-weight:600} .bad{color:var(--red);font-weight:600}
-.empty{padding:36px 16px;text-align:center;color:var(--muted)}
-.list{padding:6px 0}
-.item{display:flex;justify-content:space-between;gap:12px;padding:11px 16px;border-bottom:1px solid #edf3fa;flex-wrap:wrap}
-.item:last-child{border-bottom:0}
-.item .why{color:var(--muted);font-size:13px}
-.daycard{padding:14px 16px;border-bottom:1px solid var(--line)}
-.daycard h3{margin:0 0 6px;font-size:14px}
-.chips span{display:inline-block;margin:3px 6px 0 0;padding:3px 9px;border-radius:20px;font-size:12.5px}
-.add{background:var(--green-soft);color:var(--green)} .rem{background:var(--red-soft);color:var(--red)}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.box{padding:16px 18px}
-.box h3{margin:0 0 10px;font-size:15px}
-.box ol,.box ul{margin:0;padding-left:20px} .box li{margin:4px 0}
-.src{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid #edf3fa}
-.dot{width:9px;height:9px;border-radius:50%;margin-top:6px;flex:none}
-.bar{height:8px;background:#e6eef7;border-radius:6px;overflow:hidden;margin:6px 0 4px}
-.bar i{display:block;height:100%;background:var(--blue-2)}
-footer{color:var(--muted);font-size:12px;text-align:center;padding:26px 16px 36px}
-.hide{display:none}
-.banner{background:var(--amber-soft);color:var(--amber);border:1px solid #f1dfb3;border-radius:10px;padding:10px 14px;margin:16px 0 0;font-size:13px}
-@media (max-width:900px){.kpis{grid-template-columns:repeat(2,1fr)}.kpi:last-child{grid-column:span 2}.grid2{grid-template-columns:1fr}}
-@media (max-width:520px){h1{font-size:19px}.kpi .val{font-size:22px}.toolbar input{min-width:0;max-width:none}}
-@media (max-width:700px){
-  #tbl thead{display:none} #tbl,#tbl tbody{display:block}
-  #tbl tr.row{display:block;border-bottom:8px solid var(--bg);padding:6px 0}
-  #tbl tr.row td{display:flex;justify-content:space-between;gap:12px;border:0;padding:5px 14px;white-space:normal;text-align:right}
-  #tbl tr.row td::before{content:attr(data-l);color:var(--muted);font-size:12px;text-align:left;flex:none}
-  #tbl tr.row td.co{display:block;text-align:left;padding-top:8px}
-  #tbl tr.row td.co::before,#tbl tr.row td.cc::before{display:none}
-  #tbl tr.row td.cc{display:block;text-align:left}
-  #tbl tr.detail{display:block} #tbl tr.detail.hide{display:none} #tbl tr.detail td{display:block}
-}
-</style>
-</head>
-<body>
-<header>
-  <div class="wrap">
-    <div class="top">
-      <div class="brand">
-        <div class="logo"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 17 9 11 13 15 21 7"/><polyline points="15 7 21 7 21 13"/></svg></div>
-        <div><h1>Stock Screener</h1><div class="sub">Quality growth shortlist, NSE and BSE</div></div>
-      </div>
-      <div class="stamp" id="stamp">Loading latest data...</div>
-    </div>
-    <div class="kpis">
-      <div class="kpi"><div class="label">In shortlist</div><div class="val" id="k-list">-</div></div>
-      <div class="kpi"><div class="label">Added today</div><div class="val green" id="k-add">-</div></div>
-      <div class="kpi"><div class="label">Removed today</div><div class="val red" id="k-rem">-</div></div>
-      <div class="kpi"><div class="label">Check manually</div><div class="val amber" id="k-man">-</div></div>
-      <div class="kpi"><div class="label">Data health</div><div class="val" id="k-health">-</div></div>
-    </div>
-  </div>
-</header>
+"""Talks to InvestSights over its MCP connection using your personal key."""
+import json
+import os
+import time
 
-<main class="wrap">
-  <div id="banner"></div>
-  <nav class="tabs" id="tabs">
-    <button data-t="list" class="on">Shortlist<span class="n" id="n-list">0</span></button>
-    <button data-t="changes">Today's changes</button>
-    <button data-t="history">History</button>
-    <button data-t="manual">Check manually<span class="n" id="n-man">0</span></button>
-    <button data-t="missing">Missing data<span class="n" id="n-miss">0</span></button>
-    <button data-t="near">Near misses<span class="n" id="n-near">0</span></button>
-    <button data-t="checks">Data checks</button>
-    <button data-t="rules">Rules and sources</button>
-  </nav>
+import requests
 
-  <section id="t-list" class="panel">
-    <div class="toolbar">
-      <input id="q" type="search" placeholder="Search company, symbol or sector">
-      <span class="hint">Tap a column to sort. Click "Concall" for the latest call summary.</span>
-    </div>
-    <div class="tablewrap"><table id="tbl"></table></div>
-  </section>
-  <section id="t-changes" class="panel hide"></section>
-  <section id="t-history" class="panel hide"></section>
-  <section id="t-manual" class="panel hide"></section>
-  <section id="t-missing" class="panel hide"></section>
-  <section id="t-near" class="panel hide"></section>
-  <section id="t-checks" class="panel hide"></section>
-  <section id="t-rules" class="hide"></section>
-</main>
+MCP_URL = os.environ.get(
+    "INVESTSIGHTS_MCP_URL", "https://investsights.in/api/v2/mcp-public/mcp"
+)
 
-<footer>Data from InvestSights, NSE and Yahoo Finance. For research only, not investment advice. Updated every weekday around 6 PM IST.</footer>
 
-<script>
-const $ = s => document.querySelector(s);
-const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const num = (v, d = 1) => v == null || isNaN(v) ? "-" : Number(v).toLocaleString("en-IN", {minimumFractionDigits: d, maximumFractionDigits: d});
-const pct = v => v == null ? "-" : num(v, 1) + "%";
-const fmtDate = s => { if (!s) return "-"; const d = new Date(s + "T00:00:00"); return isNaN(d) ? s : d.toLocaleDateString("en-IN", {day: "numeric", month: "short", year: "numeric"}); };
-const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : "";
+class QuotaReached(Exception):
+    pass
 
-let DATA = null, HIST = [], sortKey = "market_cap", sortAsc = false;
 
-const COLS = [
-  {k: "name", t: "Company"},
-  {k: "price", t: "Price (Rs)"},
-  {k: "market_cap", t: "Mkt cap (Cr)"},
-  {k: "pe", t: "P/E"},
-  {k: "roe", t: "ROE"},
-  {k: "roce", t: "ROCE"},
-  {k: "de", t: "D/E"},
-  {k: "sales_cagr_3y", t: "Sales 3Y CAGR"},
-  {k: "profit_cagr_3y", t: "Profit 3Y CAGR"},
-  {k: "ocf", t: "Op. cash flow (FY26 first)"},
-  {k: "moat", t: "Business moat"},
-  {k: "concall", t: "Concall / PPT"},
-  {k: "first_seen", t: "In list since"},
-];
+class InvestSights:
+    def __init__(self, key, budget=95, min_interval=6.5):
+        self.key = key
+        self.budget = budget
+        self.min_interval = min_interval  # free plan: 10 requests per minute
+        self.session = requests.Session()
+        self.session_id = None
+        self.req_id = 0
+        self.last_call = 0.0
+        self.calls = 0
+        self.rate_limited = 0
 
-function moatCell(m, i) {
-  if (!m || m.pending) return '<span class="hint" title="Will be researched in the next runs">Researching…</span>';
-  if (!m.found) return "";
-  return `<div class="moattxt">${esc(m.summary)}</div>` +
-    (m.points && m.points.length ? `<button type="button" class="more moatbtn" data-i="${i}">Why it's hard to copy</button>` : "");
-}
-function renderTable() {
-  const q = $("#q").value.trim().toLowerCase();
-  let rows = (DATA.shortlist || []).filter(r => !q || [r.name, r.symbol, r.sector].join(" ").toLowerCase().includes(q));
-  rows.sort((a, b) => {
-    let x = a[sortKey], y = b[sortKey];
-    if (sortKey === "ocf") { x = (a.ocf || [])[0]?.cr; y = (b.ocf || [])[0]?.cr; }
-    if (sortKey === "moat") { x = a.moat?.found ? 1 : 0; y = b.moat?.found ? 1 : 0; }
-    if (sortKey === "concall") { x = a.filings?.calls_last_12m ?? -1; y = b.filings?.calls_last_12m ?? -1; }
-    if (x == null) return 1; if (y == null) return -1;
-    return (x > y ? 1 : x < y ? -1 : 0) * (sortAsc ? 1 : -1);
-  });
-  const today = DATA.run_date;
-  const head = "<thead><tr>" + COLS.map(c => `<th data-k="${c.k}" class="${c.k === sortKey ? "sorted" + (sortAsc ? " asc" : "") : ""}">${c.t}</th>`).join("") + "</tr></thead>";
-  if (!rows.length) { $("#tbl").innerHTML = head + `<tbody><tr><td colspan="${COLS.length}" class="empty">${q ? "No match for your search." : "No company passes every rule today."}</td></tr></tbody>`; bindSort(); return; }
-  const body = rows.map((r, i) => {
-    const tags = [];
-    if (r.first_seen === today && !DATA.baseline) tags.push('<span class="tag t-new">New today</span>');
-    if (r.mismatch) tags.push('<span class="tag t-warn" title="A sampled number differed between sources by more than the tolerance">Data mismatch, verify</span>');
-    if (r.data_note) tags.push(`<span class="tag t-warn" title="${esc(r.data_note)}">Data note</span>`);
-    if (r.ocf_source && r.ocf_source.startsWith("Yahoo")) tags.push('<span class="tag t-grey" title="InvestSights had a gap, Yahoo filled it">Cash flow via Yahoo</span>');
-    const f = r.filings, c = r.concall;
-    let cc = "";
-    if (f) {
-      cc += f.regular ? '<span class="tag t-blue">Regular concalls</span>' : `<span class="tag t-grey">${f.calls_last_12m} call(s) in 12m</span>`;
-      if (f.upcoming_call) cc += `<span class="tag t-new" title="${esc(f.upcoming_call.title)}">Call announced ${fmtDate(f.upcoming_call.date)}</span>`;
-      cc += "<br>";
-      if (f.latest_transcript) cc += link(f.latest_transcript.link, "Transcript " + fmtDate(f.latest_transcript.date));
-      if (f.latest_presentation) cc += link(f.latest_presentation.link, "PPT " + fmtDate(f.latest_presentation.date));
-    } else if (c && c.transcript_url) {
-      cc += link(c.transcript_url, "Latest transcript");
-    } else cc += '<span class="hint">Filings not read today</span>';
-    if (c && c.found) cc += `<br><button class="more" data-i="${i}">Concall ${esc(c.quarter || "")} ${esc(c.fiscal_year || "")} summary</button>`;
-    const ocf = (r.ocf || []).map(o => `<span class="${o.cr > 0 ? "ok" : "bad"}" title="${esc(o.fy)}">${num(o.cr, 0)}</span>`).join(" / ");
-    const main = `<tr class="row">
-      <td class="co"><a class="nm" href="${esc(r.screener_url)}" target="_blank" rel="noopener">${esc(r.name)}</a><div class="sy">${esc(r.symbol)} · ${esc(r.sector || "")}</div>${tags.join("")}</td>
-      <td data-l="Price (Rs)" title="${esc(r.price_source)} close, ${esc(r.price_date)}">${num(r.price, 2)}</td>
-      <td data-l="Market cap (Cr)">${num(r.market_cap, 0)}</td><td data-l="P/E">${num(r.pe, 1)}</td><td data-l="ROE">${pct(r.roe)}</td><td data-l="ROCE">${pct(r.roce)}</td><td data-l="Debt to Equity">${num(r.de, 2)}</td>
-      <td data-l="Sales 3Y CAGR">${pct(r.sales_cagr_3y)}</td><td data-l="Profit 3Y CAGR" title="${esc(r.profit_years || "")}">${pct(r.profit_cagr_3y)}</td>
-      <td data-l="Op. cash flow (Cr)" title="Rs Cr, newest first (${esc(r.ocf_source || "")})">${ocf || "-"}</td>
-      <td class="moatcell" data-l="Moat">${moatCell(r.moat, i)}</td>
-      <td class="cc">${cc}</td><td data-l="In list since">${fmtDate(r.first_seen)}</td></tr>`;
-    const det = c && c.found ? `<tr class="detail hide" id="d-${i}"><td colspan="${COLS.length}">
-      <h4>${esc(r.name)}: ${esc(c.quarter || "")} ${esc(c.fiscal_year || "")} earnings call${c.stale ? " (older call)" : ""}</h4>
-      ${c.tone ? `<p><b>Management tone:</b> ${esc(c.tone)}</p>` : ""}
-      <p>${esc(c.takeaway || "No summary available.")}</p>
-      <p>${link(c.transcript_url, "Read the full transcript on NSE")} &nbsp; ${link(r.screener_url, "Open on Screener.in")}</p>
-      <p class="hint">AI-generated summary by InvestSights. Descriptive only.</p></td></tr>` : "";
-    const m = r.moat;
-    const mdet = m && m.found && m.points && m.points.length ? `<tr class="detail hide" id="m-${i}"><td colspan="${COLS.length}">
-      <h4>${esc(r.name)}: business moat</h4>
-      <ul class="mpoints">${m.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>
-      <p class="hint">AI summary from the company's annual report and investor presentation, checked ${fmtDate(m.checked)}. Please verify before relying on it.</p></td></tr>` : "";
-    return main + det + mdet;
-  }).join("");
-  $("#tbl").innerHTML = head + "<tbody>" + body + "</tbody>";
-  bindSort();
-  document.querySelectorAll(".more:not(.moatbtn)").forEach(b => b.onclick = () => $("#d-" + b.dataset.i).classList.toggle("hide"));
-  document.querySelectorAll(".moatbtn").forEach(b => b.onclick = () => $("#m-" + b.dataset.i).classList.toggle("hide"));
-}
-function bindSort() {
-  document.querySelectorAll("#tbl th").forEach(th => th.onclick = () => {
-    const k = th.dataset.k;
-    if (k === sortKey) sortAsc = !sortAsc; else { sortKey = k; sortAsc = k === "name"; }
-    renderTable();
-  });
-}
+    # ---------- low level ----------
+    def _headers(self):
+        h = {
+            "Authorization": f"Bearer {self.key}",
+            "Content-Type": "application/json",
+            "Accept": "application/json, text/event-stream",
+        }
+        if self.session_id:
+            h["Mcp-Session-Id"] = self.session_id
+        return h
 
-function listBlock(items, cls, emptyText, why) {
-  if (!items.length) return `<div class="empty">${emptyText}</div>`;
-  return '<div class="list">' + items.map(x => `<div class="item"><div><a href="${esc(x.screener_url)}" target="_blank" rel="noopener"><b>${esc(x.name)}</b></a> <span class="hint">${esc(x.symbol)}</span></div><div class="why">${esc(why(x))}</div></div>`).join("") + "</div>";
-}
+    def _post(self, payload):
+        r = self.session.post(MCP_URL, headers=self._headers(), json=payload, timeout=120)
+        sid = r.headers.get("Mcp-Session-Id")
+        if sid:
+            self.session_id = sid
+        r.raise_for_status()
+        if "id" not in payload or not r.text.strip():
+            return None
+        if "text/event-stream" in r.headers.get("Content-Type", ""):
+            message = None
+            for line in r.text.splitlines():
+                if line.startswith("data:"):
+                    data = line[5:].strip()
+                    if not data:
+                        continue
+                    try:
+                        obj = json.loads(data)
+                    except ValueError:
+                        continue
+                    if "result" in obj or "error" in obj:
+                        message = obj
+            return message
+        return r.json()
 
-function renderOthers() {
-  const ch = DATA.changes;
-  $("#t-changes").innerHTML = DATA.baseline
-    ? `<div class="empty">This is the first run, so today's list is the starting point.<br>From the next run, companies that enter or leave the list will appear here.</div>`
-    : `<div class="box"><h3 style="color:var(--green)">Added (${ch.added.length})</h3></div>` +
-      listBlock(ch.added, "add", "No new companies today.", x => x.price ? "Price Rs " + num(x.price, 2) : "") +
-      `<div class="box" style="border-top:1px solid var(--line)"><h3 style="color:var(--red)">Removed (${ch.removed.length})</h3></div>` +
-      listBlock(ch.removed, "rem", "No companies removed today.", x => x.reason);
+    def connect(self):
+        self.session_id = None
+        self.req_id += 1
+        self._post({
+            "jsonrpc": "2.0", "id": self.req_id, "method": "initialize",
+            "params": {
+                "protocolVersion": "2025-03-26",
+                "capabilities": {},
+                "clientInfo": {"name": "stock-screener", "version": "1.0"},
+            },
+        })
+        try:
+            self._post({"jsonrpc": "2.0", "method": "notifications/initialized"})
+        except requests.RequestException:
+            pass
 
-  const hist = [...HIST].reverse();
-  $("#t-history").innerHTML = hist.length ? hist.map(h => `<div class="daycard"><h3>${fmtDate(h.date)} <span class="hint">· ${h.count} in list${h.baseline ? " · first run" : ""}</span></h3>
-    <div class="chips">${h.added.map(a => `<span class="add">+ ${esc(a.name)}</span>`).join("")}${h.removed.map(a => `<span class="rem" title="${esc(a.reason)}">- ${esc(a.name)}</span>`).join("")}
-    ${!h.added.length && !h.removed.length ? '<span class="hint">No changes</span>' : ""}</div></div>`).join("") : '<div class="empty">No history yet.</div>';
+    # ---------- tool calls ----------
+    def call(self, tool, arguments, retries=3):
+        if self.calls >= self.budget:
+            raise QuotaReached(f"Daily budget of {self.budget} requests used")
+        last_error = None
+        for attempt in range(retries):
+            wait = self.min_interval - (time.time() - self.last_call)
+            if wait > 0:
+                time.sleep(wait)
+            self.last_call = time.time()
+            self.req_id += 1
+            try:
+                msg = self._post({
+                    "jsonrpc": "2.0", "id": self.req_id, "method": "tools/call",
+                    "params": {"name": tool, "arguments": arguments},
+                })
+                self.calls += 1
+            except requests.HTTPError as e:
+                code = e.response.status_code if e.response is not None else 0
+                last_error = e
+                if code == 429:
+                    self.rate_limited += 1
+                    if self.rate_limited >= 2:   # hourly or daily limit reached: stop asking
+                        raise QuotaReached("InvestSights rate limit reached") from e
+                    time.sleep(65)
+                elif code in (400, 404):      # session expired, reconnect
+                    self.connect()
+                elif code in (401, 403):
+                    raise RuntimeError(
+                        "InvestSights rejected the key. Check the INVESTSIGHTS_KEY secret."
+                    ) from e
+                else:
+                    time.sleep(10)
+                continue
+            except requests.RequestException as e:
+                last_error = e
+                time.sleep(10)
+                continue
 
-  $("#t-manual").innerHTML = `<div class="box hint">These companies pass the main screen, but a number needed for the other rules is missing or can't be measured. They are not in the shortlist, so please check them yourself.</div>` +
-    listBlock(DATA.manual, "", "Nothing to check manually today.", x => x.reason);
+            if msg is None:
+                last_error = RuntimeError("Empty reply from InvestSights")
+                continue
+            if "error" in msg:
+                raise RuntimeError(f"InvestSights error: {msg['error']}")
+            result = msg.get("result", {})
+            if result.get("structuredContent"):
+                return result["structuredContent"]
+            text = "".join(
+                c.get("text", "") for c in result.get("content", []) if c.get("type") == "text"
+            )
+            if result.get("isError"):
+                raise RuntimeError(f"InvestSights tool error: {text[:300]}")
+            try:
+                return json.loads(text)
+            except ValueError:
+                return {"raw": text}
+        raise RuntimeError(f"InvestSights call {tool} failed: {last_error}")
 
-  const mr = DATA.missing_returns || [];
-  $("#t-missing").innerHTML = `<div class="box hint">These companies are in your market cap range and pass every rule that can be checked (not a bank/NBFC, and ROE/ROCE/D/E where available), but InvestSights has no figure for ROE or ROCE. Recent IPOs often land here. Open each on Screener.in and check the missing numbers yourself.</div>` +
-    (mr.length ? `<div class="tablewrap"><table><thead><tr><th>Company</th><th>Price (Rs)</th><th>Mkt cap (Cr)</th><th>P/E</th><th>ROE</th><th>ROCE</th><th>D/E</th><th style="text-align:left">Missing</th></tr></thead><tbody>` +
-      mr.map(x => `<tr class="row"><td class="co"><a class="nm" href="${esc(x.screener_url)}" target="_blank" rel="noopener">${esc(x.name)}</a><div class="sy">${esc(x.symbol)} · ${esc(x.sector || "")}</div>${x.new ? '<span class="tag t-new">New today</span>' : ""}</td>
-        <td>${num(x.price, 2)}</td><td>${num(x.market_cap, 0)}</td><td>${num(x.pe, 1)}</td><td>${pct(x.roe)}</td><td>${pct(x.roce)}</td><td>${num(x.de, 2)}</td>
-        <td style="text-align:left"><span class="tag t-warn">${esc(x.missing)}</span></td></tr>`).join("") + "</tbody></table></div>"
-      : '<div class="empty">No companies with missing data today.</div>');
+    # ---------- helpers ----------
+    def screen_all(self, filters, cap_min, cap_max, depth=0):
+        """advanced_screen returns at most 100 rows, so split the market-cap
+        range and screen each half if a result is full."""
+        f = dict(filters)
+        f["market_cap"] = {"gte": cap_min, "lte": cap_max}
+        res = self.call("advanced_screen", {
+            "filters": f, "limit": 100, "sort_by": "market_cap", "sort_order": "desc",
+        })
+        rows = res.get("results", []) or []
+        total = res.get("total", len(rows)) or len(rows)
+        meta = {"price_as_of": res.get("price_as_of"), "data_notes": res.get("data_notes") or {}}
+        if total > len(rows) and depth < 14 and cap_max - cap_min > 1:
+            mid = (cap_min + cap_max) / 2
+            a, ma = self.screen_all(filters, cap_min, mid, depth + 1)
+            b, mb = self.screen_all(filters, mid, cap_max, depth + 1)
+            seen, merged = set(), []
+            for r in a + b:
+                if r["symbol"] not in seen:
+                    seen.add(r["symbol"])
+                    merged.append(r)
+            meta["data_notes"].update(ma["data_notes"])
+            meta["data_notes"].update(mb["data_notes"])
+            return merged, meta
+        return rows, meta
 
-  $("#t-near").innerHTML = `<div class="box hint">These companies pass the main screen but fail one of the detailed rules. Useful to watch, as they may enter the list later.</div>` +
-    listBlock(DATA.near_misses, "", "No near misses today.", x => x.reason);
+    def statements(self, symbol):
+        return self.call("get_financial_statements", {
+            "symbol": symbol, "statement": "all", "period": "annual", "limit": 4,
+        })
 
-  const dc = DATA.data_checks;
-  const rows = dc.rows.map(r => r.items.map((it, j) => `<tr class="row"><td class="co">${j === 0 ? `<b>${esc(r.name)}</b><div class="sy">${esc(r.symbol)}</div>` : ""}</td>
-     <td style="text-align:left">${esc(it.metric)}</td><td>${num(it.ours, 2)}</td><td>${num(it.theirs, 2)}</td><td style="text-align:left">${esc(it.source)}</td>
-     <td>${it.gap_pct == null ? "-" : num(it.gap_pct, 1) + "%"}</td>
-     <td>${it.status === "match" ? '<span class="tag t-new">Match</span>' : it.status === "mismatch" ? '<span class="tag t-red">Mismatch</span>' : '<span class="tag t-grey">n/a</span>'}</td></tr>`).join("")).join("");
-  $("#t-checks").innerHTML = `<div class="box"><h3>${esc(dc.health_text)}</h3>
-     ${dc.health_pct != null ? `<div class="bar"><i style="width:${dc.health_pct}%"></i></div>` : ""}
-     <div class="hint">Each day ${dc.sample_size} random companies are checked. InvestSights numbers are compared with NSE (price) and Yahoo Finance (market cap, P/E, ROE). Small gaps are normal because sources calculate ratios differently; large gaps are flagged in the shortlist.</div></div>
-     <div class="tablewrap"><table><thead><tr><th>Company</th><th style="text-align:left">Metric</th><th>InvestSights</th><th>Other source</th><th style="text-align:left">Source</th><th>Gap</th><th>Result</th></tr></thead><tbody>${rows || `<tr><td colspan="7" class="empty">No checks today.</td></tr>`}</tbody></table></div>`;
+    def fundamentals(self, symbol):
+        return self.call("get_stock_financials", {"symbol": symbol})
 
-  const src = Object.entries(DATA.sources).map(([k, v]) => `<div class="src"><span class="dot" style="background:${v.ok ? "var(--green)" : "var(--red)"}"></span><div><b>${esc(k)}</b><div class="hint">${esc(v.detail)}</div></div></div>`).join("");
-  $("#t-rules").innerHTML = `<div class="grid2"><div class="panel box"><h3>Screening rules</h3><ol>${DATA.rules.map(r => `<li>${esc(r)}</li>`).join("")}</ol>
-     <p class="hint" style="margin-top:12px">Market cap, ROE and ROCE are screened on InvestSights across the whole market. Debt to Equity and operating cash flow are then checked company by company. Sales and profit growth are shown for information only.</p>
-     <h3 style="margin-top:18px">Business moat</h3>
-     <p class="hint" style="margin:0">Shown as a column, not a rule. InvestSights' AI reads each company's annual report and investor presentation and names its durable advantage: things like unique raw material access, patents, licences, brand, network effects or switching costs. Growth or high margins alone don't count. The cell is left blank when no clear moat is found. Each company is re-checked every 3 months; new companies show "Researching…" until their turn comes.</p></div>
-     <div class="panel box"><h3>Data sources today</h3>${src}
-     <p class="hint" style="margin-top:12px">Stage 1 screen: ${DATA.counts.stage1} companies. Final shortlist: ${DATA.counts.shortlist}.</p></div></div>`;
-}
+    def moat_research(self, symbol, query):
+        return self.call("ai_stock_research", {"symbol": symbol, "query": query, "depth": "quick"})
 
-function render() {
-  const d = DATA;
-  $("#stamp").innerHTML = `Updated <b>${fmtDate(d.run_date)}</b>, ${esc((d.run_time_ist || "").slice(11))} IST<br>Prices as of ${fmtDate(d.price_as_of)}`;
-  $("#k-list").textContent = d.shortlist.length;
-  $("#k-add").textContent = d.baseline ? "-" : d.changes.added.length;
-  $("#k-rem").textContent = d.baseline ? "-" : d.changes.removed.length;
-  $("#k-man").textContent = d.manual.length;
-  $("#k-health").textContent = d.data_checks.health_pct == null ? "-" : d.data_checks.health_pct + "%";
-  $("#n-list").textContent = d.shortlist.length; $("#n-man").textContent = d.manual.length; $("#n-miss").textContent = (d.missing_returns || []).length; $("#n-near").textContent = d.near_misses.length;
-  const bad = Object.entries(d.sources).filter(([, v]) => !v.ok).map(([k]) => k);
-  const age = (Date.now() - new Date(d.run_date + "T18:00:00+05:30")) / 864e5;
-  let msg = [];
-  if (d.baseline) msg.push(d.rules_changed ? "Your screening rules changed, so this list is the new starting point. Additions and removals will be tracked from the next run." : "First run: this list is your starting point. Additions and removals will be tracked from the next run.");
-  if (bad.length) msg.push(`Some sources didn't respond today (${bad.join(", ")}). The list still used every source that worked.`);
-  if (age > 4) msg.push("This data is more than 4 days old. The daily update may have stopped; check the Actions tab on GitHub.");
-  $("#banner").innerHTML = msg.length ? `<div class="banner">${msg.map(esc).join("<br>")}</div>` : "";
-  renderTable(); renderOthers();
-}
-
-document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
-  document.querySelectorAll("#tabs button").forEach(x => x.classList.toggle("on", x === b));
-  document.querySelectorAll("main > section").forEach(s => s.classList.toggle("hide", s.id !== "t-" + b.dataset.t));
-});
-$("#q").addEventListener("input", renderTable);
-
-const bust = "?v=" + Date.now();
-Promise.all([fetch("data/latest.json" + bust).then(r => r.ok ? r.json() : null), fetch("data/history.json" + bust).then(r => r.ok ? r.json() : []).catch(() => [])])
-  .then(([d, h]) => {
-    if (!d) throw new Error("no data");
-    DATA = d; HIST = h || []; render();
-  })
-  .catch(() => {
-    $("#stamp").textContent = "Waiting for the first daily run";
-    $("#tbl").innerHTML = '<tbody><tr><td class="empty">No data yet. The list appears here after the first run (around 6 PM IST on weekdays, or run it manually from GitHub Actions).</td></tr></tbody>';
-  });
-</script>
-</body>
-</html>
+    def concall(self, symbol):
+        return self.call("get_concall_analysis", {"symbol": symbol})
