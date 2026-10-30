@@ -26,6 +26,7 @@ EXCLUDED_SECTORS = [
 # and names its durable advantage. Blank when no clear moat is found.
 MOAT_REFRESH_DAYS = 90          # re-check each company's moat every 3 months
 MOAT_NEW_PER_RUN = 100          # companies researched per run (about 2 requests each)
+MOAT_TIME_LIMIT_MIN = 45        # stop starting new moat research after this many minutes
 MOAT_QUERY = (
     "Does this company have a durable business moat (a competitive advantage competitors "
     "find hard to copy, such as unique raw material access, patents, licences, brand, "
