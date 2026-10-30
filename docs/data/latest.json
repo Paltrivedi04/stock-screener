@@ -1,6 +1,6 @@
 {
  "run_date": "2026-10-30",
- "run_time_ist": "2026-10-30 13:24",
+ "run_time_ist": "2026-10-30 18:58",
  "baseline": false,
  "rules_changed": false,
  "rules": [
@@ -11,7 +11,7 @@
   "Debt to Equity below 1",
   "Banks and NBFCs excluded"
  ],
- "price_as_of": "2026-10-29",
+ "price_as_of": "2026-10-30",
  "counts": {
   "stage1": 175,
   "shortlist": 143,
@@ -25,8 +25,8 @@
    "name": "Waaree Energies Ltd",
    "sector": "Energy",
    "market_cap": 66677.58,
-   "price": 2318.0,
-   "price_date": "2026-10-29",
+   "price": 2304.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 17.9550735863672,
    "roe": 25.71,
@@ -81,7 +81,8 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -91,8 +92,8 @@
    "name": "Apar Industries Limited",
    "sector": "Industrials",
    "market_cap": 66304.79,
-   "price": 15846.0,
-   "price_date": "2026-10-29",
+   "price": 15678.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 65.1083425845977,
    "roe": 18.11,
@@ -151,7 +152,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Technology, R&D, unique alloying capabilities for value-added products.",
+    "points": [
+     "The company emphasizes the \"technology of the new products\" developed over a long period, requiring \"a fair amount of metallurgy\" and backward integration in making its own alloys.",
+     "New entrants find it difficult to replicate distinctive products and services, such as AL-59, Harness Solutions, Covered Conductors, and Special Grade Oils, due to relentless research and development.",
+     "For value-added products, it takes \"a fair amount of time and effort\" for new parties to enter, suggesting high barriers to entry for specialized offerings."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -161,8 +169,8 @@
    "name": "APL Apollo Tubes Limited",
    "sector": "Basic Materials",
    "market_cap": 60946.02,
-   "price": 2195.0,
-   "price_date": "2026-10-29",
+   "price": 2165.1,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 50.646054453161,
    "roe": 22.71,
@@ -217,7 +225,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Brand strength, scale, cost leadership, and product innovation.",
+    "points": [
+     "Extensive product portfolio (2,500 SKUs) and market leadership with 65% market share (FY26 consolidated).",
+     "Lowest cost producer due to largest HR Coil procurement and operational efficiency.",
+     "Strong distribution network (800+ distributors) and brand recognition enabling premium pricing."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -227,8 +242,8 @@
    "name": "National Aluminium Company Limited",
    "sector": "Basic Materials",
    "market_cap": 59415.04,
-   "price": 323.5,
-   "price_date": "2026-10-29",
+   "price": 314.55,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 10.2503168567807,
    "roe": 26.83,
@@ -287,7 +302,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Cost advantage from captive bauxite mines and efficient scale as a large PSU.",
+    "points": [
+     "Cost Advantage: NATIONALUM benefits from unique access to its principal raw material, bauxite, which is extracted from its own mines. This captive mining operation, recognized with 5-star ratings by the Indian Bureau of Mines, provides a structural cost advantage in raw material sourcing.",
+     "Efficient Scale/Regulatory Support: As a \"Navratna Central CPSE\" (FY24 AR, Page 52), NATIONALUM operates as a large public sector undertaking in a capital-intensive industry. This status, combined with its scale of operations in both chemical and aluminium segments, can create barriers to entry for new competitors and ",
+     "The company operates in a commodity-driven industry where pricing power derived from brand or high switching costs for customers is generally less pronounced compared to differentiated product markets."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -297,8 +319,8 @@
    "name": "NMDC Limited",
    "sector": "Basic Materials",
    "market_cap": 59379.94,
-   "price": 67.54,
-   "price_date": "2026-10-29",
+   "price": 67.34,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 7.97402597402597,
    "roe": 21.87,
@@ -353,7 +375,14 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Access to extensive, high-grade iron ore reserves and strategic national supplier status.",
+    "points": [
+     "NMDC possesses over 2,300 million tonnes of high-grade Fe 64%+ iron ore reserves, ensuring production stability for decades and contributing to its position as a low-cost producer (AR 2026, Page 35).",
+     "Its \"Navratna\" status and role as a \"primary guarantor of supply chain stability for India's steel sector\" (AR 2026, Page 34) signify a strategic national importance and scale advantage.",
+     "The company's UNIDO-recognised R&D Centre and \"Smart Mining\" initiatives (AR 2026, Page 35) suggest technological maturity in resource recovery."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -363,8 +392,8 @@
    "name": "Radico Khaitan Limited",
    "sector": "Consumer Defensive",
    "market_cap": 56744.34,
-   "price": 4235.0,
-   "price_date": "2026-10-29",
+   "price": 4086.7,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 93.7776793622675,
    "roe": 18.23,
@@ -423,7 +452,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Regulatory entry barriers, extensive distribution, and backward integration create a durable competitive advantage.",
+    "points": [
+     "The Indian alcobev industry is characterized by high entry barriers due to strict state-level regulations, licensing requirements, and brand registration, particularly for segments like Canteen Stores Department (CSD) sales.",
+     "Radico Khaitan benefits from an extensive nationwide distribution network and an established brand portfolio, including seven \"millionaire brands,\" which are difficult for new entrants to replicate.",
+     "Substantial backward integration, including captive distilleries, bottling units, and PET/glass printing facilities, provides cost advantages and supply chain security, making it harder for competitors to match."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -433,8 +469,8 @@
    "name": "Schaeffler India Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 55456.54,
-   "price": 3538.2,
-   "price_date": "2026-10-29",
+   "price": 3574.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 48.2065217391304,
    "roe": 19.02,
@@ -493,7 +529,8 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -503,8 +540,8 @@
    "name": "Abbott India Limited",
    "sector": "Healthcare",
    "market_cap": 55269.43,
-   "price": 26145.0,
-   "price_date": "2026-10-29",
+   "price": 25635.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 35.6120870243849,
    "roe": 32.51,
@@ -544,7 +581,8 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -554,8 +592,8 @@
    "name": "Suzlon Energy Limited",
    "sector": "Utilities",
    "market_cap": 50572.27,
-   "price": 36.79,
-   "price_date": "2026-10-29",
+   "price": 33.9,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 15.995652173913,
    "roe": 33.43,
@@ -614,7 +652,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Large installed base, O&M switching costs, and proprietary turbine technology.",
+    "points": [
+     "Installed Base & Brand: Suzlon's cumulative installed base of 20.8 GW across 17 countries provides significant brand recognition and trust, acting as an intangible asset that is difficult for competitors to replicate quickly (Source 1).",
+     "Switching Costs: A fleet retention rate exceeding 95% on its Operations & Maintenance (O&M) portfolio indicates high switching costs for customers, ensuring recurring revenue visibility (Source 1).",
+     "Proprietary Technology: Suzlon's proprietary hybrid lattice tubular tower technology offers superior energy yield at low wind velocity sites, providing a distinct performance advantage (Source 1)."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -624,8 +669,8 @@
    "name": "Aditya Infotech Limited",
    "sector": "Technology",
    "market_cap": 48437.64,
-   "price": 3951.7,
-   "price_date": "2026-10-29",
+   "price": 3811.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 123.23359989238,
    "roe": 19.61,
@@ -669,7 +714,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Strong brand, regulatory compliance, and developing indigenous technology & software ecosystem.",
+    "points": [
+     "Dominant market share (42.4% by FY26) in India's organized surveillance industry, achieved through leveraging certified, trusted ecosystem following stringent STQC compliance protocols.",
+     "Significant investment in R&D, including co-development of indigenous IP Systems-on-Chips (SoCs) and a transition to intelligent, software-defined AIoT ecosystems, enhancing product stickiness and creating proprietary technology.",
+     "Established brand equity (\"CP PLUS\") with extensive distribution networks and a multi-brand strategy, supported by advertising campaigns and a comprehensive product portfolio across diverse segments."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -679,8 +731,8 @@
    "name": "Anthem Biosciences Ltd.",
    "sector": "Healthcare",
    "market_cap": 46893.98,
-   "price": 830.15,
-   "price_date": "2026-10-29",
+   "price": 828.8,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 78.8767772511848,
    "roe": 19.45,
@@ -730,12 +782,23 @@
      "link": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_ABL1_21072026192806_Investor_Presentation_Revised_Signed.pdf",
      "title": "Anthem Biosciences Limited has informed the Exchange about Investor Presentation"
     },
-    "upcoming_call": null,
+    "upcoming_call": {
+     "date": "2026-10-30",
+     "link": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_ABL1_30102026184221_Investor_Call_Intimation_Q2_Signed.pdf",
+     "title": "Anthem Biosciences Limited has informed the Exchange about Schedule of meet"
+    },
     "calls_last_12m": 4,
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Intangible assets (patents, regulatory approvals, proprietary tech) and client switching costs.",
+    "points": [
+     "Anthem Biosciences possesses extensive proprietary technology and expertise across diverse modalities (small and large molecules, peptides, ADCs, RNAi, HPAPIs, flow chemistry, fermentation, biocatalysis), supported by registered and pending patents, which constitute intangible assets.",
+     "The company's integrated Discovery-to-Commercialisation Platform and long-standing relationships with global pharmaceutical and biotech clients create significant switching costs, as clients are deeply engaged across the molecule lifecycle and value innovation, regulatory compliance, and manufacturing quality.",
+     "A global regulatory presence with multiple approvals (e.g., USFDA, ANVISA, TGA) acts as a barrier to entry for competitors, further strengthening its intangible assets."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -745,8 +808,8 @@
    "name": "L&T Technology Services Limited",
    "sector": "Technology",
    "market_cap": 44343.95,
-   "price": 4182.6,
-   "price_date": "2026-10-29",
+   "price": 4280.2,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 34.6284483472786,
    "roe": 19.76,
@@ -801,7 +864,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Proprietary technology and high client switching costs.",
+    "points": [
+     "LTTS has filed 1,296 patents, including over 200 AI-related global patent applications, indicating proprietary ideas.",
+     "The company boasts 90% repeat business from 381 global clients, including 57 of the top 100 R&D spenders globally, suggesting high switching costs for its marquee customer base.",
+     "Its deep-rooted engineering expertise and multi-domain specialization across critical industries contribute to its ability to offer end-to-end solutions that are difficult for competitors to replicate quickly."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -811,8 +881,8 @@
    "name": "Colgate-Palmolive (India) Limited",
    "sector": "Consumer Defensive",
    "market_cap": 44328.22,
-   "price": 1629.8,
-   "price_date": "2026-10-29",
+   "price": 1596.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 33.445517135235,
    "roe": 83.66,
@@ -871,7 +941,14 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Strong brand equity, extensive distribution, R&D, and professional endorsements.",
+    "points": [
+     "Brand Strength: Colgate is recognized by 96% of the country for oral care, reaching more households than any other brand, and is considered among India's most trusted brands (Filing: Concall Transcript, December 13, 2022, Page 5, 6).",
+     "Distribution & Retail Prowess: The company has a reach of 1.7 million stores, with 95% active every quarter, and holds category captaincy in modern trade, with shares in future-facing channels (e-commerce, modern trade) often higher than traditional trade (Filing: Concall Transcript, December 13, 2022, Page 5).",
+     "R&D and Professional Endorsements: COLPAL leverages cutting-edge technology, numerous research studies, and patents (approx. 1,500 patents a year globally), and is the #1 brand prescribed by dentists in India, supported by platforms like \"Dentist FIRST\" (Filing: Concall Transcript, December 13, 2022, Page 5, 6)."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -881,8 +958,8 @@
    "name": "Ajanta Pharma Limited",
    "sector": "Healthcare",
    "market_cap": 43315.79,
-   "price": 3459.7,
-   "price_date": "2026-10-29",
+   "price": 3508.8,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 41.0079249970425,
    "roe": 23.33,
@@ -922,15 +999,16 @@
     },
     "latest_presentation": null,
     "upcoming_call": {
-     "date": "2026-10-15",
-     "link": "https://nsearchives.nseindia.com/corporate/AJANTPHARM_15102026162121_Investorcallintimation15102026.pdf",
-     "title": "Ajanta Pharma Limited has informed the Exchange about Schedule of meet"
+     "date": "2026-10-30",
+     "link": "https://nsearchives.nseindia.com/corporate/AJANTPHARM_30102026174757_AudioRecordingofEarningCall30102026.pdf",
+     "title": "Ajanta Pharma Limited has informed the Exchange about Link of Recording"
     },
     "calls_last_12m": 4,
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -940,8 +1018,8 @@
    "name": "Cupid Limited",
    "sector": "Consumer Defensive",
    "market_cap": 43284.63,
-   "price": 320.15,
-   "price_date": "2026-10-29",
+   "price": 324.55,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 397.407407407407,
    "roe": 24.01,
@@ -985,7 +1063,14 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Regulatory pre-qualifications and technical barriers in institutional healthcare markets.",
+    "points": [
+     "Regulatory Pre-qualification: Cupid possesses WHO/UNFPA pre-qualification for both male and female condoms, a credential central to its global institutional business. This rigorous, multi-year process creates significant barriers to entry in the lucrative institutional tender market [Source 2].",
+     "Limited Competition & Pricing Power: These stringent regulatory approvals, particularly for female condoms, restrict competition to a few global players, allowing Cupid to maintain strong pricing power and achieve superior profit margins within its specialized niche [Source 2].",
+     "Technical Barriers: The company is expanding into premium nitrile female condoms, a segment characterized by high technical and regulatory barriers to entry, reinforcing its competitive position in specialized product categories."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -995,8 +1080,8 @@
    "name": "GlaxoSmithKline Pharmaceuticals Limited",
    "sector": "Healthcare",
    "market_cap": 42671.69,
-   "price": 2515.1,
-   "price_date": "2026-10-29",
+   "price": 2494.3,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 41.1921504497138,
    "roe": 45.69,
@@ -1055,7 +1140,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Strong brand portfolio, global R&D access, and market leadership in key segments.",
+    "points": [
+     "GLAXO possesses a strong portfolio of flagship brands like Augmentin and Calpol, which are endorsed by healthcare professionals and contribute to market leadership in private vaccines, anti-infectives, and dermatology.",
+     "As a subsidiary of GSK plc, the company benefits from its parent's global expertise, resources, and pipeline of innovative, often patent-protected, therapies, including new oncology assets.",
+     "The company leverages its established omnichannel marketing ecosystem and world-class manufacturing facility in Nashik to support market penetration and ensure product quality and availability."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -1065,8 +1157,8 @@
    "name": "Hindustan Copper Limited",
    "sector": "Basic Materials",
    "market_cap": 39938.09,
-   "price": 412.3,
-   "price_date": "2026-10-29",
+   "price": 400.85,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 43.4736842105263,
    "roe": 27.48,
@@ -1113,7 +1205,14 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Unique raw material access and regulatory licenses.",
+    "points": [
+     "Only company mining copper ore in India (Filing: Hindustan Copper Limited Annual Report 2025, Page 51).",
+     "Holds mining leases for over 80% of India's copper reserves (Filing: Hindustan Copper Limited Annual Report 2025, Page 51).",
+     "Vertically integrated operations provide greater business certainty and structural advantages (Filing: Hindustan Copper Limited Annual Report 2023, Page 28)."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -1123,8 +1222,8 @@
    "name": "Premier Energies Limited",
    "sector": "Energy",
    "market_cap": 39064.15,
-   "price": 865.1,
-   "price_date": "2026-10-29",
+   "price": 876.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 25.7240553077609,
    "roe": 35.05,
@@ -1183,7 +1282,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Vertical integration and proprietary advanced solar technology provide a narrow cost and innovation advantage.",
+    "points": [
+     "Cost Advantage: Premier Energies has built an integrated manufacturing platform with backward integration into ingots and wafers, alongside manufacturing scale and operational excellence, which enhances supply chain resilience and improves cost efficiencies (Annual Report 2026, Page 22; Annual Report 2025, Page 45).",
+     "Intangible Assets (Proprietary Technology): The company demonstrates technological leadership through the development of India's first Zero Busbar (OBB) TOPCon solar cell and the premium NeoBlackTM all-black TOPCon module series. Strategic partnerships for R&D in n-type solar cells and next-generation tandem technologi",
+     "While the company highlights \"quality focus\" and certifications like LEED Gold and Kiwa Top Performer, the provided data does not explicitly state that this translates into pricing power, which is a critical component for a brand to be considered a durable intangible asset moat (Annual Report 2026, Page 22)."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -1193,8 +1299,8 @@
    "name": "Page Industries Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 38090.48,
-   "price": 34150.0,
-   "price_date": "2026-10-29",
+   "price": 34500.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 49.867846555979,
    "roe": 50.83,
@@ -1249,7 +1355,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Exclusive brand license (Jockey), extensive manufacturing, and distribution network.",
+    "points": [
+     "Exclusive license for the Jockey brand in India until 2040 acts as a significant intangible asset, providing brand recognition and pricing power (Filing: Investor Presentation, Section 6; Concall Transcript, Page 14).",
+     "Over 70% in-house manufacturing and a wide distribution network across MBO, EBO, LFS, and e-commerce create operational efficiencies and market penetration that are difficult for new entrants to replicate quickly (Filing: Investor Presentation, Section 6).",
+     "The company's focus on quality, strategic sourcing, and a \"no discount policy\" supports sustained margins and brand perception, reinforcing its competitive position (Filing: Annual Report 2026, Page 15; Concall Transcript, Page 14)."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -1259,8 +1372,8 @@
    "name": "Indian Railway Catering & Tourism Corporation Limited",
    "sector": "Industrials",
    "market_cap": 35440.0,
-   "price": 444.05,
-   "price_date": "2026-10-29",
+   "price": 436.2,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 25.4305396096441,
    "roe": 32.34,
@@ -1332,8 +1445,8 @@
    "name": "Emcure Pharmaceuticals Ltd.",
    "sector": "Healthcare",
    "market_cap": 35384.83,
-   "price": 1865.0,
-   "price_date": "2026-10-29",
+   "price": 1871.8,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 38.2448216116465,
    "roe": 18.67,
@@ -1402,8 +1515,8 @@
    "name": "Hexaware Technologies Ltd",
    "sector": "Technology",
    "market_cap": 32562.89,
-   "price": 538.45,
-   "price_date": "2026-10-29",
+   "price": 501.8,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 23.7227898711684,
    "roe": 21.68,
@@ -1475,8 +1588,8 @@
    "name": "3M India Limited",
    "sector": "Industrials",
    "market_cap": 32556.05,
-   "price": 28920.0,
-   "price_date": "2026-10-29",
+   "price": 28990.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 62.3301557175516,
    "roe": 29.54,
@@ -1537,8 +1650,8 @@
    "name": "Acutaas Chemicals Limited",
    "sector": "Basic Materials",
    "market_cap": 32257.22,
-   "price": 3976.7,
-   "price_date": "2026-10-29",
+   "price": 4003.6,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 90.553895656171,
    "roe": 21.54,
@@ -1608,8 +1721,8 @@
    "name": "Dr. Lal PathLabs Limited",
    "sector": "Healthcare",
    "market_cap": 32020.85,
-   "price": 1911.7,
-   "price_date": "2026-10-29",
+   "price": 1906.4,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 63.3267195767196,
    "roe": 20.13,
@@ -1685,8 +1798,8 @@
    "name": "Inventurus Knowledge Solutions Ltd.",
    "sector": "Healthcare",
    "market_cap": 28602.65,
-   "price": 1710.9,
-   "price_date": "2026-10-29",
+   "price": 1703.8,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 39.5408163265306,
    "roe": 25.77,
@@ -1762,8 +1875,8 @@
    "name": "Godfrey Phillips India Limited",
    "sector": "Consumer Defensive",
    "market_cap": 27201.7,
-   "price": 1743.9,
-   "price_date": "2026-10-29",
+   "price": 1690.2,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 17.8239985690924,
    "roe": 24.56,
@@ -1824,8 +1937,8 @@
    "name": "Schneider Electric Infrastructure Limited",
    "sector": "Industrials",
    "market_cap": 26947.02,
-   "price": 1130.7,
-   "price_date": "2026-10-29",
+   "price": 1091.1,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 126.771653543307,
    "roe": 27.45,
@@ -1897,8 +2010,8 @@
    "name": "Netweb Technologies India Limited",
    "sector": "Technology",
    "market_cap": 26210.42,
-   "price": 4387.0,
-   "price_date": "2026-10-29",
+   "price": 4172.6,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 121.460055096419,
    "roe": 28.46,
@@ -1970,8 +2083,8 @@
    "name": "Rubicon Research Ltd",
    "sector": "Healthcare",
    "market_cap": 25938.85,
-   "price": 1559.3,
-   "price_date": "2026-10-29",
+   "price": 1610.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 104.816053511706,
    "roe": 19.14,
@@ -2020,7 +2133,8 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -2030,8 +2144,8 @@
    "name": "Neuland Laboratories Limited",
    "sector": "Healthcare",
    "market_cap": 24755.27,
-   "price": 19280.0,
-   "price_date": "2026-10-29",
+   "price": 19700.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 68.009587254591,
    "roe": 19.42,
@@ -2107,8 +2221,8 @@
    "name": "Motherson Sumi Wiring India Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 23940.3,
-   "price": 35.76,
-   "price_date": "2026-10-29",
+   "price": 35.14,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 38.4042553191489,
    "roe": 28.92,
@@ -2154,8 +2268,8 @@
      "title": "Motherson Sumi Wiring India Limited has informed the Exchange about Transcript"
     },
     "latest_presentation": {
-     "date": "2026-08-04",
-     "link": "https://nsearchives.nseindia.com/corporate/MSWIL_04082026112226_Presentation.pdf",
+     "date": "2026-10-30",
+     "link": "https://nsearchives.nseindia.com/corporate/MSWIL_30102026165534_Presentation.pdf",
      "title": "Motherson Sumi Wiring India Limited has informed the Exchange about Investor Presentation"
     },
     "upcoming_call": {
@@ -2178,8 +2292,8 @@
    "name": "R R Kabel Limited",
    "sector": "Industrials",
    "market_cap": 23831.33,
-   "price": 2122.9,
-   "price_date": "2026-10-29",
+   "price": 2055.7,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 48.4033999540547,
    "roe": 19.12,
@@ -2251,8 +2365,8 @@
    "name": "Tata Elxsi Limited",
    "sector": "Technology",
    "market_cap": 23699.01,
-   "price": 3804.0,
-   "price_date": "2026-10-29",
+   "price": 3790.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 37.7044305679453,
    "roe": 20.66,
@@ -2324,8 +2438,8 @@
    "name": "Gillette India Limited",
    "sector": "Consumer Defensive",
    "market_cap": 23379.89,
-   "price": 7174.0,
-   "price_date": "2026-10-29",
+   "price": 7077.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 35.7320717131474,
    "roe": 69.13,
@@ -2391,8 +2505,8 @@
    "name": "TD Power Systems Limited",
    "sector": "Industrials",
    "market_cap": 23179.67,
-   "price": 719.45,
-   "price_date": "2026-10-29",
+   "price": 713.9,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 94.2614379084967,
    "roe": 22.28,
@@ -2462,8 +2576,8 @@
    "name": "HBL Engineering Ltd.",
    "sector": "Industrials",
    "market_cap": 22641.28,
-   "price": 815.75,
-   "price_date": "2026-10-29",
+   "price": 799.35,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 27.791765906771,
    "roe": 36.8,
@@ -2517,8 +2631,8 @@
    "name": "Chennai Petroleum Corporation Limited",
    "sector": "Energy",
    "market_cap": 22574.97,
-   "price": 1511.8,
-   "price_date": "2026-10-29",
+   "price": 1511.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 7.27586868880783,
    "roe": 27.93,
@@ -2580,8 +2694,8 @@
    "name": "Procter & Gamble Hygiene and Health Care Limited",
    "sector": "Consumer Defensive",
    "market_cap": 22556.97,
-   "price": 6923.5,
-   "price_date": "2026-10-29",
+   "price": 6851.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 26.3359357234897,
    "roe": 113.67,
@@ -2647,8 +2761,8 @@
    "name": "Cemindia Projects Limited",
    "sector": "Industrials",
    "market_cap": 22280.85,
-   "price": 1287.4,
-   "price_date": "2026-10-29",
+   "price": 1265.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 37.2808278240874,
    "roe": 24.91,
@@ -2717,8 +2831,8 @@
    "name": "Hatsun Agro Product Limited",
    "sector": "Consumer Defensive",
    "market_cap": 22277.05,
-   "price": 1007.2,
-   "price_date": "2026-10-29",
+   "price": 995.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 62.5453408380238,
    "roe": 18.32,
@@ -2786,8 +2900,8 @@
    "name": "Force Motors Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 22209.91,
-   "price": 16856.0,
-   "price_date": "2026-10-29",
+   "price": 17355.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 18.3305058941233,
    "roe": 28.89,
@@ -2831,7 +2945,8 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -2841,8 +2956,8 @@
    "name": "Gabriel India Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 20691.92,
-   "price": 1445.6,
-   "price_date": "2026-10-29",
+   "price": 1425.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 82.0797720797721,
    "roe": 18.43,
@@ -2901,7 +3016,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Specialized EV technology and deep OEM integration creating switching costs.",
+    "points": [
+     "Dominant market share (70-81% in electric two-wheelers) built on specialized suspension technology for EVs, creating high switching costs for manufacturers (Source 2).",
+     "Long-standing relationships with leading OEMs across all vehicle segments, fostering integration and making it difficult for competitors to displace (Annual Report 2026, Page 89; Investor Presentation, Section 8).",
+     "Continuous R&D investment and patent filings (75 patents till FY23, ₹615 Mn R&D in FY26) contribute to proprietary technology and intangible assets (Annual Report 2023, Page 29; Annual Report 2026, Page 41)."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -2911,8 +3033,8 @@
    "name": "NBCC (India) Limited",
    "sector": "Industrials",
    "market_cap": 19426.5,
-   "price": 71.95,
-   "price_date": "2026-10-29",
+   "price": 69.66,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 26.9475655430712,
    "roe": 23.86,
@@ -2967,7 +3089,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Strong government backing and established credibility in public infrastructure.",
+    "points": [
+     "Status as a Navratna CPSE under the Ministry of Housing and Urban Affairs provides a structural advantage in securing large public sector projects (Filing: NBCC (India) Limited Annual Report 2026, Page 119).",
+     "Over 65 years of experience in project management and construction consultancy establishes a high barrier to entry for competitors in specialized public infrastructure and redevelopment projects (Filing: NBCC (India) Limited Annual Report 2026, Page 119).",
+     "Ability to undertake redevelopment projects without requiring upfront government investment, leveraging its model across central and state government agencies (Filing: NBCC (India) Limited Annual Report 2026, Page 119)."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -2977,8 +3106,8 @@
    "name": "Castrol India Limited",
    "sector": "Energy",
    "market_cap": 18556.93,
-   "price": 187.62,
-   "price_date": "2026-10-29",
+   "price": 188.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 19.5427083333333,
    "roe": 49.99,
@@ -3050,8 +3179,8 @@
    "name": "International Gemological Institute Limited",
    "sector": "Basic Materials",
    "market_cap": 17632.12,
-   "price": 406.8,
-   "price_date": "2026-10-29",
+   "price": 397.75,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 33.1707317073171,
    "roe": 37.71,
@@ -3123,8 +3252,8 @@
    "name": "Computer Age Management Services Limited",
    "sector": "Technology",
    "market_cap": 17319.83,
-   "price": 696.95,
-   "price_date": "2026-10-29",
+   "price": 653.6,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 36.2428497139886,
    "roe": 36.04,
@@ -3200,8 +3329,8 @@
    "name": "INOX India Limited",
    "sector": "Industrials",
    "market_cap": 17284.36,
-   "price": 1898.8,
-   "price_date": "2026-10-29",
+   "price": 1860.2,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 66.913058782119,
    "roe": 23.08,
@@ -3277,8 +3406,8 @@
    "name": "Tenneco Clean Air India Ltd",
    "sector": "Automobile and Auto Components",
    "market_cap": 17223.81,
-   "price": 428.05,
-   "price_date": "2026-10-29",
+   "price": 431.7,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 28.5451505016722,
    "roe": 50.41,
@@ -3327,7 +3456,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "High switching costs from deep OEM integration with proprietary, critical, and complex auto components.",
+    "points": [
+     "High Switching Costs: Customized, technology-intensive products and time-consuming approval processes create sticky customer relationships with major OEMs, evidenced by decades-long partnerships (17-29 years) with all top 7 PV and top 5 CV OEMs in India.",
+     "Proprietary Technology & Expertise: Leverages the Tenneco Group's global R&D, including 5000+ pending and granted patents worldwide, to deliver critical, highly engineered solutions, adapting global technology for Indian needs and pioneering advanced systems like BS6-compliant solutions and electronic suspension system",
+     "Scale in Specialized Manufacturing: Operates a flexible manufacturing footprint of 12 strategically located plants and 2 R&D centers, holding market leadership (top 1 or 2 position) in critical segments such as Clean Air Solutions for Commercial Trucks (57% market share FY2025) and Off-Highway (68% market share FY2025)"
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -3337,8 +3473,8 @@
    "name": "Emmvee Photovoltaic Power Ltd",
    "sector": "Capital Goods",
    "market_cap": 16827.45,
-   "price": 243.7,
-   "price_date": "2026-10-29",
+   "price": 229.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 15.5601792573624,
    "roe": 29.27,
@@ -3383,7 +3519,8 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -3393,8 +3530,8 @@
    "name": "Emami Limited",
    "sector": "Consumer Defensive",
    "market_cap": 16294.26,
-   "price": 370.9,
-   "price_date": "2026-10-29",
+   "price": 359.75,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 20.8952702702703,
    "roe": 26.51,
@@ -3470,8 +3607,8 @@
    "name": "Elgi Equipments Limited",
    "sector": "Industrials",
    "market_cap": 16214.37,
-   "price": 511.25,
-   "price_date": "2026-10-29",
+   "price": 509.05,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 37.6354304538799,
    "roe": 19.28,
@@ -3547,8 +3684,8 @@
    "name": "AstraZeneca Pharma India Limited",
    "sector": "Healthcare",
    "market_cap": 15725.0,
-   "price": 6299.0,
-   "price_date": "2026-10-29",
+   "price": 6364.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 83.8554859352086,
    "roe": 21.49,
@@ -3599,8 +3736,8 @@
    "name": "eClerx Services Limited",
    "sector": "Technology",
    "market_cap": 15514.6,
-   "price": 1660.6,
-   "price_date": "2026-10-29",
+   "price": 1556.7,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 21.6397741046832,
    "roe": 27.57,
@@ -3676,8 +3813,8 @@
    "name": "Travel Food Services Ltd",
    "sector": "Consumer Services",
    "market_cap": 15125.6,
-   "price": 1148.5,
-   "price_date": "2026-10-29",
+   "price": 1152.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 34.290833681696,
    "roe": 30.57,
@@ -3722,7 +3859,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Operational expertise in complex airport environments, long-term concession agreements, and strategic partnerships.",
+    "points": [
+     "Specialized operational capability in high-security, high-footfall airport environments creates high entry barriers.",
+     "Long-term master concession agreements and strategic joint ventures with leading multi-airport operators provide stable, difficult-to-replicate foundations.",
+     "High contract retention rates (92.1% to 94%) indicate significant switching costs for airport partners."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -3732,8 +3876,8 @@
    "name": "Triveni Turbine Limited",
    "sector": "Industrials",
    "market_cap": 14957.19,
-   "price": 469.6,
-   "price_date": "2026-10-29",
+   "price": 470.05,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 42.7727272727273,
    "roe": 24.18,
@@ -3805,8 +3949,8 @@
    "name": "Bayer CropScience Limited",
    "sector": "Basic Materials",
    "market_cap": 14799.43,
-   "price": 3289.8,
-   "price_date": "2026-10-29",
+   "price": 3256.7,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 21.4737528529508,
    "roe": 23.24,
@@ -3857,8 +4001,8 @@
    "name": "Engineers India Limited",
    "sector": "Industrials",
    "market_cap": 14753.61,
-   "price": 261.15,
-   "price_date": "2026-10-29",
+   "price": 251.85,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 21.3414634146341,
    "roe": 21.99,
@@ -3904,8 +4048,8 @@
      "title": "Engineers India Limited has informed the Exchange about Transcript"
     },
     "latest_presentation": {
-     "date": "2026-08-14",
-     "link": "https://nsearchives.nseindia.com/corporate/ENGINERSIN_14082026094253_investorpresentation.pdf",
+     "date": "2026-10-30",
+     "link": "https://nsearchives.nseindia.com/corporate/ENGINERSIN_30102026162638_investorppt30102026.pdf",
      "title": "Engineers India Limited has informed the Exchange about Investor Presentation"
     },
     "upcoming_call": {
@@ -3928,8 +4072,8 @@
    "name": "Chambal Fertilisers and Chemicals Limited",
    "sector": "Basic Materials",
    "market_cap": 14637.83,
-   "price": 365.7,
-   "price_date": "2026-10-29",
+   "price": 353.9,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 7.4928219852338,
    "roe": 18.77,
@@ -3999,8 +4143,8 @@
    "name": "Thangamayil Jewellery Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 14359.89,
-   "price": 4630.5,
-   "price_date": "2026-10-29",
+   "price": 4455.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 40.8343645041541,
    "roe": 24.83,
@@ -4051,8 +4195,8 @@
    "name": "Sedemac Mechatronics Ltd",
    "sector": "Automobile and Auto Components",
    "market_cap": 14134.56,
-   "price": 3202.7,
-   "price_date": "2026-10-29",
+   "price": 3119.1,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": null,
    "roe": 23.06,
@@ -4101,7 +4245,8 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -4111,8 +4256,8 @@
    "name": "Shaily Engineering Plastics Limited",
    "sector": "Healthcare",
    "market_cap": 14129.74,
-   "price": 3056.3,
-   "price_date": "2026-10-29",
+   "price": 3169.8,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 83.0944008655667,
    "roe": 23.71,
@@ -4188,8 +4333,8 @@
    "name": "Shreeji Shipping Global Ltd.",
    "sector": "Industrials",
    "market_cap": 13535.25,
-   "price": 832.6,
-   "price_date": "2026-10-29",
+   "price": 843.3,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 85.2102564102564,
    "roe": 19.86,
@@ -4246,8 +4391,8 @@
    "name": "Corona Remedies Ltd",
    "sector": "Healthcare",
    "market_cap": 13516.38,
-   "price": 2217.4,
-   "price_date": "2026-10-29",
+   "price": 2149.6,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 73.0095804426825,
    "roe": 24.79,
@@ -4296,7 +4441,10 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Brand strength in chronic therapies and regulatory compliance.",
+    "points": [],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -4306,8 +4454,8 @@
    "name": "Central Mine Planning & Design Institute Ltd",
    "sector": "Construction",
    "market_cap": 13501.74,
-   "price": 189.53,
-   "price_date": "2026-10-29",
+   "price": 178.46,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 22.0139697322468,
    "roe": 26.86,
@@ -4349,7 +4497,14 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Government preference, proprietary data, and extensive infrastructure in Indian coal sector.",
+    "points": [
+     "As a Mini Ratna PSU, it benefits from government preference and a consistent MoU with Coal India Limited, its primary client.",
+     "Possesses a large, authentic, and proprietary database on Indian coal blocks, deposits, and quality, built over decades.",
+     "Operates a Pan-India network of regional institutes and extensive infrastructure for coal exploration, providing efficient service."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -4359,8 +4514,8 @@
    "name": "Privi Speciality Chemicals Limited",
    "sector": "Basic Materials",
    "market_cap": 12929.76,
-   "price": 3296.3,
-   "price_date": "2026-10-29",
+   "price": 3218.1,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 39.4752534287418,
    "roe": 23.19,
@@ -4430,8 +4585,8 @@
    "name": "Sudeep Pharma Ltd",
    "sector": "Healthcare",
    "market_cap": 12808.37,
-   "price": 1130.1,
-   "price_date": "2026-10-29",
+   "price": 1068.3,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 74.0692357935989,
    "roe": 19.57,
@@ -4480,7 +4635,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Regulatory approvals, proprietary technology, and high customer switching costs.",
+    "points": [
+     "Exclusive USFDA and European CEP certifications for mineral-based ingredients create significant entry barriers for competitors.",
+     "Deep integration into customer formulation and approval cycles, particularly in infant and clinical nutrition, results in high switching costs and durable revenue.",
+     "Proprietary technologies in mineral chemistry and process engineering enable specialized, hard-to-replicate solutions for complex applications."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -4490,8 +4652,8 @@
    "name": "Atlanta Electricals Ltd",
    "sector": "Capital Goods",
    "market_cap": 12807.13,
-   "price": 1667.0,
-   "price_date": "2026-10-29",
+   "price": 1589.2,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 63.4717987804878,
    "roe": 21.71,
@@ -4540,7 +4702,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Regulatory approvals, specialized expertise, and in-house testing create durable barriers.",
+    "points": [
+     "Intangible Assets: The requirement for pre-qualification, type tests at accredited laboratories, and proven service records acts as a significant regulatory barrier and intangible asset, making it difficult for new entrants to sell to utilities. The company's NABL-accredited labs, ISO certifications, and PGCIL approval",
+     "Switching Costs: For utilities and large industrial customers, switching transformer manufacturers involves high risks and costs due to the critical nature of the equipment, the need for proven reliability, and the extensive pre-qualification processes already undergone with existing suppliers.",
+     "Efficient Scale/Cost Advantage: The capability to manufacture up to 765 kV requires specialized infrastructure (cranes, drying chambers, test bays, lab accreditation) that cannot be acquired incrementally, limiting the number of qualified players in this high-voltage segment. In-house type testing provides a scheduling"
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -4550,8 +4719,8 @@
    "name": "Ingersoll-Rand (India) Limited",
    "sector": "Industrials",
    "market_cap": 12406.54,
-   "price": 3935.9,
-   "price_date": "2026-10-29",
+   "price": 4028.3,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 48.4599272503083,
    "roe": 41.58,
@@ -4602,8 +4771,8 @@
    "name": "Action Construction Equipment Limited",
    "sector": "Industrials",
    "market_cap": 12166.69,
-   "price": 1027.0,
-   "price_date": "2026-10-29",
+   "price": 994.7,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 29.3033256880734,
    "roe": 20.64,
@@ -4673,8 +4842,8 @@
    "name": "Vedant Fashions Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 11820.91,
-   "price": 487.05,
-   "price_date": "2026-10-29",
+   "price": 478.55,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 31.4683053040103,
    "roe": 19.12,
@@ -4750,8 +4919,8 @@
    "name": "Manorama Industries Limited",
    "sector": "Consumer Defensive",
    "market_cap": 11558.34,
-   "price": 1831.5,
-   "price_date": "2026-10-29",
+   "price": 1796.2,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 50.8638883333333,
    "roe": 31.98,
@@ -4827,8 +4996,8 @@
    "name": "ASK Automotive Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 11453.99,
-   "price": 581.1,
-   "price_date": "2026-10-29",
+   "price": 566.3,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 38.5278514588859,
    "roe": 22.68,
@@ -4904,8 +5073,8 @@
    "name": "Godrej Agrovet Limited",
    "sector": "Consumer Defensive",
    "market_cap": 11282.02,
-   "price": 587.45,
-   "price_date": "2026-10-29",
+   "price": 553.2,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 23.8547599674532,
    "roe": 23.27,
@@ -4975,8 +5144,8 @@
    "name": "Doms Industries Limited",
    "sector": "Industrials",
    "market_cap": 11087.76,
-   "price": 1832.2,
-   "price_date": "2026-10-29",
+   "price": 1823.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 48.16767730029,
    "roe": 18.87,
@@ -5052,8 +5221,8 @@
    "name": "Quality Power Electrical Equipments Ltd",
    "sector": "Industrials",
    "market_cap": 11063.66,
-   "price": 1430.8,
-   "price_date": "2026-10-29",
+   "price": 1395.3,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 91.1678366305041,
    "roe": 22.39,
@@ -5129,8 +5298,8 @@
    "name": "Pearl Global Industries Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 10939.77,
-   "price": 1190.8,
-   "price_date": "2026-10-29",
+   "price": 1192.6,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 39.2509098442161,
    "roe": 19.02,
@@ -5202,8 +5371,8 @@
    "name": "Tips Music Ltd.",
    "sector": "Communication Services",
    "market_cap": 10162.64,
-   "price": 791.35,
-   "price_date": "2026-10-29",
+   "price": 782.05,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 46.875,
    "roe": 83.38,
@@ -5317,7 +5486,14 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Proprietary technology and customer switching costs from deep integration.",
+    "points": [
+     "Proprietary technology is evidenced by \"IP-led innovation\" and \"Intangibles under development\".",
+     "Switching costs arise from \"deep customer integration\" and long-standing relationships over 20 years with many customers.",
+     "The company offers \"end-to-end capabilities across Software, Electronics, Mechanical, and Embedded systems\"."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -5327,8 +5503,8 @@
    "name": "Blue Jet Healthcare Limited",
    "sector": "Healthcare",
    "market_cap": 9476.09,
-   "price": 503.55,
-   "price_date": "2026-10-29",
+   "price": 504.55,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 35.0349895031491,
    "roe": 18.22,
@@ -5404,8 +5580,8 @@
    "name": "Avanti Feeds Limited",
    "sector": "Consumer Defensive",
    "market_cap": 9262.66,
-   "price": 679.35,
-   "price_date": "2026-10-29",
+   "price": 658.7,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 15.2843970323741,
    "roe": 18.44,
@@ -5471,8 +5647,8 @@
    "name": "Procter & Gamble Health Limited",
    "sector": "Healthcare",
    "market_cap": 9179.46,
-   "price": 5513.5,
-   "price_date": "2026-10-29",
+   "price": 5670.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 28.0796181578146,
    "roe": 62.32,
@@ -5537,8 +5713,8 @@
    "name": "BLS International Services Limited",
    "sector": "Industrials",
    "market_cap": 9022.89,
-   "price": 219.38,
-   "price_date": "2026-10-29",
+   "price": 209.22,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 13.1378896882494,
    "roe": 27.88,
@@ -5614,8 +5790,8 @@
    "name": "Banco Products (India) Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 8324.77,
-   "price": 583.55,
-   "price_date": "2026-10-29",
+   "price": 573.7,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 17.2802850356295,
    "roe": 28.6,
@@ -5672,8 +5848,8 @@
    "name": "Thyrocare Technologies Limited",
    "sector": "Healthcare",
    "market_cap": 8228.83,
-   "price": 515.5,
-   "price_date": "2026-10-29",
+   "price": 456.3,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 50.3407984420643,
    "roe": 27.85,
@@ -5749,8 +5925,8 @@
    "name": "Kennametal India Limited",
    "sector": "Industrials",
    "market_cap": 8224.25,
-   "price": 3730.3,
-   "price_date": "2026-10-29",
+   "price": 3687.9,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 41.7145099798161,
    "roe": 22.96,
@@ -5807,8 +5983,8 @@
    "name": "Tanla Platforms Limited",
    "sector": "Technology",
    "market_cap": 8156.99,
-   "price": 618.4,
-   "price_date": "2026-10-29",
+   "price": 627.15,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 16.0323253388947,
    "roe": 20.46,
@@ -5880,8 +6056,8 @@
    "name": "The Sandur Manganese & Iron Ores Limited",
    "sector": "Basic Materials",
    "market_cap": 8156.84,
-   "price": 168.1,
-   "price_date": "2026-10-29",
+   "price": 161.72,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 12.420429311621,
    "roe": 20.18,
@@ -5942,8 +6118,8 @@
    "name": "ESAB India Limited",
    "sector": "Industrials",
    "market_cap": 8142.91,
-   "price": 5322.0,
-   "price_date": "2026-10-29",
+   "price": 5258.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 39.3894266567386,
    "roe": 48.14,
@@ -5994,8 +6170,8 @@
    "name": "Kovai Medical Center and Hospital Limited",
    "sector": "Healthcare",
    "market_cap": 8060.41,
-   "price": 5896.0,
-   "price_date": "2026-10-29",
+   "price": 5816.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 26.3864643480596,
    "roe": 18.53,
@@ -6046,8 +6222,8 @@
    "name": "Sanofi Consumer Healthcare India Ltd.",
    "sector": "Healthcare",
    "market_cap": 7995.08,
-   "price": 3468.0,
-   "price_date": "2026-10-29",
+   "price": 3442.3,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 33.2933729740098,
    "roe": 62.53,
@@ -6108,8 +6284,8 @@
    "name": "Raghav Productivity Enhancers Ltd.",
    "sector": "Basic Materials",
    "market_cap": 7921.54,
-   "price": 1720.2,
-   "price_date": "2026-10-29",
+   "price": 1665.4,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 144.472361809045,
    "roe": 22.41,
@@ -6167,8 +6343,8 @@
    "name": "Gujarat Pipavav Port Limited",
    "sector": "Industrials",
    "market_cap": 7849.13,
-   "price": 162.54,
-   "price_date": "2026-10-29",
+   "price": 159.09,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 15.2307692307692,
    "roe": 21.57,
@@ -6229,8 +6405,8 @@
    "name": "Pricol Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 7843.11,
-   "price": 642.45,
-   "price_date": "2026-10-29",
+   "price": 644.05,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 31.283422459893,
    "roe": 19.99,
@@ -6349,7 +6525,14 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Integrated production, hazardous chemistry expertise, and first-mover advantage in niche products.",
+    "points": [
+     "Cost Advantage: The company's deep backward integration, producing sulphuric acid and hydrofluoric acid in-house, coupled with a captive power plant utilizing waste-heat recovery, provides a structural cost advantage and security of supply for critical, hazardous inputs.",
+     "Intangible Assets (Expertise): Four decades of specialized fluorine chemistry expertise, safe handling of highly corrosive and hazardous chemicals like hydrofluoric acid, and a dedicated R&D center create significant barriers to entry for potential competitors.",
+     "First-Mover Advantage: Tanfac is the first and only producer of solar-grade DHF in India and is building integrated refrigerant-gas capacity, securing early customer qualification, product approvals, and operating experience that later entrants would need to develop."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -6359,8 +6542,8 @@
    "name": "Precision Wires India Limited",
    "sector": "Industrials",
    "market_cap": 7568.25,
-   "price": 413.4,
-   "price_date": "2026-10-29",
+   "price": 389.75,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 48.2517482517483,
    "roe": 20.1,
@@ -6411,8 +6594,8 @@
    "name": "Sanofi India Limited",
    "sector": "Healthcare",
    "market_cap": 7374.41,
-   "price": 3189.5,
-   "price_date": "2026-10-29",
+   "price": 3204.1,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 22.5731406415227,
    "roe": 43.61,
@@ -6478,8 +6661,8 @@
    "name": "Waaree Renewable Technologies Ltd.",
    "sector": "Utilities",
    "market_cap": 7253.82,
-   "price": 692.1,
-   "price_date": "2026-10-29",
+   "price": 694.3,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 15.1438224013946,
    "roe": 51.23,
@@ -6545,8 +6728,8 @@
    "name": "Kirloskar Pneumatic Company Limited",
    "sector": "Industrials",
    "market_cap": 7212.78,
-   "price": 556.45,
-   "price_date": "2026-10-29",
+   "price": 538.45,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 28.1297516472377,
    "roe": 20.51,
@@ -6622,8 +6805,8 @@
    "name": "SML Mahindra Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 7006.45,
-   "price": 4848.0,
-   "price_date": "2026-10-29",
+   "price": 4724.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 43.8581393242142,
    "roe": 30.76,
@@ -6689,8 +6872,8 @@
    "name": "SKF India Limited",
    "sector": "Industrials",
    "market_cap": 6985.59,
-   "price": 1426.9,
-   "price_date": "2026-10-29",
+   "price": 1394.6,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 26.2639405204461,
    "roe": 20.0,
@@ -6740,7 +6923,11 @@
      "link": "https://nsearchives.nseindia.com/corporate/SKFINDIA22_18082026091006_NSE.pdf",
      "title": "Pursuant to Clause 15(b)(i) of Schedule III, Part A, Para A read with Regulation 30(2), Regulation 30(6) of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015"
     },
-    "upcoming_call": null,
+    "upcoming_call": {
+     "date": "2026-10-30",
+     "link": "https://nsearchives.nseindia.com/corporate/SKFINDIA25_30102026175742_NSE.pdf",
+     "title": "Pursuant to Clause 15(a)(i) of Schedule III, Part A, Para A read with Regulation 30 (2) & 30 (6) ofSEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amen"
+    },
     "calls_last_12m": 2,
     "regular": false
    },
@@ -6762,8 +6949,8 @@
    "name": "S.J.S. Enterprises Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 6611.48,
-   "price": 2050.2,
-   "price_date": "2026-10-29",
+   "price": 2075.8,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 37.9507608293225,
    "roe": 19.67,
@@ -6833,8 +7020,8 @@
    "name": "Jyothy Labs Limited",
    "sector": "Consumer Defensive",
    "market_cap": 6455.27,
-   "price": 175.06,
-   "price_date": "2026-10-29",
+   "price": 171.91,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 19.380374862183,
    "roe": 20.97,
@@ -6910,8 +7097,8 @@
    "name": "Sonata Software Limited",
    "sector": "Technology",
    "market_cap": 6366.27,
-   "price": 229.95,
-   "price_date": "2026-10-29",
+   "price": 223.7,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 13.7395459976105,
    "roe": 24.38,
@@ -6961,7 +7148,11 @@
      "link": "https://nsearchives.nseindia.com/corporate/SONATSOFTW_07082026132905_investorpresentationrevisedsefiling.pdf",
      "title": "Sonata Software Limited has informed the Exchange about Investor Presentation"
     },
-    "upcoming_call": null,
+    "upcoming_call": {
+     "date": "2026-10-30",
+     "link": "https://nsearchives.nseindia.com/corporate/SONATSOFTW_30102026153844_SEintimationanalystcall.pdf",
+     "title": "Sonata Software Limited has informed the Exchange about Schedule of Analyst/ Investor Conference Call on 6th Nov, 2026"
+    },
     "calls_last_12m": 4,
     "regular": true
    },
@@ -6983,8 +7174,8 @@
    "name": "Gokul Agro Resources Limited",
    "sector": "Consumer Defensive",
    "market_cap": 6317.81,
-   "price": 216.52,
-   "price_date": "2026-10-29",
+   "price": 214.47,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 17.1006397763578,
    "roe": 25.96,
@@ -7043,8 +7234,8 @@
    "name": "Sharda Cropchem Limited",
    "sector": "Basic Materials",
    "market_cap": 6189.13,
-   "price": 682.3,
-   "price_date": "2026-10-29",
+   "price": 665.05,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 9.08970451835166,
    "roe": 21.71,
@@ -7090,8 +7281,8 @@
      "title": "Sharda Cropchem Limited has informed the Exchange about Transcript"
     },
     "latest_presentation": {
-     "date": "2026-07-29",
-     "link": "https://nsearchives.nseindia.com/corporate/SHARDACROP_29072026142109_NSE.pdf",
+     "date": "2026-10-30",
+     "link": "https://nsearchives.nseindia.com/corporate/SHARDACROP_30102026135032_NSE.pdf",
      "title": "Sharda Cropchem Limited has informed the Exchange about Investor Presentation"
     },
     "upcoming_call": {
@@ -7120,8 +7311,8 @@
    "name": "Shivalik Bimetal Controls Limited",
    "sector": "Industrials",
    "market_cap": 5996.02,
-   "price": 1036.0,
-   "price_date": "2026-10-29",
+   "price": 1013.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 62.5540865384615,
    "roe": 19.91,
@@ -7193,8 +7384,8 @@
    "name": "Redtape Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 5854.23,
-   "price": 105.21,
-   "price_date": "2026-10-29",
+   "price": 103.54,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 24.4009216589862,
    "roe": 23.55,
@@ -7266,8 +7457,8 @@
    "name": "Vadilal Industries Limited",
    "sector": "Consumer Defensive",
    "market_cap": 5455.56,
-   "price": 7580.0,
-   "price_date": "2026-10-29",
+   "price": 7492.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 35.1747149874873,
    "roe": 18.24,
@@ -7318,8 +7509,8 @@
    "name": "India Tourism Development Corporation Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 5248.23,
-   "price": 608.4,
-   "price_date": "2026-10-29",
+   "price": 589.75,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 63.6732591050989,
    "roe": 19.57,
@@ -7370,8 +7561,8 @@
    "name": "Gulf Oil Lubricants India Limited",
    "sector": "Basic Materials",
    "market_cap": 5237.03,
-   "price": 1063.3,
-   "price_date": "2026-10-29",
+   "price": 1030.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 14.9964523910884,
    "roe": 22.63,
@@ -7422,9 +7613,9 @@
      "title": "We enclose herewith the Investor Presentation for the quarter ended June 30, 2026 providing highlights on financial results for the quarter ended June 30, 2026 and business/industr"
     },
     "upcoming_call": {
-     "date": "2026-10-26",
-     "link": "https://nsearchives.nseindia.com/corporate/GULFOILLUB_26102026225127_Meeting29102026.pdf",
-     "title": "We hereby inform you that a Physical Meet is scheduled to be held with the InstitutionalInvestors/Analyst Groups on Thursday, October 29, 2026 in Mumbai."
+     "date": "2026-10-30",
+     "link": "https://nsearchives.nseindia.com/corporate/GULFOILLUB_30102026181118_Earningscalloutcome30102026.pdf",
+     "title": "The Company has conducted its Earnings Conference Call today viz. Friday, October 30, 2026 with several Analysts/ Institutional Investors in connection with the Unaudited Financial"
     },
     "calls_last_12m": 4,
     "regular": true
@@ -7447,8 +7638,8 @@
    "name": "Bajaj Consumer Care Limited",
    "sector": "Consumer Defensive",
    "market_cap": 5127.14,
-   "price": 390.6,
-   "price_date": "2026-10-29",
+   "price": 370.15,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 27.5158339197748,
    "roe": 25.19,
@@ -7520,8 +7711,8 @@
    "name": "Jamna Auto Industries Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 5061.81,
-   "price": 126.35,
-   "price_date": "2026-10-29",
+   "price": 120.86,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 21.8566493955095,
    "roe": 20.14,
@@ -7582,8 +7773,8 @@
    "name": "RPG Life Sciences Limited",
    "sector": "Healthcare",
    "market_cap": 4963.36,
-   "price": 3003.8,
-   "price_date": "2026-10-29",
+   "price": 2575.7,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 43.0930499712809,
    "roe": 19.03,
@@ -7653,8 +7844,8 @@
    "name": "Stylam Industries Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 4762.57,
-   "price": 2823.0,
-   "price_date": "2026-10-29",
+   "price": 2742.8,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 31.842492917847,
    "roe": 18.57,
@@ -7704,7 +7895,11 @@
      "link": "https://nsearchives.nseindia.com/corporate/STYLAMIND_29102026164847_Intimation_Investor_Publication.pdf",
      "title": "Investor Presentation on Unaudited Financial Results of the Company for Second Quarter (Q2) and Half Year Ended September 30, 2026."
     },
-    "upcoming_call": null,
+    "upcoming_call": {
+     "date": "2026-10-30",
+     "link": "https://nsearchives.nseindia.com/corporate/STYLAMIND_30102026181502_Investor_Meet_Intimation.pdf",
+     "title": "Stylam Industries Limited has informed the Exchange about Schedule of investor meet."
+    },
     "calls_last_12m": 3,
     "regular": true
    },
@@ -7720,8 +7915,8 @@
    "name": "Sharda Motor Industries Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 4737.0,
-   "price": 828.95,
-   "price_date": "2026-10-29",
+   "price": 808.2,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 13.7136446734253,
    "roe": 26.31,
@@ -7793,8 +7988,8 @@
    "name": "V-Marc India Ltd.",
    "sector": "Industrials",
    "market_cap": 4662.39,
-   "price": 318.85,
-   "price_date": "2026-10-29",
+   "price": 305.05,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 46.5885812591508,
    "roe": 34.56,
@@ -7825,7 +8020,8 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -7835,8 +8031,8 @@
    "name": "Fiem Industries Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 4534.88,
-   "price": 1716.6,
-   "price_date": "2026-10-29",
+   "price": 1692.4,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 17.742765935537,
    "roe": 21.04,
@@ -7908,8 +8104,8 @@
    "name": "Jeena Sikho Lifecare Ltd",
    "sector": "Healthcare",
    "market_cap": 4325.67,
-   "price": 347.75,
-   "price_date": "2026-10-29",
+   "price": 334.45,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 19.4957983193277,
    "roe": 47.5,
@@ -7962,7 +8158,14 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Brand and clinical credibility from scientific validation and quality standards.",
+    "points": [
+     "Clinical Validation & Quality: Over 180 published research papers and 50 NABH-accredited facilities establish scientific rigor and quality standards in Ayurveda, building trust and differentiation (FY26 Concall Transcript, Page 4; FY26 Annual Report, Page 25).",
+     "Integrated Care Model: The synergy between healthcare services and proprietary Ayurvedic products fosters patient stickiness and recurring revenue streams, making it harder for competitors offering only one aspect (FY26 Concall Transcript, Page 4).",
+     "Developing Brand Trust: The 'Shuddhi Ayurveda' brand, underpinned by clinical credibility and quality, aims to build patient loyalty in the trust-sensitive healthcare sector (FY26 Annual Report, Page 26)."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -7972,8 +8175,8 @@
    "name": "Swaraj Engines Limited",
    "sector": "Consumer Cyclical",
    "market_cap": 4211.16,
-   "price": 3461.4,
-   "price_date": "2026-10-29",
+   "price": 3424.9,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 21.4480198019802,
    "roe": 40.15,
@@ -8024,8 +8227,8 @@
    "name": "MPS Limited",
    "sector": "Communication Services",
    "market_cap": 4013.77,
-   "price": 2351.5,
-   "price_date": "2026-10-29",
+   "price": 2320.9,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 23.1612966408775,
    "roe": 29.05,
@@ -8101,8 +8304,8 @@
    "name": "MSTC Limited",
    "sector": "Industrials",
    "market_cap": 4013.15,
-   "price": 571.95,
-   "price_date": "2026-10-29",
+   "price": 534.85,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 18.3709310344828,
    "roe": 24.16,
@@ -8174,8 +8377,8 @@
    "name": "GE Power India Limited",
    "sector": "Industrials",
    "market_cap": 3952.98,
-   "price": 590.95,
-   "price_date": "2026-10-29",
+   "price": 566.4,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 15.6466205428419,
    "roe": 43.36,
@@ -8287,7 +8490,14 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Intangible assets through regulatory licenses, specialized expertise, and high entry barriers.",
+    "points": [
+     "The air cargo sector has high entry barriers due to stringent regulations, requiring significant expertise, clearances, and infrastructure.",
+     "Afcom benefits from an early-mover advantage in securing regulatory approvals (e.g., DGCA, FAOC approvals in multiple countries) and building operational capability.",
+     "The company possesses specialized expertise in handling dangerous and hazardous cargo, backed by specific DGCA approvals and trained staff, which is a key intangible asset."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -8297,8 +8507,8 @@
    "name": "Steelcast Limited",
    "sector": "Basic Materials",
    "market_cap": 3612.84,
-   "price": 361.1,
-   "price_date": "2026-10-29",
+   "price": 348.05,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 41.6083916083916,
    "roe": 21.99,
@@ -8374,8 +8584,8 @@
    "name": "Shukra Pharmaceuticals Ltd",
    "sector": "Healthcare",
    "market_cap": 3292.71,
-   "price": 75.06,
-   "price_date": "2026-10-29",
+   "price": 74.87,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 149.8,
    "roe": 34.84,
@@ -8405,7 +8615,8 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -8415,8 +8626,8 @@
    "name": "Uniparts India Limited",
    "sector": "Industrials",
    "market_cap": 3256.11,
-   "price": 720.15,
-   "price_date": "2026-10-29",
+   "price": 701.35,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 20.5588822355289,
    "roe": 18.19,
@@ -8492,8 +8703,8 @@
    "name": "VST Industries Limited",
    "sector": "Consumer Defensive",
    "market_cap": 3214.55,
-   "price": 189.41,
-   "price_date": "2026-10-29",
+   "price": 185.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 11.0168512492737,
    "roe": 20.22,
@@ -8550,8 +8761,8 @@
    "name": "Bondada Engineering Limited",
    "sector": "Industrials",
    "market_cap": 3057.57,
-   "price": 273.4,
-   "price_date": "2026-10-29",
+   "price": 274.0,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 21.3239875389408,
    "roe": 22.47,
@@ -8602,8 +8813,8 @@
    "name": "Indo Tech Transformers Limited",
    "sector": "Industrials",
    "market_cap": 3026.7,
-   "price": 2836.0,
-   "price_date": "2026-10-29",
+   "price": 2715.7,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 32.6236263736264,
    "roe": 24.82,
@@ -8658,8 +8869,8 @@
    "name": "Jubilant Agri and Consumer Products Ltd.",
    "sector": "Basic Materials",
    "market_cap": 2948.68,
-   "price": 1939.4,
-   "price_date": "2026-10-29",
+   "price": 1916.1,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 22.9914933837429,
    "roe": 27.8,
@@ -8714,8 +8925,8 @@
    "name": "Indraprastha Medical Corporation Limited",
    "sector": "Healthcare",
    "market_cap": 2920.7,
-   "price": 318.3,
-   "price_date": "2026-10-29",
+   "price": 305.65,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 15.9061412880679,
    "roe": 24.8,
@@ -8766,8 +8977,8 @@
    "name": "Websol Energy System Limited",
    "sector": "Energy",
    "market_cap": 2917.58,
-   "price": 66.96,
-   "price_date": "2026-10-29",
+   "price": 65.63,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 9.62750716332378,
    "roe": 48.04,
@@ -8833,8 +9044,8 @@
    "name": "Carraro India Ltd.",
    "sector": "Consumer Cyclical",
    "market_cap": 2762.98,
-   "price": 487.25,
-   "price_date": "2026-10-29",
+   "price": 478.6,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 21.1672473867596,
    "roe": 23.12,
@@ -8900,8 +9111,8 @@
    "name": "Shankara Buildpro Ltd",
    "sector": "Consumer Services",
    "market_cap": 2649.24,
-   "price": 218.9,
-   "price_date": "2026-10-29",
+   "price": 175.2,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 4.14768413059985,
    "roe": 23.41,
@@ -8946,7 +9157,8 @@
     "regular": true
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": true
@@ -8956,8 +9168,8 @@
    "name": "Ddev Plastiks Industries Ltd.",
    "sector": "Basic Materials",
    "market_cap": 2566.22,
-   "price": 246.26,
-   "price_date": "2026-10-29",
+   "price": 242.24,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 12.7179487179487,
    "roe": 19.92,
@@ -9029,8 +9241,8 @@
    "name": "Crizac Ltd.",
    "sector": "Consumer Defensive",
    "market_cap": 2527.62,
-   "price": 143.5,
-   "price_date": "2026-10-29",
+   "price": 138.56,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 11.5375399361022,
    "roe": 37.48,
@@ -9141,7 +9353,8 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -9193,7 +9406,8 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -9203,8 +9417,8 @@
    "name": "K M C Speciality Hospitals (India) Ltd",
    "sector": "Healthcare",
    "market_cap": 2429.97,
-   "price": 149.36,
-   "price_date": "2026-10-29",
+   "price": 148.39,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 51.9163763066202,
    "roe": 26.5,
@@ -9245,7 +9459,8 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -9255,8 +9470,8 @@
    "name": "Oriana Power Ltd.",
    "sector": "Industrials",
    "market_cap": 2363.63,
-   "price": 232.2,
-   "price_date": "2026-10-29",
+   "price": 230.7,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 1.87772397094431,
    "roe": 40.1,
@@ -9295,7 +9510,8 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": false,
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -9305,8 +9521,8 @@
    "name": "Marsons Ltd",
    "sector": "Capital Goods",
    "market_cap": 2143.85,
-   "price": 124.05,
-   "price_date": "2026-10-29",
+   "price": 148.62,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": 46.3085501858736,
    "roe": 28.55,
@@ -9408,7 +9624,14 @@
     "regular": false
    },
    "moat": {
-    "pending": true
+    "found": true,
+    "summary": "Proprietary AI-native technology stack and closed-loop data feedback system.",
+    "points": [
+     "Proprietary Technology: Owns 100% of its GMP 360 intelligence stack, including data, bidding, and decisioning layers, preventing reliance on third-party platforms.",
+     "Data-Driven Feedback Loop: A closed-loop system where proprietary data signals continuously improve AI models, leading to better client outcomes and attracting more spend, enhancing unit economics.",
+     "Outcomes-as-a-Service Model: Revenue is tied directly to verified business outcomes for clients, aligning incentives and differentiating from impression-based models."
+    ],
+    "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
    "mismatch": false
@@ -9420,8 +9643,8 @@
    "name": "Vedanta Iron & Steel Ltd",
    "sector": "Metals & Mining",
    "market_cap": 9869.82,
-   "price": 25.29,
-   "price_date": "2026-10-29",
+   "price": 25.5,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": null,
    "roe": 49.39,
@@ -9439,8 +9662,8 @@
    "name": "Vedanta Oil & Gas Ltd",
    "sector": "Oil, Gas & Consumable Fuels",
    "market_cap": 10866.97,
-   "price": 27.86,
-   "price_date": "2026-10-29",
+   "price": 30.23,
+   "price_date": "2026-10-30",
    "price_source": "NSE",
    "pe": null,
    "roe": 40.18,
@@ -9460,7 +9683,7 @@
    "name": "INDO-MIM Ltd",
    "sector": "Capital Goods",
    "market_cap": 58338.86,
-   "price": 1178.2,
+   "price": 1171.6,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9474,7 +9697,7 @@
    "name": "Dhoot Transmission Limited",
    "sector": "Industrials",
    "market_cap": 31600.63,
-   "price": 1546.6,
+   "price": 1545.4,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9488,7 +9711,7 @@
    "name": "Zetwerk Manufacturing Businesses Ltd",
    "sector": "Capital Goods",
    "market_cap": 27562.05,
-   "price": 163.97,
+   "price": 163.04,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9502,7 +9725,7 @@
    "name": "Milky Mist Dairy Food Ltd.",
    "sector": "Consumer Defensive",
    "market_cap": 23264.67,
-   "price": 304.5,
+   "price": 306.05,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9516,7 +9739,7 @@
    "name": "Lalithaa Jewellery Mart Ltd",
    "sector": "Consumer Durables",
    "market_cap": 19701.79,
-   "price": 354.85,
+   "price": 360.4,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9544,7 +9767,7 @@
    "name": "Molbio Diagnostics Ltd",
    "sector": "Healthcare",
    "market_cap": 15056.11,
-   "price": 1302.6,
+   "price": 1274.0,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9558,7 +9781,7 @@
    "name": "ESDS Software Solution Ltd",
    "sector": "Information Technology",
    "market_cap": 14344.28,
-   "price": 1221.0,
+   "price": 1160.0,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9572,7 +9795,7 @@
    "name": "Juniper Green Energy Ltd",
    "sector": "Power",
    "market_cap": 14310.31,
-   "price": 249.75,
+   "price": 247.0,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9586,7 +9809,7 @@
    "name": "SKF India (Industrial) Ltd",
    "sector": "Capital Goods",
    "market_cap": 12018.37,
-   "price": 2442.6,
+   "price": 2368.4,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9600,7 +9823,7 @@
    "name": "Bonfiglioli Transmissions Ltd",
    "sector": "Capital Goods",
    "market_cap": 11994.13,
-   "price": 638.7,
+   "price": 625.2,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9614,7 +9837,7 @@
    "name": "Karamtara Engineering Ltd",
    "sector": "Capital Goods",
    "market_cap": 11041.8,
-   "price": 349.25,
+   "price": 374.9,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9628,7 +9851,7 @@
    "name": "Shiprocket Ltd",
    "sector": "Services",
    "market_cap": 9385.75,
-   "price": 128.45,
+   "price": 126.07,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9642,7 +9865,7 @@
    "name": "Symbiotec Pharmalab Ltd",
    "sector": "Healthcare",
    "market_cap": 8096.27,
-   "price": 1250.2,
+   "price": 1246.3,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9656,7 +9879,7 @@
    "name": "Kanohar Electricals Ltd",
    "sector": "Capital Goods",
    "market_cap": 7736.55,
-   "price": 981.4,
+   "price": 950.0,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9670,7 +9893,7 @@
    "name": "Tonbo Imaging India Ltd",
    "sector": "Capital Goods",
    "market_cap": 6976.96,
-   "price": 1209.15,
+   "price": 1304.4,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9684,7 +9907,7 @@
    "name": "Waterways Leisure Tourism Ltd",
    "sector": "Consumer Services",
    "market_cap": 6347.55,
-   "price": 87.65,
+   "price": 85.17,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9698,7 +9921,7 @@
    "name": "Rentomojo Ltd",
    "sector": "Consumer Services",
    "market_cap": 5824.24,
-   "price": 562.2,
+   "price": 542.2,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9712,7 +9935,7 @@
    "name": "Kusumgar Ltd",
    "sector": "Textiles",
    "market_cap": 5716.78,
-   "price": 543.45,
+   "price": 535.5,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9726,7 +9949,7 @@
    "name": "Lohia Corp Ltd",
    "sector": "Capital Goods",
    "market_cap": 5588.89,
-   "price": 532.1,
+   "price": 512.9,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9740,7 +9963,7 @@
    "name": "Hero Motors Ltd",
    "sector": "Automobile and Auto Components",
    "market_cap": 5556.42,
-   "price": 122.33,
+   "price": 124.05,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9754,7 +9977,7 @@
    "name": "Leap India Ltd",
    "sector": "Services",
    "market_cap": 5374.54,
-   "price": 122.5,
+   "price": 116.59,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9768,7 +9991,7 @@
    "name": "Sahajanand Medical Technologies Ltd",
    "sector": "Healthcare",
    "market_cap": 4961.38,
-   "price": 476.55,
+   "price": 462.7,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9782,7 +10005,7 @@
    "name": "Elevate Campuses Ltd",
    "sector": "Services",
    "market_cap": 4924.48,
-   "price": 293.5,
+   "price": 289.6,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9796,7 +10019,7 @@
    "name": "Prasol Chemicals Ltd",
    "sector": "Chemicals",
    "market_cap": 4854.83,
-   "price": 818.2,
+   "price": 805.1,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9810,7 +10033,7 @@
    "name": "HD Fire Protect Ltd",
    "sector": null,
    "market_cap": 4847.74,
-   "price": 275.35,
+   "price": 266.65,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9824,7 +10047,7 @@
    "name": "SS Retail Ltd",
    "sector": "Consumer Services",
    "market_cap": 4772.17,
-   "price": 642.55,
+   "price": 635.5,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9838,7 +10061,7 @@
    "name": "Triveni Power Transmission Ltd",
    "sector": "Power",
    "market_cap": 4723.9,
-   "price": 447.8,
+   "price": 459.5,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9852,7 +10075,7 @@
    "name": "Tempsens Instruments (India) Ltd",
    "sector": "Capital Goods",
    "market_cap": 4299.36,
-   "price": 513.75,
+   "price": 492.1,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9866,7 +10089,7 @@
    "name": "Purple Style Labs Ltd",
    "sector": "Consumer Services",
    "market_cap": 4202.41,
-   "price": 516.45,
+   "price": 501.05,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9880,7 +10103,7 @@
    "name": "Steamhouse India Ltd",
    "sector": "Chemicals",
    "market_cap": 4082.52,
-   "price": 146.46,
+   "price": 132.24,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9894,7 +10117,7 @@
    "name": "Orient Cables (India) Ltd",
    "sector": "Telecommunication",
    "market_cap": 4081.43,
-   "price": 359.55,
+   "price": 344.35,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9908,7 +10131,7 @@
    "name": "Fusion CX Ltd",
    "sector": "Services",
    "market_cap": 4065.19,
-   "price": 280.9,
+   "price": 279.6,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9922,7 +10145,7 @@
    "name": "LCC Projects Ltd",
    "sector": "Construction",
    "market_cap": 3823.66,
-   "price": 130.25,
+   "price": 131.61,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9950,7 +10173,7 @@
    "name": "GSPL Transmission Ltd",
    "sector": "Oil, Gas & Consumable Fuels",
    "market_cap": 3671.3,
-   "price": 116.99,
+   "price": 114.61,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9964,7 +10187,7 @@
    "name": "Caliber Mining & Logistics Ltd",
    "sector": "Oil, Gas & Consumable Fuels",
    "market_cap": 3432.23,
-   "price": 522.25,
+   "price": 529.1,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9978,7 +10201,7 @@
    "name": "Runwal Enterprises Ltd",
    "sector": "Realty",
    "market_cap": 3045.93,
-   "price": 204.0,
+   "price": 209.35,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -9992,7 +10215,7 @@
    "name": "Laser Power & Infra Ltd",
    "sector": "Capital Goods",
    "market_cap": 2905.62,
-   "price": 209.5,
+   "price": 201.1,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -10006,7 +10229,7 @@
    "name": "A-One Steels India Ltd",
    "sector": "Capital Goods",
    "market_cap": 2876.99,
-   "price": 372.65,
+   "price": 371.0,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -10020,7 +10243,7 @@
    "name": "Varmora Granito Ltd",
    "sector": "Consumer Durables",
    "market_cap": 2768.64,
-   "price": 122.06,
+   "price": 121.17,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -10034,7 +10257,7 @@
    "name": "Lumino Industries Ltd",
    "sector": "Capital Goods",
    "market_cap": 2731.54,
-   "price": 89.69,
+   "price": 86.8,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -10048,7 +10271,7 @@
    "name": "Knack Packaging Ltd",
    "sector": "Capital Goods",
    "market_cap": 2343.42,
-   "price": 192.95,
+   "price": 186.04,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -10076,7 +10299,7 @@
    "name": "MV Electrosystems Ltd",
    "sector": "Capital Goods",
    "market_cap": 2070.62,
-   "price": 759.6,
+   "price": 728.5,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -10090,7 +10313,7 @@
    "name": "Deepa Jewellers Ltd",
    "sector": "Consumer Durables",
    "market_cap": 2009.0,
-   "price": 208.88,
+   "price": 201.16,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -10289,9 +10512,9 @@
  "data_checks": {
   "sample_size": 15,
   "compared": 51,
-  "matched": 44,
-  "health_pct": 86,
-  "health_text": "Data check: 44 of 51 sampled numbers matched within 10%.",
+  "matched": 43,
+  "health_pct": 84,
+  "health_text": "Data check: 43 of 51 sampled numbers matched within 10%.",
   "rows": [
    {
     "symbol": "WAAREEENER",
@@ -10300,25 +10523,25 @@
      {
       "metric": "Price",
       "ours": 2318.0,
-      "theirs": 2318.0,
+      "theirs": 2304.0,
       "source": "NSE",
-      "gap_pct": 0.0,
+      "gap_pct": 0.6,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 66677.58,
-      "theirs": 65958.4516096,
+      "theirs": 66274.8659712,
       "source": "Yahoo",
-      "gap_pct": 1.1,
+      "gap_pct": 0.6,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 17.9550735863672,
-      "theirs": 17.890303,
+      "theirs": 17.976126,
       "source": "Yahoo",
-      "gap_pct": 0.4,
+      "gap_pct": 0.1,
       "status": "match"
      },
      {
@@ -10339,25 +10562,25 @@
      {
       "metric": "Price",
       "ours": 443.0,
-      "theirs": 444.05,
+      "theirs": 436.2,
       "source": "NSE",
-      "gap_pct": 0.2,
+      "gap_pct": 1.6,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 35440.0,
-      "theirs": 35119.9985664,
+      "theirs": 34895.9997952,
       "source": "Yahoo",
-      "gap_pct": 0.9,
+      "gap_pct": 1.6,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 25.4305396096441,
-      "theirs": 25.200918,
+      "theirs": 25.040184,
       "source": "Yahoo",
-      "gap_pct": 0.9,
+      "gap_pct": 1.6,
       "status": "match"
      },
      {
@@ -10377,25 +10600,25 @@
      {
       "metric": "Price",
       "ours": 514.09998,
-      "theirs": 511.25,
+      "theirs": 509.05,
       "source": "NSE",
-      "gap_pct": 0.6,
+      "gap_pct": 1.0,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 16214.37,
-      "theirs": 16072.441856,
+      "theirs": 16055.0944768,
       "source": "Yahoo",
-      "gap_pct": 0.9,
+      "gap_pct": 1.0,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 37.6354304538799,
-      "theirs": 35.81167,
+      "theirs": 35.94986,
       "source": "Yahoo",
-      "gap_pct": 5.1,
+      "gap_pct": 4.7,
       "status": "match"
      },
      {
@@ -10415,25 +10638,25 @@
      {
       "metric": "Price",
       "ours": 486.5,
-      "theirs": 487.05,
+      "theirs": 478.55,
       "source": "NSE",
-      "gap_pct": 0.1,
+      "gap_pct": 1.7,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 11820.91,
-      "theirs": 11705.491456,
+      "theirs": 11627.7379072,
       "source": "Yahoo",
-      "gap_pct": 1.0,
+      "gap_pct": 1.7,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 31.4683053040103,
-      "theirs": 30.3369,
+      "theirs": 30.13539,
       "source": "Yahoo",
-      "gap_pct": 3.7,
+      "gap_pct": 4.4,
       "status": "match"
      },
      {
@@ -10453,25 +10676,25 @@
      {
       "metric": "Price",
       "ours": 555.0,
-      "theirs": 556.45,
+      "theirs": 538.45,
       "source": "NSE",
-      "gap_pct": 0.3,
+      "gap_pct": 3.1,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 7212.78,
-      "theirs": 6982.6158592,
+      "theirs": 6998.212608,
       "source": "Yahoo",
-      "gap_pct": 3.3,
+      "gap_pct": 3.1,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 28.1297516472377,
-      "theirs": 27.679031,
+      "theirs": 27.071394,
       "source": "Yahoo",
-      "gap_pct": 1.6,
+      "gap_pct": 3.9,
       "status": "match"
      },
      {
@@ -10492,34 +10715,33 @@
      {
       "metric": "Price",
       "ours": 3471.5,
-      "theirs": 3468.0,
+      "theirs": 3442.3,
       "source": "NSE",
-      "gap_pct": 0.1,
+      "gap_pct": 0.8,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 7995.08,
-      "theirs": 7720.0416768,
+      "theirs": 7939.1449088,
       "source": "Yahoo",
-      "gap_pct": 3.6,
+      "gap_pct": 0.7,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 33.2933729740098,
-      "theirs": 28.769232,
+      "theirs": 28.345684,
       "source": "Yahoo",
-      "gap_pct": 15.7,
+      "gap_pct": 17.5,
       "status": "mismatch"
      },
      {
       "metric": "ROE %",
       "ours": 62.53,
-      "theirs": 87.94800000000001,
+      "theirs": null,
       "source": "Yahoo",
-      "gap_pct": 28.9,
-      "status": "mismatch"
+      "status": "n/a"
      }
     ],
     "flag": true
@@ -10531,25 +10753,25 @@
      {
       "metric": "Price",
       "ours": 1827.0,
-      "theirs": 1832.2,
+      "theirs": 1823.5,
       "source": "NSE",
-      "gap_pct": 0.3,
+      "gap_pct": 0.2,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 11087.76,
-      "theirs": 11050.1322752,
+      "theirs": 11066.5179136,
       "source": "Yahoo",
-      "gap_pct": 0.3,
+      "gap_pct": 0.2,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 48.16767730029,
-      "theirs": 51.0457,
+      "theirs": 51.12139,
       "source": "Yahoo",
-      "gap_pct": 5.6,
+      "gap_pct": 5.8,
       "status": "match"
      },
      {
@@ -10569,25 +10791,25 @@
      {
       "metric": "Price",
       "ours": 187.61,
-      "theirs": 187.62,
+      "theirs": 188.0,
       "source": "NSE",
-      "gap_pct": 0.0,
+      "gap_pct": 0.2,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 18556.93,
-      "theirs": 18612.3157504,
+      "theirs": 18595.5008512,
       "source": "Yahoo",
-      "gap_pct": 0.3,
+      "gap_pct": 0.2,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 19.5427083333333,
-      "theirs": 18.42997,
+      "theirs": 18.41332,
       "source": "Yahoo",
-      "gap_pct": 6.0,
+      "gap_pct": 6.1,
       "status": "match"
      },
      {
@@ -10607,25 +10829,25 @@
      {
       "metric": "Price",
       "ours": 218.5,
-      "theirs": 218.9,
+      "theirs": 175.2,
       "source": "NSE",
-      "gap_pct": 0.2,
-      "status": "match"
+      "gap_pct": 24.7,
+      "status": "mismatch"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 2649.24,
-      "theirs": 2638.326784,
+      "theirs": 2124.240896,
       "source": "Yahoo",
-      "gap_pct": 0.4,
-      "status": "match"
+      "gap_pct": 24.7,
+      "status": "mismatch"
      },
      {
       "metric": "P/E",
       "ours": 4.14768413059985,
-      "theirs": 19.908508,
+      "theirs": 16.132597,
       "source": "Yahoo",
-      "gap_pct": 79.2,
+      "gap_pct": 74.3,
       "status": "mismatch"
      },
      {
@@ -10646,23 +10868,23 @@
      {
       "metric": "Price",
       "ours": 6290.0,
-      "theirs": 6299.0,
+      "theirs": 6364.5,
       "source": "NSE",
-      "gap_pct": 0.1,
+      "gap_pct": 1.2,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 15725.0,
-      "theirs": 15755.0002176,
+      "theirs": 15911.2495104,
       "source": "Yahoo",
-      "gap_pct": 0.2,
+      "gap_pct": 1.2,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 83.8554859352086,
-      "theirs": 93.80768,
+      "theirs": 93.802505,
       "source": "Yahoo",
       "gap_pct": 10.6,
       "status": "mismatch"
@@ -10684,25 +10906,25 @@
      {
       "metric": "Price",
       "ours": 3940.0,
-      "theirs": 3976.7,
+      "theirs": 4003.6,
       "source": "NSE",
-      "gap_pct": 0.9,
+      "gap_pct": 1.6,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 32257.22,
-      "theirs": 32754.1784576,
+      "theirs": 32777.9221504,
       "source": "Yahoo",
-      "gap_pct": 1.5,
+      "gap_pct": 1.6,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 90.553895656171,
-      "theirs": 74.891426,
+      "theirs": 74.94572,
       "source": "Yahoo",
-      "gap_pct": 20.9,
+      "gap_pct": 20.8,
       "status": "mismatch"
      },
      {
@@ -10723,33 +10945,34 @@
      {
       "metric": "Price",
       "ours": 1649.59998,
-      "theirs": 1660.6,
+      "theirs": 1556.7,
       "source": "NSE",
-      "gap_pct": 0.7,
+      "gap_pct": 6.0,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 15514.6,
-      "theirs": 14171.8913024,
+      "theirs": 14325.5732224,
       "source": "Yahoo",
-      "gap_pct": 9.5,
+      "gap_pct": 8.3,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 21.6397741046832,
-      "theirs": 20.057306,
+      "theirs": 20.27481,
       "source": "Yahoo",
-      "gap_pct": 7.9,
+      "gap_pct": 6.7,
       "status": "match"
      },
      {
       "metric": "ROE %",
       "ours": 27.57,
-      "theirs": null,
+      "theirs": 26.197,
       "source": "Yahoo",
-      "status": "n/a"
+      "gap_pct": 5.2,
+      "status": "match"
      }
     ],
     "flag": false
@@ -10761,25 +10984,25 @@
      {
       "metric": "Price",
       "ours": 71.95,
-      "theirs": 71.95,
+      "theirs": 69.66,
       "source": "NSE",
-      "gap_pct": 0.0,
+      "gap_pct": 3.3,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 19426.5,
-      "theirs": 18999.9005696,
+      "theirs": 18808.201216,
       "source": "Yahoo",
-      "gap_pct": 2.2,
+      "gap_pct": 3.3,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 26.9475655430712,
-      "theirs": 25.682482,
+      "theirs": 25.423359,
       "source": "Yahoo",
-      "gap_pct": 4.9,
+      "gap_pct": 6.0,
       "status": "match"
      },
      {
@@ -10799,25 +11022,25 @@
      {
       "metric": "Price",
       "ours": 470.5,
-      "theirs": 469.6,
+      "theirs": 470.05,
       "source": "NSE",
-      "gap_pct": 0.2,
+      "gap_pct": 0.1,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 14957.19,
-      "theirs": 14701.5614464,
+      "theirs": 14943.1681024,
       "source": "Yahoo",
-      "gap_pct": 1.7,
+      "gap_pct": 0.1,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 42.7727272727273,
-      "theirs": 45.0731,
+      "theirs": 44.4702,
       "source": "Yahoo",
-      "gap_pct": 5.1,
+      "gap_pct": 3.8,
       "status": "match"
      },
      {
@@ -10837,25 +11060,25 @@
      {
       "metric": "Price",
       "ours": 4409.0,
-      "theirs": 4387.0,
+      "theirs": 4172.6,
       "source": "NSE",
-      "gap_pct": 0.5,
+      "gap_pct": 5.7,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
       "ours": 26210.42,
-      "theirs": 25259.859968,
+      "theirs": 24805.0860032,
       "source": "Yahoo",
-      "gap_pct": 3.8,
+      "gap_pct": 5.7,
       "status": "match"
      },
      {
       "metric": "P/E",
       "ours": 121.460055096419,
-      "theirs": 66.423325,
+      "theirs": 65.22745,
       "source": "Yahoo",
-      "gap_pct": 82.9,
+      "gap_pct": 86.2,
       "status": "mismatch"
      },
      {
@@ -10874,11 +11097,11 @@
  "sources": {
   "NSE": {
    "ok": true,
-   "detail": "Prices for 2026-10-29, 2,620 listed companies"
+   "detail": "Prices for 2026-10-30, 2,620 listed companies"
   },
   "Business moat": {
    "ok": true,
-   "detail": "Researched for 100 of 143 companies; the rest are filled in over the next runs"
+   "detail": "Researched for 143 of 143 companies"
   },
   "NSE filings": {
    "ok": true,
@@ -10890,7 +11113,7 @@
   },
   "InvestSights": {
    "ok": true,
-   "detail": "136 requests used today (free plan allows 100)"
+   "detail": "116 requests used today (free plan allows 100)"
   }
  },
  "notes": []
