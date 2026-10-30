@@ -24,6 +24,7 @@ class InvestSights:
         self.req_id = 0
         self.last_call = 0.0
         self.calls = 0
+        self.rate_limited = 0
 
     # ---------- low level ----------
     def _headers(self):
@@ -97,6 +98,9 @@ class InvestSights:
                 code = e.response.status_code if e.response is not None else 0
                 last_error = e
                 if code == 429:
+                    self.rate_limited += 1
+                    if self.rate_limited >= 2:   # hourly or daily limit reached: stop asking
+                        raise QuotaReached("InvestSights rate limit reached") from e
                     time.sleep(65)
                 elif code in (400, 404):      # session expired, reconnect
                     self.connect()
@@ -159,11 +163,14 @@ class InvestSights:
 
     def statements(self, symbol):
         return self.call("get_financial_statements", {
-            "symbol": symbol, "statement": "all", "period": "annual", "limit": 10,
+            "symbol": symbol, "statement": "all", "period": "annual", "limit": 4,
         })
 
     def fundamentals(self, symbol):
         return self.call("get_stock_financials", {"symbol": symbol})
+
+    def moat_research(self, symbol, query):
+        return self.call("ai_stock_research", {"symbol": symbol, "query": query, "depth": "quick"})
 
     def concall(self, symbol):
         return self.call("get_concall_analysis", {"symbol": symbol})
