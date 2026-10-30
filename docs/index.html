@@ -52,15 +52,14 @@ td.co{min-width:230px;white-space:normal}
 .tag{display:inline-block;font-size:11px;font-weight:600;padding:2px 7px;border-radius:20px;margin:3px 4px 0 0;white-space:nowrap}
 .t-new{background:var(--green-soft);color:var(--green)} .t-warn{background:var(--amber-soft);color:var(--amber)}
 .t-blue{background:var(--blue-soft);color:var(--blue)}
-.moat{border:0;font:inherit;font-size:12px;font-weight:600;padding:3px 10px;border-radius:20px;cursor:pointer;white-space:nowrap}
-.moat:focus-visible{outline:2px solid var(--blue-2);outline-offset:1px}
-.m-wide{background:var(--green-soft);color:var(--green)} .m-narrow{background:var(--blue-soft);color:var(--blue)} .m-none{background:#eef2f6;color:#55657a} .m-new{background:var(--amber-soft);color:var(--amber)}
-.mchecks{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:6px 18px;margin:6px 0 0;padding:0;list-style:none}
-.mchecks li{font-size:13px} .t-grey{background:#eef2f6;color:#55657a} .t-red{background:var(--red-soft);color:var(--red)}
+td.moatcell{text-align:left;white-space:normal;min-width:200px;max-width:260px}
+.moattxt{font-size:13px;line-height:1.4;color:var(--ink)}
+.mpoints{margin:4px 0 8px;padding-left:20px;max-width:900px} .mpoints li{margin:4px 0} .t-grey{background:#eef2f6;color:#55657a} .t-red{background:var(--red-soft);color:var(--red)}
 td.cc{text-align:left;min-width:230px;white-space:normal}
 .cc a{display:inline-block;margin:2px 10px 0 0;font-size:12.5px;font-weight:500;white-space:nowrap}
 .more{background:none;border:1px solid var(--line);border-radius:6px;padding:2px 8px;font:inherit;font-size:12px;color:var(--blue);cursor:pointer;margin-top:4px}
 tr.detail td{background:#f8fbff;text-align:left;white-space:normal;color:#2c4460;padding:12px 16px 16px}
+.detail td>*{position:sticky;left:16px;max-width:min(900px,calc(100vw - 72px))}
 .detail h4{margin:0 0 4px;font-size:13px} .detail p{margin:0 0 8px;max-width:900px}
 .ok{color:var(--green);font-weight:600} .bad{color:var(--red);font-weight:600}
 .empty{padding:36px 16px;text-align:center;color:var(--muted)}
@@ -169,16 +168,16 @@ const COLS = [
   {k: "sales_cagr_3y", t: "Sales 3Y CAGR"},
   {k: "profit_cagr_3y", t: "Profit 3Y CAGR"},
   {k: "ocf", t: "Op. cash flow (FY26 first)"},
-  {k: "moat", t: "Moat"},
+  {k: "moat", t: "Business moat"},
   {k: "concall", t: "Concall / PPT"},
   {k: "first_seen", t: "In list since"},
 ];
 
-function moatPill(m, i) {
-  if (!m) return '<span class="hint">-</span>';
-  const cls = {Wide: "m-wide", Narrow: "m-narrow", None: "m-none"}[m.label] || "m-new";
-  const txt = m.score == null ? m.label : `${m.label} ${m.score}/5`;
-  return `<button type="button" class="moat ${cls}" data-i="${i}" title="Click to see the moat checks">${esc(txt)}</button>`;
+function moatCell(m, i) {
+  if (!m || m.pending) return '<span class="hint" title="Will be researched in the next runs">Researching…</span>';
+  if (!m.found) return "";
+  return `<div class="moattxt">${esc(m.summary)}</div>` +
+    (m.points && m.points.length ? `<button type="button" class="more moatbtn" data-i="${i}">Why it's hard to copy</button>` : "");
 }
 function renderTable() {
   const q = $("#q").value.trim().toLowerCase();
@@ -186,7 +185,7 @@ function renderTable() {
   rows.sort((a, b) => {
     let x = a[sortKey], y = b[sortKey];
     if (sortKey === "ocf") { x = (a.ocf || [])[0]?.cr; y = (b.ocf || [])[0]?.cr; }
-    if (sortKey === "moat") { x = a.moat?.score ?? -1; y = b.moat?.score ?? -1; }
+    if (sortKey === "moat") { x = a.moat?.found ? 1 : 0; y = b.moat?.found ? 1 : 0; }
     if (sortKey === "concall") { x = a.filings?.calls_last_12m ?? -1; y = b.filings?.calls_last_12m ?? -1; }
     if (x == null) return 1; if (y == null) return -1;
     return (x > y ? 1 : x < y ? -1 : 0) * (sortAsc ? 1 : -1);
@@ -219,7 +218,7 @@ function renderTable() {
       <td data-l="Market cap (Cr)">${num(r.market_cap, 0)}</td><td data-l="P/E">${num(r.pe, 1)}</td><td data-l="ROE">${pct(r.roe)}</td><td data-l="ROCE">${pct(r.roce)}</td><td data-l="Debt to Equity">${num(r.de, 2)}</td>
       <td data-l="Sales 3Y CAGR">${pct(r.sales_cagr_3y)}</td><td data-l="Profit 3Y CAGR" title="${esc(r.profit_years || "")}">${pct(r.profit_cagr_3y)}</td>
       <td data-l="Op. cash flow (Cr)" title="Rs Cr, newest first (${esc(r.ocf_source || "")})">${ocf || "-"}</td>
-      <td data-l="Moat">${moatPill(r.moat, i)}</td>
+      <td class="moatcell" data-l="Moat">${moatCell(r.moat, i)}</td>
       <td class="cc">${cc}</td><td data-l="In list since">${fmtDate(r.first_seen)}</td></tr>`;
     const det = c && c.found ? `<tr class="detail hide" id="d-${i}"><td colspan="${COLS.length}">
       <h4>${esc(r.name)}: ${esc(c.quarter || "")} ${esc(c.fiscal_year || "")} earnings call${c.stale ? " (older call)" : ""}</h4>
@@ -228,16 +227,16 @@ function renderTable() {
       <p>${link(c.transcript_url, "Read the full transcript on NSE")} &nbsp; ${link(r.screener_url, "Open on Screener.in")}</p>
       <p class="hint">AI-generated summary by InvestSights. Descriptive only.</p></td></tr>` : "";
     const m = r.moat;
-    const mdet = m ? `<tr class="detail hide" id="m-${i}"><td colspan="${COLS.length}">
-      <h4>${esc(r.name)}: moat ${m.score == null ? "not scored" : esc(m.label) + " (" + m.score + " of 5)"}${m.period ? " · " + esc(m.period) : ""}</h4>
-      ${m.score == null ? `<p>${esc(m.note || "")}</p>` : `<ul class="mchecks">${m.checks.map(c => `<li><span class="${c.ok ? "ok" : "bad"}">${c.ok ? "✓" : "✗"}</span> <b>${esc(c.name)}:</b> ${esc(c.detail)}</li>`).join("")}</ul>`}
-      <p class="hint" style="margin-top:8px">Calculated from the company's annual reports. A data-based signal of a durable advantage, not an analyst rating.</p></td></tr>` : "";
+    const mdet = m && m.found && m.points && m.points.length ? `<tr class="detail hide" id="m-${i}"><td colspan="${COLS.length}">
+      <h4>${esc(r.name)}: business moat</h4>
+      <ul class="mpoints">${m.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>
+      <p class="hint">AI summary from the company's annual report and investor presentation, checked ${fmtDate(m.checked)}. Please verify before relying on it.</p></td></tr>` : "";
     return main + det + mdet;
   }).join("");
   $("#tbl").innerHTML = head + "<tbody>" + body + "</tbody>";
   bindSort();
-  document.querySelectorAll(".more").forEach(b => b.onclick = () => $("#d-" + b.dataset.i).classList.toggle("hide"));
-  document.querySelectorAll(".moat[data-i]").forEach(b => b.onclick = () => $("#m-" + b.dataset.i).classList.toggle("hide"));
+  document.querySelectorAll(".more:not(.moatbtn)").forEach(b => b.onclick = () => $("#d-" + b.dataset.i).classList.toggle("hide"));
+  document.querySelectorAll(".moatbtn").forEach(b => b.onclick = () => $("#m-" + b.dataset.i).classList.toggle("hide"));
 }
 function bindSort() {
   document.querySelectorAll("#tbl th").forEach(th => th.onclick = () => {
@@ -293,10 +292,8 @@ function renderOthers() {
   const src = Object.entries(DATA.sources).map(([k, v]) => `<div class="src"><span class="dot" style="background:${v.ok ? "var(--green)" : "var(--red)"}"></span><div><b>${esc(k)}</b><div class="hint">${esc(v.detail)}</div></div></div>`).join("");
   $("#t-rules").innerHTML = `<div class="grid2"><div class="panel box"><h3>Screening rules</h3><ol>${DATA.rules.map(r => `<li>${esc(r)}</li>`).join("")}</ol>
      <p class="hint" style="margin-top:12px">Market cap, ROE and ROCE are screened on InvestSights across the whole market. Debt to Equity and operating cash flow are then checked company by company. Sales and profit growth are shown for information only.</p>
-     <h3 style="margin-top:18px">Moat score</h3>
-     <p class="hint" style="margin:0 0 6px">Shown as a column, not a rule. Calculated from the last 5 annual reports. One point for each check passed:</p>
-     <ul><li>High returns: average ROCE above 20%</li><li>Consistent ROE: above 15% in at least 4 of 5 years</li><li>Pricing power: average EBITDA margin above 15%</li><li>Stable margins: worst year at least 60% of the average</li><li>Cash generation: cash flow positive in 4 of 5 years and at least 70% of profit</li></ul>
-     <p class="hint" style="margin-top:6px"><b>Wide</b> = 5 of 5 · <b>Narrow</b> = 3 or 4 · <b>None</b> = 0 to 2 · <b>Too new</b> = fewer than 3 years of data. Click a moat badge to see which checks passed.</p></div>
+     <h3 style="margin-top:18px">Business moat</h3>
+     <p class="hint" style="margin:0">Shown as a column, not a rule. InvestSights' AI reads each company's annual report and investor presentation and names its durable advantage: things like unique raw material access, patents, licences, brand, network effects or switching costs. Growth or high margins alone don't count. The cell is left blank when no clear moat is found. Each company is re-checked every 3 months; new companies show "Researching…" until their turn comes.</p></div>
      <div class="panel box"><h3>Data sources today</h3>${src}
      <p class="hint" style="margin-top:12px">Stage 1 screen: ${DATA.counts.stage1} companies. Final shortlist: ${DATA.counts.shortlist}.</p></div></div>`;
 }
