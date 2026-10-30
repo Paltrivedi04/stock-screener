@@ -10,7 +10,7 @@ ROE_MIN = 18                    # ROE above 18%
 ROCE_MIN = 18                   # ROCE above 18%
 
 # ---------- Stage 2: checked company by company ----------
-DE_MAX = 2.0                    # Debt to Equity below 2
+DE_MAX = 1.0                    # Debt to Equity below 1
 OCF_POSITIVE_YEARS = 1          # Operating cash flow positive in the latest year (FY26)
 
 # Sectors left out (banks, NBFCs and other financials)
