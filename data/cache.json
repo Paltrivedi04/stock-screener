@@ -32265,5 +32265,984 @@
    "roe": null,
    "roce": null
   }
+ },
+ "moats": {
+  "CASTROLIND": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Brand equity, extensive distribution, OEM relationships, and R&D capabilities.",
+    "points": [
+     "India's #1 lubricant brand with a 115+ year legacy and leading market share across segments.",
+     "Extensive distribution network including 160,000 retail outlets, 32,000+ multi-brand bike workshops, and 730+ Castrol Auto Service outlets.",
+     "Strong global and local OEM relationships (e.g., Maruti Suzuki, Tata Motors) and in-house R&D capabilities."
+    ]
+   }
+  },
+  "IGIL": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Established brand, global network, and reputation in diamond certification.",
+    "points": [
+     "Intangible Assets (Brand & Reputation): IGIL benefits from a 50-year global legacy and a pioneering role in diamond certification, including being the first to issue jewelry identification reports globally (1980) and the first to offer certification for lab-grown diamonds globally (2018). This established trust and glo",
+     "Efficient Scale (Global Network): The company operates the \"Largest Global Network\" with 31 labs, 12 in-factory labs, 18 schools, and 672 experienced gemologists. This extensive global infrastructure and operational scale would require substantial capital investment, time, and expertise for new entrants to match, provi",
+     "Market Leadership: IGIL holds significant market shares, including 50% in India, 33% globally, and 65% in the lab-grown diamond certification segment. This leadership position, built on its brand and network, reinforces its standing and makes it challenging for competitors to gain significant traction."
+    ]
+   }
+  },
+  "CAMS": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "High switching costs, scale, and specialized technology infrastructure.",
+    "points": [
+     "Largest Mutual Fund RTA with 68% market share, serving 10 of 15 largest MFs.",
+     "Proprietary, difficult-to-replicate technology infrastructure and deep domain knowledge.",
+     "Operational scale with 2x capacity for peak transaction volumes, ensuring seamless operations."
+    ]
+   }
+  },
+  "INOXINDIA": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Specialized technical expertise and end-to-end custom cryogenic solutions.",
+    "points": [
+     "Deep customisation capability and end-to-end solution design for complex cryogenic equipment (AR FY26, Page 91).",
+     "Stringent design and manufacturing requirements act as key barriers to entry (IP FY26, Page 39).",
+     "Positioned as a significant supplier to major industrial gas producers globally, underscoring technical standing (AR FY26, Page 91)."
+    ]
+   }
+  },
+  "EMAMILTD": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Strong brand equity and a portfolio of established power brands.",
+    "points": [
+     "Emami Limited benefits from high unaided consumer recall and leading market shares for its power brands, fostering customer loyalty and recognition.",
+     "The company holds patents and invests in R&D, contributing to its intellectual capital and competitive edge.",
+     "A focus on cost management and efficient resource planning supports strong growth margins."
+    ]
+   }
+  },
+  "ELGIEQUIP": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Proprietary technology (stabilizer patent), backward integration for quality/cost, and highly efficient products.",
+    "points": [
+     "Global patent for \"stabilizer\" technology with unrevealed underlying science.",
+     "Backward integration through own foundry for castings and in-house motor manufacturing for quality, cost, and sourcing risk mitigation.",
+     "Claims of being among the most efficient compressors globally, with 80% of customers prioritizing efficiency."
+    ]
+   }
+  },
+  "ASTRAZEN": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "ECLERX": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Specialized KPO, proprietary platforms, and high client switching costs in niche segments.",
+    "points": [
+     "The company focuses on complex, domain-intensive KPO services for Fortune 2000 clients, leading to high switching costs (Source 3).",
+     "Proprietary automation platforms such as Market360 and GenAI360 differentiate its offerings and enhance client outcomes (Source 3, 4).",
+     "Deep integration into client workflows and specialized expertise contribute to sticky client relationships (Source 3)."
+    ]
+   }
+  },
+  "TRITURBINE": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "OEM expertise, high switching costs from aftermarket, and cost leadership.",
+    "points": [
+     "OEM Expertise & IP: Triveni Turbine specializes in precision-engineered industrial steam turbines, supported by Intellectual Property Rights (IPR) filings and API certifications for critical applications in sectors like Oil & Gas (Source 4; Filing: Investor Presentation FY26; Filing: Annual Report 2025, Page 8).",
+     "High Switching Costs: The long operational lifecycle of turbines (20-40 years) combined with comprehensive OEM-provided aftermarket services (spares, O&M, refurbishment, LTSA/AMC) creates significant customer lock-in (Source 4; Filing: Investor Presentation FY25).",
+     "Cost Leadership: The company maintains a cost advantage in its market segment through high manufacturing productivity and cost-efficient designs from its world-class facilities (Source 4)."
+    ]
+   }
+  },
+  "BAYERCROP": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "ENGINERSIN": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "CHAMBLFERT": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "THANGAMAYL": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "SHAILY": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Specialized engineering, regulatory certifications, co-development, and long-term client contracts.",
+    "points": [
+     "High Switching Costs: Co-development of solutions with clients and long-term contracts create sticky customer relationships and recurring business.",
+     "Regulatory Barriers to Entry: World-class regulatory certifications (e.g., ISO 13485 for medical devices, IATF 16949 for automotive, ISO 15378 for pharma packaging, Medical Device Single Audit Program) act as significant barriers for new entrants.",
+     "Proprietary IP & Expertise: The company's \"proprietary IP-led pen injectors\" and deep expertise in Drug Delivery and Combination Products (DDCPs) provide a specialized advantage."
+    ]
+   }
+  },
+  "SHREEJISPG": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Cost advantage and efficient scale in niche port logistics due to asset ownership.",
+    "points": [
+     "The company's \"Absolute Asset Control\" and \"Sea-to-Shore Integration\" allow it to own and manage its entire operational ecosystem, leading to cost-efficiency and insulated pricing structures for clients.",
+     "It maintains a \"dominant position\" in midstream lighterage with one of India's largest fleets and has \"entrenched positions\" in Gujarat's non-major ports, a key market, reflecting significant scale advantages in its specialized services.",
+     "A 30+ year operating legacy and institutional recognition from major port authorities and large industrial clients demonstrate established operational excellence and deep market penetration."
+    ]
+   }
+  },
+  "PRIVISCL": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "INGERRAND": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "ACE": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "MANYAVAR": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Strong brand equity and cost advantage from scale.",
+    "points": [
+     "Intangible Assets (Brand Equity): VFL is a market leader in Indian celebration wear with a diverse portfolio of brands (Manyavar, Mohey, etc.) and significant brand-building efforts, including celebrity campaigns and media integrations (Annual Report 2025, Page 111, 112). This allows for pricing power and customer loya",
+     "Cost Advantage: The company emphasizes \"cost leadership\" and \"informed merchandising, relatively high inventory turns and negligible dead stock\" (Annual Report 2025, Page 37). Its scale, robust supply chain, and efficient working capital management contribute to a structural cost advantage (Annual Report 2025, Page 112",
+     "Omni-channel Network: The extensive omni-channel network (EBOs, MBOs, LFS, e-commerce) and technology-based supply chain provide a broad reach and operational efficiency that are difficult for smaller competitors to replicate (Annual Report 2025, Page 112)."
+    ]
+   }
+  },
+  "MANORAMA": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "High client switching costs, unique sourcing network, proprietary processing technology.",
+    "points": [
+     "Lengthy client onboarding (3-4 years) and reluctance of global brands to switch due to product criticality and shelf-life testing.",
+     "Proprietary 20-30 year developed forest-based raw material procurement network from forest villages and tribal communities.",
+     "Unique, scientific processing facilities and advanced in-house R&D for specialty fats and cocoa butter alternatives, difficult for new players to replicate."
+    ]
+   }
+  },
+  "ASKAUTOLTD": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Proprietary formulations, high entry barriers in safety-critical components, and customer switching costs.",
+    "points": [
+     "Proprietary material formulations (52) and extensive R&D create high entry barriers for safety-critical braking and control cable systems, requiring significant testing and development.",
+     "Established OEM-approved infrastructure and deep-rooted customer relationships lead to significant switching costs for automotive manufacturers due to the critical nature of components and certification requirements.",
+     "The company's market leadership in 2W Advanced Braking Systems, holding approximately 50% market share, is supported by these durable competitive advantages."
+    ]
+   }
+  },
+  "GODREJAGRO": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "DOMS": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Brand recognition, extensive distribution, and integrated manufacturing.",
+    "points": [
+     "Strong Brand Equity: \"DOMS\" is a recognized brand with significant consumer trust and loyalty, enabling market penetration and new product introductions (AR 2024, p.18).",
+     "Extensive Distribution Network: A robust multi-channel pan-India network (125+ super stockists, 5,675+ distributors, 145,000+ retailers) ensures wide reach and efficient product availability, difficult for new entrants to replicate (AR 2025, p.22).",
+     "Integrated Manufacturing & R&D: Modern, scalable, backward-integrated manufacturing infrastructure combined with focused R&D drives product differentiation, quality, and potential cost advantages through economies of scale (AR 2026, p.74; AR 2024, p.61)."
+    ]
+   }
+  },
+  "QPOWER": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Proprietary technology, high technical qualification barriers, and established scale.",
+    "points": [
+     "Quality Power Electrical Equipments Ltd (QPOWER) benefits from proprietary technology and multi-year technical qualifications in specialized areas like High Voltage Direct Current (HVDC) and Flexible AC Transmission Systems (FACTS), creating high entry barriers and enabling participation in demanding global tenders.",
+     "The company's products require rigorous, multi-year customer qualification processes for mission-critical transmission infrastructure, meaning only a small number of global companies clear these hurdles, resulting in significant switching costs for utilities.",
+     "QPOWER's established scale and manufacturing footprint, including being the \"only people\" domestically for certain HVDC products and \"only guys in this part of the world\" for high voltage, provide a competitive advantage in delivery and market access."
+    ]
+   }
+  },
+  "PGIL": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Diversified manufacturing, strong client relationships, and design capabilities.",
+    "points": [
+     "Multi-country manufacturing (e.g., Guatemala zero-tariff) offers cost advantages and supply chain resilience [Annual Report 2026, Page 39, 40].",
+     "Long-term relationships with 30+ global brands imply high switching costs and trust built through consistent performance [Annual Report 2026, Page 39].",
+     "Original design collections and compliance expertise differentiate from commodity players [Annual Report 2026, Page 12, 39]."
+    ]
+   }
+  },
+  "TIPSMUSIC": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Extensive music content library and associated copyrights.",
+    "points": [
+     "The company's core business relies on its proprietary music content library, which functions as an intangible asset providing exclusive rights to revenue streams.",
+     "High operating and net margins (72.8% and 57.7% in FY26) suggest pricing power and strong returns derived from this owned content.",
+     "Management's stated focus on strengthening copyright protection and adapting legal frameworks against AI-generated music underscores the strategic importance of its intellectual property as a barrier to competition."
+    ]
+   }
+  },
+  "BLUEJET": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Specialized chemistry, regulatory compliance, and customer switching costs.",
+    "points": [
+     "Deep expertise in complex chemistry segments with stringent entry norms and limited global players.",
+     "Regulatory accreditations, including US FDA approval for Unit II, creating high barriers to entry and ensuring compliance with global standards.",
+     "Multi-year global partnerships and \"long-term customer stickiness\" enabled by its CDMO model, technical expertise, and dependable execution."
+    ]
+   }
+  },
+  "AVANTIFEED": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "PGHL": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Strong brand equity and parent company's global R&D and operational standards.",
+    "points": [
+     "PGHL benefits from the \"irresistible superiority\" of its brands, product performance, packaging, and communication, which drives consumer choice and loyalty.",
+     "The company leverages the global R&D of its ultimate holding company, Procter & Gamble, for product innovation and development.",
+     "PGHL adopts P&G's global standards for business conduct and operational excellence, which contributes to its competitive positioning."
+    ]
+   }
+  },
+  "BLS": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Exclusive long-term government contracts and high client switching costs.",
+    "points": [
+     "BLS benefits from exclusive, long-term (5-10 years) government mandates with no vendor overlap in specific regions, creating structural barriers to entry and multi-year revenue visibility.",
+     "Deep integration with government workflows creates high switching costs for clients, making displacement operationally, diplomatically, and contractually difficult once infrastructure is live.",
+     "Proprietary technology, including AI-led identity verification and end-to-end digital workflow automation, strengthens government trust and creates high entry barriers through deep integration with sovereign workflows."
+    ]
+   }
+  },
+  "BANCOINDIA": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Deep OEM integration and specialized engineering solutions creating high switching costs.",
+    "points": [
+     "Long-standing OEM Relationships & Bespoke Engineering: The company's \"long-standing OEM relationships\" and \"bespoke engineering approach\" for co-creating customized, technically optimized solutions suggest deep integration into customer product development cycles. This makes it difficult and costly for OEMs to switch s",
+     "Strong R&D and Quality Systems: Robust in-house R&D capabilities enable the company to develop customized, high-performance solutions aligned with evolving regulatory and customer requirements, including for EVs. Adherence to stringent quality systems and certifications further enhances credibility and supports repeat ",
+     "Established Brand and Legacy: With over six decades of industry experience, the company has built a \"trusted brand\" and \"legacy\" in thermal management and sealing solutions. This reputation for quality and reliability can act as a barrier to entry for new competitors."
+    ]
+   }
+  },
+  "THYROCARE": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Structural cost advantage and extensive distribution network.",
+    "points": [
+     "Asset-light, franchise-led model enables high-volume, low-cost testing.",
+     "Over 10,800+ active franchisees provide wide and deep market penetration.",
+     "100% NABL accreditation and 3.4-hour TAT support operational efficiency."
+    ]
+   }
+  },
+  "KENNAMET": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Established brands and specialized materials science expertise create customer switching costs.",
+    "points": [
+     "Operates with trusted brands Kennametal and WIDIA in specialized industrial tooling and wear solutions.",
+     "Positioned as an industrial technology leader in materials science, offering precision-engineered products and custom solutions.",
+     "Leverages years of expertise and innovation in advanced material solutions for critical applications, fostering customer reliance and potential switching costs."
+    ]
+   }
+  },
+  "TANLA": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Network effects, high switching costs, and proprietary technology in critical communication infrastructure.",
+    "points": [
+     "Trubloq processes over 70% of India's A2P transactions, establishing a dominant position in national digital communication infrastructure.",
+     "Deep integration of AI in platforms like Wisely ATP and Wisely.ai creates an \"insurmountable technological moat\" by securing billions of interactions in real-time and pioneering digital safety standards.",
+     "Long-standing relationships with leading Indian enterprises, serving 70% of top brands, with over 60% of revenue from customers with a relationship vintage of more than five years, indicating high switching costs and customer stickiness."
+    ]
+   }
+  },
+  "SANDUMA": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Cost advantage from integrated operations and legacy mining leases.",
+    "points": [
+     "Cost Advantage: The company benefits from \"capital-light, high-ROCE mining platform built on legacy manganese and iron ores leases\" and a \"lean cost structure\".",
+     "Integrated Value Chain: Strategic forward integration into SBQ steel, with Arjas Steel facilities backed by SMIORE's iron ore, delivers \"significant cost advantages and operational efficiency\".",
+     "Captive Infrastructure: Integrated infrastructure, including captive coke ovens, waste-heat recovery energy generation assets, ferroalloys, and hybrid renewable energy, further drives value addition and operational efficiency."
+    ]
+   }
+  },
+  "ESABINDIA": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "KOVAI": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "SANOFICONR": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Strong brand equity, global R&D, and established distribution network.",
+    "points": [
+     "The company possesses leading consumer healthcare brands (Allegra, Combiflam, Avil, DePURA) with strong brand equity among healthcare professionals and consumers.",
+     "It leverages Sanofi's global resources for scientific research, product creation, and promotional excellence, adapting international best practices to local Indian realities.",
+     "An extensive distribution network spans urban and rural channels, including traditional trade, e-commerce, and pharmacy networks, ensuring broad product availability."
+    ]
+   }
+  },
+  "RPEL": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Patented process, raw material access, customisation, and superior product performance.",
+    "points": [
+     "Patented Manufacturing Process: RPEL has secured the first-ever patent in India for its silica ramming mass manufacturing process, strengthening its technological credentials and providing a regulatory advantage.",
+     "Cost Advantage (Raw Material Access): The company's manufacturing facilities are strategically located near dense quartz reserves, ensuring reliable access to high-purity raw materials, lower logistics costs, and enhanced supply chain efficiencies.",
+     "Switching Costs / Product Differentiation: RPEL is the world's only silica ramming mass manufacturer to offer customised solutions based on customer plant requirements, leading to higher productivity and heat yields (at least 25% more heats than competitors). This creates non-linear cost and productivity benefits for c"
+    ]
+   }
+  },
+  "GPPL": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Regulatory licenses/concessions and efficient scale in port operations.",
+    "points": [
+     "Exclusive operating concessions granted by government bodies, such as the current concession with Gujarat Maritime Board (GMB), create significant barriers to entry for competitors.",
+     "The substantial capital expenditure and land requirements for developing new port infrastructure make it economically irrational for new players to enter established regions, contributing to an efficient scale moat.",
+     "Switching costs for shipping lines are high due to established logistical chains, integrated operations, and long-term contracts, making it difficult and costly to change primary ports."
+    ]
+   }
+  },
+  "PRICOLLTD": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "PRECWIRE": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "SANOFI": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "WAAREERTL": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "KIRLPNU": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Proprietary technology and specialized engineering expertise.",
+    "points": [
+     "Extensive IP portfolio with 11 IPs granted and 46 filed in FY26, including patents and designs [Annual Report 2026, Page 112].",
+     "Ability to develop highly customised products through in-house expertise and a team of over 200 engineers [Annual Report 2026, Page 112].",
+     "Expanded aftermarket and service offerings, strengthening customer relationships and repeat business [Annual Report 2026, Page 112]."
+    ]
+   }
+  },
+  "SMLMAH": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "SKFINDIA": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Strong brand, global technology, extensive distribution, high localization.",
+    "points": [
+     "Intangible Assets: Leverages the global SKF Group's brand, technology, and quality systems, which are critical in a market with counterfeit products [Source 4, Filing: SKF India Limited Annual Report 2026, Page 14].",
+     "Switching Costs/Cost Advantage: High localization (approximately 90% in the automotive segment) and co-engineering with Original Equipment Manufacturers (OEMs) create integration and supply chain efficiencies [Source 4, Filing: SKF India Limited Annual Report 2026, Page 15].",
+     "Efficient Scale/Distribution Network: Operates with an extensive manufacturing footprint (3 units) and a wide distributor network (over 330) across India, providing broad market reach and service capabilities."
+    ]
+   }
+  },
+  "SJS": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "JYOTHYLAB": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Brand equity in core proprietary products and extensive distribution network.",
+    "points": [
+     "Established brands like Ujala, Exo, and Maxo have built customer trust and market share over decades (Source 4).",
+     "An extensive distribution network with 1.4 million direct outlets provides wide product reach (Jyothy Labs Limited Annual Report 2026, Page 23; Source 4).",
+     "However, the recent loss of the Pril license highlights reliance on licensed brands for a portion of its business (Source 4)."
+    ]
+   }
+  },
+  "SONATSOFTW": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Proprietary frameworks, specialized Microsoft partnership, and client switching costs.",
+    "points": [
+     "Sonata's proprietary Platformation™ framework and Harmoni.AI offer distinct, internally developed solutions for AI-first modernization (Source 3).",
+     "A deep, long-standing partnership with Microsoft, evidenced by six Inner Circle awards, creates specialized expertise and potential switching costs for clients integrated into these platforms (Source 3).",
+     "Significant intangible assets in customer relationships and customer contracts (₹439.22 Cr and ₹80.90 Cr respectively as of April 1, 2024, consolidated) indicate client stickiness and associated switching costs (Filing: Sonata Software Limited Annual Report 2026, Page 544)."
+    ]
+   }
+  },
+  "GOKULAGRO": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "SHARDACROP": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Extensive regulatory registrations and dossier development capabilities.",
+    "points": [
+     "The company possesses 3,011 product registrations and a pipeline of 1,004 applications globally.",
+     "Its core strength lies in dossier preparation and regulatory excellence, enabling market entry into regulated markets.",
+     "This extensive portfolio of approvals creates significant regulatory barriers to entry for competitors in diverse geographies."
+    ]
+   }
+  },
+  "SBCL": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Proprietary dual-process technology, high switching costs, and cost advantages.",
+    "points": [
+     "Proprietary Technology: SBCL possesses a unique dual-process platform (Electron Beam Welding + Diffusion Bonding) and 77 proprietary bimetal grades, difficult to replicate.",
+     "Switching Costs: Customers face demanding 24-month re-qualification cycles and average lock-in periods exceeding 15 years.",
+     "Cost Advantage: Indigenous machine build and an INR cost base enable a capital-light manufacturing process and sustainable cost edge."
+    ]
+   }
+  },
+  "REDTAPE": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Brand recognition, product innovation, and scale-driven cost advantages.",
+    "points": [
+     "Brand Trust: Three decades of consumer recall and an established reputation foster customer loyalty and repeat purchases.",
+     "Product Differentiation & Innovation: Rapid product turnover (15-50 new styles per month) and material innovation (ETPU soles, premium PU-moulded footbeds) differentiate products from competitors.",
+     "Cost Advantage from Scale: High production volumes (e.g., 15,000 pairs minimum order quantity for footwear) provide significant negotiation power for sourcing, enabling competitive pricing."
+    ]
+   }
+  },
+  "VADILALIND": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "ITDC": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "GULFOILLUB": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Brand, B2B/OEM switching costs, and specific regulatory licenses.",
+    "points": [
+     "The company's \"No. 2 Brand Volume\" position and \"Strong Brand Image\" allow for strategic pricing initiatives to mitigate rising input costs, indicating a degree of pricing power.",
+     "Deep B2B and OEM partnerships, offering \"co-engineered lubricant solutions\" and technical support, create switching costs for these customers due to integrated processes and reliance on tailored products.",
+     "Specific regulatory licenses, such as the VDA license for AdBlue®, provide a barrier to entry for competitors in that particular product segment."
+    ]
+   }
+  },
+  "BAJAJCON": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Strong brand equity and extensive distribution network.",
+    "points": [
+     "The \"Almond Drop\" brand is a premium product commanding higher gross margins.",
+     "Extensive brand protection efforts against counterfeits (legal cases, raids) indicate the brand's value and difficulty for competitors to replicate.",
+     "A wide distribution network of 2,259 dealers/distributors provides significant market reach."
+    ]
+   }
+  },
+  "JAMNAAUTO": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Distribution network, OEM integration, and scale advantages.",
+    "points": [
+     "JAMNAAUTO benefits from an extensive and deeply integrated distribution network, including 300+ distributors, 20,000+ retailers, and 25,000+ mechanics (FY25 standalone), creating a significant barrier to entry for competitors in the aftermarket segment.",
+     "The strategic placement of manufacturing facilities near major OEM production hubs across India ensures efficient supply and timely delivery, fostering strong, long-term relationships with OEMs and potentially creating switching costs due to integration into their supply chains.",
+     "Its specialized expertise and wide product range in commercial vehicle suspension systems, combined with its scale as a leading player, contribute to cost advantages through economies of scale in manufacturing and logistics."
+    ]
+   }
+  },
+  "RPGLIFE": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "STYLAMIND": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "SHARDAMOTR": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Intangible assets through patents and strategic technology partnerships.",
+    "points": [
+     "The company has filed 24 patents with 4 patents granted, indicating proprietary technology development in its business segments.",
+     "A Joint Venture with Purem Germany for Emission Control Systems suggests access to advanced and specialized technology in a highly regulated auto-parts segment.",
+     "Significant market share in specific auto-parts segments, such as ~30% in PV & LCV Emission Systems, may enable efficient scale and cost advantages."
+    ]
+   }
+  },
+  "FIEMIND": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "High switching costs for OEM customers due to deep integration and long-standing relationships.",
+    "points": [
+     "The company maintains long-standing, strategic relationships with major automotive OEMs, including TVS Motor Company, Honda, Royal Enfield, Suzuki, and Yamaha.",
+     "Fiem Industries positions itself as an \"innovation-oriented partner\" providing \"next-generation automotive lighting technologies,\" which deeply integrates it into OEM product development cycles.",
+     "OEMs incur substantial costs and risks when switching critical component suppliers, encompassing design integration, validation, quality assurance, and potential supply chain disruptions."
+    ]
+   }
+  },
+  "SWARAJENG": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "MPSLTD": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Domain expertise, proprietary content, technology integration, high switching costs, regulatory trust.",
+    "points": [
+     "MPS possesses deep domain expertise and over 55 years of experience, combined with technology, enabling it to service the entire value chain for clients end-to-end.",
+     "The company leverages proprietary, peer-reviewed content assets, particularly in healthcare (Unbound Medicine), creating a \"walled garden\" for AI applications that ensures accuracy and trust in high-stakes decision-making, differentiating it from generic LLMs.",
+     "High switching costs are created through deep technological integration into client workflows (e.g., Unbound's seamless integration into hospital Electronic Health Record workflows) and long-standing relationships with customers."
+    ]
+   }
+  },
+  "MSTCLTD": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Regulatory advantage from PSU status and government mandates.",
+    "points": [
+     "MSTC Limited, as a Public Sector Undertaking, benefits from mandates and preferred status in e-procurement and e-auction services for government entities and PSUs.",
+     "Its extensive network of 20 national offices across 18 states facilitates broad reach and engagement with core government and PSU customers.",
+     "The company's comprehensive service offerings, particularly in the government and PSU ecosystem, are difficult for private competitors to fully replicate due to regulatory requirements and established relationships."
+    ]
+   }
+  },
+  "GVPIL": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "STEELCAS": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Specialized metallurgical expertise, high switching costs, structural cost advantages.",
+    "points": [
+     "Proprietary metallurgical expertise and R&D create high entry barriers.",
+     "High replacement costs for global OEM customers foster loyalty and switching costs.",
+     "Locational advantages and captive power plants provide structural cost benefits."
+    ]
+   }
+  },
+  "UNIPARTS": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Structural cost advantage and high customer switching costs.",
+    "points": [
+     "Cost advantage derived from India-based manufacturing for global sales, enabling competitive pricing in US and EU markets (ValuePickr Forum).",
+     "Long-standing relationships (over 20 years with many customers) with marquee global OEMs and large aftermarket retail chains, leading to revenue visibility and steady orders (Uniparts India Limited Annual Report 2025, Page 24, 18).",
+     "Dual-shore manufacturing in India and the US, combined with strategically located warehousing facilities in the US, Germany, and planned in Mexico, enhances supply chain resilience and allows agile, timely service delivery to global customers (Uniparts India Limited Annual Report 2025, Page 22, 24; Zen Nivesh)."
+    ]
+   }
+  },
+  "VSTIND": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Regulatory barriers, established brands, integrated supply chain, and distribution network.",
+    "points": [
+     "Regulatory Barriers: The tobacco industry operates under stringent regulations (COTPA guidelines) and high barriers to entry, which protect existing players from new competition.",
+     "Brand Strength: VST Industries owns two of the top 10 cigarette brands, enabling market relevance and portfolio refinement, and indicating pricing power and customer loyalty.",
+     "Integrated Operations & Distribution: The company operates an integrated business model from disciplined sourcing of tobacco from 10,779 farmers to efficient manufacturing and a distribution network spanning over 80% of India, creating operational efficiencies and reach."
+    ]
+   }
+  },
+  "BONDADA": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "INDOTECH": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "JUBLCPL": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "INDRAMEDCO": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "WEBELSOLAR": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "CARRARO": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "DDEVPLSTIK": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "High switching costs from long-standing approvals and time-intensive product qualification cycles.",
+    "points": [
+     "Extensive product qualification processes required by customers act as natural entry barriers (Annual Report 2026, Page 112).",
+     "Long-standing product approvals from India's leading cable manufacturers reinforce customer stickiness (Annual Report 2026, Page 112).",
+     "Customised, technically differentiated formulations strengthen relationships and reduce switching risk (Annual Report 2026, Page 112)."
+    ]
+   }
+  },
+  "CRIZAC": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Network effects, switching costs, regulatory compliance, and proprietary technology.",
+    "points": [
+     "Network Effects: The platform's value increases with each additional agent, university, and student, enhancing reach and conversion optionality (Concall Transcript FY26, Page 6).",
+     "Switching Costs: Deep, long-standing relationships with over 400 institutional partners and 5,389 active counselling partners create stickiness and high barriers to exit (Concall Transcript FY26, Page 6).",
+     "Regulatory Compliance: Adherence to international compliance frameworks (e.g., UK's Agent Quality Framework) acts as a barrier to entry, favoring established, compliant platforms (Annual Report 2026, Page 45)."
+    ]
+   }
+  },
+  "MARSONS": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Proprietary technology and regulatory approvals provide a competitive advantage.",
+    "points": [
+     "The company develops all its technologies in-house, leading to significant cost reduction.",
+     "Vendor approval from Power Grid Corporation of India (PGCIL) for power transformers acts as a significant barrier to entry for competitors [2026-05-15]."
+    ]
+   }
+  },
+  "IRCTC": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Intangible Assets (Regulatory License/Government backing) and Efficient Scale.",
+    "points": [
+     "IRCTC benefits from exclusive or preferential rights granted by the Indian government for its core railway-related services, acting as a significant barrier to entry.",
+     "The extensive and integrated nature of the Indian railway network creates an efficient scale, making it economically unfeasible for new competitors to replicate IRCTC's service infrastructure.",
+     "Its \"Rail Neer\" brand aims to meet 100% of packaged drinking water demand within the Railways, establishing a strong brand presence in this niche."
+    ]
+   }
+  },
+  "EMCURE": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Patents, specialized R&D and manufacturing, regulatory expertise.",
+    "points": [
+     "Emcure holds 220 patents, protecting its innovative products and processes (Annual Report 2026, Page 22).",
+     "Specialized R&D capabilities across biologics, NDDS, complex injectables, and ADCs, combined with 13 manufacturing facilities for complex APIs, create high barriers to entry (Annual Report 2026, Page 22, Source 2).",
+     "Global regulatory approvals and experience in achieving first-generic entries (e.g., Liposomal Amphotericin B in EU) demonstrate strong regulatory expertise (Annual Report 2026, Page 22, Page 83)."
+    ]
+   }
+  },
+  "HEXT": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Customer relationships, delivery excellence, and deep client process knowledge.",
+    "points": [
+     "Hexaware's consistently high Net Promoter Score (NPS), placing it in the top 85th percentile for 11 consecutive years, demonstrates strong customer loyalty and satisfaction.",
+     "The company's deep understanding of clients' technology, culture, and processes, built over decades, creates significant switching costs and fosters long-term, trusted partnerships.",
+     "Hexaware actively co-creates new revenue streams and AI-driven solutions with clients, leveraging proprietary customer data and its expertise, further embedding its services within client operations."
+    ]
+   }
+  },
+  "3MINDIA": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Strong brand equity and extensive proprietary technology access from parent, supported by local patents.",
+    "points": [
+     "Leverages the globally recognized \"3M\" brand, consistently ranked among top global brands (Interbrand 2022, 2023).",
+     "Accesses 3M Company, USA's 51 technology platforms, R&D, and thousands of patents, enabling local manufacturing and product innovation.",
+     "Holds 173 patents as of March 31, 2026, strengthening its proprietary product offerings."
+    ]
+   }
+  },
+  "ACUTAAS": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "LALPATHLAB": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Trusted brand, extensive network, and scale efficiencies in diagnostics.",
+    "points": [
+     "Strong brand reputation and trust, particularly in the B2C segment, fostering repeat business and clinician preference (Source 2, Source 5).",
+     "Extensive and dense distribution and logistics network (labs, PSCs, PUPs) enabling national reach, faster turnaround times, and efficient sample collection (Source 2, Filing: Dr. Lal PathLabs Limited Annual Report 2026, Page 5).",
+     "Economies of scale and process power derived from centralized processing and an asset-light, franchisee-led model, contributing to stable margins and strong cash conversion (Source 2, Source 5)."
+    ]
+   }
+  },
+  "IKS": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Proprietary AI-first platform, outcome-based pricing, and integrated EHR ownership.",
+    "points": [
+     "The company leverages a proprietary AI-first, agentic platform, including acquired technologies like ARAI's knowledge graphs and small language models, to deliver non-linear growth by decoupling revenue from headcount.",
+     "Its outcome-based pricing model, where a significant portion of revenue is tied to client outcomes and economic value add, creates high switching costs and long-term contracts (10-15 years).",
+     "The acquisition of TruBridge provides ownership of a proprietary EHR system for rural and community hospitals, offering a 30%+ market share in this segment and access to over 5 million patient records for AI training."
+    ]
+   }
+  },
+  "GODFRYPHLP": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Strong brand portfolio, exclusive Marlboro partnership, and extensive distribution network.",
+    "points": [
+     "Established Brand Portfolio: The company owns and markets several well-known cigarette brands in India, fostering consumer loyalty in a habit-forming product category (Source 2).",
+     "Strategic Partnership: Godfrey Phillips India has an exclusive agreement with Philip Morris International for the manufacture and distribution of the Marlboro brand cigarettes in India (Filing: Investor Presentation, Section 2).",
+     "Extensive Distribution: The company leverages a wide and deep distribution infrastructure with 800+ distributors and 9000+ field force (FY2023) (Filing: Investor Presentation, Section 2), which is critical for market penetration in the FMCG tobacco sector."
+    ]
+   }
+  },
+  "SCHNEIDER": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Intangible assets (proprietary technology, patents, brand) and customer switching costs.",
+    "points": [
+     "Leverages EcoStruxure™ platform and 1,400+ global patents from the Schneider Electric Group (FY26, FY25).",
+     "Offers integrated, plug-and-play solutions, fostering customer stickiness as a trusted partner (FY25).",
+     "Focuses on technology-led differentiation and deep customer understanding (FY26, FY25)."
+    ]
+   }
+  },
+  "NETWEB": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Specialized expertise in integrated HCS design/manufacturing, proprietary IP, and high customer switching costs.",
+    "points": [
+     "Netweb possesses deep, in-house expertise in designing and manufacturing High-end Computing Solutions (HCS), supported by continuous R&D, 125 R&D professionals, and 17 design/patents (registered and applied for as of June 2026). This includes full-stack capabilities from hardware to proprietary software, creating signi",
+     "The company maintains long-standing relationships with a diverse customer base, evidenced by 87.71% revenue from repeat customers (Q1 FY27) and an average tenure of 7.68 years for its top 10 customers (Q1 FY27). Providing end-to-end, customized, and integrated solutions for critical infrastructure like HPC, AI, and Pri",
+     "Strategic partnerships with key technology providers like NVIDIA, Intel, and AMD, including OEM agreements for advanced AI GPU systems (e.g., NVIDIA Blackwell platform by mid-CY2025E), enhance its technological capabilities and market positioning in a rapidly evolving industry."
+    ]
+   }
+  },
+  "NEULANDLAB": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Extensive regulatory filings, specialized R&D in complex chemistry, and long-term CDMO partnerships.",
+    "points": [
+     "The company possesses a strong regulatory track record with over 988 filings to date, including 72 USFDA DMFs and 29 CEPs, creating high barriers to entry for competitors.",
+     "Neuland Laboratories invests in specialized R&D capabilities, focusing on complex molecules, advanced chemistry, and new technologies like biocatalysis and flow chemistry, supported by 204+ patents filed,.",
+     "Its CDMO Services (CMS) business model emphasizes trusted customer relationships and a non-competitive advantage by not competing in finished formulations, fostering long-term partnerships with high switching costs for clients."
+    ]
+   }
+  },
+  "MSUMI": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "RRKABEL": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Strong brand, wide distribution, electrician ecosystem, and technological certifications.",
+    "points": [
+     "Extensive \"Electrician Ecosystem\" (665k+ trained electricians as of FY26) creates a difficult-to-replicate pull-demand model.",
+     "Strong brand recognition (RR Kabel, RR Signature) and a wide distribution network of 7,200+ distributors/dealers and 215,000+ retail touchpoints (Mar-24).",
+     "NABL-certified R&D, 57 national and international certifications, and backward integration (e.g., LSOH compound production in FY26) ensure quality and market access."
+    ]
+   }
+  },
+  "TATAELXSI": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Proprietary platforms, deep client integration, and structural cost advantage.",
+    "points": [
+     "Proprietary IP (AVENIR, NEURON, TEngage) creates high switching costs for clients (SOIC x StockScans Report).",
+     "Deep domain expertise and integration into client R&D cycles (Annual Report 2025, Page 17).",
+     "Offshore delivery model provides a structural cost advantage (SOIC x StockScans Report)."
+    ]
+   }
+  },
+  "GILLETTE": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "TDPOWERSYS": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "HBLENGINE": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Proprietary technology, in-house R&D, and critical certifications in niche engineering-intensive products.",
+    "points": [
+     "In-house development of specialized, engineering-intensive products for niche markets (e.g., Defence, Railways).",
+     "Proprietary technologies like Pure Lead Thin (PLT) batteries and first-mover advantage in critical railway systems (Kavach, TMS).",
+     "High regulatory barriers to entry and stringent certifications (e.g., SIL4 for Kavach) for specialized applications."
+    ]
+   }
+  },
+  "CHENNPETRO": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "PGHH": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "CEMPRO": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Specialized expertise and track record in complex infrastructure projects.",
+    "points": [
+     "Proven execution capabilities in large, complex contracts across diverse sectors like maritime structures and underground metro projects [Annual Report 2024, Page 23].",
+     "Established bidding eligibility and preferred contractor status for high-value projects, indicating high switching costs for clients due to specialized know-how and experience [Annual Report 2024, Page 23].",
+     "Extensive operational footprint across 13 states/1 union territory in India and international presence in Sri Lanka and Bangladesh, providing scale and regional market understanding [Annual Report 2024, Page 23]."
+    ]
+   }
+  },
+  "HATSUN": {
+   "fetched": "2026-10-30",
+   "data": {
+    "found": true,
+    "summary": "Strong brand equity, extensive distribution, and scale-driven cost advantages.",
+    "points": [
+     "Hatsun Agro Product Limited (HATSUN) has established brand leadership across its product segments, with 96-97% of its sales attributed to branded products.",
+     "The company has made significant investments in production and distribution infrastructure, enabling economies of scale that confer a cost advantage, particularly against smaller competitors.",
+     "HATSUN possesses an extensive distribution network, serving 5,704 dealers/distributors as of FY26, which facilitates broad market reach for its products."
+    ]
+   }
+  }
  }
 }
