@@ -26,6 +26,7 @@ class NSE:
         self.s.headers.update(HEADERS)
         self.primed = False
         self.errors = []
+        self.filing_failures = 0
 
     def _prime(self):
         if self.primed:
@@ -96,6 +97,8 @@ class NSE:
 
     # ---------- filings ----------
     def announcements(self, symbol, days=400):
+        if self.filing_failures >= 5:      # NSE is blocking us today: stop trying
+            return None
         self._prime()
         end = dt.date.today()
         start = end - dt.timedelta(days=days)
@@ -105,13 +108,15 @@ class NSE:
             f"&from_date={start:%d-%m-%Y}&to_date={end:%d-%m-%Y}"
         )
         try:
-            r = self.s.get(url, timeout=30)
+            r = self.s.get(url, timeout=15)
             r.raise_for_status()
             data = r.json()
             if isinstance(data, dict):
                 data = data.get("data", [])
+            self.filing_failures = 0
             return data if isinstance(data, list) else []
         except Exception as e:  # noqa: BLE001
+            self.filing_failures += 1
             self.errors.append(f"NSE announcements {symbol}: {e}")
             return None
 
