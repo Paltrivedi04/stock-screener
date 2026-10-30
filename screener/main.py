@@ -4,6 +4,8 @@ import datetime as dt
 import json
 import os
 import random
+import time
+import re
 import sys
 import traceback
 from pathlib import Path
@@ -91,58 +93,34 @@ def trim_statements(raw):
     return {"profit": profit, "ocf": ocf, "de": de, "years": years, "v": 2}
 
 
-def moat_score(years):
-    """Data-based moat score from the last few annual reports.
-    Five checks, one point each: high ROCE, consistent ROE, pricing power,
-    stable margins, and cash generation."""
-    rows = [y for y in (years or [])[:C.MOAT_YEARS]
-            if y.get("revenue") and y["revenue"] > 0 and y.get("net_profit") is not None]
-    n = len(rows)
-    if n < 3:
-        return {"label": "Too new", "score": None, "years": n,
-                "checks": [], "note": f"Only {n} year(s) of data; needs at least 3"}
 
-    def ratio(a, b):
-        return a / b * 100 if a is not None and b not in (None, 0) and b > 0 else None
-
-    roce = [ratio(y.get("ebit"), (y.get("equity") or 0) + (y.get("debt") or 0)) for y in rows]
-    roe = [ratio(y.get("net_profit"), y.get("equity")) for y in rows]
-    margin = [ratio(y.get("ebitda"), y["revenue"]) for y in rows]
-    ocf = [y.get("ocf") for y in rows]
-    roce_v = [x for x in roce if x is not None]
-    roe_v = [x for x in roe if x is not None]
-    m_v = [x for x in margin if x is not None]
-    ocf_v = [x for x in ocf if x is not None]
-    need = min(C.MOAT_ROE_YEARS, n) if n < C.MOAT_YEARS else C.MOAT_ROE_YEARS
-    need_ocf = min(C.MOAT_OCF_YEARS, n) if n < C.MOAT_YEARS else C.MOAT_OCF_YEARS
-
-    avg_roce = sum(roce_v) / len(roce_v) if roce_v else None
-    roe_good = sum(1 for x in roe_v if x > C.MOAT_ROE_MIN)
-    avg_m = sum(m_v) / len(m_v) if m_v else None
-    min_m = min(m_v) if m_v else None
-    ocf_pos = sum(1 for x in ocf_v if x > 0)
-    tot_ocf = sum(ocf_v) if ocf_v else None
-    tot_np = sum(y["net_profit"] for y in rows if y.get("ocf") is not None)
-    conv = tot_ocf / tot_np if tot_ocf is not None and tot_np > 0 else None
-
-    checks = [
-        {"name": "High returns", "detail": f"Average ROCE {avg_roce:.0f}% (needs above {C.MOAT_AVG_ROCE_MIN}%)" if avg_roce is not None else "ROCE not available",
-         "ok": avg_roce is not None and avg_roce > C.MOAT_AVG_ROCE_MIN},
-        {"name": "Consistent ROE", "detail": f"ROE above {C.MOAT_ROE_MIN}% in {roe_good} of {len(roe_v)} years (needs {need})",
-         "ok": roe_good >= need},
-        {"name": "Pricing power", "detail": f"Average EBITDA margin {avg_m:.0f}% (needs above {C.MOAT_AVG_MARGIN_MIN}%)" if avg_m is not None else "Margin not available",
-         "ok": avg_m is not None and avg_m > C.MOAT_AVG_MARGIN_MIN},
-        {"name": "Stable margins", "detail": f"Worst year {min_m:.0f}% vs average {avg_m:.0f}%" if avg_m else "Margin not available",
-         "ok": bool(avg_m) and avg_m > 0 and min_m >= C.MOAT_MARGIN_FLOOR * avg_m},
-        {"name": "Cash generation", "detail": (f"Cash flow positive in {ocf_pos} of {len(ocf_v)} years, cash-to-profit {conv:.0%}"
-                                                if conv is not None else f"Cash flow positive in {ocf_pos} of {len(ocf_v)} years"),
-         "ok": ocf_pos >= need_ocf and conv is not None and conv >= C.MOAT_CASH_CONVERSION},
-    ]
-    score = sum(c["ok"] for c in checks)
-    label = "Wide" if score >= 5 else "Narrow" if score >= 3 else "None"
-    return {"label": label, "score": score, "years": n,
-            "period": f"{rows[-1].get('fy')} to {rows[0].get('fy')}", "checks": checks}
-
+def parse_moat(raw):
+    """Pull the 'MOAT:' line and its bullet points out of the AI research note.
+    Returns found=False when no clear moat was named."""
+    text = (raw or {}).get("analysis") or ""
+    lines = text.splitlines()
+    idx = next((i for i, l in enumerate(lines)
+                if re.match(r"^\W*\**\s*MOAT\s*:", l.strip(), re.I)), None)
+    clean = lambda t: re.sub(r"\s+([.,;])", r"\1", re.sub(r"\s+", " ", re.sub(r"\[Filing:[^\]]*\]|\*\*|__", "", t))).strip(" *-•:;")
+    if idx is None:
+        return {"found": False}
+    summary = clean(re.sub(r"^\W*\**\s*MOAT\s*:", "", lines[idx].strip(), flags=re.I))
+    if not summary or re.match(r"^(none|no clear|no durable|not identified|no moat)", summary, re.I):
+        return {"found": False}
+    points = []
+    for l in lines[idx + 1:]:
+        t = l.strip()
+        if t.startswith("#") or (points and not t):
+            if points:
+                break
+            continue
+        if re.match(r"^[*\-•]\s+", t):
+            p = clean(re.sub(r"^[*\-•]\s+", "", t))
+            if p:
+                points.append(p[:320])
+        if len(points) >= 3:
+            break
+    return {"found": True, "summary": summary[:160], "points": points}
 
 def trim_concall(raw):
     if not raw:
@@ -314,7 +292,7 @@ def run():
 
         # Statements (cached weekly)
         st = cache["statements"].get(sym)
-        if not fresh(st, C.STATEMENTS_CACHE_DAYS, today) or (st or {}).get("v") != 2:
+        if not fresh(st, C.STATEMENTS_CACHE_DAYS, today) or "de" not in (st or {}):
             try:
                 st = {"fetched": today.isoformat(), **trim_statements(inv.statements(sym))}
                 cache["statements"][sym] = st
@@ -350,7 +328,6 @@ def run():
         revs = [p.get("revenue") for p in st["profit"]]
         if len(revs) >= 4 and revs[0] and revs[3]:
             rec["sales_cagr_3y"] = cagr(revs[3], revs[0], 3)
-        rec["moat"] = moat_score(st.get("years"))
 
         # Operating cash flow: latest year (FY26) must be positive
         n = C.OCF_POSITIVE_YEARS
@@ -394,6 +371,68 @@ def run():
                 notes.append(f"{sym}: concall error {e}")
         rec["concall"] = (cc or {}).get("data")
         rec["filings"] = summarize_filings(nse.announcements(sym))
+
+    # ---- 3b. Business moat (AI reads annual reports; cached ~3 months) ----
+    cache.setdefault("moats", {})
+    todo = []
+    for rec in shortlist:
+        mc = cache["moats"].get(rec["symbol"])
+        if mc and fresh(mc, C.MOAT_REFRESH_DAYS, today):
+            rec["moat"] = {**mc["data"], "checked": mc["fetched"]}
+        else:
+            if mc:   # show the old answer while it is re-checked
+                rec["moat"] = {**mc["data"], "checked": mc["fetched"]}
+            todo.append(rec)
+    todo = todo[:C.MOAT_NEW_PER_RUN]
+    waiting = []
+    for rec in todo:
+        if quota_hit or inv.calls >= C.DAILY_REQUEST_BUDGET - 20:
+            break
+        try:
+            raw = inv.moat_research(rec["symbol"], C.MOAT_QUERY)
+        except QuotaReached:
+            quota_hit = True
+            break
+        except Exception as e:  # noqa: BLE001
+            notes.append(f"{rec['symbol']}: moat research error {e}")
+            continue
+        if raw.get("status") == "generating" or raw.get("available") is False:
+            waiting.append(rec)
+            continue
+        data = parse_moat(raw)
+        cache["moats"][rec["symbol"]] = {"fetched": today.isoformat(), "data": data}
+        rec["moat"] = {**data, "checked": today.isoformat()}
+    for _round in range(5):          # AI notes take about a minute to write
+        if not waiting or quota_hit:
+            break
+        time.sleep(60)
+        still = []
+        for rec in waiting:
+            if inv.calls >= C.DAILY_REQUEST_BUDGET - 20:
+                still = []
+                break
+            try:
+                raw = inv.moat_research(rec["symbol"], C.MOAT_QUERY)
+            except QuotaReached:
+                quota_hit = True
+                break
+            except Exception:  # noqa: BLE001
+                continue
+            if raw.get("status") == "generating" or raw.get("available") is False:
+                still.append(rec)
+                continue
+            data = parse_moat(raw)
+            cache["moats"][rec["symbol"]] = {"fetched": today.isoformat(), "data": data}
+            rec["moat"] = {**data, "checked": today.isoformat()}
+        waiting = still
+    for rec in shortlist:
+        rec.setdefault("moat", {"pending": True})
+    moat_done = sum(1 for r in shortlist if not r["moat"].get("pending"))
+    sources["Business moat"] = {
+        "ok": True,
+        "detail": f"Researched for {moat_done} of {len(shortlist)} companies"
+                  + ("" if moat_done == len(shortlist) else "; the rest are filled in over the next runs"),
+    }
 
     filings_ok = sum(1 for r in shortlist if r.get("filings") is not None)
     sources["NSE filings"] = {
