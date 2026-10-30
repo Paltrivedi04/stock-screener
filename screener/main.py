@@ -71,7 +71,77 @@ def trim_statements(raw):
     de = None
     if bs and bs[0].get("total_debt") is not None and (bs[0].get("shareholders_equity") or 0) > 0:
         de = bs[0]["total_debt"] / bs[0]["shareholders_equity"]
-    return {"profit": profit, "ocf": ocf, "de": de}
+    # one row per year for the moat score
+    by_end = {}
+    for r in inc:
+        e = r.get("period_end_date")
+        if e:
+            by_end.setdefault(e, {})["fy"] = r.get("fiscal_year")
+            by_end[e].update(revenue=r.get("revenue"), ebitda=r.get("ebitda"),
+                             ebit=r.get("ebit"), net_profit=r.get("net_profit"))
+    for r in bs:
+        e = r.get("period_end_date")
+        if e in by_end:
+            by_end[e].update(equity=r.get("shareholders_equity"), debt=r.get("total_debt"))
+    for r in cfs:
+        e = r.get("period_end_date")
+        if e in by_end:
+            by_end[e]["ocf"] = r.get("operating_cash_flow")
+    years = [dict(end=e, **v) for e, v in sorted(by_end.items(), reverse=True)]
+    return {"profit": profit, "ocf": ocf, "de": de, "years": years, "v": 2}
+
+
+def moat_score(years):
+    """Data-based moat score from the last few annual reports.
+    Five checks, one point each: high ROCE, consistent ROE, pricing power,
+    stable margins, and cash generation."""
+    rows = [y for y in (years or [])[:C.MOAT_YEARS]
+            if y.get("revenue") and y["revenue"] > 0 and y.get("net_profit") is not None]
+    n = len(rows)
+    if n < 3:
+        return {"label": "Too new", "score": None, "years": n,
+                "checks": [], "note": f"Only {n} year(s) of data; needs at least 3"}
+
+    def ratio(a, b):
+        return a / b * 100 if a is not None and b not in (None, 0) and b > 0 else None
+
+    roce = [ratio(y.get("ebit"), (y.get("equity") or 0) + (y.get("debt") or 0)) for y in rows]
+    roe = [ratio(y.get("net_profit"), y.get("equity")) for y in rows]
+    margin = [ratio(y.get("ebitda"), y["revenue"]) for y in rows]
+    ocf = [y.get("ocf") for y in rows]
+    roce_v = [x for x in roce if x is not None]
+    roe_v = [x for x in roe if x is not None]
+    m_v = [x for x in margin if x is not None]
+    ocf_v = [x for x in ocf if x is not None]
+    need = min(C.MOAT_ROE_YEARS, n) if n < C.MOAT_YEARS else C.MOAT_ROE_YEARS
+    need_ocf = min(C.MOAT_OCF_YEARS, n) if n < C.MOAT_YEARS else C.MOAT_OCF_YEARS
+
+    avg_roce = sum(roce_v) / len(roce_v) if roce_v else None
+    roe_good = sum(1 for x in roe_v if x > C.MOAT_ROE_MIN)
+    avg_m = sum(m_v) / len(m_v) if m_v else None
+    min_m = min(m_v) if m_v else None
+    ocf_pos = sum(1 for x in ocf_v if x > 0)
+    tot_ocf = sum(ocf_v) if ocf_v else None
+    tot_np = sum(y["net_profit"] for y in rows if y.get("ocf") is not None)
+    conv = tot_ocf / tot_np if tot_ocf is not None and tot_np > 0 else None
+
+    checks = [
+        {"name": "High returns", "detail": f"Average ROCE {avg_roce:.0f}% (needs above {C.MOAT_AVG_ROCE_MIN}%)" if avg_roce is not None else "ROCE not available",
+         "ok": avg_roce is not None and avg_roce > C.MOAT_AVG_ROCE_MIN},
+        {"name": "Consistent ROE", "detail": f"ROE above {C.MOAT_ROE_MIN}% in {roe_good} of {len(roe_v)} years (needs {need})",
+         "ok": roe_good >= need},
+        {"name": "Pricing power", "detail": f"Average EBITDA margin {avg_m:.0f}% (needs above {C.MOAT_AVG_MARGIN_MIN}%)" if avg_m is not None else "Margin not available",
+         "ok": avg_m is not None and avg_m > C.MOAT_AVG_MARGIN_MIN},
+        {"name": "Stable margins", "detail": f"Worst year {min_m:.0f}% vs average {avg_m:.0f}%" if avg_m else "Margin not available",
+         "ok": bool(avg_m) and avg_m > 0 and min_m >= C.MOAT_MARGIN_FLOOR * avg_m},
+        {"name": "Cash generation", "detail": (f"Cash flow positive in {ocf_pos} of {len(ocf_v)} years, cash-to-profit {conv:.0%}"
+                                                if conv is not None else f"Cash flow positive in {ocf_pos} of {len(ocf_v)} years"),
+         "ok": ocf_pos >= need_ocf and conv is not None and conv >= C.MOAT_CASH_CONVERSION},
+    ]
+    score = sum(c["ok"] for c in checks)
+    label = "Wide" if score >= 5 else "Narrow" if score >= 3 else "None"
+    return {"label": label, "score": score, "years": n,
+            "period": f"{rows[-1].get('fy')} to {rows[0].get('fy')}", "checks": checks}
 
 
 def trim_concall(raw):
@@ -244,7 +314,7 @@ def run():
 
         # Statements (cached weekly)
         st = cache["statements"].get(sym)
-        if not fresh(st, C.STATEMENTS_CACHE_DAYS, today) or "de" not in (st or {}):
+        if not fresh(st, C.STATEMENTS_CACHE_DAYS, today) or (st or {}).get("v") != 2:
             try:
                 st = {"fetched": today.isoformat(), **trim_statements(inv.statements(sym))}
                 cache["statements"][sym] = st
@@ -280,6 +350,7 @@ def run():
         revs = [p.get("revenue") for p in st["profit"]]
         if len(revs) >= 4 and revs[0] and revs[3]:
             rec["sales_cagr_3y"] = cagr(revs[3], revs[0], 3)
+        rec["moat"] = moat_score(st.get("years"))
 
         # Operating cash flow: latest year (FY26) must be positive
         n = C.OCF_POSITIVE_YEARS
