@@ -148,6 +148,8 @@ def trim_concall(raw):
 def run():
     now = dt.datetime.now(IST)
     today = now.date()
+    started = time.time()
+    minutes = lambda: (time.time() - started) / 60
     print(f"Run started {now:%Y-%m-%d %H:%M} IST")
 
     key = os.environ.get("INVESTSIGHTS_KEY", "").strip()
@@ -355,9 +357,10 @@ def run():
 
         shortlist.append(rec)
 
-    print(f"Shortlist: {len(shortlist)}, check manually: {len(manual)}, failed: {len(failed)}")
+    print(f"[{minutes():.0f} min] Shortlist: {len(shortlist)}, check manually: {len(manual)}, failed: {len(failed)}")
 
     # ---- 3. Concall and presentation details ----
+    print(f"[{minutes():.0f} min] Concall and filings")
     for rec in shortlist:
         sym = rec["symbol"]
         cc = cache["concalls"].get(sym)
@@ -384,9 +387,10 @@ def run():
                 rec["moat"] = {**mc["data"], "checked": mc["fetched"]}
             todo.append(rec)
     todo = todo[:C.MOAT_NEW_PER_RUN]
+    print(f"[{minutes():.0f} min] Researching business moat for {len(todo)} companies")
     waiting = []
     for rec in todo:
-        if quota_hit or inv.calls >= C.DAILY_REQUEST_BUDGET - 20:
+        if quota_hit or inv.calls >= C.DAILY_REQUEST_BUDGET - 20 or minutes() > C.MOAT_TIME_LIMIT_MIN:
             break
         try:
             raw = inv.moat_research(rec["symbol"], C.MOAT_QUERY)
@@ -403,8 +407,9 @@ def run():
         cache["moats"][rec["symbol"]] = {"fetched": today.isoformat(), "data": data}
         rec["moat"] = {**data, "checked": today.isoformat()}
     for _round in range(5):          # AI notes take about a minute to write
-        if not waiting or quota_hit:
+        if not waiting or quota_hit or minutes() > C.MOAT_TIME_LIMIT_MIN:
             break
+        print(f"[{minutes():.0f} min] Waiting for {len(waiting)} moat notes to finish")
         time.sleep(60)
         still = []
         for rec in waiting:
@@ -441,6 +446,7 @@ def run():
     }
 
     # ---- 4. Compare with yesterday ----
+    print(f"[{minutes():.0f} min] Comparing with yesterday")
     prev = state.get("members", {})
     now_syms = {r["symbol"] for r in shortlist}
     manual_syms = {r["symbol"] for r in manual}
@@ -466,6 +472,7 @@ def run():
                         "price": None})
 
     # ---- 5. Cross-check a sample ----
+    print(f"[{minutes():.0f} min] Cross-checking with NSE and Yahoo")
     rng = random.Random(today.isoformat())
     pool = shortlist + manual
     sample = rng.sample(pool, min(C.CROSSCHECK_SAMPLE_SIZE, len(pool)))
