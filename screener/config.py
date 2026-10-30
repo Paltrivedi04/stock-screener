@@ -21,24 +21,28 @@ EXCLUDED_SECTORS = [
     "Financial Technology (Fintech)",
 ]
 
-# ---------- Moat score (shown as a column, not a rule) ----------
-# Five checks over the last 5 years; each passed check is one point.
-MOAT_YEARS = 5
-MOAT_AVG_ROCE_MIN = 20          # average ROCE above 20%
-MOAT_ROE_MIN = 15               # ROE above 15% ...
-MOAT_ROE_YEARS = 4              # ... in at least 4 of the 5 years
-MOAT_AVG_MARGIN_MIN = 15        # average EBITDA margin above 15% (pricing power)
-MOAT_MARGIN_FLOOR = 0.6         # worst year's margin at least 60% of the average (stable)
-MOAT_OCF_YEARS = 4              # operating cash flow positive in at least 4 of 5 years
-MOAT_CASH_CONVERSION = 0.7      # ... and total cash flow at least 70% of total profit
+# ---------- Business moat (shown as a column, not a rule) ----------
+# InvestSights AI reads each company's annual report and investor presentation
+# and names its durable advantage. Blank when no clear moat is found.
+MOAT_REFRESH_DAYS = 90          # re-check each company's moat every 3 months
+MOAT_NEW_PER_RUN = 100          # companies researched per run (about 2 requests each)
+MOAT_QUERY = (
+    "Does this company have a durable business moat (a competitive advantage competitors "
+    "find hard to copy, such as unique raw material access, patents, licences, brand, "
+    "network effects, switching costs or a structural cost advantage)? Be strict: high "
+    "growth, good margins or being a market leader alone are NOT a moat. Answer in exactly "
+    "this format. First line: 'MOAT: ' followed by the moat in at most 15 words, or "
+    "'MOAT: None' if there is no clear durable moat. Then at most 3 short bullet points, "
+    "each naming the source of the moat and why it is hard to copy, citing the document."
+)
 
 # ---------- Cross-checks ----------
 CROSSCHECK_SAMPLE_SIZE = 15     # companies sampled each day
 MISMATCH_TOLERANCE_PCT = 10     # a gap above this is flagged
 
 # ---------- Caching and limits ----------
-STATEMENTS_CACHE_DAYS = 7       # annual statements re-fetched weekly
-CONCALL_CACHE_DAYS = 7          # concall summary re-fetched weekly
+STATEMENTS_CACHE_DAYS = 14      # annual statements re-fetched every 2 weeks
+CONCALL_CACHE_DAYS = 14         # concall summary re-fetched every 2 weeks
 DAILY_REQUEST_BUDGET = 560      # free plan allows 600/day; keep a safety margin
 SECONDS_BETWEEN_REQUESTS = 1.0  # free plan allows 120 per minute
 
