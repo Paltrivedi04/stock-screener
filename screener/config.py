@@ -21,6 +21,17 @@ EXCLUDED_SECTORS = [
     "Financial Technology (Fintech)",
 ]
 
+# ---------- Moat score (shown as a column, not a rule) ----------
+# Five checks over the last 5 years; each passed check is one point.
+MOAT_YEARS = 5
+MOAT_AVG_ROCE_MIN = 20          # average ROCE above 20%
+MOAT_ROE_MIN = 15               # ROE above 15% ...
+MOAT_ROE_YEARS = 4              # ... in at least 4 of the 5 years
+MOAT_AVG_MARGIN_MIN = 15        # average EBITDA margin above 15% (pricing power)
+MOAT_MARGIN_FLOOR = 0.6         # worst year's margin at least 60% of the average (stable)
+MOAT_OCF_YEARS = 4              # operating cash flow positive in at least 4 of 5 years
+MOAT_CASH_CONVERSION = 0.7      # ... and total cash flow at least 70% of total profit
+
 # ---------- Cross-checks ----------
 CROSSCHECK_SAMPLE_SIZE = 15     # companies sampled each day
 MISMATCH_TOLERANCE_PCT = 10     # a gap above this is flagged
