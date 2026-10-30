@@ -159,7 +159,7 @@ class InvestSights:
 
     def statements(self, symbol):
         return self.call("get_financial_statements", {
-            "symbol": symbol, "statement": "all", "period": "annual", "limit": 4,
+            "symbol": symbol, "statement": "all", "period": "annual", "limit": 10,
         })
 
     def fundamentals(self, symbol):
