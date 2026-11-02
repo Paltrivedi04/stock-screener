@@ -29927,6 +29927,204 @@
     }
    ],
    "de": 0.04586114847132922
+  },
+  "ELANTAS": {
+   "fetched": "2026-11-02",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2025-12-31",
+     "net_profit": 1477798000.0,
+     "revenue": 8478093000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2024-12-31",
+     "net_profit": 1395644000.0,
+     "revenue": 7485131000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2023-12-31",
+     "net_profit": 1372953000.0,
+     "revenue": 6852122000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2022-12-31",
+     "net_profit": 977812000.0,
+     "revenue": 6427893000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2025-12-31",
+     "ocf": 1313140000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2024-12-31",
+     "ocf": 632230000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2023-12-31",
+     "ocf": 1334182000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2022-12-31",
+     "ocf": 829535000.0
+    }
+   ],
+   "de": 0.0,
+   "years": [
+    {
+     "end": "2025-12-31",
+     "fy": "FY26",
+     "revenue": 8478093000.0,
+     "ebitda": 2203176000.0,
+     "ebit": 1990500000.0,
+     "net_profit": 1477798000.0,
+     "equity": 10082058000.0,
+     "debt": 0.0,
+     "ocf": 1313140000.0
+    },
+    {
+     "end": "2024-12-31",
+     "fy": "FY25",
+     "revenue": 7485131000.0,
+     "ebitda": 1983974000.0,
+     "ebit": 1833667000.0,
+     "net_profit": 1395644000.0,
+     "equity": 8671194000.0,
+     "debt": 0.0,
+     "ocf": 632230000.0
+    },
+    {
+     "end": "2023-12-31",
+     "fy": "FY24",
+     "revenue": 6852122000.0,
+     "ebitda": 1954385000.0,
+     "ebit": 1835388000.0,
+     "net_profit": 1372953000.0,
+     "equity": 7319941000.0,
+     "debt": 0.0,
+     "ocf": 1334182000.0
+    },
+    {
+     "end": "2022-12-31",
+     "fy": "FY23",
+     "revenue": 6427893000.0,
+     "ebitda": 1415224000.0,
+     "ebit": 1291314000.0,
+     "net_profit": 977812000.0,
+     "equity": 5986002000.0,
+     "debt": 0.0,
+     "ocf": 829535000.0
+    }
+   ],
+   "v": 2
+  },
+  "SHILCTECH": {
+   "fetched": "2026-11-02",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 1581611000.0,
+     "revenue": 6519399000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 1468518000.0,
+     "revenue": 6231475000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 918881000.0,
+     "revenue": 3968782000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 431224000.0,
+     "revenue": 2802412000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 1935195000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 395626000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 772564000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 392242000.0
+    }
+   ],
+   "de": 0.0,
+   "years": [
+    {
+     "end": "2026-03-31",
+     "fy": "FY26",
+     "revenue": 6519399000.0,
+     "ebitda": 2164648000.0,
+     "ebit": 2124420000.0,
+     "net_profit": 1581611000.0,
+     "equity": 4908460000.0,
+     "debt": 0.0,
+     "ocf": 1935195000.0
+    },
+    {
+     "end": "2025-03-31",
+     "fy": "FY25",
+     "revenue": 6231475000.0,
+     "ebitda": 1847462000.0,
+     "ebit": 1813403000.0,
+     "net_profit": 1468518000.0,
+     "equity": 3468277000.0,
+     "debt": 0.0,
+     "ocf": 395626000.0
+    },
+    {
+     "end": "2024-03-31",
+     "fy": "FY24",
+     "revenue": 3968782000.0,
+     "ebitda": 1258953000.0,
+     "ebit": 1232969000.0,
+     "net_profit": 918881000.0,
+     "equity": 2095883000.0,
+     "debt": 0.0,
+     "ocf": 772564000.0
+    },
+    {
+     "end": "2023-03-31",
+     "fy": "FY23",
+     "revenue": 2802412000.0,
+     "ebitda": 611636000.0,
+     "ebit": 587600000.0,
+     "net_profit": 431224000.0,
+     "equity": 1214423000.0,
+     "debt": 0.0,
+     "ocf": 392242000.0
+    }
+   ],
+   "v": 2
   }
  },
  "concalls": {
@@ -31590,6 +31788,25 @@
     "transcript_url": "https://nsearchives.nseindia.com/corporate/DIXON_05082026183904_EarningCallTranscriptQ1Intimation05082026F.pdf",
     "takeaway": "The single most important signal from this call is Dixon's deliberate pivot from a volume-led, incentive-dependent EMS model toward a structurally deeper, export-oriented, and backward-integrated manufacturing platform — and the near-term earnings cost of executing that pivot. Q1 FY27 margins were visibly compressed by the simultaneous expiry of Mobile PLI 1, memory-driven input cost inflation, and the pre-revenue phase of major capital investments (display facility, Inventec JV, Q Tech expansion). Management was explicit that margin recovery is a FY28 story, not FY27.",
     "tone": "-  Confident, with selective candour on near-term headwinds.",
+    "stale": false
+   }
+  },
+  "ELANTAS": {
+   "fetched": "2026-11-02",
+   "data": {
+    "found": false
+   }
+  },
+  "SHILCTECH": {
+   "fetched": "2026-11-02",
+   "data": {
+    "found": true,
+    "quarter": "Q1",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-06-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/SHILCHARTECH_19082026153028_Shilchar_Transcript.pdf",
+    "takeaway": "The central signal is management’s confidence that Q1 weakness represents delayed execution rather than lost demand, but delivery of the unchanged ₹800 crore FY27 target now depends on a sharp operating recovery from Q2. Q1 capacity utilisation was only approximately 60-65%, and management estimated that the crisis prevented around ₹30-35 crore of potential revenue. The response has been to shift toward domestic customers, producing an order book close to ₹500 crore with approximately 70% domestic and 30% export exposure; Q2 is fully booked.",
+    "tone": "-  Mixed — confident on annual revenue, order coverage and expansion execution, but cautious on exports and margins.",
     "stale": false
    }
   }
@@ -33662,6 +33879,36 @@
   },
   "RUBICON": {
    "fetched": "2026-10-30",
+   "data": {
+    "found": false
+   }
+  },
+  "ELANTAS": {
+   "fetched": "2026-11-02",
+   "data": {
+    "found": true,
+    "summary": "Intangible assets through proprietary technology and continuous innovation in specialized insulation materials.",
+    "points": [
+     "The company consistently absorbs technology from overseas affiliates and engages in R&D to develop specialized insulation materials, enabling it to launch new products for evolving applications like e-mobility, Battery Energy Storage Systems (BESS), and data centers.",
+     "Ongoing R&D efforts focus on creating differentiated potting products, thermal interface materials, and sustainable low VOC resins, which cater to specific customer needs and compliance requirements such as REACH/RoHS.",
+     "The ability to localize global impregnation resins and successfully integrate acquired technologies (e.g., Von Roll India Resin business) suggests a capability to offer specialized, difficult-to-replicate solutions within its niche markets."
+    ]
+   }
+  },
+  "SHILCTECH": {
+   "fetched": "2026-11-02",
+   "data": {
+    "found": true,
+    "summary": "Specialized expertise and high customer switching costs in niche transformer segments.",
+    "points": [
+     "Decades of proven expertise in performance, quality, and competitive pricing in specialized product segments (Filing: Shilchar Technologies Ltd Annual Report 2026, Page 16).",
+     "Long-standing client relationships built on trust and reliability, coupled with rigorous customer qualification cycles (Filing: Shilchar Technologies Ltd Annual Report 2026, Page 16).",
+     "Ability to deliver customized transformer solutions at scale, catering to precise customer requirements across diverse applications and geographies (Filing: Shilchar Technologies Ltd Annual Report 2026, Page 16)."
+    ]
+   }
+  },
+  "DIXON": {
+   "fetched": "2026-11-02",
    "data": {
     "found": false
    }

@@ -118,5 +118,25 @@
   "added": [],
   "removed": [],
   "baseline": false
+ },
+ {
+  "date": "2026-11-02",
+  "count": 146,
+  "added": [
+   {
+    "symbol": "ELANTAS",
+    "name": "Elantas Beck India Ltd"
+   },
+   {
+    "symbol": "SHILCTECH",
+    "name": "Shilchar Technologies Ltd"
+   },
+   {
+    "symbol": "DIXON",
+    "name": "Dixon Technologies (India) Limited"
+   }
+  ],
+  "removed": [],
+  "baseline": false
  }
 ]
