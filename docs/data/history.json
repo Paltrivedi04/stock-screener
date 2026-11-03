@@ -138,5 +138,23 @@
   ],
   "removed": [],
   "baseline": false
+ },
+ {
+  "date": "2026-11-03",
+  "count": 146,
+  "added": [
+   {
+    "symbol": "MACPOWER",
+    "name": "Macpower CNC Machines Limited"
+   }
+  ],
+  "removed": [
+   {
+    "symbol": "DIXON",
+    "name": "Dixon Technologies (India) Limited",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   }
+  ],
+  "baseline": false
  }
 ]

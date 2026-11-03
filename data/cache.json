@@ -30125,6 +30125,105 @@
     }
    ],
    "v": 2
+  },
+  "MACPOWER": {
+   "fetched": "2026-11-03",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 338708000.0,
+     "revenue": 3331759000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 254417000.0,
+     "revenue": 2618150000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 240978000.0,
+     "revenue": 2410365000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 128900000.0,
+     "revenue": 2018900000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 126481000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 66957000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 165999000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 47900000.0
+    }
+   ],
+   "de": 0.0038853865186388994,
+   "years": [
+    {
+     "end": "2026-03-31",
+     "fy": "FY26",
+     "revenue": 3331759000.0,
+     "ebitda": 542414000.0,
+     "ebit": 468459000.0,
+     "net_profit": 338708000.0,
+     "equity": 1752464000.0,
+     "debt": 6809000.0,
+     "ocf": 126481000.0
+    },
+    {
+     "end": "2025-03-31",
+     "fy": "FY25",
+     "revenue": 2618150000.0,
+     "ebitda": 411325000.0,
+     "ebit": 351941000.0,
+     "net_profit": 254417000.0,
+     "equity": 1428242000.0,
+     "debt": 30966000.0,
+     "ocf": 66957000.0
+    },
+    {
+     "end": "2024-03-31",
+     "fy": "FY24",
+     "revenue": 2410365000.0,
+     "ebitda": 368198000.0,
+     "ebit": 326841000.0,
+     "net_profit": 240978000.0,
+     "equity": 1191173000.0,
+     "debt": 4785000.0,
+     "ocf": 165999000.0
+    },
+    {
+     "end": "2023-03-31",
+     "fy": "FY23",
+     "revenue": 2018900000.0,
+     "ebitda": 207905000.0,
+     "ebit": 174246000.0,
+     "net_profit": 128900000.0,
+     "equity": 966100000.0,
+     "debt": 4100000.0,
+     "ocf": 47900000.0
+    }
+   ],
+   "v": 2
   }
  },
  "concalls": {
@@ -31807,6 +31906,19 @@
     "transcript_url": "https://nsearchives.nseindia.com/corporate/SHILCHARTECH_19082026153028_Shilchar_Transcript.pdf",
     "takeaway": "The central signal is management’s confidence that Q1 weakness represents delayed execution rather than lost demand, but delivery of the unchanged ₹800 crore FY27 target now depends on a sharp operating recovery from Q2. Q1 capacity utilisation was only approximately 60-65%, and management estimated that the crisis prevented around ₹30-35 crore of potential revenue. The response has been to shift toward domestic customers, producing an order book close to ₹500 crore with approximately 70% domestic and 30% export exposure; Q2 is fully booked.",
     "tone": "-  Mixed — confident on annual revenue, order coverage and expansion execution, but cautious on exports and margins.",
+    "stale": false
+   }
+  },
+  "MACPOWER": {
+   "fetched": "2026-11-03",
+   "data": {
+    "found": true,
+    "quarter": "Q2",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/MACPOWER_30102026150000_Q2H1FY27_Conference_Call_dated_27102026_Transcript.pdf",
+    "takeaway": "The central signal is that Macpower’s demand and order visibility remain strong, but capacity—not customer demand—is now the principal constraint on growth. Q2 revenue reached ₹120.33 crores, while the pending order book stood at ₹476 crores and management acknowledged refunding an average of 10-20 machine orders each month because deliveries cannot be met. The company is attempting to bridge the gap through forward inventory, a rented 40,000-square-foot facility, debottlenecking and planned FY27 deliveries of 2,300-2,400 machines. However, the larger growth step depends on commissioning the 13-acre facility by the end of Q2 FY28.",
+    "tone": "-  Confident, with a strong emphasis on execution visibility, demand and financial discipline. The tone became defensive when discussing competitor capacity, pr",
     "stale": false
    }
   }
@@ -33909,6 +34021,12 @@
   },
   "DIXON": {
    "fetched": "2026-11-02",
+   "data": {
+    "found": false
+   }
+  },
+  "MACPOWER": {
+   "fetched": "2026-11-03",
    "data": {
     "found": false
    }
