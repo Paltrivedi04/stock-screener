@@ -31955,7 +31955,7 @@
    "roce": 17.82
   },
   "GLASSWALL": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-04",
    "roe": null,
    "roce": null
   },
@@ -32591,6 +32591,11 @@
   },
   "544844": {
    "fetched": "2026-10-29",
+   "roe": null,
+   "roce": null
+  },
+  "TECHNOCRAF": {
+   "fetched": "2026-11-04",
    "roe": null,
    "roce": null
   }
@@ -34029,6 +34034,18 @@
    "fetched": "2026-11-03",
    "data": {
     "found": false
+   }
+  },
+  "GKENERGY": {
+   "fetched": "2026-11-04",
+   "data": {
+    "found": true,
+    "summary": "Asset-light cost advantage, deep rural brand trust, and scalable decentralized execution.",
+    "points": [
+     "Cost Advantage: An asset-light OEM/ODM ecosystem and decentralized infrastructure enable cost efficiency and competitive pricing without heavy capital investment.",
+     "Intangible Assets (Brand): A trusted brand built over 18 years of deep rural engagement across 7,500+ villages fosters community trust and repeat business, difficult for new entrants to replicate.",
+     "Execution Barrier/Efficient Scale: Extensive decentralized infrastructure and local knowledge in underserved rural markets create a first-mover advantage and a difficult-to-replicate execution capability."
+    ]
    }
   }
  }

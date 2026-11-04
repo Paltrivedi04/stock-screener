@@ -156,5 +156,23 @@
    }
   ],
   "baseline": false
+ },
+ {
+  "date": "2026-11-04",
+  "count": 146,
+  "added": [
+   {
+    "symbol": "GKENERGY",
+    "name": "GK Energy Ltd"
+   }
+  ],
+  "removed": [
+   {
+    "symbol": "526433",
+    "name": "Asm Technologies Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   }
+  ],
+  "baseline": false
  }
 ]
