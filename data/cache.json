@@ -30224,6 +30224,287 @@
     }
    ],
    "v": 2
+  },
+  "TIMEX": {
+   "fetched": "2026-11-05",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 754400000.0,
+     "revenue": 7985900000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 314200000.0,
+     "revenue": 5381000000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 208400000.0,
+     "revenue": 4189100000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 465200000.0,
+     "revenue": 3834500000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 903400000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": -31500000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 323900000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 98300000.0
+    }
+   ],
+   "de": 0.3191948238677211,
+   "years": [
+    {
+     "end": "2026-03-31",
+     "fy": "FY26",
+     "revenue": 7985900000.0,
+     "ebitda": 1108300000.0,
+     "ebit": 1074300000.0,
+     "net_profit": 754400000.0,
+     "equity": 1112800000.0,
+     "debt": 355200000.0,
+     "ocf": 903400000.0
+    },
+    {
+     "end": "2025-03-31",
+     "fy": "FY25",
+     "revenue": 5381000000.0,
+     "ebitda": 479600000.0,
+     "ebit": 446600000.0,
+     "net_profit": 314200000.0,
+     "equity": 840000000.0,
+     "debt": 417400000.0,
+     "ocf": -31500000.0
+    },
+    {
+     "end": "2024-03-31",
+     "fy": "FY24",
+     "revenue": 4189100000.0,
+     "ebitda": 331800000.0,
+     "ebit": 296000000.0,
+     "net_profit": 208400000.0,
+     "equity": 812900000.0,
+     "debt": 116500000.0,
+     "ocf": 323900000.0
+    },
+    {
+     "end": "2023-03-31",
+     "fy": "FY23",
+     "revenue": 3834500000.0,
+     "ebitda": 386400000.0,
+     "ebit": 350400000.0,
+     "net_profit": 465200000.0,
+     "equity": 605200000.0,
+     "debt": 359800000.0,
+     "ocf": 98300000.0
+    }
+   ],
+   "v": 2
+  },
+  "ADVAIT": {
+   "fetched": "2026-11-05",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 517230000.0,
+     "revenue": 7145244000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 309522000.0,
+     "revenue": 3991091000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 218799000.0,
+     "revenue": 2088461000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 84396000.0,
+     "revenue": 1041938000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": -180228000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 464738000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": -103989000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 97603000.0
+    }
+   ],
+   "de": 0.34248038184612895,
+   "years": [
+    {
+     "end": "2026-03-31",
+     "fy": "FY26",
+     "revenue": 7145244000.0,
+     "ebitda": 837824000.0,
+     "ebit": 802422000.0,
+     "net_profit": 517230000.0,
+     "equity": 2781225000.0,
+     "debt": 952515000.0,
+     "ocf": -180228000.0
+    },
+    {
+     "end": "2025-03-31",
+     "fy": "FY25",
+     "revenue": 3991091000.0,
+     "ebitda": 579145000.0,
+     "ebit": 544365000.0,
+     "net_profit": 309522000.0,
+     "equity": 2023830000.0,
+     "debt": 530207000.0,
+     "ocf": 464738000.0
+    },
+    {
+     "end": "2024-03-31",
+     "fy": "FY24",
+     "revenue": 2088461000.0,
+     "ebitda": 376264000.0,
+     "ebit": 349884000.0,
+     "net_profit": 218799000.0,
+     "equity": 734369000.0,
+     "debt": 591684000.0,
+     "ocf": -103989000.0
+    },
+    {
+     "end": "2023-03-31",
+     "fy": "FY23",
+     "revenue": 1041938000.0,
+     "ebitda": 183176000.0,
+     "ebit": 146255000.0,
+     "net_profit": 84396000.0,
+     "equity": 458435000.0,
+     "debt": 152287000.0,
+     "ocf": 97603000.0
+    }
+   ],
+   "v": 2
+  },
+  "CNL": {
+   "fetched": "2026-11-05",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 702929000.0,
+     "revenue": 26997725000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 482512000.0,
+     "revenue": 17131156000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 272488000.0,
+     "revenue": 13762223000.0
+    },
+    {
+     "fy": "FY22",
+     "end": "2022-03-31",
+     "net_profit": 192491000.0,
+     "revenue": 9338810000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": -2731001000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": -281763000.0
+    }
+   ],
+   "de": 0.8372497920824266,
+   "years": [
+    {
+     "end": "2026-03-31",
+     "fy": "FY26",
+     "revenue": 26997725000.0,
+     "ebitda": 862634000.0,
+     "ebit": 847424000.0,
+     "net_profit": 702929000.0,
+     "equity": 3872929000.0,
+     "debt": 3242609000.0,
+     "ocf": -2731001000.0
+    },
+    {
+     "end": "2024-03-31",
+     "fy": "FY24",
+     "revenue": 17131156000.0,
+     "ebitda": 414218000.0,
+     "ebit": 400944000.0,
+     "net_profit": 482512000.0,
+     "equity": 2240480000.0,
+     "debt": 735588000.0,
+     "ocf": -281763000.0
+    },
+    {
+     "end": "2023-03-31",
+     "fy": "FY23",
+     "revenue": 13762223000.0,
+     "ebitda": 190829000.0,
+     "ebit": 175170000.0,
+     "net_profit": 272488000.0
+    },
+    {
+     "end": "2022-03-31",
+     "fy": "FY22",
+     "revenue": 9338810000.0,
+     "ebitda": 185631000.0,
+     "ebit": 170733000.0,
+     "net_profit": 192491000.0
+    }
+   ],
+   "v": 2
   }
  },
  "concalls": {
@@ -31921,6 +32202,12 @@
     "tone": "-  Confident, with a strong emphasis on execution visibility, demand and financial discipline. The tone became defensive when discussing competitor capacity, pr",
     "stale": false
    }
+  },
+  "TIMEX": {
+   "fetched": "2026-11-05",
+   "data": {
+    "found": false
+   }
   }
  },
  "fundamentals": {
@@ -31975,7 +32262,7 @@
    "roce": 33.84
   },
   "VINYAS": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-05",
    "roe": null,
    "roce": null
   },
@@ -32596,6 +32883,21 @@
   },
   "TECHNOCRAF": {
    "fetched": "2026-11-04",
+   "roe": null,
+   "roce": null
+  },
+  "CNL": {
+   "fetched": "2026-11-05",
+   "roe": 19.33,
+   "roce": 26.35
+  },
+  "514318": {
+   "fetched": "2026-11-05",
+   "roe": 5.27,
+   "roce": 6.34
+  },
+  "EDELALTS": {
+   "fetched": "2026-11-05",
    "roe": null,
    "roce": null
   }
@@ -34046,6 +34348,12 @@
      "Intangible Assets (Brand): A trusted brand built over 18 years of deep rural engagement across 7,500+ villages fosters community trust and repeat business, difficult for new entrants to replicate.",
      "Execution Barrier/Efficient Scale: Extensive decentralized infrastructure and local knowledge in underserved rural markets create a first-mover advantage and a difficult-to-replicate execution capability."
     ]
+   }
+  },
+  "TIMEX": {
+   "fetched": "2026-11-05",
+   "data": {
+    "found": false
    }
   }
  }
