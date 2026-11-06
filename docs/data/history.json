@@ -186,5 +186,28 @@
   ],
   "removed": [],
   "baseline": false
+ },
+ {
+  "date": "2026-11-06",
+  "count": 146,
+  "added": [
+   {
+    "symbol": "EUROPRATIK",
+    "name": "Euro Pratik Sales Ltd"
+   }
+  ],
+  "removed": [
+   {
+    "symbol": "WAAREEENER",
+    "name": "Waaree Energies Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   },
+   {
+    "symbol": "506854",
+    "name": "Tanfac Industries Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   }
+  ],
+  "baseline": false
  }
 ]

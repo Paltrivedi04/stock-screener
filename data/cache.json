@@ -27642,7 +27642,7 @@
    "v": 2
   },
   "EUROPRATIK": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-06",
    "profit": [
     {
      "fy": "FY26",
@@ -27658,7 +27658,21 @@
      "ocf": 406675000.0
     }
    ],
-   "de": 0.036094896190723015
+   "de": 0.036094896190723015,
+   "years": [
+    {
+     "end": "2026-03-31",
+     "fy": "FY26",
+     "revenue": 3349618000.0,
+     "ebitda": 1051907000.0,
+     "ebit": 989795000.0,
+     "net_profit": 771620000.0,
+     "equity": 3206409000.0,
+     "debt": 115735000.0,
+     "ocf": 406675000.0
+    }
+   ],
+   "v": 2
   },
   "UTSSAV": {
    "fetched": "2026-10-30",
@@ -31923,7 +31937,7 @@
    }
   },
   "EUROPRATIK": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-06",
    "data": {
     "found": true,
     "quarter": "Q3",
@@ -32267,7 +32281,7 @@
    "roce": null
   },
   "EUROPRATIK": {
-   "fetched": "2026-10-20",
+   "fetched": "2026-11-06",
    "roe": 24.87,
    "roce": 32.11
   },
@@ -32898,6 +32912,11 @@
   },
   "EDELALTS": {
    "fetched": "2026-11-05",
+   "roe": null,
+   "roce": null
+  },
+  "SFCTECH": {
+   "fetched": "2026-11-06",
    "roe": null,
    "roce": null
   }
@@ -34354,6 +34373,18 @@
    "fetched": "2026-11-05",
    "data": {
     "found": false
+   }
+  },
+  "EUROPRATIK": {
+   "fetched": "2026-11-06",
+   "data": {
+    "found": true,
+    "summary": "Strong brand equity, design leadership, and asset-light, agile sourcing ecosystem.",
+    "points": [
+     "Brand Strength & Design Leadership: Consistent investment in branding and research-led product development creates differentiated offerings and consumer recall, supporting premium positioning and pricing power.",
+     "Asset-Light Model: Outsourcing manufacturing reduces fixed costs, capital commitments, and capacity constraints, enabling agility, rapid scaling, and higher capital productivity compared to asset-heavy competitors.",
+     "Innovation-driven Differentiation: A continuous flow of differentiated products, driven by anticipating changing consumer tastes, allows the company to avoid price-led competition and maintain industry-leading margins."
+    ]
    }
   }
  }
