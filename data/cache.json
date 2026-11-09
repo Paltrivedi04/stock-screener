@@ -30519,6 +30519,39 @@
     }
    ],
    "v": 2
+  },
+  "505504": {
+   "fetched": "2026-11-09",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 490178000.0,
+     "revenue": 6154733000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": -636604000.0
+    }
+   ],
+   "de": 1.4578576404415768,
+   "years": [
+    {
+     "end": "2026-03-31",
+     "fy": "FY26",
+     "revenue": 6154733000.0,
+     "ebitda": 985173000.0,
+     "ebit": 967303000.0,
+     "net_profit": 490178000.0,
+     "equity": 1314924000.0,
+     "debt": 1916972000.0,
+     "ocf": -636604000.0
+    }
+   ],
+   "v": 2
   }
  },
  "concalls": {
@@ -32846,32 +32879,32 @@
    "roce": 25.0
   },
   "531910": {
-   "fetched": "2026-10-26",
+   "fetched": "2026-11-09",
    "roe": 10.36,
    "roce": 15.51
   },
   "SMT": {
-   "fetched": "2026-10-26",
+   "fetched": "2026-11-09",
    "roe": null,
    "roce": null
   },
   "HDFIRE": {
-   "fetched": "2026-10-26",
+   "fetched": "2026-11-09",
    "roe": null,
    "roce": null
   },
   "TONBO": {
-   "fetched": "2026-10-26",
+   "fetched": "2026-11-09",
    "roe": null,
    "roce": null
   },
   "BONFIG": {
-   "fetched": "2026-10-26",
+   "fetched": "2026-11-09",
    "roe": null,
    "roce": null
   },
   "ZETWERK": {
-   "fetched": "2026-10-26",
+   "fetched": "2026-11-09",
    "roe": null,
    "roce": null
   },
@@ -32919,6 +32952,11 @@
    "fetched": "2026-11-06",
    "roe": null,
    "roce": null
+  },
+  "505504": {
+   "fetched": "2026-11-09",
+   "roe": 37.28,
+   "roce": 32.33
   }
  },
  "moats": {
