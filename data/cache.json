@@ -30556,7 +30556,7 @@
  },
  "concalls": {
   "IKS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30569,20 +30569,20 @@
    }
   },
   "IGIL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/IGIINDIA_27072026145452_SE_Transcript_Covering_letter.pdf",
-    "takeaway": "IGI's Q1 FY27 results demonstrate a business firing on multiple cylinders simultaneously: LGD volumes growing at 17%, LGD Jewellery surging at 44% consolidated, AGL beginning to contribute meaningfully, and consolidated EBITDA margins expanding 270 basis points year-on-year to 60.4% — all while the company remains debt-free. The single most important signal from this call is the deliberate and accelerating shift in IGI's strategic architecture: from a predominantly India-centric, B2B certification business to a globally integrated, consumer-facing brand.",
-    "tone": "-  Confident, with selective caution on guidance.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7a71af2e-a92d-4323-8ea1-89a4f1110e29.pdf",
+    "takeaway": "The most important signal was that IGI’s growth is being driven by sustained industry capacity expansion rather than a one-quarter festive stocking event. Consolidated Q2 revenue grew 31%, EBITDA 39% and PAT 43%, while lab-grown revenue remained broadly stable sequentially at ₹2,111 million versus ₹2,095 million in Q1. Management consequently raised its outlook from the earlier 15% revenue and 20% EBITDA growth framework, saying FY27 performance should be similar to H1, although it avoided issuing an exact revised range.",
+    "tone": "-  Confident.",
     "stale": false
    }
   },
   "TIPSMUSIC": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q2",
@@ -30595,7 +30595,7 @@
    }
   },
   "BLS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30608,64 +30608,71 @@
    }
   },
   "WAAREERTL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q2",
     "fiscal_year": "FY27",
     "call_period_end": "2026-09-30",
-    "transcript_url": "https://waareertl.com/upload/media/waaree_rtl_earning_call_audio_q2fy27_1792587032.mp3",
-    "takeaway": "The central signal is that Q2’s weaker solar execution was attributed to customer-side land and connectivity delays rather than demand weakness or an internal capacity constraint. Management supported its confidence with 1.7 GWp of new orders, more than ₹3,300 crore of solar EPC and BESS orders, and a consolidated unexecuted order book exceeding ₹5,500 crore. However, the call did not establish how much Q2 revenue was deferred, when individual delayed projects will restart, or what FY27 execution and revenue will ultimately be. This makes conversion of the order book—rather than fresh order announcements—the critical monitor next quarter.",
-    "tone": "-  Mixed",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/WAAREERTL_28102026164416_Transcript-s.pdf",
+    "takeaway": "The central signal is that Q2’s weaker solar execution was attributed to developer-side land and connectivity delays rather than demand weakness, but management did not quantify the deferred work or provide a firm FY2027 execution target. WRTL still has substantial visibility through a consolidated unexecuted order book of more than ₹5,500 crores, including more than ₹3,300 crores from solar and BESS EPC and more than ₹2,200 crores from T&D. The key tension is between expected execution recovery and the changed earnings profile following APSPL’s debt-funded consolidation.",
+    "tone": "-  Mixed — confident on sector demand, order visibility and strategic positioning, but cautious and non-committal on annual execution, revenue mix and deleverag",
     "stale": false
    }
   },
   "SANDUMA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "GOKULAGRO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
-    "found": false
+    "found": true,
+    "quarter": "Q2",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/GOKULAGRO_04112026183348_Transcript_of_Concall_Intimation.pdf",
+    "takeaway": "The central signal is that Gokul Agro’s near-term earnings improvement is being driven more by realisations and margin execution than by volume growth. Q2 FY27 revenue increased 13%, while EBITDA including other income rose 41% to ₹276 crores; management attributed this to better realisations, sourcing, utilisation, cost controls and mix. However, existing capacity is already at optimum utilisation, and management does not expect volume growth in FY27. The next leg therefore depends on the approximately 8 lakh tonnes per annum of new capacity expected to come on stream gradually by October 2027.",
+    "tone": "-  Confident, particularly on margin sustainability, hedging controls, balance-sheet strength and capacity-led growth.",
+    "stale": false
    }
   },
   "INDOTECH": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "CRIZAC": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/CRIZAC0301_07082026183303_Submission_of_Transcript_of_Earning_Call.pdf",
-    "takeaway": "The single most important signal from this concall is the sharp downward revision in FY27 revenue expectations — from what analysts recalled as 15%-17% growth to an explicitly flat year — driven by geopolitical and immigration headwinds that management now has better visibility on after Q1 actuals and early Q2 trends. Compounding this, the consolidated P&L has structurally weakened relative to standalone, with all acquired companies contributing only ~₹6 crores in revenue while simultaneously dragging consolidated PBT below standalone PBT — a reversal of the historical pattern.",
-    "tone": "- Overall tone: Cautious / Mixed — Management was candid about a flat year ahead and acknowledged macro headwinds, but remained constructive on the long-term di",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/CRIZAC0301_05112026172707_Submission_of_Transcript_of_Earning_Call_Q2FY27.pdf",
+    "takeaway": "The central signal is management’s assertion that Q2’s 36.7% operating-income decline reflects timing and student deferrals rather than structural demand destruction. This view is supported by admissions, deposits and visa approvals already visible in the pipeline, leading to guidance for 10%-12% Q3 revenue growth and FY27 revenue and profit in line with FY26. However, management did not quantify deferred students, expected cancellations or cohort-level conversions, making Q3 execution the key test of that claim.",
+    "tone": "-  Mixed — confident about Q3 and Q4 pipeline conversion, but cautious on policy risks, acquisitions and non-UK scaling.",
     "stale": false
    }
   },
   "INOXINDIA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/KAMLESHS_10082026152546_SEReg30TranscriptforEarningPresentation10082026signed.pdf",
-    "takeaway": "The single most important signal from this concall is the emergence of a concentrated, large-scale exposure to one US private space exploration customer — with cumulative orders now exceeding ₹1,000 crores — which is reshaping INOX India's order book composition and multi-year revenue trajectory. This single relationship now accounts for approximately ₹400 crores of the current order book and will drive execution well into FY28, with revenue recognition beginning on a percentage-completion basis from Q3/Q4 FY27.",
-    "tone": "-  Confident — management consistently reaffirmed guidance and characterised challenges as temporary or timing-related rather than structural.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/KAMLESHS_07112026165941_SEReg30TranscriptforEarningPresentation07112026signed.pdf",
+    "takeaway": "The central signal is that INOX India is transitioning from a diversified cryogenic-equipment supplier into a company whose near-term execution and margin trajectory will be heavily influenced by one large, technically complex U.S. aerospace programme. The ₹2,268 crores backlog provides visibility, but approximately ₹1,100 crores comes from the space sector and management later confirmed this is attributable to one customer. Importantly, the order covers 16 subcoolers and 16 large tanks, carries better margins than standard products, and places freight in the customer’s scope. Management therefore expects margins to improve as execution accelerates.",
+    "tone": "-  Confident, with caution around geopolitical conditions, tender timing and first-of-a-kind execution.",
     "stale": false
    }
   },
   "ECLERX": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -30678,7 +30685,7 @@
    }
   },
   "ELGIEQUIP": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30691,7 +30698,7 @@
    }
   },
   "CAMS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30704,7 +30711,7 @@
    }
   },
   "EMAMILTD": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30717,19 +30724,19 @@
    }
   },
   "BAYERCROP": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "THANGAMAYL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "TRITURBINE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30742,7 +30749,7 @@
    }
   },
   "CHAMBLFERT": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30755,26 +30762,26 @@
    }
   },
   "ASTRAZEN": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "ENGINERSIN": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/ENGINERSIN_18082026160852_transcript.pdf",
-    "takeaway": "The central signal is that EIL’s earnings mix is shifting toward higher-margin Consultancy even as total Q1 turnover declined. Consultancy revenue reached ₹499 crores, segment profit was 24%, and management now expects FY27 Consultancy turnover of around ₹2,300 crores-₹2,400 crores, with at least 55% of total revenue indicated as a possible mix. This supports the retained 16% operating-margin target, with potential upside only if pending change orders are settled. At the same time, the ₹8,000 crores order-inflow objective relies on a meaningful acceleration from ₹2,750 crores as of the call date, potentially led by Consultancy and overseas awards.",
-    "tone": "-  Mixed—confident on FY27 order inflow, Consultancy growth and margins, but cautious on Middle East mega projects and project-award timing.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/ENGINERSIN_04112026172507_a717ec13-0e60-4e83-86f8-c9e671be9cf7.pdf",
+    "takeaway": "The central signal is that EIL’s earnings profile is becoming more Consultancy-led just as its order book has reached ₹20,421 crores, with 75% attributed to Consultancy and management expecting projects to be delivered over three to four years. Q2 Consultancy revenue was ₹594 crores and its segment margin was around 30%, with management repeatedly confirming there was no one-time benefit. Management conservatively expects at least 25% for the segment and sees further support as Dangote execution gains momentum in H2 FY27 and FY28.",
+    "tone": "-  Confident on domestic execution, margins and order-book visibility; cautious on Middle East awards and emerging-sector timing.",
     "stale": false
    }
   },
   "SHAILY": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30787,7 +30794,7 @@
    }
   },
   "ACE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -30800,13 +30807,13 @@
    }
   },
   "INGERRAND": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "SHREEJISPG": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
@@ -30825,33 +30832,33 @@
    }
   },
   "PRIVISCL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/FAIRCHEMDP_03082026173116_LettertoBSENSEtranscriptsigned1.pdf",
-    "takeaway": "The single most important signal from this concall is the imminent commissioning of Phase-1 capacity (48,000 → 54,000 MT, expected within ~15 days of the call) and the concurrent progress on Phase-2 and Phase-3 expansion (₹850–₹900 crore total CAPEX, targeting 66,000 MT by September 2027 and new specialty molecules by H2 FY28). With capacity utilisation already running at ~90%, the company has limited headroom to grow revenue meaningfully from existing assets; the entire growth narrative for the 5K/1K vision (₹5,000 crore revenue, ₹1,000 crore+ EBITDA in 3–4 years) is contingent on timely execution of these expansion phases.",
-    "tone": "-  Confident — Management was consistently upbeat, reaffirming long-term targets without revision and projecting certainty on execution.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/FAIRCHEMDP_03112026181551_LettertoSEtranscriptQ2.pdf",
+    "takeaway": "The central signal is that Privi is shifting from a strong earnings phase into a capacity-led growth phase, while maintaining profitability and balance-sheet discipline. Q2 FY27 total income reached ₹773.16 crores, EBITDA was ₹212.49 crores, and EBITDA margin was 27.48%. More importantly, Phase 1 has been completed, raising capacity from 48,000 MTPA to 54,000 MTPA. Management expects an initial contribution in Q3 and a much larger Q4 impact as annual contracts begin, with expanded-capacity utilisation targeted at 85%-90%. This ramp-up is critical to the retained 20% annual growth guidance, especially after H1 growth of 15% cited during the call.",
+    "tone": "-  Confident",
     "stale": false
    }
   },
   "DOMS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/RAHULBS35_09082026122727_IntimationofTranscript.pdf",
-    "takeaway": "The single most important signal from this concall is that DOMS is deliberately absorbing a significant near-term margin hit — EBITDA margin compressed from 17.6% to 12.3% year-on-year — as a strategic choice to protect and expand market share during an inflationary cycle, rather than passing through the full ~20% raw material cost increase. Management has been explicit that this is a conscious trade-off rooted in historical precedent (COVID period, Russia-Ukraine war), where keeping prices lower squeezes unorganised competition and secures long-term shelf space.",
-    "tone": "-  Mixed — Confident on long-term growth strategy and market share trajectory; Cautious on near-term margin visibility",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://domsindia.com/Data/Audio/Audio_Recording_Conf_Call_Q2FY2027.mp3",
+    "takeaway": "The central signal is that DOMS’ underlying demand and volume momentum remain healthy, but the earnings conversion of that growth is under pressure from raw-material inflation, pricing lags and front-loaded expansion costs. More than 80% of growth was volume-led, supporting management’s confidence in the 18–20% FY27 sales-growth guidance. However, polymer prices increased further in October, while DOMS’ MRP-led pricing structure requires three to four months for corrective actions to reach the market. Management is therefore consciously protecting volumes and distribution rather than forcing immediate margin recovery.",
+    "tone": "-  Mixed — confident on demand, capacity and revenue growth, but cautious on margins, raw-material costs, cash flow and debt.",
     "stale": false
    }
   },
   "MANYAVAR": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30864,7 +30871,7 @@
    }
   },
   "GODREJAGRO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30877,7 +30884,7 @@
    }
   },
   "PGIL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30890,7 +30897,7 @@
    }
   },
   "MANORAMA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30903,33 +30910,33 @@
    }
   },
   "ASKAUTOLTD": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/8448091598_10082026133157_stxintimation10082026sd.pdf",
-    "takeaway": "ASK Automotive's Q1 FY27 results represent a genuine inflection point, with the company reporting its highest-ever quarterly revenue, EBITDA (₹164 crore), and PAT (₹85 crore) while simultaneously upgrading its full-year growth guidance from mid-teens to high teens.",
-    "tone": "-  Confident — bordering on bullish. Management upgraded growth guidance, announced an unplanned new plant, and revised capex upward, all within the same call.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/8448091598_09112026223920_stxintimation09112026sd.pdf",
+    "takeaway": "The central signal is that ASK’s growth is increasingly being driven by capacity-led market-share gains and newer products rather than only by underlying two-wheeler production. Management reported Q2 net revenue growth of 29.5% against industry production growth of 16.5%, while ALPS grew 69%, passenger vehicles grew 79% and EV business grew 98%. The most tangible new growth lever is HPDC alloy wheels: regular supplies began in August, management expects about ₹80 crore in FY27, and one Japanese customer has orders up to ₹240 crore for FY28.",
+    "tone": "-  Confident",
     "stale": false
    }
   },
   "QPOWER": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/QPOWER1234_14082026185547_IntimationofEarningsCallTranscript14082026Sign.pdf",
-    "takeaway": "The central signal is that QPOWER’s opportunity is no longer constrained by demand but by commissioning, qualification and execution capacity. The ₹1,945 crores order book, equivalent to approximately 1.9x last year’s revenue, provides visibility, while Sangli, Endoks PCS and Winwin could materially expand the operating platform. However, the next phase carries transition costs: Sangli needs approximately 60 audits, Endoks’ BESS margins remain untested, and Winwin requires operational stabilization before consolidation from Q4. Management therefore retained 20% FY27 growth guidance and advised modelling EBITDA at 20% or high teens, despite Q1’s stronger reported and adjusted profitability.",
-    "tone": "-  Mixed — confident on demand, order visibility and long-term capability, but cautious on commissioning, margins and near-term execution.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/QPOWER1234_07112026175149_IntimationTranscriptOfEarningsConferenceCall07112026Sign.pdf",
+    "takeaway": "The central signal is that Quality Power has moved from building capacity to proving execution: Sangli’s coil factory and Turkey’s PCS facility are operational, but customer qualification, workforce ramp-up, working capital and product mix will determine how quickly the ₹2,000 crore-plus order book converts into earnings. Management’s FY28 ambition of at least around 50% growth is supported by explicit opportunities—₹500 crore-₹600 crore in reactors, about ₹400 crore in instrument transformers and ₹400 crore-₹500 crore in insulators—but the near term is less linear.",
+    "tone": "-  Mixed — confident about demand, technology and capacity potential, but cautious on commissioning, qualifications, margins and execution.",
     "stale": false
    }
   },
   "AVANTIFEED": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30942,13 +30949,13 @@
    }
   },
   "KENNAMET": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "BLUEJET": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -30961,7 +30968,7 @@
    }
   },
   "SMLMAH": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -30974,31 +30981,31 @@
    }
   },
   "BANCOINDIA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "PGHL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "ESABINDIA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "RPEL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "PRICOLLTD": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31011,19 +31018,19 @@
    }
   },
   "GPPL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "KOVAI": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "SANOFICONR": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q3",
@@ -31036,7 +31043,7 @@
    }
   },
   "KIRLPNU": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31049,26 +31056,26 @@
    }
   },
   "PRECWIRE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "THYROCARE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/THYROCARE_27072026131201_Transcript.pdf",
-    "takeaway": "Thyrocare's Q1 FY27 results represent the clearest evidence yet that the post-acquisition operational rebuild is translating into durable financial momentum — standalone revenue of ₹225.6 crores (up 26.1%), EBITDA margin of 32.2%, and PAT of ₹51.3 crores (up 34%) all in the same quarter. The franchisee network at 11,700 — a fourfold increase since FY21 — and a doubling of the field force are structural drivers that should continue to compound. However, the more consequential signal for the next 12–18 months is the twin strategic pivot: the commercial launch of specialty diagnostics (allergy and genomics) and the pending announcement on Thyrocare-branded consumables.",
-    "tone": "-  Confident, with selective caution on guidance revision",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/THYROCARE_02112026125730_Intimation_Transcript.pdf",
+    "takeaway": "The central signal was that Thyrocare’s core pathology model is generating enough operating leverage to fund new growth platforms without materially abandoning management’s margin framework. Q2 FY27 combined 27% pathology growth, 27% test-volume growth, a 33% EBITDA margin, and the highest-ever franchisee additions, while service indicators improved to a 3.5-hour turnaround time and 2.9 complaints per million tests. Management is directing this operating leverage toward specialty diagnostics, regional laboratories and point-of-care products rather than maximising near-term margins.",
+    "tone": "-  Confident, with caution around franchisee seasonality, new-product monetisation and future corporate action.",
     "stale": false
    }
   },
   "TANLA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -31081,7 +31088,7 @@
    }
   },
   "SKFINDIA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31094,20 +31101,20 @@
    }
   },
   "JYOTHYLAB": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/JYOTHYLAB_14082026184713_SE_Transcript.pdf",
-    "takeaway": "The most important signal is that Jyothy Labs expects growth to strengthen before margins fully recover. Excluding Pril and FA, Q1 revenue grew 8.1% in value and 5.3% in volume, while gross margin fell to 38.5% and EBITDA margin to 8.4% because pricing lagged exceptional crude-linked inflation. Management’s FY27 ambition remains double-digit revenue growth, with high single-digit volume growth, but profitability depends heavily on commodity stability and the timing of high-cost inventory flowing through the P&L. Q2 is not explicitly called the bottom; Pawan Agarwal only indicated that margins should not be materially below Q1.",
-    "tone": "-  Mixed — confident on underlying growth, innovation and long-term margin restoration, but cautious on near-term profitability and commodities.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/JYOTHYLAB_09112026175947_SE_Transcript.pdf",
+    "takeaway": "The central signal is a sharp divergence between healthy underlying demand and severely compressed profitability. Excluding Pril and Fa, Jyothy Labs reported 12.4% value growth and 8.1% volume growth in Q2, with Fabric Care, liquid detergents and Exo sustaining momentum. However, raw-material and packaging inflation contributed close to 18%, and about 4% pricing plus mix only partly offset the pressure, resulting in a 13% to 13.5% gross-margin impact. Management is deliberately avoiding indiscriminate pricing to protect affordability and market share, meaning recovery will depend on several levers and is expected to be gradual.",
+    "tone": "-  Mixed, with confidence in underlying volume and brand momentum but marked caution on profitability and commodity volatility.",
     "stale": false
    }
   },
   "SONATSOFTW": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31120,7 +31127,7 @@
    }
   },
   "SANOFI": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31133,7 +31140,7 @@
    }
   },
   "SJS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31146,7 +31153,7 @@
    }
   },
   "SHARDACROP": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31159,7 +31166,7 @@
    }
   },
   "REDTAPE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31172,7 +31179,7 @@
    }
   },
   "BAJAJCON": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q2",
@@ -31185,7 +31192,7 @@
    }
   },
   "SBCL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31198,13 +31205,13 @@
    }
   },
   "ITDC": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "STYLAMIND": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31217,26 +31224,26 @@
    }
   },
   "JAMNAAUTO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "GULFOILLUB": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/GULFOILLUB_10082026124605_Transcript04082026S.pdf",
-    "takeaway": "Gulf Oil Lubricants delivered a genuinely exceptional Q1 FY27 — record volumes of 48,000 KL (up 17% year-on-year), record revenue of ₹1,320 crores, record EBITDA of ₹170 crores, and record PAT of ₹127.5 crores — all achieved against the backdrop of a severe Strait of Hormuz supply disruption that the company converted into a competitive advantage through supply chain agility and proactive customer engagement. The critical question for investors heading into Q2 FY27 is whether this performance is repeatable or partially inflated by one-time supply-security-driven stocking. Management acknowledged some element of pre-buying but attributed the bulk of growth to structural execution.",
-    "tone": "-  Confident, with calibrated caution on the macro environment. Management was unambiguously bullish on execution and results but carefully hedged on the sustai",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/GULFOILLUB_05112026153944_Transcript05102026.pdf",
+    "takeaway": "The central signal was that Gulf is prioritising per-litre profitability while sustaining materially above-market lubricant volume growth, even though inflation has kept the reported EBITDA margin at 11.8%, below the guided 12% to 14% band. Core lubricant volume reached 47,000 KL, with growth supported by OEM franchisee workshops, industrial customers and continued B2C expansion. Management believes H2 lubricant growth can remain close to double digit, but this depends on Gulf maintaining 2x to 3x the industry’s expected 3% to 4% growth despite weaker agricultural demand.",
+    "tone": "-  Confident, with caution around input costs, agricultural demand, working capital and geopolitical supply conditions.",
     "stale": false
    }
   },
   "VADILALIND": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
@@ -31255,7 +31262,7 @@
    }
   },
   "SHARDAMOTR": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31268,7 +31275,7 @@
    }
   },
   "FIEMIND": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -31281,7 +31288,7 @@
    }
   },
   "RPGLIFE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -31294,7 +31301,7 @@
    }
   },
   "MSTCLTD": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31307,13 +31314,13 @@
    }
   },
   "SWARAJENG": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "GVPIL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31326,7 +31333,7 @@
    }
   },
   "MPSLTD": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31352,7 +31359,7 @@
    }
   },
   "STEELCAS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31365,13 +31372,13 @@
    }
   },
   "VSTIND": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "UNIPARTS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31384,19 +31391,19 @@
    }
   },
   "BONDADA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "INDRAMEDCO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "WEBELSOLAR": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31409,7 +31416,7 @@
    }
   },
   "CARRARO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31422,13 +31429,13 @@
    }
   },
   "JUBLCPL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "DDEVPLSTIK": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31441,45 +31448,45 @@
    }
   },
   "MARSONS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "HEXT": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
-    "fiscal_year": "FY26",
-    "call_period_end": "2025-06-30",
-    "transcript_url": null,
-    "takeaway": "The most important signal from this call is the widening gap between Hexaware's strengthening strategic positioning and its decelerating near-term revenue momentum. Management explicitly lowered the full-year CY25 revenue growth trajectory — without restating a specific number — blaming macro-driven delayed decisions on four large consolidation deals, all of which remain unsigned. Yet the underlying operational story is genuinely improving: utilisation rose 160 bps to 83.7%, offshore mix expanded ~300 bps since the start of the year, IT headcount additions are tracking at the upper end of guidance, and OCF/EBITDA sits at 76% against a 70% target.",
-    "tone": "-  Mixed — operationally confident, strategically bullish, near-term cautious",
-    "stale": true
+    "quarter": "Q2",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/HEXAWARETECH_05112026201108_Transcript_Final.pdf",
+    "takeaway": "The central signal is a reset in forecasting credibility under new CEO Vivek Jetley rather than a claim that underlying demand has collapsed. Q3 revenue of $411.9 million grew 1.6% sequentially, but missed management’s expectations because of one GSE client’s cost optimisation and delayed large-deal decisions. Management declined to provide Q4 revenue guidance and instead indicated a normal seasonal sequential decline, while retaining CY26 adjusted EBIT margin guidance of 13% to 13.5%. The pipeline was described as intact, vendor-consolidation outcomes were largely favourable, and Banking, TPP and Europe showed healthy momentum.",
+    "tone": "-  Mixed",
+    "stale": false
    }
   },
   "3MINDIA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "EMCURE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/EMCURE_12082026182451_TranscriptofEarningCallQ1FY27.pdf",
-    "takeaway": "Emcure's Q1 FY27 results represent a materially stronger-than-expected start to the year, driven overwhelmingly by international markets — particularly ARV-led Rest of World growth and liposomal amphotericin B scaling in Europe — while the domestic business returned to double-digit growth but remains in recovery mode. The most important signal for investors to monitor next quarter is whether the domestic organic growth trajectory (currently running at approximately 6%–7% ex-in-licensed products) genuinely accelerates toward and then beyond IPM growth rates as Zuventus moves from consolidation to acceleration, and as the Sanofi OAD portfolio enters the base.",
-    "tone": "Confident — bordering on bullish, particularly on international performance and the medium-term domestic recovery narrative.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/EMCURE_06112026164953_TranscriptofEarningCallQ2FY27.pdf",
+    "takeaway": "The central signal was the upgrade in FY27 revenue-growth guidance to exceed 20%, backed by multiple businesses rather than a single product. International revenue grew 34.5% to ₹1,665 crores, with Europe, Canada and RoW all expanding, while management confirmed that liposomal amphotericin B remained below 10% of international sales. This reduces the immediate concern that recent growth is overly dependent on one complex injectable. India also showed improvement: revenue grew 12% to ₹1,155 crores, organic growth reached 10%, and management expects the FY27 exit rate to be at or above industry growth as Zuventus recovers.",
+    "tone": "-  Confident, supported by the FY27 revenue-guidance upgrade and broad-based growth, but cautious on FY28, geopolitical conditions and the sustainability of Ind",
     "stale": false
    }
   },
   "LALPATHLAB": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31492,39 +31499,39 @@
    }
   },
   "GODFRYPHLP": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "NETWEB": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/NETWEB1234_01082026124230_Transcript_Q1_2027.pdf",
-    "takeaway": "Netweb Technologies delivered a structurally significant quarter in Q1 FY27, with revenue of ₹8,197 million growing 172.1% year-on-year and PAT of ₹853 million growing 179.9% — both record highs.",
-    "tone": "-  Confident — bordering on ebullient. Management was consistently upbeat, repeatedly referencing record performance, robust pipeline, and structural tailwinds.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/NETWEB1234_29102026160341_Transcript_Q2_FY27.pdf",
+    "takeaway": "The central signal was that Netweb’s rapid AI-led scale-up is being supported by replenishing orders rather than only the execution of one large contract. Despite Q2 FY27 revenue of ₹1,323 crores, management said the order book increased to ₹2,629 crores, alongside an L1 position of ₹653 crores and an active pipeline of approximately ₹11,152 crores. This underpins the ₹4,000 crores FY27 revenue target and management’s confidence in 30%-40% CAGR for at least the next 2-3 years. However, the quality of future growth should be assessed through cash conversion and margins, not revenue alone.",
+    "tone": "-  Confident.",
     "stale": false
    }
   },
   "RRKABEL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/RRKL1995_03082026162012_Intimation_Earnings_Call_Transcript_Q1_FY_26_27.pdf",
-    "takeaway": "R R Kabel's Q1 FY27 results represent a meaningful inflection point across multiple dimensions simultaneously: record consolidated financials, W&C segment margins approaching the FY28 guidance level in the very first quarter of the year, and the long-awaited FMEG operational breakeven. The most important signal from this call is the acceleration in the cable business — with cable volumes growing at \"more than 25%\" against wire growth of \"approximately 12%\", and cable utilisation already at \"almost 90%\" before new Waghodia capacity comes online. This capacity constraint, and how quickly the company can commission and ramp Waghodia, will be the critical variable to watch in Q2 and Q3 FY27.",
-    "tone": "-  Confident, with selective caution on near-term variables (Q2 FMEG, Middle East, US tariffs).",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/RRKL1995_04112026184202_Intimation_Earnings_Call_Transcript_Q2_FY_26_27.pdf",
+    "takeaway": "The central signal is that R R Kabel’s H1 earnings and margin delivery remained strong even as underlying Q2 volume growth moderated. Wires and cables volumes grew only in high single digits during Q2, prompting management to fine-tune FY27 volume expectations from 16%-18% to around 15%. Nevertheless, the company retained its 9.5% FY27 wires and cables EBIT-margin target and approximately 10.5% target for FY28, supported by commodity management, cost absorption, operating leverage, and a rising cable contribution within exports.",
+    "tone": "-  Confident, with selective caution around volumes, commodities, debt, and acquisition planning.",
     "stale": false
    }
   },
   "SCHNEIDER": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31537,20 +31544,20 @@
    }
   },
   "ACUTAAS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/AMIORG_28072026182421_TranscriptSWmergedsigned.pdf",
-    "takeaway": "Acutaas Chemicals delivered a materially strong Q1 FY27, with revenue of ₹329.7 crores (up 59.1% Y-o-Y) and EBITDA of ₹113.1 crores at a 34.3% margin — the latter expanding nearly 973 basis points Y-o-Y.",
-    "tone": "Confident, with selective caution on new business timelines",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/AMIORG_02112026180307_TranscriptmergedSigned.pdf",
+    "takeaway": "The most important signal was management’s decision to accelerate the CDMO milestone to ₹1,000 crores in FY27 and establish a new ₹2,000 crores by FY30 target, supported by orders, validated products and a broader pipeline. This is significant because the growth is expected while Ankleshwar Unit 2 remains at relatively early utilisation: management reported 30% utilisation in Q2 FY27 and expects no more than 40% by year-end. It therefore sees room for operating leverage before the facility largely fills by FY28, although the timing and scale of subsequent capex remain undecided.",
+    "tone": "-  Confident, particularly on FY27 execution, CDMO order visibility and the multi-year transition toward battery and semiconductor chemicals.",
     "stale": false
    }
   },
   "HATSUN": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -31563,20 +31570,20 @@
    }
   },
   "NEULANDLAB": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_10082026185418_SignedSEIntimationTranscript.pdf",
-    "takeaway": "The single most important signal from this call is the convergence of three developments that collectively mark a strategic inflection point for Neuland: the imminent commissioning of the peptide manufacturing facility (Module 1, September 2026) with projects already queued; the announcement of the Gland Pharma sterile API collaboration as an asset-light entry into a technically complex niche; and management's explicit signalling that the next capex cycle will be both larger in quantum and qualitatively different — potentially including overseas investments or M&A in more complex modalities.",
-    "tone": "-  Confident, with deliberate and consistent caveats around quarterly volatility.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_06112026171924_SignedSEIntimationTranscript.pdf",
+    "takeaway": "The most important signal is that Neuland’s underlying opportunity pipeline appears strong, but the earnings conversion remains highly dependent on a few commercial CMS shipments while the peptide investment is still pre-ramp. Management called FY27 RFP activity the “strongest to date,” cited expanding big-pharma engagement and maintained growth expectations for FY27 and FY28, yet declined to quantify that growth. Meanwhile, peptide Module 1 has cost approximately ₹250 crore, will incur idle costs over the next one to one-and-a-half years, and is expected to produce PPQ-related revenue only in 6 to 9 months; commercial revenue could take approximately one-and-a-half to two years.",
+    "tone": "-  Mixed — confident on the long-term CMS and peptide opportunity, but cautious about near-term shipment timing, costs, specialty recovery and peptide ramp-up.",
     "stale": false
    }
   },
   "GILLETTE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31589,7 +31596,7 @@
    }
   },
   "TATAELXSI": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q2",
@@ -31602,7 +31609,7 @@
    }
   },
   "MSUMI": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31615,13 +31622,13 @@
    }
   },
   "FORCEMOT": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "TDPOWERSYS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31634,7 +31641,7 @@
    }
   },
   "PGHH": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -31647,26 +31654,26 @@
    }
   },
   "HBLENGINE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "GABRIEL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q2",
-    "fiscal_year": "FY26",
-    "call_period_end": "2025-09-30",
-    "transcript_url": null,
-    "takeaway": "The transcript body required to complete this analysis was not included in the source material provided. The BSE filing (dated November 19, 2025) is a regulatory cover letter only, confirming that Gabriel India's Q2 FY26 earnings call took place on November 13, 2025, and that the written transcript has been uploaded to the company website. The financial context header does indicate a strong performance period — revenue up ~19.4% YoY and PAT up ~37.1% YoY — with a near-debt-free balance sheet (D/E ~0.058) and healthy ROCE of 24.65%. However, the OPM of 7.67% warrants monitoring for margin sustainability.",
-    "tone": "Not assessable — tone analysis requires direct access to management language in the transcript.",
-    "stale": true
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://www.anandgroupindia.com/wp-content/uploads/2026/11/10048440.mp3",
+    "takeaway": "The most important signal is Gabriel India’s transition from a suspension-focused supplier into a broader mobility-component platform, with seating, sunroofs, brakes, steering and ADAS becoming increasingly relevant. The Forvia seating venture is especially significant because it starts with existing business, includes complete seating except mechanisms, and targets a product with stated content of ₹30,000-₹50,000 per car set. At the same time, execution visibility remains limited: management withheld detailed seating economics until closing, did not quantify ADAS growth, and provided no timeline for returns at HL Klemove to reach the company average.",
+    "tone": "-  Confident, with caution around near-term margins, recoveries and programme execution.",
+    "stale": false
    }
   },
   "CHENNPETRO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -31679,7 +31686,7 @@
    }
   },
   "CEMPRO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -31692,7 +31699,7 @@
    }
   },
   "NBCC": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31705,33 +31712,33 @@
    }
   },
   "CASTROLIND": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q2",
-    "fiscal_year": "FY26",
-    "call_period_end": "2025-09-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/CASTROLINDIA_10082026150610_SE_Intimation_AnalystCall_5_Aug_2026_Transcript.pdf",
-    "takeaway": "Castrol India delivered an exceptionally strong Q2 FY26, with revenue of ₹1,871 crores (25% year-on-year growth), EBITDA of ₹494 crores (41% year-on-year), and a PAT of ₹348 crores (43% year-on-year), driving the EBITDA margin to approximately 26% for the quarter — well above the company's stated 21%–24% guidance band. However, management was explicit that this outperformance was partly aided by lower-cost inventory carried from prior periods, a benefit that will not recur in Q3.",
-    "tone": "-  Confident with selective caution — bullish on Q2 performance and long-term strategy; deliberately cautious on Q3 margin outlook and macro environment.",
-    "stale": true
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/CASTROLINDIA_29102026172507_CLSE_IntimationAnalystCall_26_Oct_2026_TranscriptSigned.pdf",
+    "takeaway": "The central signal is that Castrol India’s revenue growth and market-share defence are currently being achieved against a severe input-cost shock, with profitability carrying the adjustment burden. In 3Q, revenue reached ₹1,735 crore, up 27% year-on-year, but EBITDA declined 19% to ₹262 crore, leaving margin at approximately 15%. Management attributed this to a 60-plus percent rise in the raw-material bill, adverse currency movements and lagged cost recognition. Early pricing protected margins per litre, but management offered no near-term assurance that percentage margins would return to the 21% to 24% frame.",
+    "tone": "-  Mixed / Cautious. Management was confident about market-share retention, industrial growth and long-term strategy, but cautious on near-term margins, volumes",
+    "stale": false
    }
   },
   "APARINDS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/APARINDSSM_31072026154353_SubmissionofConcallTranscript.pdf",
-    "takeaway": "APAR Industries delivered its strongest-ever quarterly performance in Q1 FY27, with consolidated revenues of ₹6,591 crores and PAT of ₹467 crores, driven by a confluence of favourable factors that may not all repeat simultaneously. The oil division's ₹329 crores EBITDA — up 214% year-on-year — was the single largest swing factor, powered by historical-cost inventory sold into a rising gas oil price environment; management has already provisioned ₹94 crores for the subsequent price decline and reduced inventory levels, signalling that this margin level is unlikely to be the new normal.",
-    "tone": "-  Confident, with selective caution on oil margin sustainability and forward guidance",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/APARINDSSM_04112026181639_SubmissionofTranscript.pdf",
+    "takeaway": "The central signal is that APAR’s reported Q2 growth understated underlying dispatch momentum, while profitability benefited from a richer product mix and unusually strong oil economics. Approximately ₹800 crores of US-bound conductors and cables remained in transit under DDP terms, including more than ₹440 crores of cables, and management expects much of this timing gap to reverse in Q3. At the same time, conductor volumes remained weak because customers delayed manufacturing clearances amid metal inflation, despite an all-time-high ₹12,025 crores order book. Management expects H2 conductor volumes to be stronger as TBCB projects approach mandatory completion timelines.",
+    "tone": "-  Confident, with caution around commodity, freight and geopolitical volatility.",
     "stale": false
    }
   },
   "NMDC": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -31744,46 +31751,46 @@
    }
   },
   "APLAPOLLO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/APLAPOLLO_05082026151121_Covering_Letter.pdf",
-    "takeaway": "Q1 FY27 was a quarter where APL Apollo deliberately sacrificed volume to protect margins — a conscious trade-off that held EBITDA per ton above ₹5,500 despite a ~20% sequential volume decline driven by four simultaneous headwinds: UAE geopolitical disruption, a wide primary-secondary steel price gap suppressing SG Premium, an energy crisis hitting roofing and rust-proof pipes, and steel price-driven channel destocking. The single most important signal from this call is that management's full-year credibility now rests almost entirely on a steep volume recovery in Q2–Q4, with Sanjay Gupta explicitly targeting ~10,00,000 tons in Q2, ~10,50,000 tons in Q3, and ~12,00,000 tons in Q4.",
-    "tone": "-  Confident with selective candour — management was upbeat on the full-year outlook and structural story, while openly acknowledging Q1 was a difficult quarter",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/APLAPOLLO_29102026202018_Covering_Letter.pdf",
+    "takeaway": "The central signal is that APL Apollo is deliberately prioritising absolute EBITDA over headline volume, and management believes the resulting ₹6,000-per-tonne profitability is structurally more sustainable than in earlier steel-price-driven cycles. The support is coming from APL Apollo-branded products, roofing, operating leverage, freight savings, lower power costs and withdrawal from non-profitable business. This strategy has insulated earnings despite Dubai volumes falling to 40% of past levels, export disruption and domestic steel shortages.",
+    "tone": "-  Confident on profitability, cautious on volume. Management was emphatic about branded demand, EBITDA per tonne, cost savings and cash generation, but repeate",
     "stale": false
    }
   },
   "RADICO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/RADICO_05082026125217_IntimationFinal.pdf",
-    "takeaway": "The single most important signal from this concall is the convergence of three structural tailwinds that are simultaneously accelerating Radico's earnings quality: the vodka category's rapid share gain within Indian IMFL (4.6% to 6.1% in one year), Magic Moments' dominant 60% market share position delivering 43% volume growth and 51% value growth in Q1 FY27, and Karnataka's progressive pricing rationalisation driving 83% P&A growth for Radico against a 9% industry growth rate. Together, these are driving EBITDA margins to their highest-ever level of 20.7% while the company simultaneously approaches net debt-free status by Q2 FY27.",
-    "tone": "-  Confident — management was consistently upbeat, citing record metrics and upgrading guidance.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://radicokhaitan.com/wp-content/uploads/2026/10/RKL-Q2-FY2027-Concall-Recording.mp3",
+    "takeaway": "The central signal is that Radico’s earnings trajectory is increasingly being driven by portfolio mix rather than broad-based industry growth. Prestige & Above volume grew 36%, vodka reached 6.3% of the IMFL category, and management raised FY27 premium-volume guidance to 30% while retaining an EBITDA margin target of around 20%, despite a roughly ₹27 crore quarterly input and packaging impact. This indicates that vodka, luxury spirits and premium whisky are currently offsetting weak regular volumes and commodity inflation.",
+    "tone": "-  Confident, with selective caution on input costs and regulatory matters.",
     "stale": false
    }
   },
   "NATIONALUM": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_05082026163407_selettertranscript.pdf",
-    "takeaway": "NALCO's Q1 FY27 results represent a genuine operational and financial inflection point — total income of ₹5,400 crores (up ~39% year-on-year), PBT growth of ~88%, and best-ever quarterly revenue — driven by a combination of higher alumina spot prices ($323/ton realised vs. ~$310–$320 budgeted, now trending at $370–$380), strong production volumes, and a structurally declining employee cost base.",
-    "tone": "Confident — Management was upbeat throughout, repeatedly using superlatives to describe Q1 performance and presenting the expansion roadmap with specific timeli",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_09112026121121_SELetterTranscript.pdf",
+    "takeaway": "The central signal is that NALCO expects H2 profitability to remain stable despite continued raw-material inflation, because operating normalisation and the 5th Stream refinery should offset higher caustic soda, fuel and coke costs. Management cited ₹300-₹350 crores of potential H2 benefit from new refinery output, better techno-economic parameters and the non-recurrence of additional royalty impact. However, execution is now critical: the refinery was 90%-92% complete, with production targeted for the last week of December or early January, followed by a three-five-month ramp-up.",
+    "tone": "- Overall tone: Mixed",
     "stale": false
    }
   },
   "SCHAEFFLER": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q2",
@@ -31796,26 +31803,26 @@
    }
   },
   "SUZLON": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q4",
-    "fiscal_year": "FY26",
-    "call_period_end": "2026-03-31",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/SUZLON1_02062026151127_Suzlon02062026.pdf",
-    "takeaway": "The most important signal is Suzlon’s transition from equipment-led sales toward development-backed EPC and full renewable-energy solutions. Management presented this model as the principal mechanism for sustaining order inflow, improving execution control and creating demand visibility beyond immediate turbine sales. The clearest near-term test is Andhra Pradesh: Suzlon expects the entire 1,325 MW balance to convert into firm EPC contracts from June over the next 6 months, while the separate 775 MW FDRE opportunity remains dependent on APERC tariff approval.",
-    "tone": "-  Confident",
-    "stale": true
+    "quarter": "Q2",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/SUZLON1_04112026174449_Suzlon04112026.pdf",
+    "takeaway": "The central signal is that Suzlon’s volume and execution recovery remains intact, but margin conversion has become the key issue to monitor. Q2 deliveries reached 710 MW, H1 commissioning reached 723 MW, the order book stood at 6 GW, and approximately 1,300 MW was already erected, supporting management’s expectation that H2 will be 1.5x-1.65x H1. However, WTG contribution margin fell from 26.9% to 21.2%, and the individual impacts quantified by management do not fully reconcile that movement. Full-year consolidated EBITDA expectations have effectively shifted to 15.1% plus 1%, while recovery towards 17% depends on commodity, FX and West Asia conditions normalising.",
+    "tone": "-  Mixed — confident on demand, order-book visibility and execution growth, but cautious on margins, working capital and external volatility.",
+    "stale": false
    }
   },
   "ABBOTINDIA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "CPPLUS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31828,7 +31835,7 @@
    }
   },
   "COLPAL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31841,26 +31848,26 @@
    }
   },
   "ANTHEM": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q4",
-    "fiscal_year": "FY26",
-    "call_period_end": "2026-03-31",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_ABL1_22052026154836_EarningsCallTranscriptSigned.pdf",
-    "takeaway": "Anthem Biosciences concluded FY26 with record revenue and profitability, driven by strong CRDMO growth (+18% YoY) and expanding EBITDA margins (43.4%). The company is investing ₹1,200 crores in Unit 4 to double custom synthesis capacity and add 50% fermentation capacity by FY28, reflecting its long-term growth aspirations. Management remains confident in maintaining ~20% growth trajectory, supported by restocking trends and high-margin contributions from backward integration. Specialty Ingredients growth is expected to stabilize with dedicated facilities, while AI and technology investments aim to enhance operational efficiency.",
-    "tone": "- Overall Tone: Confident, with emphasis on long-term growth and profitability.",
-    "stale": true
+    "quarter": "Q2",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_ABL1_06112026161829_Earnings_Call_Transcript_Signed.pdf",
+    "takeaway": "The central signal was that Q2 represented a meaningful operating recovery after a slow Q1, but management still needs strong execution through Q3 and Q4 to meet its stated ambition of double-digit FY27 growth. Q2 revenue from operations reached ₹594 crore, while EBITDA was ₹330 crore at a 50.6% margin, including other income of ₹59 crore. Management attributed the margin improvement to operating leverage, cost discipline and mix, but only endorsed the FY26 margin of about 43%, including other income, as sustainable rather than committing to the Q2 level.",
+    "tone": "-  Confident, with caution around full-year guidance, clinical timelines and Unit 4 ramp-up.",
+    "stale": false
    }
   },
   "CUPID": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "HINDCOPPER": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q2",
@@ -31873,26 +31880,26 @@
    }
   },
   "GLAXO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/GLAXO1924_06082026195903_AnalystMeetOutcome_-_Transcript.pdf",
-    "takeaway": "The single most important signal from this call is the accelerating monetisation of GSK India's innovation portfolio, which has grown from approximately 4% to approximately 7% of revenues in just one year and is now contributing approximately four percentage points of headline growth — a structural shift that is beginning to move the needle on a ₹924 crore quarterly revenue base. The imminent launch of Blenrep (Belantamab Mafodotin) for multiple myeloma, combined with the marketing authorisation already in hand for Arexvy (RSV vaccine) and the Bepirovirsen road map for hepatitis B, means the innovation pipeline is transitioning from a promise to a deliverable cadence.",
-    "tone": "-  Confident — Management was consistently upbeat, using growth milestones, patient impact stories, and pipeline announcements to project momentum. There was no",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/GLAXO1924_08112026134503_AnalystMeetOutcome_-Transcript.pdf",
+    "takeaway": "The central signal is that GSK India’s portfolio transformation is becoming financially visible without yet weakening reported profitability. Innovation products now contribute 7% of revenue, versus about 3% a year earlier, and generated a quarter of overall growth, while established products delivered mid to high single-digit volume growth. Management has also clarified the architecture behind its approximately ₹8,000 crore revenue aspiration by 2031: three-fifths of the required growth is expected from established products and two-fifths from existing and future launches. This makes execution on the specialty pipeline—not merely market growth—the critical variable.",
+    "tone": "-  Confident",
     "stale": false
    }
   },
   "AJANTPHARM": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "PREMIERENE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31905,7 +31912,7 @@
    }
   },
   "PAGEIND": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31918,7 +31925,7 @@
    }
   },
   "LTTS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q2",
@@ -31931,7 +31938,7 @@
    }
   },
   "IRCTC": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -31983,25 +31990,25 @@
    }
   },
   "544037": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "524520": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "SHUKRAPHAR": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "BUILDPRO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -32014,13 +32021,13 @@
    }
   },
   "ORIANA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "KMCSHIL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
@@ -32032,7 +32039,7 @@
    }
   },
   "JSLL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -32045,13 +32052,13 @@
    }
   },
   "VMARCIND": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "544224": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -32083,7 +32090,7 @@
    }
   },
   "SEDEMAC": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q4",
@@ -32096,52 +32103,52 @@
    }
   },
   "CMPDI": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": false
    }
   },
   "ATLANTAELE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q4",
-    "fiscal_year": "FY26",
-    "call_period_end": "2026-03-31",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/ATLANTAIPO123_15052026155119_Earning_Call_Transcript_dated_11052026.pdf",
-    "takeaway": "Atlanta Electricals delivered an exceptional FY26 performance, marked by robust revenue growth (+48.8% YoY), margin expansion (+300 bps), and full debt repayment. The company’s strategic focus on prototyping 400KV and 765KV transformers positions it to enter the lucrative EHV segment, while backward integration initiatives aim to strengthen supply chain control and quality. Investors should closely monitor progress on prototyping milestones, export market penetration, and utilization ramp-up at Vadod. Success in these areas could significantly enhance Atlanta’s growth trajectory and competitive positioning in the transformer industry.",
-    "tone": "- Overall tone: Confident, backed by strong FY26 performance and debt-free status.",
-    "stale": true
+    "quarter": "Q2",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/ATLANTAIPO123_06112026173658_Intimation_Transcript_final.pdf",
+    "takeaway": "The central signal is that Q2’s weaker margin and dispatch profile was driven primarily by execution timing and legacy pricing exposure rather than an apparent deterioration in demand. ATL reported an outstanding order book of ₹3,196.97 crores and an inquiry pipeline of approximately ₹19,464 crores, while around 70% of the ₹180 crores of deferred deliveries had already been dispatched. Management also expects remaining firm-price orders to be substantially completed in Q3 FY27 and retained its 16% to 18% EBITDA-margin range for FY27 and FY28.",
+    "tone": "-  Confident, with selective caution. Management repeatedly reaffirmed growth and margin aspirations, while acknowledging Q2 execution and commodity headwinds.",
+    "stale": false
    }
   },
   "CORONA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/CORONAREMEDIES_10082026175713_Intimation_for_Transcript_of_Conference_call.pdf",
-    "takeaway": "Corona Remedies delivered a standout Q1 FY27, with revenue of ₹422 crores (21.9% growth), EBITDA of ₹93 crores (33.5% growth) and PAT of ₹60 crores (30.1% growth) — all materially ahead of the company's own stated guidance of 15% revenue and 20% PAT growth. The performance was predominantly organic (85% of incremental growth), broad-based across all four therapeutic areas, and driven by volume growth running at 5x the IPM rate.",
-    "tone": "-  Confident with selective caution — management was broadly upbeat on growth momentum but deliberately tempered expectations on margins and international timel",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/CORONAREMEDIES_05112026174521_Transcript_of_Conference_call.pdf",
+    "takeaway": "The most important signal was that CORONA’s growth remains broad-based and materially ahead of the Indian pharmaceutical market, but the next phase depends more on extracting productivity from recent investments than on immediate field-force expansion. India business grew 22.9% in Q2 FY27, chronic business grew around 29%, and the 33 Engine brands, contributing 79% of business, grew 22%. Management retained revenue guidance at 1.5 times Indian pharmaceutical market growth, rather than committing to a fixed absolute rate, which provides potential upside if the market sustains 10% to 12% growth.",
+    "tone": "-  Confident",
     "stale": false
    }
   },
   "SUDEEPPHRM": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/SUDEEPPHARMALIMITED_11082026161219_Submission_of_Transcript.pdf",
-    "takeaway": "The single most important signal from this call is the inflection in Sudeep Pharma's commercial momentum across all three growth vectors simultaneously. The PFN segment is capacity-constrained — a high-quality problem — with phosphate demand exceeding supply and bisglycinates already surpassing full-year FY26 sales in a single quarter. The greenfield at Navsari, expected to commence supplies in Q3 FY27, is the near-term unlock for PFN growth.",
-    "tone": "Confident, with selective candour on near-term challenges",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/SUDEEPPHARMALIMITED_03112026150919_Submission_of_Transcript.pdf",
+    "takeaway": "The most important signal was that PFN’s growth is currently being delivered without any contribution from the newly approved Nandesari plant, while management sees that facility as the next capacity and product-mix driver. Q2 PFN revenue grew 57% to ₹142 crore, its EBITDA margin reached approximately 41%, and existing capacity was described as close to optimum utilisation. Nandesari adds 51,000 tonnes of annual capacity, but the ramp will be gradual because customer approvals generally take six to 12 months. Meaningful contribution is expected mainly from Q4 FY27, with FY28 utilisation targeted at 15%-20%.",
+    "tone": "-  Confident, with caution around project ramp-up, Fortified Rice and near-term cost absorption.",
     "stale": false
    }
   },
   "EMMVEE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q2",
@@ -32154,7 +32161,7 @@
    }
   },
   "TENNIND": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -32167,7 +32174,7 @@
    }
   },
   "TRAVELFOOD": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -32180,7 +32187,7 @@
    }
   },
   "RUBICON": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "data": {
     "found": true,
     "quarter": "Q1",
@@ -32269,7 +32276,7 @@
    "roce": 4.56
   },
   "543920": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 26.51,
    "roce": 34.87
   },
@@ -32279,12 +32286,12 @@
    "roce": 18.57
   },
   "SAIPARENT": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 2.91,
    "roce": 3.57
   },
   "OBSCP": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 15.71,
    "roce": 17.82
   },
@@ -32324,12 +32331,12 @@
    "roce": null
   },
   "KNACK": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "MVELECTRO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
@@ -32339,32 +32346,32 @@
    "roce": 53.48
   },
   "EPACKPEB": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 12.61,
    "roce": 19.0
   },
   "FREDUN": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 15.76,
    "roce": 28.94
   },
   "544037": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 22.72,
    "roce": 32.13
   },
   "524520": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 22.21,
    "roce": 24.64
   },
   "544563": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "AEROPLANE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 11.18,
    "roce": 24.05
   },
@@ -32374,87 +32381,87 @@
    "roce": 5.21
   },
   "SHRINGARMS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 17.04,
    "roce": 23.25
   },
   "VARMORA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "SHUKRAPHAR": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 34.84,
    "roce": 48.81
   },
   "511144": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 20.45,
    "roce": 27.66
   },
   "OSWALPUMPS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 22.36,
    "roce": 29.8
   },
   "MONOLITH": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 17.62,
    "roce": 23.9
   },
   "BUILDPRO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 23.41,
    "roce": 39.57
   },
   "519477": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 10.34,
    "roce": 13.23
   },
   "ORIANA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 40.1,
    "roce": 47.8
   },
   "DEEPA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "543619": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 35.78,
    "roce": 50.89
   },
   "KMCSHIL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 26.5,
    "roce": 28.88
   },
   "STEAMHOUSE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "AIMTRON": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 19.6,
    "roce": 21.28
   },
   "GSPLTRANS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "PACEDIGITK": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 13.48,
    "roce": 16.51
   },
   "501261": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 4.88,
    "roce": 7.04
   },
@@ -32464,197 +32471,197 @@
    "roce": 42.56
   },
   "LASERPOWER": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "AONESTEELS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "LUMINO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "MIDWESTLTD": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 10.89,
    "roce": 13.72
   },
   "LCCPROJECT": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "543542": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 12.04,
    "roce": 16.63
   },
   "TRUALT": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 6.31,
    "roce": 10.77
   },
   "RUNWALENTR": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "CMLL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "544310": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "SSRETAIL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "SAATVIKGL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 26.25,
    "roce": 30.83
   },
   "CMRGREEN": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 13.87,
    "roce": 20.06
   },
   "JSLL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 47.5,
    "roce": 54.5
   },
   "WAKEFIT": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 16.71,
    "roce": 8.95
   },
   "TEMPSENS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "VMARCIND": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 34.56,
    "roce": 44.29
   },
   "ORIENTCABL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "PERNIASPOP": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "544224": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 26.69,
    "roce": 24.4
   },
   "PRASOLCHEM": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "HEGAM": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 7.54,
    "roce": 7.23
   },
   "CAPILLARY": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 5.12,
    "roce": 5.43
   },
   "RAYMONDREL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 19.43,
    "roce": 20.37
   },
   "LCL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "HEROMOTORS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "NEPHROPLUS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 6.88,
    "roce": 13.73
   },
   "KUSUMGAR": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "TRANSRAILL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 17.69,
    "roce": 31.93
   },
   "RENTOMOJO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "LEAPIND": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "TRIVENIPT": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "ELEVATE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "POWERICA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 13.42,
    "roce": 11.18
   },
   "IXIGO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 3.52,
    "roce": 4.82
   },
   "CORDELIA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "KSHINTL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 13.63,
    "roce": 22.46
   },
   "KANOHAR": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "SYMBIOTEC": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
@@ -32664,17 +32671,17 @@
    "roce": 25.38
   },
   "OMNI": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 11.68,
    "roce": 18.34
   },
   "PARKHOSPS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 12.77,
    "roce": 18.1
   },
   "JAINREC": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 22.25,
    "roce": 35.47
   },
@@ -32684,177 +32691,177 @@
    "roce": 24.12
   },
   "WEWORK": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 24.98,
    "roce": 12.29
   },
   "SHIPROCKET": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "KWIL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": -54.86,
    "roce": -34.84
   },
   "BHARATCOAL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 2.22,
    "roce": 3.13
   },
   "CLEANMAX": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 2.03,
    "roce": 5.09
   },
   "SEDEMAC": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 23.06,
    "roce": 30.95
   },
   "CMPDI": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 26.86,
    "roce": 34.59
   },
   "504375": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 3.15,
    "roce": 2.05
   },
   "ATLANTAELE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 21.71,
    "roce": 34.63
   },
   "VEDPOWER": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": -88.44,
    "roce": -28.94
   },
   "SKFINDUS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "CORONA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 24.79,
    "roce": 29.31
   },
   "FRACTAL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 9.17,
    "roce": 12.5
   },
   "AMAGI": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 4.08,
    "roce": 5.16
   },
   "VOGL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 40.18,
    "roce": 28.34
   },
   "LOTUSDEV": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 12.41,
    "roce": 16.69
   },
   "KARAMTARA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "UTLSOLAR": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 23.88,
    "roce": 29.63
   },
   "VISL": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 49.39,
    "roce": 40.62
   },
   "SUDEEPPHRM": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 19.57,
    "roce": 24.22
   },
   "EMMVEE": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 29.27,
    "roce": 34.8
   },
   "TENNIND": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 50.41,
    "roce": 64.33
   },
   "AEQUS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": -7.62,
    "roce": 111.0
   },
   "ESDS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "SHADOWFAX": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 6.4,
    "roce": 6.72
   },
   "MOLBIO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "TRAVELFOOD": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 30.57,
    "roce": 37.59
   },
   "JNPR": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "RUBICON": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 19.14,
    "roce": 24.33
   },
   "MILKYMIST": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "URBANCO": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": -10.95,
    "roce": -5.79
   },
   "GUJENERGY": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": 10.95,
    "roce": 11.53
   },
   "LALITHAA": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "DHOOTTRANS": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
   "INDOMIM": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-10",
    "roe": null,
    "roce": null
   },
@@ -32957,6 +32964,11 @@
    "fetched": "2026-11-09",
    "roe": 37.28,
    "roce": 32.33
+  },
+  "STLNETWORK": {
+   "fetched": "2026-11-10",
+   "roe": -12.38,
+   "roce": 47.0
   }
  },
  "moats": {
