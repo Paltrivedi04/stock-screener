@@ -247,5 +247,25 @@
   "added": [],
   "removed": [],
   "baseline": false
+ },
+ {
+  "date": "2026-11-12",
+  "count": 146,
+  "added": [
+   {
+    "symbol": "ASMTEC",
+    "name": "ASM Technologies Limited"
+   },
+   {
+    "symbol": "GKENERGY",
+    "name": "GK Energy Ltd"
+   },
+   {
+    "symbol": "ANONDITA",
+    "name": "Anondita Medicare Ltd"
+   }
+  ],
+  "removed": [],
+  "baseline": false
  }
 ]

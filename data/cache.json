@@ -27568,7 +27568,7 @@
    "v": 2
   },
   "GKENERGY": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-12",
    "profit": [
     {
      "fy": "FY26",
@@ -27584,7 +27584,21 @@
      "ocf": 503940000.0
     }
    ],
-   "de": 0.23150583848272677
+   "de": 0.23150583848272677,
+   "years": [
+    {
+     "end": "2026-03-31",
+     "fy": "FY26",
+     "revenue": 17152800000.0,
+     "ebitda": 3091460000.0,
+     "ebit": 3054150000.0,
+     "net_profit": 2042970000.0,
+     "equity": 8876450000.0,
+     "debt": 2054950000.0,
+     "ocf": 503940000.0
+    }
+   ],
+   "v": 2
   },
   "539682": {
    "fetched": "2026-10-30",
@@ -30552,6 +30566,138 @@
     }
    ],
    "v": 2
+  },
+  "ASMTEC": {
+   "fetched": "2026-11-12",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 607590000.0,
+     "revenue": 5285170000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 262250000.0,
+     "revenue": 2888100000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": -42890000.0,
+     "revenue": 2016480000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 95500000.0,
+     "revenue": 2204080000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 598290000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": -234910000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": -6070000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 202200000.0
+    }
+   ],
+   "de": 0.4158480979676915,
+   "years": [
+    {
+     "end": "2026-03-31",
+     "fy": "FY26",
+     "revenue": 5285170000.0,
+     "ebitda": 1069120000.0,
+     "ebit": 929420000.0,
+     "net_profit": 607590000.0,
+     "equity": 3070400000.0,
+     "debt": 1276820000.0,
+     "ocf": 598290000.0
+    },
+    {
+     "end": "2025-03-31",
+     "fy": "FY25",
+     "revenue": 2888100000.0,
+     "ebitda": 557500000.0,
+     "ebit": 458840000.0,
+     "net_profit": 262250000.0,
+     "equity": 1651260000.0,
+     "debt": 862580000.0,
+     "ocf": -234910000.0
+    },
+    {
+     "end": "2024-03-31",
+     "fy": "FY24",
+     "revenue": 2016480000.0,
+     "ebitda": 107990000.0,
+     "ebit": -4560000.0,
+     "net_profit": -42890000.0,
+     "equity": 1415400000.0,
+     "debt": 824130000.0,
+     "ocf": -6070000.0
+    },
+    {
+     "end": "2023-03-31",
+     "fy": "FY23",
+     "revenue": 2204080000.0,
+     "ebitda": 214149999.0,
+     "ebit": 129009999.0,
+     "net_profit": 95500000.0,
+     "equity": 717330000.0,
+     "debt": 740660000.0,
+     "ocf": 202200000.0
+    }
+   ],
+   "v": 2
+  },
+  "ANONDITA": {
+   "fetched": "2026-11-12",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 342965000.0,
+     "revenue": 1374157000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 106381000.0
+    }
+   ],
+   "de": 0.2559739832344526,
+   "years": [
+    {
+     "end": "2026-03-31",
+     "fy": "FY26",
+     "revenue": 1374157000.0,
+     "ebitda": 51.51,
+     "ebit": 50.43,
+     "net_profit": 342965000.0,
+     "equity": 1312692000.0,
+     "debt": 336015000.0,
+     "ocf": 106381000.0
+    }
+   ],
+   "v": 2
   }
  },
  "concalls": {
@@ -31951,14 +32097,14 @@
    }
   },
   "GKENERGY": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-12",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/GKENERGY_13082026174242_Intimation_of_Transcript_sd.pdf",
-    "takeaway": "The central signal is that GK Energy’s FY27 ambition depends on a sharp, seasonally back-ended scale-up, with management retaining confidence despite a current order book of ₹541 crore and uncertainty around PM-KUSUM 2.0. Q1 delivered the company’s “highest ever quarterly revenue”: standalone revenue reached ₹505 crore, EBITDA was ₹86.1 crore, and PAT was ₹59.7 crore. Operating momentum was volume-led, with 24,118 systems installed, but management acknowledged lower per-pump realisations and expects pricing to remain broadly unchanged.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/GKENERGY_03112026192256_Intimation_sd.pdf",
+    "takeaway": "The central signal is that GK Energy’s FY27 outcome depends increasingly on converting a broader opportunity pipeline—not merely its disclosed ₹788 crore order book—while controlling working capital. Management presented two scenarios: approximately ₹2,200 crores of revenue without PM KUSUM and ₹3,000 crores if the scheme rolls out in time, alongside a 17%-18% EBITDA-margin intention. Rooftop solar is the principal near-term diversification lever: more than 2,000 systems have been installed, demand exists for 4,000-5,000 systems, and the business carries a shorter 45-60-day cash cycle, although margins may be slightly below pumps. The key financial watchpoint remains receivables.",
     "tone": "-  Confident",
     "stale": false
    }
@@ -32262,6 +32408,25 @@
    "data": {
     "found": false
    }
+  },
+  "ASMTEC": {
+   "fetched": "2026-11-12",
+   "data": {
+    "found": false
+   }
+  },
+  "ANONDITA": {
+   "fetched": "2026-11-12",
+   "data": {
+    "found": true,
+    "quarter": "Q4",
+    "fiscal_year": "FY26",
+    "call_period_end": "2026-03-31",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/ANONDITA_02062026114644_Intimation_to_STX_H2__FY26_Earnings_Call_Transcript.pdf",
+    "takeaway": "The single most important signal from this concall is the female condom segment entry and its ambitious scale-up roadmap. Anondita has completed trial production of both latex and non-latex female condoms on in-house patented machines, secured Government of India registration, and achieved what management claims is the world's first regulatory registration in Brazil for both variants. Management presented a scenario where 25% capacity utilisation on a 240-million-piece plant generates ₹330 crores in revenue and ₹150 crores in PAT from this one product line alone — a figure that would dwarf the company's entire FY26 revenue.",
+    "tone": "-  Highly Confident, bordering on Promotional. Management was consistently upbeat, using superlatives freely, and projecting very large revenue targets with lim",
+    "stale": true
+   }
   }
  },
  "fundamentals": {
@@ -32306,7 +32471,7 @@
    "roce": 10.99
   },
   "GKENERGY": {
-   "fetched": "2026-10-27",
+   "fetched": "2026-11-12",
    "roe": 23.02,
    "roce": 34.84
   },
@@ -32866,7 +33031,7 @@
    "roce": null
   },
   "540718": {
-   "fetched": "2026-10-29",
+   "fetched": "2026-11-12",
    "roe": 12.98,
    "roce": 17.63
   },
@@ -32969,6 +33134,16 @@
    "fetched": "2026-11-10",
    "roe": -12.38,
    "roce": 47.0
+  },
+  "ANONDITA": {
+   "fetched": "2026-11-12",
+   "roe": 31.97,
+   "roce": 40.85
+  },
+  "OLAELEC-RE": {
+   "fetched": "2026-11-12",
+   "roe": null,
+   "roce": null
   }
  },
  "moats": {
@@ -34434,6 +34609,24 @@
      "Brand Strength & Design Leadership: Consistent investment in branding and research-led product development creates differentiated offerings and consumer recall, supporting premium positioning and pricing power.",
      "Asset-Light Model: Outsourcing manufacturing reduces fixed costs, capital commitments, and capacity constraints, enabling agility, rapid scaling, and higher capital productivity compared to asset-heavy competitors.",
      "Innovation-driven Differentiation: A continuous flow of differentiated products, driven by anticipating changing consumer tastes, allows the company to avoid price-led competition and maintain industry-leading margins."
+    ]
+   }
+  },
+  "ASMTEC": {
+   "fetched": "2026-11-12",
+   "data": {
+    "found": false
+   }
+  },
+  "ANONDITA": {
+   "fetched": "2026-11-12",
+   "data": {
+    "found": true,
+    "summary": "Regulatory advantages and proprietary manufacturing technology.",
+    "points": [
+     "MDSAP and SABS certifications provide access to regulated international markets.",
+     "Patented female condoms and in-house patented machine development offer product and cost advantages.",
+     "Focus on institutional procurement and export markets leverages these certifications."
     ]
    }
   }
