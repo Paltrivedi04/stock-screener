@@ -267,5 +267,25 @@
   ],
   "removed": [],
   "baseline": false
+ },
+ {
+  "date": "2026-11-13",
+  "count": 149,
+  "added": [
+   {
+    "symbol": "MENONBE",
+    "name": "Menon Bearings Limited"
+   },
+   {
+    "symbol": "539682",
+    "name": "Mobavenue Ai Tech Ltd"
+   },
+   {
+    "symbol": "506854",
+    "name": "Tanfac Industries Ltd"
+   }
+  ],
+  "removed": [],
+  "baseline": false
  }
 ]
