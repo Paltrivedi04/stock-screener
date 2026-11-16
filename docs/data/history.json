@@ -287,5 +287,28 @@
   ],
   "removed": [],
   "baseline": false
+ },
+ {
+  "date": "2026-11-16",
+  "count": 146,
+  "added": [],
+  "removed": [
+   {
+    "symbol": "ELANTAS",
+    "name": "Elantas Beck India Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   },
+   {
+    "symbol": "506854",
+    "name": "Tanfac Industries Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   },
+   {
+    "symbol": "539682",
+    "name": "Mobavenue Ai Tech Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   }
+  ],
+  "baseline": false
  }
 ]

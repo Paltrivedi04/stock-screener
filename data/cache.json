@@ -15539,7 +15539,7 @@
    "v": 2
   },
   "SHILCTECH": {
-   "fetched": "2026-11-02",
+   "fetched": "2026-11-16",
    "profit": [
     {
      "fy": "FY26",
@@ -17960,15 +17960,15 @@
    }
   },
   "SHILCTECH": {
-   "fetched": "2026-11-02",
+   "fetched": "2026-11-16",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/SHILCHARTECH_19082026153028_Shilchar_Transcript.pdf",
-    "takeaway": "The central signal is management’s confidence that Q1 weakness represents delayed execution rather than lost demand, but delivery of the unchanged ₹800 crore FY27 target now depends on a sharp operating recovery from Q2. Q1 capacity utilisation was only approximately 60-65%, and management estimated that the crisis prevented around ₹30-35 crore of potential revenue. The response has been to shift toward domestic customers, producing an order book close to ₹500 crore with approximately 70% domestic and 30% export exposure; Q2 is fully booked.",
-    "tone": "-  Mixed — confident on annual revenue, order coverage and expansion execution, but cautious on exports and margins.",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6fbc2e3f-a161-4084-a598-edf6693575da.pdf",
+    "takeaway": "The central signal is that Shilchar expects a sharp H2 execution ramp, but delivery against this outlook depends heavily on export recovery and near-full utilisation. Q2 revenue reached ₹192.61 crores, while EBITDA margin recovered to 20.8% from 16.4% in Q1 FY27. Management now expects more than ₹225 crores–₹230 crores of quarterly revenue, almost 100% utilisation in Q3 and Q4, and has more than ₹550 crores of orders. However, FY27 revenue messaging was not fully consistent: management referred to both ₹750 crores and more than ₹800 crores.",
+    "tone": "-  Confident, with some caution on margin percentages and the pace of export normalisation.",
     "stale": false
    }
   },

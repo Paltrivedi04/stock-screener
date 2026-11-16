@@ -1,26 +1,26 @@
 {
- "last_run": "2026-11-13",
+ "last_run": "2026-11-16",
  "rules": "Market cap between Rs 2,000 Cr and Rs 70,000 Cr | ROE above 18% | ROCE above 18% | Operating cash flow positive in the latest year (FY26) | Debt to Equity below 1 | Banks and NBFCs excluded",
  "members": {
-  "NMDC": {
+  "APLAPOLLO": {
    "first_seen": "2026-10-30",
-   "name": "NMDC Limited"
+   "name": "APL Apollo Tubes Limited"
   },
   "RADICO": {
    "first_seen": "2026-10-30",
    "name": "Radico Khaitan Limited"
   },
-  "APLAPOLLO": {
+  "NMDC": {
    "first_seen": "2026-10-30",
-   "name": "APL Apollo Tubes Limited"
-  },
-  "NATIONALUM": {
-   "first_seen": "2026-10-30",
-   "name": "National Aluminium Company Limited"
+   "name": "NMDC Limited"
   },
   "APARINDS": {
    "first_seen": "2026-10-30",
    "name": "Apar Industries Limited"
+  },
+  "NATIONALUM": {
+   "first_seen": "2026-10-30",
+   "name": "National Aluminium Company Limited"
   },
   "ABBOTINDIA": {
    "first_seen": "2026-10-30",
@@ -30,33 +30,33 @@
    "first_seen": "2026-10-30",
    "name": "Schaeffler India Limited"
   },
-  "SUZLON": {
-   "first_seen": "2026-10-30",
-   "name": "Suzlon Energy Limited"
-  },
   "ANTHEM": {
    "first_seen": "2026-10-30",
    "name": "Anthem Biosciences Ltd."
   },
-  "CUPID": {
+  "SUZLON": {
    "first_seen": "2026-10-30",
-   "name": "Cupid Limited"
+   "name": "Suzlon Energy Limited"
   },
   "CPPLUS": {
    "first_seen": "2026-10-30",
    "name": "Aditya Infotech Limited"
   },
+  "CUPID": {
+   "first_seen": "2026-10-30",
+   "name": "Cupid Limited"
+  },
   "COLPAL": {
    "first_seen": "2026-10-30",
    "name": "Colgate-Palmolive (India) Limited"
   },
-  "LTTS": {
-   "first_seen": "2026-10-30",
-   "name": "L&T Technology Services Limited"
-  },
   "GLAXO": {
    "first_seen": "2026-10-30",
    "name": "GlaxoSmithKline Pharmaceuticals Limited"
+  },
+  "LTTS": {
+   "first_seen": "2026-10-30",
+   "name": "L&T Technology Services Limited"
   },
   "EMCURE": {
    "first_seen": "2026-10-30",
@@ -82,13 +82,13 @@
    "first_seen": "2026-10-30",
    "name": "Page Industries Limited"
   },
-  "LALPATHLAB": {
-   "first_seen": "2026-10-30",
-   "name": "Dr. Lal PathLabs Limited"
-  },
   "ACUTAAS": {
    "first_seen": "2026-10-30",
    "name": "Acutaas Chemicals Limited"
+  },
+  "LALPATHLAB": {
+   "first_seen": "2026-10-30",
+   "name": "Dr. Lal PathLabs Limited"
   },
   "3MINDIA": {
    "first_seen": "2026-10-30",
@@ -98,13 +98,13 @@
    "first_seen": "2026-10-30",
    "name": "Hexaware Technologies Ltd"
   },
-  "RUBICON": {
-   "first_seen": "2026-10-30",
-   "name": "Rubicon Research Ltd"
-  },
   "GODFRYPHLP": {
    "first_seen": "2026-10-30",
    "name": "Godfrey Phillips India Limited"
+  },
+  "RUBICON": {
+   "first_seen": "2026-10-30",
+   "name": "Rubicon Research Ltd"
   },
   "IKS": {
    "first_seen": "2026-10-30",
@@ -114,13 +114,13 @@
    "first_seen": "2026-10-30",
    "name": "Neuland Laboratories Limited"
   },
-  "FORCEMOT": {
-   "first_seen": "2026-10-30",
-   "name": "Force Motors Limited"
-  },
   "MSUMI": {
    "first_seen": "2026-10-30",
    "name": "Motherson Sumi Wiring India Limited"
+  },
+  "FORCEMOT": {
+   "first_seen": "2026-10-30",
+   "name": "Force Motors Limited"
   },
   "SCHNEIDER": {
    "first_seen": "2026-10-30",
@@ -134,21 +134,25 @@
    "first_seen": "2026-10-30",
    "name": "Cemindia Projects Limited"
   },
+  "TATAELXSI": {
+   "first_seen": "2026-10-30",
+   "name": "Tata Elxsi Limited"
+  },
   "GILLETTE": {
    "first_seen": "2026-10-30",
    "name": "Gillette India Limited"
   },
-  "TATAELXSI": {
+  "PGHH": {
    "first_seen": "2026-10-30",
-   "name": "Tata Elxsi Limited"
+   "name": "Procter & Gamble Hygiene and Health Care Limited"
   },
   "HATSUN": {
    "first_seen": "2026-10-30",
    "name": "Hatsun Agro Product Limited"
   },
-  "PGHH": {
+  "RRKABEL": {
    "first_seen": "2026-10-30",
-   "name": "Procter & Gamble Hygiene and Health Care Limited"
+   "name": "R R Kabel Limited"
   },
   "GABRIEL": {
    "first_seen": "2026-10-30",
@@ -157,10 +161,6 @@
   "HBLENGINE": {
    "first_seen": "2026-10-30",
    "name": "HBL Engineering Ltd."
-  },
-  "RRKABEL": {
-   "first_seen": "2026-10-30",
-   "name": "R R Kabel Limited"
   },
   "NBCC": {
    "first_seen": "2026-10-30",
@@ -174,10 +174,6 @@
    "first_seen": "2026-10-30",
    "name": "TD Power Systems Limited"
   },
-  "CASTROLIND": {
-   "first_seen": "2026-10-30",
-   "name": "Castrol India Limited"
-  },
   "EMMVEE": {
    "first_seen": "2026-10-30",
    "name": "Emmvee Photovoltaic Power Ltd"
@@ -186,6 +182,14 @@
    "first_seen": "2026-10-30",
    "name": "International Gemological Institute Limited"
   },
+  "CASTROLIND": {
+   "first_seen": "2026-10-30",
+   "name": "Castrol India Limited"
+  },
+  "ELGIEQUIP": {
+   "first_seen": "2026-10-30",
+   "name": "Elgi Equipments Limited"
+  },
   "TENNIND": {
    "first_seen": "2026-10-30",
    "name": "Tenneco Clean Air India Ltd"
@@ -193,10 +197,6 @@
   "CAMS": {
    "first_seen": "2026-10-30",
    "name": "Computer Age Management Services Limited"
-  },
-  "ELGIEQUIP": {
-   "first_seen": "2026-10-30",
-   "name": "Elgi Equipments Limited"
   },
   "EMAMILTD": {
    "first_seen": "2026-10-30",
@@ -214,10 +214,6 @@
    "first_seen": "2026-10-30",
    "name": "Triveni Turbine Limited"
   },
-  "ASTRAZEN": {
-   "first_seen": "2026-10-30",
-   "name": "AstraZeneca Pharma India Limited"
-  },
   "TRAVELFOOD": {
    "first_seen": "2026-10-30",
    "name": "Travel Food Services Ltd"
@@ -229,6 +225,10 @@
   "CHAMBLFERT": {
    "first_seen": "2026-10-30",
    "name": "Chambal Fertilisers and Chemicals Limited"
+  },
+  "ASTRAZEN": {
+   "first_seen": "2026-10-30",
+   "name": "AstraZeneca Pharma India Limited"
   },
   "ECLERX": {
    "first_seen": "2026-10-30",
@@ -270,29 +270,25 @@
    "first_seen": "2026-10-30",
    "name": "Thangamayil Jewellery Limited"
   },
-  "MANORAMA": {
-   "first_seen": "2026-10-30",
-   "name": "Manorama Industries Limited"
-  },
   "ASKAUTOLTD": {
    "first_seen": "2026-10-30",
    "name": "ASK Automotive Limited"
-  },
-  "PGIL": {
-   "first_seen": "2026-10-30",
-   "name": "Pearl Global Industries Limited"
   },
   "INGERRAND": {
    "first_seen": "2026-10-30",
    "name": "Ingersoll-Rand (India) Limited"
   },
+  "MANORAMA": {
+   "first_seen": "2026-10-30",
+   "name": "Manorama Industries Limited"
+  },
+  "PGIL": {
+   "first_seen": "2026-10-30",
+   "name": "Pearl Global Industries Limited"
+  },
   "DOMS": {
    "first_seen": "2026-10-30",
    "name": "Doms Industries Limited"
-  },
-  "MANYAVAR": {
-   "first_seen": "2026-10-30",
-   "name": "Vedant Fashions Limited"
   },
   "ATLANTAELE": {
    "first_seen": "2026-10-30",
@@ -302,49 +298,49 @@
    "first_seen": "2026-10-30",
    "name": "Quality Power Electrical Equipments Ltd"
   },
+  "MANYAVAR": {
+   "first_seen": "2026-10-30",
+   "name": "Vedant Fashions Limited"
+  },
   "GODREJAGRO": {
    "first_seen": "2026-10-30",
    "name": "Godrej Agrovet Limited"
-  },
-  "AVANTIFEED": {
-   "first_seen": "2026-10-30",
-   "name": "Avanti Feeds Limited"
   },
   "TIPSMUSIC": {
    "first_seen": "2026-10-30",
    "name": "Tips Music Ltd."
   },
-  "ELANTAS": {
-   "first_seen": "2026-11-02",
-   "name": "Elantas Beck India Ltd"
+  "AVANTIFEED": {
+   "first_seen": "2026-10-30",
+   "name": "Avanti Feeds Limited"
   },
   "PGHL": {
    "first_seen": "2026-10-30",
    "name": "Procter & Gamble Health Limited"
   },
-  "TANLA": {
-   "first_seen": "2026-10-30",
-   "name": "Tanla Platforms Limited"
-  },
   "BANCOINDIA": {
    "first_seen": "2026-10-30",
    "name": "Banco Products (India) Limited"
   },
-  "BLUEJET": {
+  "TANLA": {
    "first_seen": "2026-10-30",
-   "name": "Blue Jet Healthcare Limited"
+   "name": "Tanla Platforms Limited"
   },
   "BLS": {
    "first_seen": "2026-10-30",
    "name": "BLS International Services Limited"
   },
-  "KOVAI": {
+  "BLUEJET": {
    "first_seen": "2026-10-30",
-   "name": "Kovai Medical Center and Hospital Limited"
+   "name": "Blue Jet Healthcare Limited"
   },
   "PRICOLLTD": {
    "first_seen": "2026-10-30",
    "name": "Pricol Limited"
+  },
+  "RPEL": {
+   "first_seen": "2026-10-30",
+   "name": "Raghav Productivity Enhancers Ltd."
   },
   "SANDUMA": {
    "first_seen": "2026-10-30",
@@ -354,45 +350,41 @@
    "first_seen": "2026-11-12",
    "name": "ASM Technologies Limited"
   },
-  "RPEL": {
+  "KOVAI": {
    "first_seen": "2026-10-30",
-   "name": "Raghav Productivity Enhancers Ltd."
-  },
-  "KIRLPNU": {
-   "first_seen": "2026-10-30",
-   "name": "Kirloskar Pneumatic Company Limited"
-  },
-  "SANOFICONR": {
-   "first_seen": "2026-10-30",
-   "name": "Sanofi Consumer Healthcare India Ltd."
-  },
-  "GPPL": {
-   "first_seen": "2026-10-30",
-   "name": "Gujarat Pipavav Port Limited"
-  },
-  "ESABINDIA": {
-   "first_seen": "2026-10-30",
-   "name": "ESAB India Limited"
-  },
-  "WAAREERTL": {
-   "first_seen": "2026-10-30",
-   "name": "Waaree Renewable Technologies Ltd."
-  },
-  "THYROCARE": {
-   "first_seen": "2026-10-30",
-   "name": "Thyrocare Technologies Limited"
+   "name": "Kovai Medical Center and Hospital Limited"
   },
   "KENNAMET": {
    "first_seen": "2026-10-30",
    "name": "Kennametal India Limited"
   },
+  "KIRLPNU": {
+   "first_seen": "2026-10-30",
+   "name": "Kirloskar Pneumatic Company Limited"
+  },
+  "GPPL": {
+   "first_seen": "2026-10-30",
+   "name": "Gujarat Pipavav Port Limited"
+  },
+  "SANOFICONR": {
+   "first_seen": "2026-10-30",
+   "name": "Sanofi Consumer Healthcare India Ltd."
+  },
+  "ESABINDIA": {
+   "first_seen": "2026-10-30",
+   "name": "ESAB India Limited"
+  },
+  "THYROCARE": {
+   "first_seen": "2026-10-30",
+   "name": "Thyrocare Technologies Limited"
+  },
+  "WAAREERTL": {
+   "first_seen": "2026-10-30",
+   "name": "Waaree Renewable Technologies Ltd."
+  },
   "SANOFI": {
    "first_seen": "2026-10-30",
    "name": "Sanofi India Limited"
-  },
-  "TIMEX": {
-   "first_seen": "2026-11-05",
-   "name": "Timex Group India Ltd"
   },
   "SMLMAH": {
    "first_seen": "2026-10-30",
@@ -402,21 +394,25 @@
    "first_seen": "2026-10-30",
    "name": "Precision Wires India Limited"
   },
-  "506854": {
-   "first_seen": "2026-11-13",
-   "name": "Tanfac Industries Ltd"
-  },
-  "JYOTHYLAB": {
-   "first_seen": "2026-10-30",
-   "name": "Jyothy Labs Limited"
+  "TIMEX": {
+   "first_seen": "2026-11-05",
+   "name": "Timex Group India Ltd"
   },
   "SKFINDIA": {
    "first_seen": "2026-10-30",
    "name": "SKF India Limited"
   },
+  "JYOTHYLAB": {
+   "first_seen": "2026-10-30",
+   "name": "Jyothy Labs Limited"
+  },
   "SONATSOFTW": {
    "first_seen": "2026-10-30",
    "name": "Sonata Software Limited"
+  },
+  "SJS": {
+   "first_seen": "2026-10-30",
+   "name": "S.J.S. Enterprises Limited"
   },
   "GOKULAGRO": {
    "first_seen": "2026-10-30",
@@ -426,65 +422,61 @@
    "first_seen": "2026-10-30",
    "name": "Sharda Cropchem Limited"
   },
-  "SJS": {
+  "SBCL": {
    "first_seen": "2026-10-30",
-   "name": "S.J.S. Enterprises Limited"
+   "name": "Shivalik Bimetal Controls Limited"
   },
   "REDTAPE": {
    "first_seen": "2026-10-30",
    "name": "Redtape Limited"
   },
-  "SBCL": {
-   "first_seen": "2026-10-30",
-   "name": "Shivalik Bimetal Controls Limited"
-  },
   "JAMNAAUTO": {
    "first_seen": "2026-10-30",
    "name": "Jamna Auto Industries Limited"
-  },
-  "BAJAJCON": {
-   "first_seen": "2026-10-30",
-   "name": "Bajaj Consumer Care Limited"
   },
   "ITDC": {
    "first_seen": "2026-10-30",
    "name": "India Tourism Development Corporation Limited"
   },
+  "BAJAJCON": {
+   "first_seen": "2026-10-30",
+   "name": "Bajaj Consumer Care Limited"
+  },
   "GULFOILLUB": {
    "first_seen": "2026-10-30",
    "name": "Gulf Oil Lubricants India Limited"
-  },
-  "STYLAMIND": {
-   "first_seen": "2026-10-30",
-   "name": "Stylam Industries Limited"
-  },
-  "SHARDAMOTR": {
-   "first_seen": "2026-10-30",
-   "name": "Sharda Motor Industries Limited"
   },
   "FIEMIND": {
    "first_seen": "2026-10-30",
    "name": "Fiem Industries Limited"
   },
-  "VADILALIND": {
-   "first_seen": "2026-10-30",
-   "name": "Vadilal Industries Limited"
-  },
   "MSTCLTD": {
    "first_seen": "2026-10-30",
    "name": "MSTC Limited"
   },
-  "JSLL": {
+  "SHARDAMOTR": {
    "first_seen": "2026-10-30",
-   "name": "Jeena Sikho Lifecare Ltd"
+   "name": "Sharda Motor Industries Limited"
+  },
+  "STYLAMIND": {
+   "first_seen": "2026-10-30",
+   "name": "Stylam Industries Limited"
+  },
+  "VADILALIND": {
+   "first_seen": "2026-10-30",
+   "name": "Vadilal Industries Limited"
   },
   "VMARCIND": {
    "first_seen": "2026-10-30",
    "name": "V-Marc India Ltd."
   },
-  "GVPIL": {
+  "544224": {
    "first_seen": "2026-10-30",
-   "name": "GE Power India Limited"
+   "name": "Afcom Holdings Ltd"
+  },
+  "JSLL": {
+   "first_seen": "2026-10-30",
+   "name": "Jeena Sikho Lifecare Ltd"
   },
   "RPGLIFE": {
    "first_seen": "2026-10-30",
@@ -494,21 +486,21 @@
    "first_seen": "2026-10-30",
    "name": "Swaraj Engines Limited"
   },
-  "544224": {
+  "GVPIL": {
    "first_seen": "2026-10-30",
-   "name": "Afcom Holdings Ltd"
+   "name": "GE Power India Limited"
   },
   "SHILCTECH": {
    "first_seen": "2026-11-02",
    "name": "Shilchar Technologies Ltd"
   },
-  "MPSLTD": {
-   "first_seen": "2026-10-30",
-   "name": "MPS Limited"
-  },
   "STEELCAS": {
    "first_seen": "2026-10-30",
    "name": "Steelcast Limited"
+  },
+  "MPSLTD": {
+   "first_seen": "2026-10-30",
+   "name": "MPS Limited"
   },
   "SHUKRAPHAR": {
    "first_seen": "2026-10-30",
@@ -538,9 +530,9 @@
    "first_seen": "2026-10-30",
    "name": "Indo Tech Transformers Limited"
   },
-  "KMCSHIL": {
+  "JUBLCPL": {
    "first_seen": "2026-10-30",
-   "name": "K M C Speciality Hospitals (India) Ltd"
+   "name": "Jubilant Agri and Consumer Products Ltd."
   },
   "524520": {
    "first_seen": "2026-10-30",
@@ -550,13 +542,17 @@
    "first_seen": "2026-10-30",
    "name": "Carraro India Ltd."
   },
-  "JUBLCPL": {
+  "KMCSHIL": {
    "first_seen": "2026-10-30",
-   "name": "Jubilant Agri and Consumer Products Ltd."
+   "name": "K M C Speciality Hospitals (India) Ltd"
   },
   "CRIZAC": {
    "first_seen": "2026-10-30",
    "name": "Crizac Ltd."
+  },
+  "544037": {
+   "first_seen": "2026-10-30",
+   "name": "Amic Forging Ltd"
   },
   "MARSONS": {
    "first_seen": "2026-10-30",
@@ -570,10 +566,6 @@
    "first_seen": "2026-10-30",
    "name": "Oriana Power Ltd."
   },
-  "544037": {
-   "first_seen": "2026-10-30",
-   "name": "Amic Forging Ltd"
-  },
   "MACPOWER": {
    "first_seen": "2026-11-03",
    "name": "Macpower CNC Machines Limited"
@@ -582,21 +574,17 @@
    "first_seen": "2026-10-30",
    "name": "Shankara Buildpro Ltd"
   },
-  "GKENERGY": {
-   "first_seen": "2026-11-12",
-   "name": "GK Energy Ltd"
+  "MENONBE": {
+   "first_seen": "2026-11-13",
+   "name": "Menon Bearings Limited"
   },
   "ANONDITA": {
    "first_seen": "2026-11-12",
    "name": "Anondita Medicare Ltd"
   },
-  "MENONBE": {
-   "first_seen": "2026-11-13",
-   "name": "Menon Bearings Limited"
-  },
-  "539682": {
-   "first_seen": "2026-11-13",
-   "name": "Mobavenue Ai Tech Ltd"
+  "GKENERGY": {
+   "first_seen": "2026-11-12",
+   "name": "GK Energy Ltd"
   }
  },
  "missing_members": [
@@ -607,43 +595,43 @@
   "LALITHAA",
   "MOLBIO",
   "NATCO-RE",
-  "OLAELEC-RE",
-  "ESDS",
-  "JNPR",
   "BONFIG",
+  "ESDS",
+  "OLAELEC-RE",
+  "JNPR",
+  "EDELALTS",
   "SKFINDUS",
   "KARAMTARA",
-  "EDELALTS",
   "SYMBIOTEC",
   "SHIPROCKET",
   "TONBO",
   "KANOHAR",
   "CORDELIA",
   "RENTOMOJO",
-  "KUSUMGAR",
-  "HEROMOTORS",
   "LEAPIND",
-  "LCL",
+  "HEROMOTORS",
+  "KUSUMGAR",
   "SSRETAIL",
-  "ELEVATE",
   "SMT",
+  "LCL",
   "HDFIRE",
+  "ELEVATE",
   "PRASOLCHEM",
   "TRIVENIPT",
   "SFCTECH",
+  "ORIENTCABL",
   "TEMPSENS",
   "FUSIONCX",
-  "ORIENTCABL",
   "STEAMHOUSE",
   "PERNIASPOP",
   "LCCPROJECT",
   "544310",
-  "CMLL",
-  "RUNWALENTR",
   "AONESTEELS",
+  "RUNWALENTR",
+  "CMLL",
   "GSPLTRANS",
-  "LASERPOWER",
   "LUMINO",
+  "LASERPOWER",
   "VARMORA",
   "KNACK",
   "544563",
