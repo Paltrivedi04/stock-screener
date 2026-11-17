@@ -15638,7 +15638,7 @@
    "v": 2
   },
   "MACPOWER": {
-   "fetched": "2026-11-03",
+   "fetched": "2026-11-17",
    "profit": [
     {
      "fy": "FY26",
@@ -16277,6 +16277,105 @@
      "equity": 1334383000.0,
      "debt": 146450000.0,
      "ocf": 500879000.0
+    }
+   ],
+   "v": 2
+  },
+  "KPL": {
+   "fetched": "2026-11-17",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 673463000.0,
+     "revenue": 5030834000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 398451000.0,
+     "revenue": 3701970000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "net_profit": 237962000.0,
+     "revenue": 3071718000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "net_profit": 193724000.0,
+     "revenue": 2510300000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": 58620000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": 527178000.0
+    },
+    {
+     "fy": "FY24",
+     "end": "2024-03-31",
+     "ocf": 429828000.0
+    },
+    {
+     "fy": "FY23",
+     "end": "2023-03-31",
+     "ocf": 413817000.0
+    }
+   ],
+   "de": 0.3934328441028771,
+   "years": [
+    {
+     "end": "2026-03-31",
+     "fy": "FY26",
+     "revenue": 5030834000.0,
+     "ebitda": 1182438000.0,
+     "ebit": 984334000.0,
+     "net_profit": 673463000.0,
+     "equity": 3315956000.0,
+     "debt": 1304606000.0,
+     "ocf": 58620000.0
+    },
+    {
+     "end": "2025-03-31",
+     "fy": "FY25",
+     "revenue": 3701970000.0,
+     "ebitda": 823075000.0,
+     "ebit": 640179000.0,
+     "net_profit": 398451000.0,
+     "equity": 2640483000.0,
+     "debt": 1124452000.0,
+     "ocf": 527178000.0
+    },
+    {
+     "end": "2024-03-31",
+     "fy": "FY24",
+     "revenue": 3071718000.0,
+     "ebitda": 610444000.0,
+     "ebit": 414856000.0,
+     "net_profit": 237962000.0,
+     "equity": 2242114000.0,
+     "debt": 981190000.0,
+     "ocf": 429828000.0
+    },
+    {
+     "end": "2023-03-31",
+     "fy": "FY23",
+     "revenue": 2510300000.0,
+     "ebitda": 630382000.0,
+     "ebit": 480798000.0,
+     "net_profit": 193724000.0,
+     "equity": 2005165000.0,
+     "debt": 902638000.0,
+     "ocf": 413817000.0
     }
    ],
    "v": 2
@@ -17973,7 +18072,7 @@
    }
   },
   "MACPOWER": {
-   "fetched": "2026-11-03",
+   "fetched": "2026-11-17",
    "data": {
     "found": true,
     "quarter": "Q2",
@@ -18020,6 +18119,19 @@
     "transcript_url": "https://nsearchives.nseindia.com/corporate/MENONBE_03112026153958_TRANCESCRIPT.pdf",
     "takeaway": "The most important signal was management’s confidence that growth is becoming broader and more volume-led rather than depending on a single market or price increases. Q2 total income grew 58.60%, OEM business rose almost 50%, and exports increased more than 75%, while management said almost 20%-plus of expected 30%-plus growth should come from volumes. This is being supported by new Alkop products, domestic OEM schedules, aftermarket demand and US exports; Europe remains an unmonetised option rather than a current contributor. The critical issue is whether margins can remain within the stated 20%-22% range while tin, copper, steel, freight and inventory costs stay elevated.",
     "tone": "-  Confident, with limited caution around geopolitics, raw materials and execution.",
+    "stale": false
+   }
+  },
+  "KPL": {
+   "fetched": "2026-11-17",
+   "data": {
+    "found": true,
+    "quarter": "Q2",
+    "fiscal_year": "FY27",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3b7164fe-e7d8-4819-892b-d159e171e457.pdf",
+    "takeaway": "The central signal is that KPL’s growth is increasingly being driven by owned registrations and higher-margin regulated-market products, rather than only by additional manufacturing volume. Q2 FY27 revenue rose 63% to ₹181 crores, EBITDA margin reached 27.5%, and management raised FY27 revenue guidance to ₹720 crores plus, while describing ₹720-750 crores as achievable. The next stage depends on converting regulatory filings into commercial sales: the first 7-8 BE molecules, Mexico and Brazil cephalosporin registrations, hormone commissioning, and biological biowaiver supplies are all expected over the coming quarters.",
+    "tone": "-  Confident, with caution around regulated-market approvals, biosimilar trials and speculative new-segment revenue.",
     "stale": false
    }
   }
@@ -18737,6 +18849,11 @@
   },
   "OLAELEC-RE": {
    "fetched": "2026-11-12",
+   "roe": null,
+   "roce": null
+  },
+  "539984": {
+   "fetched": "2026-11-17",
    "roe": null,
    "roce": null
   }
@@ -20227,6 +20344,12 @@
   },
   "MENONBE": {
    "fetched": "2026-11-13",
+   "data": {
+    "found": false
+   }
+  },
+  "KPL": {
+   "fetched": "2026-11-17",
    "data": {
     "found": false
    }

@@ -310,5 +310,33 @@
    }
   ],
   "baseline": false
+ },
+ {
+  "date": "2026-11-17",
+  "count": 144,
+  "added": [
+   {
+    "symbol": "KPL",
+    "name": "Kwality Pharmaceuticals Ltd"
+   }
+  ],
+  "removed": [
+   {
+    "symbol": "MENONBE",
+    "name": "Menon Bearings Limited",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   },
+   {
+    "symbol": "ANONDITA",
+    "name": "Anondita Medicare Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   },
+   {
+    "symbol": "GKENERGY",
+    "name": "GK Energy Ltd",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   }
+  ],
+  "baseline": false
  }
 ]
