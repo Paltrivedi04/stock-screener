@@ -338,5 +338,17 @@
    }
   ],
   "baseline": false
+ },
+ {
+  "date": "2026-11-18",
+  "count": 145,
+  "added": [
+   {
+    "symbol": "ANONDITA",
+    "name": "Anondita Medicare Ltd"
+   }
+  ],
+  "removed": [],
+  "baseline": false
  }
 ]
