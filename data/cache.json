@@ -1,7 +1,7 @@
 {
  "statements": {
   "KALYANKJIL": {
-   "fetched": "2026-10-30",
+   "fetched": "2026-11-19",
    "profit": [
     {
      "fy": "FY26",
@@ -26,36 +26,6 @@
      "end": "2023-03-31",
      "net_profit": 4331050000.0,
      "revenue": 140250100000.0
-    },
-    {
-     "fy": "FY22",
-     "end": "2022-03-31",
-     "net_profit": 2242090000.0,
-     "revenue": 107808270000.0
-    },
-    {
-     "fy": "FY21",
-     "end": "2021-03-31",
-     "net_profit": -63040000.0,
-     "revenue": 85433350000.0
-    },
-    {
-     "fy": "FY20",
-     "end": "2020-03-31",
-     "net_profit": 1429960000.0,
-     "revenue": 100280750000.0
-    },
-    {
-     "fy": "FY19",
-     "end": "2019-03-31",
-     "net_profit": -36060000.0,
-     "revenue": 97339590000.0
-    },
-    {
-     "fy": "FY18",
-     "end": "2018-03-31",
-     "net_profit": 1423740000.0,
-     "revenue": 104406270000.0
     }
    ],
    "ocf": [
@@ -78,31 +48,6 @@
      "fy": "FY23",
      "end": "2023-03-31",
      "ocf": 10133710000.0
-    },
-    {
-     "fy": "FY22",
-     "end": "2022-03-31",
-     "ocf": 2641020000.0
-    },
-    {
-     "fy": "FY21",
-     "end": "2021-03-31",
-     "ocf": 6289090000.0
-    },
-    {
-     "fy": "FY20",
-     "end": "2020-03-31",
-     "ocf": 3197310000.0
-    },
-    {
-     "fy": "FY19",
-     "end": "2019-03-31",
-     "ocf": 3888940000.0
-    },
-    {
-     "fy": "FY18",
-     "end": "2018-03-31",
-     "ocf": 10431090000.0
     }
    ],
    "de": 0.9696649697014272,
@@ -150,61 +95,6 @@
      "equity": 36347110000.0,
      "debt": 42954890000.0,
      "ocf": 10133710000.0
-    },
-    {
-     "end": "2022-03-31",
-     "fy": "FY22",
-     "revenue": 107808270000.0,
-     "ebitda": 8336910000.0,
-     "ebit": 6021140000.0,
-     "net_profit": 2242090000.0,
-     "equity": 31370270000.0,
-     "debt": 40293200000.0,
-     "ocf": 2641020000.0
-    },
-    {
-     "end": "2021-03-31",
-     "fy": "FY21",
-     "revenue": 85433350000.0,
-     "ebitda": 6258840000.0,
-     "ebit": 4009820000.0,
-     "net_profit": -63040000.0,
-     "equity": 28260300000.0,
-     "debt": 40762290000.0,
-     "ocf": 6289090000.0
-    },
-    {
-     "end": "2020-03-31",
-     "fy": "FY20",
-     "revenue": 100280750000.0,
-     "ebitda": 8231220000.0,
-     "ebit": 5839560000.0,
-     "net_profit": 1429960000.0,
-     "equity": 21611100000.0,
-     "debt": 43980630000.0,
-     "ocf": 3197310000.0
-    },
-    {
-     "end": "2019-03-31",
-     "fy": "FY19",
-     "revenue": 97339590000.0,
-     "ebitda": 6077060000.0,
-     "ebit": 3840860000.0,
-     "net_profit": -36060000.0,
-     "equity": 20042190000.0,
-     "debt": 45865580000.0,
-     "ocf": 3888940000.0
-    },
-    {
-     "end": "2018-03-31",
-     "fy": "FY18",
-     "revenue": 104406270000.0,
-     "ebitda": 7493110000.0,
-     "ebit": 5472830000.0,
-     "net_profit": 1423740000.0,
-     "equity": 19703810000.0,
-     "debt": 47718260000.0,
-     "ocf": 10431090000.0
     }
    ],
    "v": 2
@@ -15117,7 +15007,7 @@
    "v": 2
   },
   "WAAREEENER": {
-   "fetched": "2026-10-30",
+   "fetched": "2026-11-19",
    "profit": [
     {
      "fy": "FY26",
@@ -15142,42 +15032,6 @@
      "end": "2023-03-31",
      "net_profit": 4827600000.0,
      "revenue": 67508729999.0
-    },
-    {
-     "fy": "FY22",
-     "end": "2022-03-31",
-     "net_profit": 756390000.0,
-     "revenue": 28436400000.0
-    },
-    {
-     "fy": "FY21",
-     "end": "2021-03-31",
-     "net_profit": 465940000.0,
-     "revenue": 19417760000.0
-    },
-    {
-     "fy": "FY20",
-     "end": "2020-03-31",
-     "net_profit": 445240000.0,
-     "revenue": 19957830000.0
-    },
-    {
-     "fy": "FY19",
-     "end": "2019-03-31",
-     "net_profit": 792170000.0,
-     "revenue": 15910350000.0
-    },
-    {
-     "fy": "FY18",
-     "end": "2018-03-31",
-     "net_profit": 230340000.0,
-     "revenue": 13572510000.0
-    },
-    {
-     "fy": "FY17",
-     "end": "2017-03-31",
-     "net_profit": 307520000.0,
-     "revenue": 10166560000.0
     }
    ],
    "ocf": [
@@ -15200,26 +15054,6 @@
      "fy": "FY23",
      "end": "2023-03-31",
      "ocf": 15602280000.0
-    },
-    {
-     "fy": "FY22",
-     "end": "2022-03-31",
-     "ocf": 7008560000.0
-    },
-    {
-     "fy": "FY21",
-     "end": "2021-03-31",
-     "ocf": 716680000.0
-    },
-    {
-     "fy": "FY20",
-     "end": "2020-03-31",
-     "ocf": 319810000.0
-    },
-    {
-     "fy": "FY19",
-     "end": "2019-03-31",
-     "ocf": 297140000.0
     }
    ],
    "de": 0.25571815860816466,
@@ -15267,70 +15101,6 @@
      "equity": 18384100000.0,
      "debt": 9060520000.0,
      "ocf": 15602280000.0
-    },
-    {
-     "end": "2022-03-31",
-     "fy": "FY22",
-     "revenue": 28436400000.0,
-     "ebitda": 2000720000.0,
-     "ebit": 1567980000.0,
-     "net_profit": 756390000.0,
-     "equity": 4276480000.0,
-     "debt": 4211220000.0,
-     "ocf": 7008560000.0
-    },
-    {
-     "end": "2021-03-31",
-     "fy": "FY21",
-     "revenue": 19417760000.0,
-     "ebitda": 1294790000.0,
-     "ebit": 1008210000.0,
-     "net_profit": 465940000.0,
-     "equity": 3525770000.0,
-     "debt": 4080710000.0,
-     "ocf": 716680000.0
-    },
-    {
-     "end": "2020-03-31",
-     "fy": "FY20",
-     "revenue": 19957830000.0,
-     "ebitda": 1016560000.0,
-     "ebit": 745230000.0,
-     "net_profit": 445240000.0,
-     "equity": 2988740000.0,
-     "debt": 1570300000.0,
-     "ocf": 319810000.0
-    },
-    {
-     "end": "2019-03-31",
-     "fy": "FY19",
-     "revenue": 15910350000.0,
-     "ebitda": 1415700000.0,
-     "ebit": 1052290000.0,
-     "net_profit": 792170000.0,
-     "equity": 2578280000.0,
-     "debt": 1070290000.0,
-     "ocf": 297140000.0
-    },
-    {
-     "end": "2018-03-31",
-     "fy": "FY18",
-     "revenue": 13572510000.0,
-     "ebitda": 1267460000.0,
-     "ebit": 985900000.0,
-     "net_profit": 230340000.0,
-     "equity": 1757650000.0,
-     "debt": 4614650000.0
-    },
-    {
-     "end": "2017-03-31",
-     "fy": "FY17",
-     "revenue": 10166560000.0,
-     "ebitda": 1297930000.0,
-     "ebit": 1017440000.0,
-     "net_profit": 307520000.0,
-     "equity": 1528020000.0,
-     "debt": 3912730000.0
     }
    ],
    "v": 2
@@ -15737,7 +15507,7 @@
    "v": 2
   },
   "TIMEX": {
-   "fetched": "2026-11-05",
+   "fetched": "2026-11-19",
    "profit": [
     {
      "fy": "FY26",
@@ -15836,7 +15606,7 @@
    "v": 2
   },
   "ADVAIT": {
-   "fetched": "2026-11-05",
+   "fetched": "2026-11-19",
    "profit": [
     {
      "fy": "FY26",
@@ -15935,7 +15705,7 @@
    "v": 2
   },
   "CNL": {
-   "fetched": "2026-11-05",
+   "fetched": "2026-11-19",
    "profit": [
     {
      "fy": "FY26",
@@ -16376,6 +16146,61 @@
      "equity": 2005165000.0,
      "debt": 902638000.0,
      "ocf": 413817000.0
+    }
+   ],
+   "v": 2
+  },
+  "CFF": {
+   "fetched": "2026-11-19",
+   "profit": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "net_profit": 391966000.0,
+     "revenue": 2087362999.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "net_profit": 238503000.0,
+     "revenue": 1455605000.0
+    }
+   ],
+   "ocf": [
+    {
+     "fy": "FY26",
+     "end": "2026-03-31",
+     "ocf": -272191000.0
+    },
+    {
+     "fy": "FY25",
+     "end": "2025-03-31",
+     "ocf": -32177000.0
+    }
+   ],
+   "de": 0.07444489186322208,
+   "years": [
+    {
+     "end": "2026-03-31",
+     "fy": "FY26",
+     "revenue": 2087362999.0,
+     "ebitda": 591788000.0,
+     "ebit": 531772000.0,
+     "net_profit": 391966000.0,
+     "equity": 2662184000.0,
+     "debt": 198186000.0,
+     "ocf": -272191000.0
+    },
+    {
+     "end": "2025-03-31",
+     "fy": "FY25",
+     "revenue": 1455605000.0,
+     "ebitda": 413094000.0,
+     "ebit": 351781000.0,
+     "net_profit": 238503000.0,
+     "equity": 1478390000.0,
+     "debt": 211143000.0,
+     "ocf": -32177000.0
     }
    ],
    "v": 2
@@ -18027,15 +17852,15 @@
    }
   },
   "WAAREEENER": {
-   "fetched": "2026-10-30",
+   "fetched": "2026-11-19",
    "data": {
     "found": true,
-    "quarter": "Q1",
+    "quarter": "Q2",
     "fiscal_year": "FY27",
-    "call_period_end": "2026-06-30",
-    "transcript_url": "https://nsearchives.nseindia.com/corporate/WAAREE_06082026173008_Transcript_signed.pdf",
-    "takeaway": "Waaree's Q1 FY27 results present a company in a deliberate transition quarter: revenue grew 79.2% year-on-year to ₹7,932-odd crores and the order book reached a record ₹61,500 crores, yet operating EBITDA margin compressed to 18.2% and PAT margin to 11% as three simultaneous headwinds — raw material cost inflation, deferred domestic developer offtake, and U.S. export clearance delays — converged in the same 90-day window. Management's credibility rests on whether the four margin-recovery levers it has identified — DCR cell production ramping from ~800 MW in Q1 toward ~1.5 GW by Q3, the new 1.6 GW U.S.",
-    "tone": "-  Confident — bordering on assertive. Management was notably direct in acknowledging Q1 headwinds but consistently framed each as temporary and already-address",
+    "call_period_end": "2026-09-30",
+    "transcript_url": "https://nsearchives.nseindia.com/corporate/WAAREE_04112026160637_Transcripts_Merged_Signed.pdf",
+    "takeaway": "The central signal is that Waaree’s FY27 delivery is becoming increasingly dependent on a back-ended H2 ramp-up, while the quality of its revenue mix is shifting toward retail and US domestic manufacturing. Management maintained operating EBITDA guidance of ₹7,000-₹7,700 crores, but said H2 would contribute around 55%-60% of that guidance, with Q4 heavier. The required drivers are clear: two 1.6 GW US module additions, the phased commissioning of 10 GW of Indian cell capacity, greater utilisation of existing cells and initial BESS production. Retail provides an important counterbalance, having reached ₹5,753 crores in H1 and carrying an FY27 target of ₹10,000-₹11,000 crores.",
+    "tone": "-  Confident, with selective caution around US exports, pricing and execution.",
     "stale": false
    }
   },
@@ -18085,7 +17910,7 @@
    }
   },
   "TIMEX": {
-   "fetched": "2026-11-05",
+   "fetched": "2026-11-19",
    "data": {
     "found": false
    }
@@ -18813,17 +18638,17 @@
    "roce": null
   },
   "CNL": {
-   "fetched": "2026-11-05",
+   "fetched": "2026-11-19",
    "roe": 19.33,
    "roce": 26.35
   },
   "514318": {
-   "fetched": "2026-11-05",
+   "fetched": "2026-11-19",
    "roe": 5.27,
    "roce": 6.34
   },
   "EDELALTS": {
-   "fetched": "2026-11-05",
+   "fetched": "2026-11-19",
    "roe": null,
    "roce": null
   },
