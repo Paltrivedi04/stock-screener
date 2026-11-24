@@ -1,6 +1,6 @@
 {
- "run_date": "2026-11-24",
- "run_time_ist": "2026-11-24 05:40",
+ "run_date": "2026-11-25",
+ "run_time_ist": "2026-11-25 04:09",
  "baseline": false,
  "rules_changed": false,
  "rules": [
@@ -239,7 +239,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": true
+   "mismatch": false
   },
   {
    "symbol": "NMDC",
@@ -370,7 +370,11 @@
      "link": "https://nsearchives.nseindia.in/corporate/SCHAEFFLERUSER1_01112026212710_Schaeffler_Reg30_InvestorPresentation_Nov22026.pdf",
      "title": "Schaeffler India Limited has informed the Exchange about Investor Presentation"
     },
-    "upcoming_call": null,
+    "upcoming_call": {
+     "date": "2026-11-24",
+     "link": "https://nsearchives.nseindia.in/corporate/SCHAEFFLERUSER1_24112026143459_Schaeffler_IntimationInvestorCall_Nov252026.pdf",
+     "title": "Schaeffler India Limited has informed the Exchange about Schedule of meet"
+    },
     "calls_last_12m": 4,
     "regular": true
    },
@@ -639,7 +643,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": true
+   "mismatch": false
   },
   {
    "symbol": "SUZLON",
@@ -932,7 +936,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": true
+   "mismatch": false
   },
   {
    "symbol": "GLAXO",
@@ -1419,7 +1423,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": true
+   "mismatch": false
   },
   {
    "symbol": "LALPATHLAB",
@@ -1702,7 +1706,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": true
+   "mismatch": false
   },
   {
    "symbol": "HEXT",
@@ -2858,7 +2862,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": false
+   "mismatch": true
   },
   {
    "symbol": "NBCC",
@@ -3008,7 +3012,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": true
+   "mismatch": false
   },
   {
    "symbol": "TDPOWERSYS",
@@ -4649,7 +4653,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": true
+   "mismatch": false
   },
   {
    "symbol": "CMPDI",
@@ -5113,7 +5117,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": false
+   "mismatch": true
   },
   {
    "symbol": "GODREJAGRO",
@@ -5865,7 +5869,7 @@
    "price": null,
    "price_date": "2026-11-23",
    "price_source": "InvestSights",
-   "pe": 104.138292299633,
+   "pe": 101.715557883709,
    "roe": 26.48,
    "roce": 26.51,
    "de": 0.590928505763383,
@@ -6409,7 +6413,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": false
+   "mismatch": true
   },
   {
    "symbol": "SMLMAH",
@@ -6476,7 +6480,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": false
+   "mismatch": true
   },
   {
    "symbol": "PRICOLLTD",
@@ -6683,7 +6687,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": false
+   "mismatch": true
   },
   {
    "symbol": "TIMEX",
@@ -6802,7 +6806,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": false
+   "mismatch": true
   },
   {
    "symbol": "SJS",
@@ -6925,7 +6929,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": true
+   "mismatch": false
   },
   {
    "symbol": "JYOTHYLAB",
@@ -7288,7 +7292,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": false
+   "mismatch": true
   },
   {
    "symbol": "ITDC",
@@ -7838,7 +7842,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": false
+   "mismatch": true
   },
   {
    "symbol": "VADILALIND",
@@ -7963,7 +7967,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": true
+   "mismatch": false
   },
   {
    "symbol": "HAWKINCOOK",
@@ -8702,7 +8706,7 @@
     "checked": "2026-11-02"
    },
    "first_seen": "2026-11-02",
-   "mismatch": false
+   "mismatch": true
   },
   {
    "symbol": "VSTIND",
@@ -9058,7 +9062,7 @@
     "checked": "2026-10-30"
    },
    "first_seen": "2026-10-30",
-   "mismatch": false
+   "mismatch": true
   },
   {
    "symbol": "MODINSU",
@@ -9068,7 +9072,7 @@
    "price": null,
    "price_date": "2026-11-23",
    "price_source": "InvestSights",
-   "pe": 21.3256066642521,
+   "pe": 21.4070988772184,
    "roe": 23.58,
    "roce": 19.2,
    "de": 0.170612755248065,
@@ -9226,7 +9230,11 @@
      "link": "https://nsearchives.nseindia.in/corporate/CARRARO_06112026164131_CILQ2FY26IntimationofInvestorPresentationS.pdf",
      "title": "Carraro India Limited has informed the Exchange about Investor Presentation"
     },
-    "upcoming_call": null,
+    "upcoming_call": {
+     "date": "2026-11-24",
+     "link": "https://nsearchives.nseindia.in/corporate/CARRARO_24112026121754_CIL_Intimation_Investor_Conference_091226.pdf",
+     "title": "Carraro India Limited has informed the Exchange about Schedule of meet"
+    },
     "calls_last_12m": 4,
     "regular": true
    },
@@ -9940,7 +9948,7 @@
    "name": "Ola Electric Mobility Ltd-RE",
    "sector": null,
    "market_cap": 13427.38,
-   "price": 1.5,
+   "price": 1.34,
    "pe": null,
    "roe": null,
    "roce": null,
@@ -10520,7 +10528,7 @@
    "roce": null,
    "de": null,
    "missing": "ROE, ROCE",
-   "new": true,
+   "new": false,
    "screener_url": "https://www.screener.in/company/TECHNOCRAF/consolidated/"
   }
  ],
@@ -10719,163 +10727,156 @@
   }
  ],
  "changes": {
-  "added": [
-   {
-    "symbol": "HAWKINCOOK",
-    "name": "Hawkins Cookers Ltd",
-    "price": 8342.5,
-    "screener_url": "https://www.screener.in/company/HAWKINCOOK/consolidated/"
-   },
-   {
-    "symbol": "MODINSU",
-    "name": "Modern Insulators Limited",
-    "price": null,
-    "screener_url": "https://www.screener.in/company/MODINSU/consolidated/"
-   },
-   {
-    "symbol": "539682",
-    "name": "Mobavenue Ai Tech Ltd",
-    "price": 273.2,
-    "screener_url": "https://www.screener.in/company/539682/consolidated/"
-   },
-   {
-    "symbol": "ORIANA",
-    "name": "Oriana Power Ltd.",
-    "price": 199.25,
-    "screener_url": "https://www.screener.in/company/ORIANA/consolidated/"
-   }
-  ],
-  "removed": [
-   {
-    "symbol": "BONDADA",
-    "name": "Bondada Engineering Limited",
-    "reason": "No longer passes the main screen (market cap, ROE or ROCE)",
-    "first_seen": "2026-10-30",
-    "screener_url": "https://www.screener.in/company/BONDADA/consolidated/",
-    "price": null
-   }
-  ]
+  "added": [],
+  "removed": []
  },
  "data_checks": {
   "sample_size": 15,
-  "compared": 57,
-  "matched": 43,
-  "health_pct": 75,
-  "health_text": "Data check: 43 of 57 sampled numbers matched within 10%.",
+  "compared": 53,
+  "matched": 36,
+  "health_pct": 68,
+  "health_text": "Data check: 36 of 53 sampled numbers matched within 10%.",
   "rows": [
    {
-    "symbol": "APLAPOLLO",
-    "name": "APL Apollo Tubes Limited",
+    "symbol": "MODINSU",
+    "name": "Modern Insulators Limited",
+    "items": [
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 2767.35,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     },
+     {
+      "metric": "P/E",
+      "ours": 21.4070988772184,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 23.58,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     }
+    ],
+    "flag": false
+   },
+   {
+    "symbol": "SANOFICONR",
+    "name": "Sanofi Consumer Healthcare India Ltd.",
     "items": [
      {
       "metric": "Price",
-      "ours": 1670.0,
-      "theirs": 1670.0,
+      "ours": 3365.6,
+      "theirs": 3365.6,
       "source": "NSE",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
-      "ours": 46368.95,
-      "theirs": 46368.9515008,
+      "ours": 7751.19,
+      "theirs": 7762.24768,
+      "source": "Yahoo",
+      "gap_pct": 0.1,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 32.2777404814424,
+      "theirs": 27.714098,
+      "source": "Yahoo",
+      "gap_pct": 16.5,
+      "status": "mismatch"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 62.53,
+      "theirs": null,
+      "source": "Yahoo",
+      "status": "n/a"
+     }
+    ],
+    "flag": true
+   },
+   {
+    "symbol": "QPOWER",
+    "name": "Quality Power Electrical Equipments Ltd",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 1468.5,
+      "theirs": 1468.5,
+      "source": "NSE",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 11372.67,
+      "theirs": 11372.6652416,
       "source": "Yahoo",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "P/E",
-      "ours": 38.5325334563913,
-      "theirs": 35.411366,
+      "ours": 93.7141033822591,
+      "theirs": 75.11509,
       "source": "Yahoo",
-      "gap_pct": 8.8,
-      "status": "match"
+      "gap_pct": 24.8,
+      "status": "mismatch"
      },
      {
       "metric": "ROE %",
-      "ours": 22.71,
-      "theirs": 25.322,
+      "ours": 22.39,
+      "theirs": 29.366999999999997,
       "source": "Yahoo",
-      "gap_pct": 10.3,
+      "gap_pct": 23.8,
       "status": "mismatch"
      }
     ],
     "flag": true
    },
    {
-    "symbol": "PRECWIRE",
-    "name": "Precision Wires India Limited",
+    "symbol": "GULFOILLUB",
+    "name": "Gulf Oil Lubricants India Limited",
     "items": [
      {
       "metric": "Price",
-      "ours": 377.95,
-      "theirs": 377.95,
+      "ours": 1159.2,
+      "theirs": 1159.2,
       "source": "NSE",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
-      "ours": 6909.23,
-      "theirs": 6909.227008,
+      "ours": 5744.47,
+      "theirs": 5744.4765696,
       "source": "Yahoo",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "P/E",
-      "ours": 44.0501165501165,
-      "theirs": 37.49504,
+      "ours": 16.4495530012771,
+      "theirs": 14.28994,
       "source": "Yahoo",
-      "gap_pct": 17.5,
+      "gap_pct": 15.1,
       "status": "mismatch"
      },
      {
       "metric": "ROE %",
-      "ours": 20.1,
-      "theirs": 22.266,
+      "ours": 22.63,
+      "theirs": 23.601,
       "source": "Yahoo",
-      "gap_pct": 9.7,
+      "gap_pct": 4.1,
       "status": "match"
-     }
-    ],
-    "flag": true
-   },
-   {
-    "symbol": "IRCTC",
-    "name": "Indian Railway Catering & Tourism Corporation Limited",
-    "items": [
-     {
-      "metric": "Price",
-      "ours": 447.2,
-      "theirs": 447.2,
-      "source": "NSE",
-      "gap_pct": 0.0,
-      "status": "match"
-     },
-     {
-      "metric": "Market cap (Cr)",
-      "ours": 35776.0,
-      "theirs": 35776.0008192,
-      "source": "Yahoo",
-      "gap_pct": 0.0,
-      "status": "match"
-     },
-     {
-      "metric": "P/E",
-      "ours": 25.6716417910448,
-      "theirs": 27.218502,
-      "source": "Yahoo",
-      "gap_pct": 5.7,
-      "status": "match"
-     },
-     {
-      "metric": "ROE %",
-      "ours": 32.34,
-      "theirs": 28.815,
-      "source": "Yahoo",
-      "gap_pct": 12.2,
-      "status": "mismatch"
      }
     ],
     "flag": true
@@ -10895,9 +10896,10 @@
      {
       "metric": "Market cap (Cr)",
       "ours": 7135.15,
-      "theirs": null,
+      "theirs": 7135.145984,
       "source": "Yahoo",
-      "status": "n/a"
+      "gap_pct": 0.0,
+      "status": "match"
      },
      {
       "metric": "P/E",
@@ -10914,123 +10916,6 @@
       "source": "Yahoo",
       "gap_pct": 4.5,
       "status": "match"
-     }
-    ],
-    "flag": true
-   },
-   {
-    "symbol": "IKS",
-    "name": "Inventurus Knowledge Solutions Ltd.",
-    "items": [
-     {
-      "metric": "Price",
-      "ours": 1603.8,
-      "theirs": 1603.8,
-      "source": "NSE",
-      "gap_pct": 0.0,
-      "status": "match"
-     },
-     {
-      "metric": "Market cap (Cr)",
-      "ours": 26904.94,
-      "theirs": 26904.9413632,
-      "source": "Yahoo",
-      "gap_pct": 0.0,
-      "status": "match"
-     },
-     {
-      "metric": "P/E",
-      "ours": 37.1938775510204,
-      "theirs": 34.247276,
-      "source": "Yahoo",
-      "gap_pct": 8.6,
-      "status": "match"
-     },
-     {
-      "metric": "ROE %",
-      "ours": 25.77,
-      "theirs": 28.176000000000002,
-      "source": "Yahoo",
-      "gap_pct": 8.5,
-      "status": "match"
-     }
-    ],
-    "flag": false
-   },
-   {
-    "symbol": "APARINDS",
-    "name": "Apar Industries Limited",
-    "items": [
-     {
-      "metric": "Price",
-      "ours": 14184.0,
-      "theirs": 14184.0,
-      "source": "NSE",
-      "gap_pct": 0.0,
-      "status": "match"
-     },
-     {
-      "metric": "Market cap (Cr)",
-      "ours": 59391.72,
-      "theirs": 59391.7181952,
-      "source": "Yahoo",
-      "gap_pct": 0.0,
-      "status": "match"
-     },
-     {
-      "metric": "P/E",
-      "ours": 58.3199703959541,
-      "theirs": 41.787704,
-      "source": "Yahoo",
-      "gap_pct": 39.6,
-      "status": "mismatch"
-     },
-     {
-      "metric": "ROE %",
-      "ours": 18.11,
-      "theirs": 20.596,
-      "source": "Yahoo",
-      "gap_pct": 12.1,
-      "status": "mismatch"
-     }
-    ],
-    "flag": true
-   },
-   {
-    "symbol": "CPPLUS",
-    "name": "Aditya Infotech Limited",
-    "items": [
-     {
-      "metric": "Price",
-      "ours": 4074.1,
-      "theirs": 4074.1,
-      "source": "NSE",
-      "gap_pct": 0.0,
-      "status": "match"
-     },
-     {
-      "metric": "Market cap (Cr)",
-      "ours": 49979.04,
-      "theirs": 49979.0381056,
-      "source": "Yahoo",
-      "gap_pct": 0.0,
-      "status": "match"
-     },
-     {
-      "metric": "P/E",
-      "ours": 127.105318815581,
-      "theirs": 81.028244,
-      "source": "Yahoo",
-      "gap_pct": 56.9,
-      "status": "mismatch"
-     },
-     {
-      "metric": "ROE %",
-      "ours": 19.61,
-      "theirs": 22.564,
-      "source": "Yahoo",
-      "gap_pct": 13.1,
-      "status": "mismatch"
      }
     ],
     "flag": true
@@ -11073,273 +10958,351 @@
     "flag": false
    },
    {
-    "symbol": "RRKABEL",
-    "name": "R R Kabel Limited",
+    "symbol": "SMLMAH",
+    "name": "SML Mahindra Limited",
     "items": [
      {
       "metric": "Price",
-      "ours": 1822.7,
-      "theirs": 1822.7,
+      "ours": 4836.4,
+      "theirs": 4836.4,
       "source": "NSE",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
-      "ours": 20615.74,
-      "theirs": 20615.7398016,
+      "ours": 7649.16,
+      "theirs": 7649.1554816,
       "source": "Yahoo",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "P/E",
-      "ours": 41.8722719963244,
-      "theirs": 30.685184,
+      "ours": 43.8119394872724,
+      "theirs": 52.015484,
       "source": "Yahoo",
-      "gap_pct": 36.5,
+      "gap_pct": 15.8,
       "status": "mismatch"
      },
      {
       "metric": "ROE %",
-      "ours": 19.12,
-      "theirs": 24.992001,
+      "ours": 30.76,
+      "theirs": 29.302,
       "source": "Yahoo",
-      "gap_pct": 23.5,
+      "gap_pct": 5.0,
+      "status": "match"
+     }
+    ],
+    "flag": true
+   },
+   {
+    "symbol": "WEBELSOLAR",
+    "name": "Websol Energy System Limited",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 64.27,
+      "theirs": 64.27,
+      "source": "NSE",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 2790.37,
+      "theirs": 2790.3684608,
+      "source": "Yahoo",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 9.20773638968481,
+      "theirs": 8.125157,
+      "source": "Yahoo",
+      "gap_pct": 13.3,
+      "status": "mismatch"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 48.04,
+      "theirs": 59.489000000000004,
+      "source": "Yahoo",
+      "gap_pct": 19.2,
       "status": "mismatch"
      }
     ],
     "flag": true
    },
    {
-    "symbol": "MSTCLTD",
-    "name": "MSTC Limited",
+    "symbol": "SKFINDIA",
+    "name": "SKF India Limited",
     "items": [
      {
       "metric": "Price",
-      "ours": 655.2,
-      "theirs": 655.2,
+      "ours": 1443.8,
+      "theirs": 1443.8,
       "source": "NSE",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
-      "ours": 4612.61,
-      "theirs": 4612.608,
+      "ours": 7137.86,
+      "theirs": 7137.85344,
       "source": "Yahoo",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "P/E",
-      "ours": 21.1150499516597,
-      "theirs": 19.681585,
+      "ours": 26.8364312267658,
+      "theirs": 45.834923,
       "source": "Yahoo",
-      "gap_pct": 7.3,
-      "status": "match"
+      "gap_pct": 41.4,
+      "status": "mismatch"
      },
      {
       "metric": "ROE %",
-      "ours": 24.16,
-      "theirs": 28.904999999999998,
+      "ours": 20.0,
+      "theirs": 7.803,
       "source": "Yahoo",
-      "gap_pct": 16.4,
+      "gap_pct": 156.3,
       "status": "mismatch"
      }
     ],
     "flag": true
    },
    {
-    "symbol": "INOXINDIA",
-    "name": "INOX India Limited",
+    "symbol": "WAAREERTL",
+    "name": "Waaree Renewable Technologies Ltd.",
     "items": [
      {
       "metric": "Price",
-      "ours": 2088.0,
-      "theirs": 2088.0,
+      "ours": 682.3,
+      "theirs": 682.3,
       "source": "NSE",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
-      "ours": 18984.61,
-      "theirs": 18993.7664,
+      "ours": 7121.78,
+      "theirs": 7121.7938432,
       "source": "Yahoo",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "P/E",
-      "ours": 73.4952481520591,
-      "theirs": 72.9305,
+      "ours": 14.8681629984746,
+      "theirs": 15.298206,
       "source": "Yahoo",
-      "gap_pct": 0.8,
+      "gap_pct": 2.8,
       "status": "match"
      },
      {
       "metric": "ROE %",
-      "ours": 23.08,
-      "theirs": 23.603001000000003,
+      "ours": 51.23,
+      "theirs": 39.641,
       "source": "Yahoo",
-      "gap_pct": 2.2,
-      "status": "match"
-     }
-    ],
-    "flag": false
-   },
-   {
-    "symbol": "PGIL",
-    "name": "Pearl Global Industries Limited",
-    "items": [
-     {
-      "metric": "Price",
-      "ours": 1466.9,
-      "theirs": 1479.4,
-      "source": "NSE",
-      "gap_pct": 0.8,
-      "status": "match"
-     },
-     {
-      "metric": "Market cap (Cr)",
-      "ours": 13567.41,
-      "theirs": 13683.027968,
-      "source": "Yahoo",
-      "gap_pct": 0.8,
-      "status": "match"
-     },
-     {
-      "metric": "P/E",
-      "ours": 48.6211468346039,
-      "theirs": 37.86537,
-      "source": "Yahoo",
-      "gap_pct": 28.4,
-      "status": "mismatch"
-     },
-     {
-      "metric": "ROE %",
-      "ours": 19.02,
-      "theirs": 24.618000000000002,
-      "source": "Yahoo",
-      "gap_pct": 22.7,
+      "gap_pct": 29.2,
       "status": "mismatch"
      }
     ],
     "flag": true
    },
    {
-    "symbol": "3MINDIA",
-    "name": "3M India Limited",
+    "symbol": "HBLENGINE",
+    "name": "HBL Engineering Ltd.",
     "items": [
      {
       "metric": "Price",
-      "ours": 27880.0,
-      "theirs": 27880.0,
+      "ours": 770.0,
+      "theirs": 770.0,
       "source": "NSE",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
-      "ours": 31407.02,
-      "theirs": 31407.013888,
+      "ours": 21344.01,
+      "theirs": 21344.01024,
       "source": "Yahoo",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "P/E",
-      "ours": 60.1302678686969,
-      "theirs": 57.6438,
+      "ours": 26.1993875467846,
+      "theirs": 36.389416,
+      "source": "Yahoo",
+      "gap_pct": 28.0,
+      "status": "mismatch"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 36.8,
+      "theirs": 26.193002,
+      "source": "Yahoo",
+      "gap_pct": 40.5,
+      "status": "mismatch"
+     }
+    ],
+    "flag": true
+   },
+   {
+    "symbol": "HEXT",
+    "name": "Hexaware Technologies Ltd",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 483.1,
+      "theirs": 483.1,
+      "source": "NSE",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 29466.32,
+      "theirs": 29417.2360704,
+      "source": "Yahoo",
+      "gap_pct": 0.2,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 21.4615726343847,
+      "theirs": 21.160753,
+      "source": "Yahoo",
+      "gap_pct": 1.4,
+      "status": "match"
+     },
+     {
+      "metric": "ROE %",
+      "ours": 21.68,
+      "theirs": 20.788,
       "source": "Yahoo",
       "gap_pct": 4.3,
       "status": "match"
+     }
+    ],
+    "flag": false
+   },
+   {
+    "symbol": "SHILCTECH",
+    "name": "Shilchar Technologies Ltd",
+    "items": [
+     {
+      "metric": "Price",
+      "ours": 3058.9,
+      "theirs": 3058.9,
+      "source": "NSE",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "Market cap (Cr)",
+      "ours": 3499.44,
+      "theirs": 3499.4425856,
+      "source": "Yahoo",
+      "gap_pct": 0.0,
+      "status": "match"
+     },
+     {
+      "metric": "P/E",
+      "ours": 22.1258589511754,
+      "theirs": 28.091652,
+      "source": "Yahoo",
+      "gap_pct": 21.2,
+      "status": "mismatch"
      },
      {
       "metric": "ROE %",
-      "ours": 29.54,
-      "theirs": 34.044999999999995,
+      "ours": 32.22,
+      "theirs": 26.215,
       "source": "Yahoo",
-      "gap_pct": 13.2,
+      "gap_pct": 22.9,
       "status": "mismatch"
      }
     ],
     "flag": true
    },
    {
-    "symbol": "WAAREEENER",
-    "name": "Waaree Energies Ltd",
+    "symbol": "BAJAJCON",
+    "name": "Bajaj Consumer Care Limited",
     "items": [
      {
       "metric": "Price",
-      "ours": 2390.0,
-      "theirs": 2390.0,
+      "ours": 400.1,
+      "theirs": 400.1,
       "source": "NSE",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
-      "ours": 68748.67,
-      "theirs": 68748.6664704,
+      "ours": 5246.47,
+      "theirs": 5226.0388864,
       "source": "Yahoo",
-      "gap_pct": 0.0,
+      "gap_pct": 0.4,
       "status": "match"
      },
      {
       "metric": "P/E",
-      "ours": 18.5127807900852,
-      "theirs": 18.64711,
+      "ours": 28.1562280084448,
+      "theirs": 21.080086,
       "source": "Yahoo",
-      "gap_pct": 0.7,
-      "status": "match"
+      "gap_pct": 33.6,
+      "status": "mismatch"
      },
      {
       "metric": "ROE %",
-      "ours": 25.71,
-      "theirs": 26.746,
+      "ours": 25.19,
+      "theirs": 32.477000000000004,
       "source": "Yahoo",
-      "gap_pct": 3.9,
-      "status": "match"
+      "gap_pct": 22.4,
+      "status": "mismatch"
      }
     ],
-    "flag": false
+    "flag": true
    },
    {
-    "symbol": "DDEVPLSTIK",
-    "name": "Ddev Plastiks Industries Ltd.",
+    "symbol": "GPPL",
+    "name": "Gujarat Pipavav Port Limited",
     "items": [
      {
       "metric": "Price",
-      "ours": 232.16,
-      "theirs": 232.16,
+      "ours": 174.88,
+      "theirs": 174.88,
       "source": "NSE",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "Market cap (Cr)",
-      "ours": 2402.31,
-      "theirs": 2402.31424,
+      "ours": 8454.4,
+      "theirs": 8457.6485376,
       "source": "Yahoo",
       "gap_pct": 0.0,
       "status": "match"
      },
      {
       "metric": "P/E",
-      "ours": 11.905641025641,
-      "theirs": 11.002844,
+      "ours": 16.4052532833021,
+      "theirs": 15.340352,
       "source": "Yahoo",
-      "gap_pct": 8.2,
+      "gap_pct": 6.9,
       "status": "match"
      },
      {
       "metric": "ROE %",
-      "ours": 19.92,
-      "theirs": 21.488,
+      "ours": 21.57,
+      "theirs": 22.736,
       "source": "Yahoo",
-      "gap_pct": 7.3,
+      "gap_pct": 5.1,
       "status": "match"
      }
     ],
@@ -11350,7 +11313,7 @@
  "sources": {
   "NSE": {
    "ok": true,
-   "detail": "Prices for 2026-11-23, 2,643 listed companies"
+   "detail": "Prices for 2026-11-23, 2,632 listed companies"
   },
   "Business moat": {
    "ok": true,
@@ -11366,7 +11329,7 @@
   },
   "InvestSights": {
    "ok": true,
-   "detail": "292 requests used today (free plan allows 100)"
+   "detail": "33 requests used today (free plan allows 100)"
   }
  },
  "notes": []
