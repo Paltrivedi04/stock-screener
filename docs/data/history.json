@@ -399,5 +399,35 @@
    }
   ],
   "baseline": false
+ },
+ {
+  "date": "2026-11-24",
+  "count": 147,
+  "added": [
+   {
+    "symbol": "HAWKINCOOK",
+    "name": "Hawkins Cookers Ltd"
+   },
+   {
+    "symbol": "MODINSU",
+    "name": "Modern Insulators Limited"
+   },
+   {
+    "symbol": "539682",
+    "name": "Mobavenue Ai Tech Ltd"
+   },
+   {
+    "symbol": "ORIANA",
+    "name": "Oriana Power Ltd."
+   }
+  ],
+  "removed": [
+   {
+    "symbol": "BONDADA",
+    "name": "Bondada Engineering Limited",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   }
+  ],
+  "baseline": false
  }
 ]
