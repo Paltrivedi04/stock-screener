@@ -15821,7 +15821,7 @@
    "v": 2
   },
   "ASMTEC": {
-   "fetched": "2026-11-12",
+   "fetched": "2026-11-26",
    "profit": [
     {
      "fy": "FY26",
@@ -18220,7 +18220,7 @@
    }
   },
   "ASMTEC": {
-   "fetched": "2026-11-12",
+   "fetched": "2026-11-26",
    "data": {
     "found": false
    }
@@ -18879,7 +18879,7 @@
    "roce": null
   },
   "540718": {
-   "fetched": "2026-11-12",
+   "fetched": "2026-11-26",
    "roe": 12.98,
    "roce": 17.63
   },
@@ -18989,7 +18989,7 @@
    "roce": 40.85
   },
   "OLAELEC-RE": {
-   "fetched": "2026-11-12",
+   "fetched": "2026-11-26",
    "roe": null,
    "roce": null
   },
