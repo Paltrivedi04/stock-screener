@@ -443,5 +443,18 @@
   "added": [],
   "removed": [],
   "baseline": false
+ },
+ {
+  "date": "2026-11-27",
+  "count": 146,
+  "added": [],
+  "removed": [
+   {
+    "symbol": "ORIANA",
+    "name": "Oriana Power Ltd.",
+    "reason": "No longer passes the main screen (market cap, ROE or ROCE)"
+   }
+  ],
+  "baseline": false
  }
 ]
